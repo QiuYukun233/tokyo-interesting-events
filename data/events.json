@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-28T01:18:55+09:00",
-  "updatedAtLabel": "今日 01:18",
+  "updatedAt": "2026-08-28T01:46:19+09:00",
+  "updatedAtLabel": "今日 01:46",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -46,10 +46,9 @@
     },
     {
       "name": "早稲田大学",
-      "ok": false,
-      "count": 0,
-      "pages": 1,
-      "error": "早稲田大学 robots.txt returned 403"
+      "ok": true,
+      "count": 9,
+      "pages": 1
     },
     {
       "name": "渋谷PARCO",
@@ -129,6 +128,57 @@
       "source": "東京都美術館",
       "category": "特別展",
       "description": "特別展"
+    },
+    {
+      "id": "ec43004c10ea",
+      "startDate": "2026-07-26",
+      "endDate": "2026-11-08",
+      "title": "翻訳プロジェクト小展示「翻訳は国境を越える翼」",
+      "titleZh": "翻訳プロジェクト小展示「翻訳は国境を越える翼」",
+      "place": "国際文学館 2階ラボ",
+      "time": "3/12〜11/8 · 10:00～17:00",
+      "price": "详见活动页",
+      "vibe": "艺术现场",
+      "color": "#3d66f5",
+      "symbol": "◒",
+      "mates": 0,
+      "sourceUrl": "https://www.waseda.jp/culture/wihl/other/12460",
+      "source": "早稲田大学",
+      "category": "大学公开活动"
+    },
+    {
+      "id": "782569a16e5b",
+      "startDate": "2026-07-26",
+      "endDate": "2026-11-08",
+      "title": "『ミス・サイゴン』から見る世界—戦争、難民、そして文学",
+      "titleZh": "『ミス・サイゴン』から見る世界—戦争、難民、そして文学",
+      "place": "国際文学館展示室（4号館）、歴史館（1号館）",
+      "time": "5/1〜11/8 · 10:00〜17:00",
+      "price": "详见活动页",
+      "vibe": "艺术现场",
+      "color": "#ef5b3f",
+      "symbol": "✦",
+      "mates": 0,
+      "sourceUrl": "https://www.waseda.jp/culture/wihl/other/12629",
+      "source": "早稲田大学",
+      "category": "大学公开活动"
+    },
+    {
+      "id": "e8b66d2450b8",
+      "startDate": "2026-07-26",
+      "endDate": "2026-12-20",
+      "title": "小展示 からだを「翻訳」する",
+      "titleZh": "小展示 からだを「翻訳」する",
+      "place": "国際文学館 1階ギャラリーラウンジ奥・著作年譜前",
+      "time": "6/25〜12/20 · 10:00～17:00",
+      "price": "详见活动页",
+      "vibe": "艺术现场",
+      "color": "#3d66f5",
+      "symbol": "◒",
+      "mates": 0,
+      "sourceUrl": "https://www.waseda.jp/culture/wihl/other/13201",
+      "source": "早稲田大学",
+      "category": "大学公开活动"
     },
     {
       "id": "472936376dc6",
@@ -418,6 +468,23 @@
       "endDate": "2026-10-06",
       "attribution": "シブヤ経済新聞",
       "why": "东京新出现的店铺形态，适合和朋友一起尝鲜"
+    },
+    {
+      "id": "0337e26852f1",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-04",
+      "title": "【アジア史コース】講演会「The Politics of Negative Emotions in Song China: the Case of Hatred and Resentment」",
+      "titleZh": "【アジア史コース】講演会「The Politics of Negative Emotions in Song China: the Case of Hatred and Resentment」",
+      "place": "戸山キャンパス33号館6階 第11会議室",
+      "time": "9/4 · 15:00～16:40",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#ef5b3f",
+      "symbol": "✦",
+      "mates": 0,
+      "sourceUrl": "https://www.waseda.jp/flas/hss/news/2026/07/27/15969/",
+      "source": "早稲田大学",
+      "category": "大学公开活动"
     },
     {
       "id": "83400d097257",

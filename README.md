@@ -19,13 +19,25 @@ npm run build
 ## 数据更新
 
 ```bash
-npm run update-events        # 抓取 9 个来源，写 data/events.json 与 data/review-events.json
+npm run update-events        # 抓取 9 个来源，写 events / review / source-registry
+npm run check-sources        # 来源健康报告；有严重告警退出码非 0
 npm run collect-shop-changes # 单独跑开闭店采集
 ```
 
-`.github/workflows/update-events.yml` 每天日本时间 07:10 自动运行，先跑测试再抓取。
-来源逐个的状态见 [`docs/来源清单.md`](docs/来源清单.md)，管线结构见
-[`docs/架构.md`](docs/架构.md)。
+`.github/workflows/update-events.yml` 每天日本时间 07:10 自动运行：先跑测试，
+再抓取，提交数据，最后查来源健康。来源的抓法与已知坑见
+[`docs/来源清单.md`](docs/来源清单.md)，管线结构见 [`docs/架构.md`](docs/架构.md)。
+
+## 编辑
+
+```bash
+npm run review               # 本地候选诊断台 http://127.0.0.1:4321
+```
+
+发布目前**没有闸门**：过了硬排除的候选都会上前台。这是刻意的——人工审批队列在
+这个候选量下会淹没审批者，闸门要做成自动的。诊断台就是为设计它攒判据的工具，
+标注写进 `data/editorial-labels.json`，不影响发布。
+见 [`docs/决策记录/0002-闸门要自动化.md`](docs/决策记录/0002-闸门要自动化.md)。
 
 `data/manual-events.json` 用于放编辑精选，格式与 `data/events.json` 中单条活动一致。
 抓取前会自动校验来源的 `robots.txt`；站点只保留摘要并始终链接回主办方。

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T01:18:55+09:00",
+  "updatedAt": "2026-08-28T01:46:19+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -45,10 +45,9 @@
     },
     {
       "name": "早稲田大学",
-      "ok": false,
-      "count": 0,
-      "pages": 1,
-      "error": "早稲田大学 robots.txt returned 403"
+      "ok": true,
+      "count": 9,
+      "pages": 1
     },
     {
       "name": "渋谷PARCO",
@@ -79,8 +78,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -103,8 +103,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -127,8 +128,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -151,8 +153,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -175,8 +178,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -199,8 +203,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -223,8 +228,9 @@
       },
       "decision": "review",
       "reasons": [
-        "Tokyo Big Sight: trade-only admission"
-      ]
+        "review:trade_only_admission"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -246,7 +252,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -268,7 +277,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -290,7 +302,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -312,7 +327,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -334,7 +352,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -356,7 +377,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -378,7 +402,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -400,7 +427,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -422,7 +452,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -444,7 +477,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -466,7 +502,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -488,7 +527,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -510,7 +552,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -532,7 +577,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -554,7 +602,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -579,7 +630,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -604,7 +658,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -628,7 +685,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -652,7 +712,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -676,7 +739,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -701,7 +767,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -725,7 +794,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -750,7 +822,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -774,7 +849,118 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "782569a16e5b",
+        "startDate": "2026-07-26",
+        "endDate": "2026-11-08",
+        "title": "『ミス・サイゴン』から見る世界—戦争、難民、そして文学",
+        "titleZh": "『ミス・サイゴン』から見る世界—戦争、難民、そして文学",
+        "place": "国際文学館展示室（4号館）、歴史館（1号館）",
+        "time": "5/1〜11/8 · 10:00〜17:00",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.waseda.jp/culture/wihl/other/12629",
+        "source": "早稲田大学",
+        "category": "大学公开活动"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "31b4c3e4dd1f",
+        "startDate": "2026-07-26",
+        "endDate": "2026-08-02",
+        "title": "今村昭一コレクション 早稲田ゆかりの画家たちとその交流",
+        "titleZh": "今村昭一コレクション 早稲田ゆかりの画家たちとその交流",
+        "place": "會津八一記念博物館 １階 近代美術展示室",
+        "time": "5/11〜8/2 · 10:00～17:00",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.waseda.jp/culture/aizu-museum/news/2026/04/16/8906/",
+        "source": "早稲田大学",
+        "category": "大学公开活动"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b90d1a08a7e5",
+        "startDate": "2026-08-03",
+        "endDate": "2026-08-03",
+        "title": "【日本史コース】講演会「近代日本における『国民的使命観』の問題」",
+        "titleZh": "【日本史コース】講演会「近代日本における『国民的使命観』の問題」",
+        "place": "戸山キャンパス 31号館208教室",
+        "time": "8/3 · 13:00～14:40",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.waseda.jp/flas/hss/news/2026/07/09/15860/",
+        "source": "早稲田大学",
+        "category": "大学公开活动"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0337e26852f1",
+        "startDate": "2026-09-04",
+        "endDate": "2026-09-04",
+        "title": "【アジア史コース】講演会「The Politics of Negative Emotions in Song China: the Case of Hatred and Resentment」",
+        "titleZh": "【アジア史コース】講演会「The Politics of Negative Emotions in Song China: the Case of Hatred and Resentment」",
+        "place": "戸山キャンパス33号館6階 第11会議室",
+        "time": "9/4 · 15:00～16:40",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.waseda.jp/flas/hss/news/2026/07/27/15969/",
+        "source": "早稲田大学",
+        "category": "大学公开活动"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -799,7 +985,10 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
     },
     {
       "activity": {
@@ -824,7 +1013,35 @@
       "decision": "review",
       "publishable": false,
       "publicExperience": false,
-      "reasons": []
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c909bf1609a",
+        "startDate": "2026-08-28",
+        "title": "大学1・2年生から考える未来のシゴト「都庁×理系キャリア発見フォーラム」を開催します！",
+        "titleZh": "大学1・2年生から考える未来のシゴト「都庁×理系キャリア発見フォーラム」を開催します！",
+        "place": "TKP品川カンファレンスセンター9階ホール（東京都港区高輪3−25−23京急第2ビル）",
+        "time": "2026年08月28日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/033-20260604-257911018",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
     }
   ]
 }

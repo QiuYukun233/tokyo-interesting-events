@@ -1,0 +1,293 @@
+{
+  "updatedAt": "2026-08-27T16:46:19.145Z",
+  "entries": [
+    {
+      "id": "My TOKYO::https://www.my.metro.tokyo.lg.jp/event/?sort=near-end",
+      "name": "My TOKYO",
+      "sourceFamily": "government",
+      "baseUrl": "https://www.my.metro.tokyo.lg.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S1",
+      "ownerOrContact": "东京都",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 20,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 20
+        }
+      ]
+    },
+    {
+      "id": "Tokyo Big Sight::https://www.bigsight.jp/visitor/event/",
+      "name": "Tokyo Big Sight",
+      "sourceFamily": "exhibition_hall",
+      "baseUrl": "https://www.bigsight.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京国际展示场",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 10,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "東京大学::https://www.u-tokyo.ac.jp/ja/",
+      "name": "東京大学",
+      "sourceFamily": "university",
+      "baseUrl": "https://www.u-tokyo.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京大学",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 6,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "東京都美術館::https://www.tobikan.jp/exhibition/",
+      "name": "東京都美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://www.tobikan.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京都美术馆",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 7,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/main/",
+      "name": "東京藝術大学大学美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://museum.geidai.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京艺术大学",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 1,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/chinretsukan/",
+      "name": "東京藝術大学大学美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://museum.geidai.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京艺术大学",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 1,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/masaki/",
+      "name": "東京藝術大学大学美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://museum.geidai.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京艺术大学",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 0,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "早稲田大学::https://www.waseda.jp/top/event/list",
+      "name": "早稲田大学",
+      "sourceFamily": "university",
+      "baseUrl": "https://www.waseda.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": true,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "早稻田大学",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 9,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "渋谷PARCO::https://shibuya.parco.jp/event/",
+      "name": "渋谷PARCO",
+      "sourceFamily": "commercial_venue",
+      "baseUrl": "https://shibuya.parco.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "涩谷 PARCO",
+      "lastRunAt": "2026-08-27T16:46:19.145Z",
+      "lastSuccessAt": "2026-08-27T16:46:19.145Z",
+      "lastItemCount": 2,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T16:38:21.561Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-08-27T16:46:19.145Z",
+          "ok": true,
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": "早稲田大学::https://www.waseda.jp/top/event/list",
+      "name": "早稲田大学",
+      "code": "robots_unavailable",
+      "level": "warning",
+      "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
+    }
+  ]
+}
