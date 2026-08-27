@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { parseIkebukuroKeizaiArticle, parseIkebukuroKeizaiHomepage } from './ikebukuro-keizai-shop-changes-v3.mjs';
+import { parseIkebukuroKeizaiArticle, parseIkebukuroKeizaiHomepage } from './ikebukuro-keizai-shop-changes.mjs';
 const source = { name: '池袋経済新聞', url: 'https://ikebukuro.keizai.biz/' };
 const homepage = `<a href="https://ikebukuro.keizai.biz/headline/3971/"><span>買う</span><h3>ディスクユニオン池袋店が移転オープン</h3></a><a href="https://ikebukuro.keizai.biz/headline/3955/"><h3>盆踊り大会 アルパ各店の出店も</h3></a><a href="https://ikebukuro.keizai.biz/headline/1/"><h3>池袋の店が閉店へ</h3></a>`;
 const article = `<meta name="description" content="「ディスクユニオン池袋店」（豊島区南池袋2）が8月26日、移転オープンする。"><time>2026.08.25</time>`;

@@ -1,51 +1,60 @@
 {
-  "updatedAt": "2026-08-28T00:59:57+09:00",
+  "updatedAt": "2026-08-28T01:18:55+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
       "ok": true,
-      "count": 20
+      "count": 20,
+      "pages": 1
     },
     {
       "name": "Tokyo Big Sight",
       "ok": true,
-      "count": 10
+      "count": 10,
+      "pages": 1
     },
     {
       "name": "東京大学",
       "ok": true,
-      "count": 6
+      "count": 6,
+      "pages": 1
     },
     {
       "name": "東京都美術館",
       "ok": true,
-      "count": 7
+      "count": 7,
+      "pages": 1
     },
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 1
+      "count": 1,
+      "pages": 1
     },
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 1
+      "count": 1,
+      "pages": 1
     },
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 0
+      "count": 0,
+      "pages": 1
     },
     {
       "name": "早稲田大学",
       "ok": false,
       "count": 0,
+      "pages": 1,
       "error": "早稲田大学 robots.txt returned 403"
     },
     {
       "name": "渋谷PARCO",
       "ok": true,
-      "count": 2
+      "count": 2,
+      "pages": 1
     }
   ],
   "events": [
@@ -566,10 +575,11 @@
         "audience": "一般",
         "description": "日本最大級の個人投資家向けＩＲフェア"
       },
+      "eligible": true,
       "decision": "review",
-      "reasons": [
-        "Tokyo Big Sight: public but lacks an experiential-interest signal"
-      ]
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
     },
     {
       "activity": {
@@ -614,10 +624,11 @@
         "audience": "オンライン",
         "description": "オンライン"
       },
+      "eligible": true,
       "decision": "review",
-      "reasons": [
-        "University: recruitment, internal, or professional-training content"
-      ]
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
     },
     {
       "activity": {
@@ -686,10 +697,11 @@
         "audience": "オンライン",
         "description": "オンライン"
       },
+      "eligible": true,
       "decision": "review",
-      "reasons": [
-        "University: recruitment, internal, or professional-training content"
-      ]
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
     },
     {
       "activity": {
@@ -813,55 +825,6 @@
       "publishable": false,
       "publicExperience": false,
       "reasons": []
-    },
-    {
-      "activity": {
-        "id": "14c9f9dba4d4",
-        "startDate": "2026-09-24",
-        "endDate": "2026-11-12",
-        "title": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
-        "titleZh": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0104_02225.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "decision": "review",
-      "reasons": [
-        "University: recruitment, internal, or professional-training content"
-      ]
-    },
-    {
-      "activity": {
-        "id": "609045d4bb2b",
-        "startDate": "2026-08-29",
-        "title": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-        "titleZh": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-        "place": "渋谷区渋谷3",
-        "time": "报道所述变动日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.shibukei.com/headline/20109/",
-        "source": "シブヤ経済新聞",
-        "description": "JR渋谷駅・旧新南口近くの「カフェ・ベローチェ 渋谷駅新南口店」（渋谷区渋谷3）が8月29日で閉店する。",
-        "category": "食べる",
-        "changeType": "closing",
-        "dateKind": "change"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not yet distinctive enough for automatic publication"
-      ]
     }
   ]
 }

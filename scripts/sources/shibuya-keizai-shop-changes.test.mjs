@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { parseShibuyaKeizaiArticle, parseShibuyaKeizaiHomepage } from './shibuya-keizai-shop-changes-v1.mjs';
+import { parseShibuyaKeizaiArticle, parseShibuyaKeizaiHomepage } from './shibuya-keizai-shop-changes.mjs';
 
 const source = { name: 'Shibuya Keizai Shimbun', url: 'https://www.shibukei.com/' };
 const homepage = `<div id="topBox"><a href="https://www.shibukei.com/headline/20110/"><span>食べる</span><h2>京都発ラーメン店、渋谷に府外初出店</h2></a><a href="https://www.shibukei.com/headline/20109/"><h3>カフェ・ベローチェ渋谷駅店が閉店へ</h3></a><a href="https://www.shibukei.com/headline/20108/"><h3>イベント開催</h3></a></div>`;

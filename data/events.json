@@ -1,52 +1,61 @@
 {
-  "updatedAt": "2026-08-28T00:59:57+09:00",
-  "updatedAtLabel": "今日 00:59",
+  "updatedAt": "2026-08-28T01:18:55+09:00",
+  "updatedAtLabel": "今日 01:18",
   "sourceStatus": [
     {
       "name": "My TOKYO",
       "ok": true,
-      "count": 20
+      "count": 20,
+      "pages": 1
     },
     {
       "name": "Tokyo Big Sight",
       "ok": true,
-      "count": 10
+      "count": 10,
+      "pages": 1
     },
     {
       "name": "東京大学",
       "ok": true,
-      "count": 6
+      "count": 6,
+      "pages": 1
     },
     {
       "name": "東京都美術館",
       "ok": true,
-      "count": 7
+      "count": 7,
+      "pages": 1
     },
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 1
+      "count": 1,
+      "pages": 1
     },
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 1
+      "count": 1,
+      "pages": 1
     },
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 0
+      "count": 0,
+      "pages": 1
     },
     {
       "name": "早稲田大学",
       "ok": false,
       "count": 0,
+      "pages": 1,
       "error": "早稲田大学 robots.txt returned 403"
     },
     {
       "name": "渋谷PARCO",
       "ok": true,
-      "count": 2
+      "count": 2,
+      "pages": 1
     }
   ],
   "events": [
@@ -66,8 +75,7 @@
       "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8847",
       "source": "渋谷PARCO",
       "category": "EVENT",
-      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260526131437.jpg",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
+      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260526131437.jpg"
     },
     {
       "id": "c992bb63303c",
@@ -85,8 +93,7 @@
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_viewsofthisplace.html",
       "source": "東京都美術館",
       "category": "企画展",
-      "description": "企画展",
-      "why": "上野正在发生的正式展览，适合作为一次有明确主题的朋友出行"
+      "description": "企画展"
     },
     {
       "id": "b92a9702c249",
@@ -103,8 +110,7 @@
       "mates": 0,
       "sourceUrl": "https://museum.geidai.ac.jp/exhibit/2026/07/mikata2026.html",
       "source": "東京藝術大学大学美術館",
-      "category": "大学美术馆展览",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
+      "category": "大学美术馆展览"
     },
     {
       "id": "02b0b4f2fc9c",
@@ -122,8 +128,25 @@
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
       "source": "東京都美術館",
       "category": "特別展",
-      "description": "特別展",
-      "why": "上野正在发生的正式展览，适合作为一次有明确主题的朋友出行"
+      "description": "特別展"
+    },
+    {
+      "id": "472936376dc6",
+      "startDate": "2026-08-03",
+      "endDate": "2026-09-02",
+      "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+      "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+      "place": "オンライン",
+      "time": "详见活动页",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#6c59c8",
+      "symbol": "♪",
+      "mates": 0,
+      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
+      "source": "東京大学",
+      "audience": "オンライン",
+      "description": "オンライン"
     },
     {
       "id": "5de53b82fe99",
@@ -161,8 +184,7 @@
       "mates": 0,
       "sourceUrl": "https://museum.geidai.ac.jp/exhibit/2026/08/ichikenten2026.html",
       "source": "東京藝術大学大学美術館",
-      "category": "大学美术馆展览",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
+      "category": "大学美术馆展览"
     },
     {
       "id": "summer-night-museum-2026",
@@ -177,8 +199,7 @@
       "color": "#ef5b3f",
       "symbol": "✦",
       "mates": 5,
-      "sourceUrl": "https://www.english.metro.tokyo.lg.jp/events",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
+      "sourceUrl": "https://www.english.metro.tokyo.lg.jp/events"
     },
     {
       "id": "6194eaf365ca",
@@ -196,8 +217,7 @@
       "sourceUrl": "https://tokyotoyshow.com/",
       "source": "Tokyo Big Sight",
       "audience": "商談/一般",
-      "description": "玩具の商談見本市及び一般公開",
-      "why": "大规模玩具现场与一般公开日，适合多人一起逛和互相种草"
+      "description": "玩具の商談見本市及び一般公開"
     },
     {
       "id": "63b71f763e3f",
@@ -212,12 +232,7 @@
       "symbol": "♪",
       "mates": 0,
       "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260727-262861147",
-      "source": "My TOKYO",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆",
-      "alternateSourceUrls": [
-        "https://www.my.metro.tokyo.lg.jp/w/081-20260728-263036315"
-      ],
-      "duplicateCount": 2
+      "source": "My TOKYO"
     },
     {
       "id": "0c6b5a7223f4",
@@ -256,8 +271,40 @@
       "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8886",
       "source": "渋谷PARCO",
       "category": "POPUP",
-      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260806165606.jpg",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
+      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260806165606.jpg"
+    },
+    {
+      "id": "9abbeeb5d39f",
+      "startDate": "2026-08-28",
+      "title": "多摩川水系上下流交流会の参加者を募集中です",
+      "titleZh": "多摩川水系上下流交流会の参加者を募集中です",
+      "place": "東京都西多摩郡奥多摩町",
+      "time": "2026年08月28日",
+      "price": "详见活动页",
+      "vibe": "好好聊天",
+      "color": "#3d66f5",
+      "symbol": "◒",
+      "mates": 0,
+      "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260728-263036315",
+      "source": "My TOKYO"
+    },
+    {
+      "id": "86ad024fee77",
+      "startDate": "2026-08-28",
+      "endDate": "2026-08-29",
+      "title": "日経・東証IRフェア2026",
+      "titleZh": "日経・東証IRフェア2026",
+      "place": "东京Big Sight · 南3・4ホール",
+      "time": "10:00-17:00",
+      "price": "無料 (要登録)",
+      "vibe": "奇妙体验",
+      "color": "#6c59c8",
+      "symbol": "♪",
+      "mates": 0,
+      "sourceUrl": "https://ps.nikkei.com/irfair/",
+      "source": "Tokyo Big Sight",
+      "audience": "一般",
+      "description": "日本最大級の個人投資家向けＩＲフェア"
     },
     {
       "id": "2981d2c992b4",
@@ -272,8 +319,7 @@
       "symbol": "●",
       "mates": 0,
       "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260724-262721694",
-      "source": "My TOKYO",
-      "why": "城市里不常见的自然观察体验，活动本身就能避免尬聊"
+      "source": "My TOKYO"
     },
     {
       "id": "46e41a8066ad",
@@ -288,8 +334,7 @@
       "symbol": "◒",
       "mates": 0,
       "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/019-20260817-264756875",
-      "source": "My TOKYO",
-      "why": "具有明确时间窗口和现场感，错过后很难用普通周末替代"
+      "source": "My TOKYO"
     },
     {
       "id": "2ef79c3725ad",
@@ -304,12 +349,7 @@
       "symbol": "♪",
       "mates": 0,
       "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/118-20260626-260127397",
-      "source": "My TOKYO",
-      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆",
-      "alternateSourceUrls": [
-        "https://www.english.metro.tokyo.lg.jp/events"
-      ],
-      "duplicateCount": 2
+      "source": "My TOKYO"
     },
     {
       "id": "b3ccf44afe4a",
@@ -324,8 +364,7 @@
       "symbol": "♪",
       "mates": 0,
       "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260801-263469688",
-      "source": "My TOKYO",
-      "why": "城市里不常见的自然观察体验，活动本身就能避免尬聊"
+      "source": "My TOKYO"
     },
     {
       "id": "93660f0b1656",
@@ -343,8 +382,21 @@
       "sourceUrl": "https://www.akaboo.jp/event/item/20204965.html",
       "source": "Tokyo Big Sight",
       "audience": "一般",
-      "description": "同人誌即売会",
-      "why": "大型公众现场，内容密度高，适合朋友分头探索再交换发现"
+      "description": "同人誌即売会"
+    },
+    {
+      "id": "paralympics-fifth-2026",
+      "startDate": "2026-08-30",
+      "title": "東京2020パラリンピック 5周年記念イベント",
+      "titleZh": "东京 2020 残奥会五周年纪念活动",
+      "place": "东京都内 · 详见主办方",
+      "time": "8月30日",
+      "price": "免费 / 部分需预约",
+      "vibe": "好好聊天",
+      "color": "#d6a72d",
+      "symbol": "●",
+      "mates": 2,
+      "sourceUrl": "https://www.english.metro.tokyo.lg.jp/events"
     },
     {
       "id": "7e06c2e6b140",
@@ -372,40 +424,69 @@
       "startDate": "2026-09-07",
       "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
       "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-      "place": "本郷キャンパス 情報学環 福武ホールB2F [福武ラーニングシアター]",
+      "place": "本郷地区",
       "time": "详见活动页",
-      "price": "無料",
+      "price": "详见活动页",
       "vibe": "奇妙体验",
       "color": "#3d66f5",
       "symbol": "◒",
       "mates": 0,
       "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
       "source": "東京大学",
-      "audience": "社会人・一般 / 在学生 / 留学生 / 卒業生 / 企業 / 大学生 / 教職員",
-      "description": "主催：東京大学不動産イノベーション研究センター（CREI） 後援：国土交通省",
-      "imageUrl": "https://www.u-tokyo.ac.jp/content/400294865.jpg",
-      "enrichmentStatus": "enriched",
-      "why": "大学向公众开放的少见话题，提供普通商业活动没有的讨论密度"
+      "audience": "本郷地区",
+      "description": "本郷地区"
     },
     {
       "id": "d7214d9452ec",
       "startDate": "2026-09-22",
       "title": "RCAST セキュリティセミナー／比較政治トーク",
       "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
-      "place": "東京大学 先端科学技術研究センター 13号館109号室（旧教授会室） ※祝日のため正門のみ開いています。",
+      "place": "駒場地区",
       "time": "详见活动页",
-      "price": "無料",
+      "price": "详见活动页",
       "vibe": "好好聊天",
       "color": "#ef5b3f",
       "symbol": "✦",
       "mates": 0,
       "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
       "source": "東京大学",
-      "audience": "社会人・一般 / 在学生 / 卒業生 / 企業 / 大学生 / 教職員",
-      "description": "【講師】 イエヴァ・ビルカ博士（ラトビア大学 先端社会政治研究所 主任研究員） 【司会】 中井遼（東京大学先端研 比較政治変動分野 教授） バルト海地域は、偽情報、インフラ破壊、ドローンの侵入、そして意図的に開戦という一線を越えない形でなされる威圧といった「ハイブリッド脅威」に対する欧州の対峙において、最前線に立っています。ラトビア、リトアニア、エストニア、そして北欧の近隣諸国は、避難所の位置情報の整備から「社会全体を巻き込んだ防衛」という防衛理念の確立に至るまで、大規模な制度的投資によってこれに対応してきました。しかし、一般市民はこうした取り組みを実際に理解し、信頼しているのでしょうか？ ラトビア大学で社会的レジリエンスの研究をリードするイェヴァ・ビルカ博士による講演にぜひご参加ください。博士は、バルト海沿岸および北欧の7都市に住む5,000人以上の住民を対象とした独自の調査結果を提示します。彼女の研究は驚くべきパラドックスを明らかにしています。脅威の認識は高い――ヴィリニュス住民の3分の2、リガ住民の半数以上が軍事攻撃を重大な脅威と見なしている――にもかかわらず、実際的な備えは大きく遅れており、リガ住民のうち十分に備えができていると感じているのはわずか16％、最寄りの避難所の場所を知っているのはわずか14％にとどまっています。 ビルカ博士は、このギャップは資源不足ではなくコミュニケーション上の課題であると論じ、民主主義国家が国民の信頼を損なうことなく、いかにして真の市民的警戒心を醸成できるかを考察します。最後に、グレーゾーンにおける威圧やインフラ保護という日本自身の経験に直接関連する教訓を導き出します。 この時宜を得た比較検討の場へ、皆様のご参加を心よりお待ちしております。",
-      "imageUrl": "https://www.u-tokyo.ac.jp/content/400295017.jpg",
-      "enrichmentStatus": "enriched",
-      "why": "大学向公众开放的少见话题，提供普通商业活动没有的讨论密度"
+      "audience": "駒場地区",
+      "description": "駒場地区"
+    },
+    {
+      "id": "14c9f9dba4d4",
+      "startDate": "2026-09-24",
+      "endDate": "2026-11-12",
+      "title": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
+      "titleZh": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
+      "place": "オンライン",
+      "time": "详见活动页",
+      "price": "详见活动页",
+      "vibe": "好好聊天",
+      "color": "#ef5b3f",
+      "symbol": "✦",
+      "mates": 0,
+      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0104_02225.html",
+      "source": "東京大学",
+      "audience": "オンライン",
+      "description": "オンライン"
+    },
+    {
+      "id": "e6beb0eae18f",
+      "startDate": "2026-09-25",
+      "title": "令和8年度 研究倫理セミナー",
+      "titleZh": "令和8年度 研究倫理セミナー",
+      "place": "オンライン",
+      "time": "详见活动页",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#3d66f5",
+      "symbol": "◒",
+      "mates": 0,
+      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
+      "source": "東京大学",
+      "audience": "オンライン",
+      "description": "オンライン"
     },
     {
       "id": "7109156a3bfd",
@@ -434,18 +515,15 @@
       "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
       "place": "オンライン",
       "time": "详见活动页",
-      "price": "無料",
+      "price": "详见活动页",
       "vibe": "好好聊天",
       "color": "#d6a72d",
       "symbol": "●",
       "mates": 0,
       "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
       "source": "東京大学",
-      "audience": "社会人・一般 / 在学生 / 受験生 / 留学生 / 卒業生 / 企業 / 小学生 / 中学生 / 高校生 / 高専生 / 大学生 / 教職員",
-      "description": "オンライン",
-      "imageUrl": "https://www.u-tokyo.ac.jp/content/400295036.jpg",
-      "enrichmentStatus": "enriched",
-      "why": "大学向公众开放的少见话题，提供普通商业活动没有的讨论密度"
+      "audience": "オンライン",
+      "description": "オンライン"
     },
     {
       "id": "95a799196dd1",
@@ -463,8 +541,7 @@
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_orsay.html",
       "source": "東京都美術館",
       "category": "特別展",
-      "description": "特別展",
-      "why": "上野正在发生的正式展览，适合作为一次有明确主题的朋友出行"
+      "description": "特別展"
     },
     {
       "id": "eba7306ef9fe",
@@ -482,8 +559,7 @@
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_waysofreading.html",
       "source": "東京都美術館",
       "category": "企画展無料",
-      "description": "企画展無料",
-      "why": "上野正在发生的正式展览，适合作为一次有明确主题的朋友出行"
+      "description": "企画展無料"
     },
     {
       "id": "3eec531255c3",
@@ -501,8 +577,7 @@
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_archives.html",
       "source": "東京都美術館",
       "category": "無料",
-      "description": "無料",
-      "why": "上野正在发生的正式展览，适合作为一次有明确主题的朋友出行"
+      "description": "無料"
     }
   ]
 }

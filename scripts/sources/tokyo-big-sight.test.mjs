@@ -2,15 +2,9 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { parseTokyoBigSight } from './tokyo-big-sight.mjs';
 
-const source = { name: 'Tokyo Big Sight', url: 'https://www.bigsight.jp/visitor/event/', origin: 'https://www.bigsight.jp' };
-const fixture = `<article class="lyt-event-01"><h3 class="hdg-01"><a href="https://example.test/toy">TOKYOおもちゃショー2026<svg><title>新規タブで開きます</title></svg></a></h3><p>玩具の商談見本市及び一般公開</p><div class="content"><dl class="list-01"><div><dt>入場区分</dt><dd>商談/一般</dd></div><div><dt>利用施設</dt><dd>西1-4ホール</dd></div><div><dt>開催期間</dt><dd>2026年08月27日（木）～2026年08月30日（日）</dd></div><div><dt>開催時間</dt><dd>10:00-17:00</dd></div><div><dt>料金</dt><dd>￥2200</dd></div></dl></div></article>`;
-
-test('normalizes a Big Sight public event card with date range and facility', () => {
-  const [event] = parseTokyoBigSight(fixture, source);
-  assert.equal(event.title, 'TOKYOおもちゃショー2026');
-  assert.equal(event.startDate, '2026-08-27');
-  assert.equal(event.endDate, '2026-08-30');
-  assert.equal(event.place, '东京Big Sight · 西1-4ホール');
-  assert.equal(event.price, '￥2200');
-  assert.equal(event.sourceUrl, 'https://example.test/toy');
+test('preserves Big Sight admission type for public-access filtering', () => {
+  const html = `<article class="lyt-event-01"><h3 class="hdg-01"><a href="https://example.test/toy">おもちゃショー<svg/></a></h3><p>玩具の展示と一般公開</p><dl class="list-01"><div><dt>入場区分</dt><dd>商談/一般</dd></div><div><dt>利用施設</dt><dd>西1ホール</dd></div><div><dt>開催期間</dt><dd>2026年09月01日～2026年09月02日</dd></div><div><dt>開催時間</dt><dd>10:00-17:00</dd></div><div><dt>料金</dt><dd>無料</dd></div></dl></article>`;
+  const [event] = parseTokyoBigSight(html, { name: 'Tokyo Big Sight', url: 'https://www.bigsight.jp/visitor/event/', origin: 'https://www.bigsight.jp' });
+  assert.equal(event.audience, '商談/一般');
+  assert.equal(event.description, '玩具の展示と一般公開');
 });

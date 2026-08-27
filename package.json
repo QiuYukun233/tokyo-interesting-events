@@ -7,10 +7,12 @@
   },
   "scripts": {
     "dev": "vinext dev",
+    "test": "node --test \"lib/**/*.test.mjs\" \"scripts/**/*.test.mjs\"",
     "update-events": "node scripts/update-events.mjs",
     "build": "vinext build",
     "start": "vinext start",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "collect-shop-changes": "node scripts/collect-shop-changes.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

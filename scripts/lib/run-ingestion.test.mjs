@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchSourcePages } from './run-ingestion-v2.mjs';
+import { fetchSourcePages } from './run-ingestion.mjs';
 
 test('fetchSourcePages combines configured pages and parses each once', async () => {
   const requested = [];

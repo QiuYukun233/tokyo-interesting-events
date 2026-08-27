@@ -1,27 +1,33 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import robotsParser from 'robots-parser';
-import { filterAndDedupeActivities } from '../../lib/activity-filter-v2.mjs';
+import { filterAndDedupeActivities } from '../../lib/activity-filter.mjs';
 
 const ROOT = new URL('../../', import.meta.url);
 const OUTPUT = new URL('data/events.json', ROOT);
 const REVIEW_OUTPUT = new URL('data/review-events.json', ROOT);
 const MANUAL = new URL('data/manual-events.json', ROOT);
-const USER_AGENT = 'TokyoInterestingEvents/0.4 (+contact via repository)';
+const USER_AGENT = 'TokyoInterestingEvents/0.5 (+contact via repository)';
 
-async function assertRobotsAllowed(source) {
+async function assertRobotsAllowed(source, fetchImpl) {
   const robotsUrl = new URL('/robots.txt', source.origin || source.url);
-  const response = await fetch(robotsUrl, { headers: { 'user-agent': USER_AGENT } });
+  const response = await fetchImpl(robotsUrl, { headers: { 'user-agent': USER_AGENT } });
   if (response.status === 404) return;
   if (!response.ok) throw new Error(`${source.name} robots.txt returned ${response.status}`);
   const robots = robotsParser(robotsUrl.href, await response.text());
   if (robots.isAllowed(source.url, USER_AGENT) === false) throw new Error(`${source.name} disallows crawling ${source.url}`);
 }
 
-async function fetchSource(source) {
-  await assertRobotsAllowed(source);
-  const response = await fetch(source.url, { headers: { 'user-agent': USER_AGENT } });
-  if (!response.ok) throw new Error(`${source.name} returned ${response.status}`);
-  return source.parse(await response.text(), source);
+export async function fetchSourcePages(source, fetchImpl = fetch) {
+  const urls = source.urls?.length ? source.urls : [source.url];
+  const events = [];
+  for (const url of urls) {
+    const pageSource = { ...source, url };
+    await assertRobotsAllowed(pageSource, fetchImpl);
+    const response = await fetchImpl(url, { headers: { 'user-agent': USER_AGENT } });
+    if (!response.ok) throw new Error(`${source.name} returned ${response.status} for ${url}`);
+    events.push(...await source.parse(await response.text(), pageSource));
+  }
+  return events;
 }
 
 function mergeEvents({ manual, fetched, existing, now, limit = 80, horizonDays = 180 }) {
@@ -41,7 +47,7 @@ const isPubliclyAccessible = (event) => event.source !== 'Tokyo Big Sight' || /ä
 
 export async function runIngestion(sources) {
   const now = new Date();
-  const results = await Promise.allSettled(sources.map(async (source) => ({ source, events: await fetchSource(source) })));
+  const results = await Promise.allSettled(sources.map(async (source) => ({ source, events: await fetchSourcePages(source) })));
   const successful = results.filter((result) => result.status === 'fulfilled').map((result) => result.value);
   const failures = results.filter((result) => result.status === 'rejected');
   if (!successful.length) throw new AggregateError(failures.map((result) => result.reason), 'All event sources failed');
@@ -61,7 +67,13 @@ export async function runIngestion(sources) {
     ...tradeOnly.map((activity) => ({ activity, decision: 'review', reasons: ['Tokyo Big Sight: trade-only admission'] })),
     ...fetchedTriage.review,
   ];
-  const sourceStatus = sources.map((source, index) => ({ name: source.name, ok: results[index].status === 'fulfilled', count: results[index].status === 'fulfilled' ? results[index].value.events.length : 0, error: results[index].status === 'rejected' ? String(results[index].reason?.message || results[index].reason) : undefined }));
+  const sourceStatus = sources.map((source, index) => ({
+    name: source.name,
+    ok: results[index].status === 'fulfilled',
+    count: results[index].status === 'fulfilled' ? results[index].value.events.length : 0,
+    pages: source.urls?.length || 1,
+    error: results[index].status === 'rejected' ? String(results[index].reason?.message || results[index].reason) : undefined,
+  }));
   await Promise.all([
     writeFile(OUTPUT, `${JSON.stringify({ updatedAt: tokyoNow, updatedAtLabel, sourceStatus, events }, null, 2)}\n`),
     writeFile(REVIEW_OUTPUT, `${JSON.stringify({ updatedAt: tokyoNow, sourceStatus, events: review }, null, 2)}\n`),
