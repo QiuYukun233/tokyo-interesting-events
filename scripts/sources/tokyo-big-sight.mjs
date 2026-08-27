@@ -1,44 +1,66 @@
-import * as cheerio from 'cheerio';
-import { createEventCandidate, dateFrom } from '../lib/event-utils.mjs';
+import { createEventCandidate } from '../lib/event-utils.mjs';
 
-export const TOKYO_BIG_SIGHT_URL = 'https://www.bigsight.jp/visitor/event/';
+/**
+ * Tokyo Big Sight, from the venue's own open data rather than its HTML listing.
+ *
+ * The HTML page yields ten events; this CSV carries the full three-month
+ * schedule — 154 at the time of writing — and adds fields the page never
+ * showed: admission audience, price, description and the organiser's URL.
+ *
+ * `来場対象者` matters most. Publication used to guess public access by
+ * regex-matching an audience string scraped off the page; here it is the
+ * operator's own declaration, one of 商談 / 一般 / 商談・一般.
+ *
+ * Shift_JIS. The pipeline's CSV reader handles that.
+ */
+export const TOKYO_BIG_SIGHT_URL = 'https://www.opendata.metro.tokyo.lg.jp/tokyobigsight/tokyobigsighteventinformation.csv';
 
-const compact = (value = '') => value.replace(/\s+/g, ' ').trim();
-const detail = ($, article, label) => article.find('.list-01 > div').filter((_, row) => compact($(row).find('dt').text()) === label).first().find('dd').text();
+const compact = (value = '') => String(value).replace(/\s+/g, ' ').trim();
 
-function periodDates(value = '') {
-  const dates = [...value.matchAll(/20\d{2}年\s*\d{1,2}月\s*\d{1,2}日/g)].map((match) => dateFrom(match[0]));
-  return { startDate: dates[0] ?? null, endDate: dates[1] ?? undefined };
+/** `2026/9/2` and `2026-09-02` both appear across Tokyo's open data. */
+export function isoDate(value = '') {
+  const match = compact(value).match(/(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})/);
+  return match ? `${match[1]}-${match[2].padStart(2, '0')}-${match[3].padStart(2, '0')}` : null;
 }
 
-export function parseTokyoBigSight(html, source) {
-  const $ = cheerio.load(html);
-  const events = [];
-  $('article.lyt-event-01').each((index, node) => {
-    const article = $(node);
-    const link = article.find('h3.hdg-01 > a').first().clone();
-    link.find('svg').remove();
-    const title = compact(link.text());
-    const period = compact(detail($, article, '開催期間'));
-    const { startDate, endDate } = periodDates(period);
-    if (!title || !startDate) return;
-    const facility = compact(detail($, article, '利用施設'));
-    const audience = compact(detail($, article, '入場区分'));
-    const description = compact(article.children('p').first().text());
-    const href = article.find('h3.hdg-01 > a').first().attr('href');
-    const candidate = createEventCandidate({
-      sourceName: source.name,
-      sourceUrl: href ? new URL(href, source.origin || TOKYO_BIG_SIGHT_URL).href : source.url,
-      title,
-      startDate,
-      endDate,
-      place: `东京Big Sight${facility ? ` · ${facility}` : ''}`,
-      time: compact(detail($, article, '開催時間')) || period,
-      price: compact(detail($, article, '料金')) || '详见活动页',
-      text: `${description} ${audience}`,
-      visualIndex: index,
-    });
-    if (candidate) events.push({ ...candidate, audience, description });
+/**
+ * Normalise the audience column so downstream code tests one vocabulary.
+ * Separators vary (`商談/一般`, `商談・一般`), so match the tokens, not the whole cell.
+ */
+export function normalizeAudience(value = '') {
+  const text = compact(value);
+  const general = /一般/.test(text);
+  const trade = /商談|商談会|業界/.test(text);
+  if (general && trade) return '商談・一般';
+  if (general) return '一般';
+  if (trade) return '商談';
+  return text || '不明';
+}
+
+/** Map one open-data row to an event candidate. Returns null for unusable rows. */
+export function mapBigSightRow(row, source, visualIndex = 0) {
+  const title = compact(row['展示会名']);
+  const startDate = isoDate(row['会期(開始)']);
+  if (!title || !startDate) return null;
+
+  const audience = normalizeAudience(row['来場対象者']);
+  const description = compact(row['内容']);
+  const facility = compact(row['利用施設']);
+  const candidate = createEventCandidate({
+    sourceName: source?.name || 'Tokyo Big Sight',
+    // The organiser's own site is the better link; fall back to the venue calendar.
+    sourceUrl: compact(row['URL']) || 'https://www.bigsight.jp/visitor/event/',
+    title,
+    startDate,
+    endDate: isoDate(row['会期(終了)']) || undefined,
+    place: facility ? `东京Big Sight · ${facility}` : '东京Big Sight',
+    time: compact(row['開催時間']) || '详见活动页',
+    price: compact(row['入場料について']) || '详见活动页',
+    text: `${title} ${description}`,
+    visualIndex,
   });
-  return events;
+  return candidate && { ...candidate, audience, ...(description ? { description } : {}) };
 }
+
+/** Adapter entry point: the pipeline hands over already-parsed CSV records. */
+export const mapRecord = (record, source, index = 0) => mapBigSightRow(record, source, index);

@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import robotsParser from 'robots-parser';
 import { filterAndDedupeActivities } from '../../lib/activity-filter.mjs';
+import { readCsvRecords } from '../../lib/csv.mjs';
 import { formatAlert, updateRegistry } from '../../lib/source-health.mjs';
 
 const ROOT = new URL('../../', import.meta.url);
@@ -38,6 +39,26 @@ export async function assertRobotsAllowed(source, fetchImpl) {
   return { robotsUnavailable: false };
 }
 
+/**
+ * Turn one fetched page into event candidates, according to how the source
+ * publishes. `html` sources get the text and parse it themselves; `csv` and
+ * `json` sources get already-structured records and only map fields.
+ */
+async function readPage(response, source, pageSource) {
+  switch (source.accessMethod) {
+    case 'csv': {
+      const { records } = readCsvRecords(new Uint8Array(await response.arrayBuffer()));
+      return records.map((record, index) => source.map(record, pageSource, index)).filter(Boolean);
+    }
+    case 'json': {
+      const payload = await response.json();
+      return (source.select ? source.select(payload) : payload).map((item, index) => source.map(item, pageSource, index)).filter(Boolean);
+    }
+    default:
+      return source.parse(await response.text(), pageSource);
+  }
+}
+
 export async function fetchSourcePages(source, fetchImpl = fetch) {
   const urls = source.urls?.length ? source.urls : [source.url];
   const events = [];
@@ -48,7 +69,7 @@ export async function fetchSourcePages(source, fetchImpl = fetch) {
     robotsUnavailable ||= robots.robotsUnavailable;
     const response = await fetchImpl(url, { headers: { 'user-agent': USER_AGENT } });
     if (!response.ok) throw new Error(`${source.name} returned ${response.status} for ${url}`);
-    events.push(...await source.parse(await response.text(), pageSource));
+    events.push(...await readPage(response, source, pageSource));
   }
   return { events, robotsUnavailable };
 }

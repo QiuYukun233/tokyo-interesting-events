@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T01:46:19+09:00",
+  "updatedAt": "2026-08-28T02:32:16+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -10,7 +10,7 @@
     {
       "name": "Tokyo Big Sight",
       "ok": true,
-      "count": 10,
+      "count": 154,
       "pages": 1
     },
     {
@@ -50,6 +50,12 @@
       "pages": 1
     },
     {
+      "name": "東京都歴史文化財団",
+      "ok": true,
+      "count": 8,
+      "pages": 1
+    },
+    {
       "name": "渋谷PARCO",
       "ok": true,
       "count": 2,
@@ -59,67 +65,17 @@
   "events": [
     {
       "activity": {
-        "id": "04a3d3fea16d",
-        "startDate": "2026-08-26",
-        "endDate": "2026-08-28",
-        "title": "ジャパンジュエリーフェア2026",
-        "titleZh": "ジャパンジュエリーフェア2026",
-        "place": "东京Big Sight · 東1・2ホール",
-        "time": "10:00-18:00 （最終日は1時間前に終了）",
-        "price": "無料 (要登録)",
-        "vibe": "艺术现场",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.japanjewelleryfair.com/",
-        "source": "Tokyo Big Sight",
-        "audience": "商談",
-        "description": "国内外から350社以上が一堂に集結するBtoBのプロ向けジュエリー国際展示会"
-      },
-      "decision": "review",
-      "reasons": [
-        "review:trade_only_admission"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "75995c691c16",
-        "startDate": "2026-08-27",
-        "endDate": "2026-08-28",
-        "title": "大学見本市2026 ～イノベーションジャパン Seeds for Tomorrow's Startups",
-        "titleZh": "大学見本市2026 ～イノベーションジャパン Seeds for Tomorrow's Startups",
-        "place": "东京Big Sight · 南1ホール",
-        "time": "10:00-17:00",
-        "price": "無料 (要登録)",
-        "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://innovationjapan.jst.go.jp/",
-        "source": "Tokyo Big Sight",
-        "audience": "商談",
-        "description": "全国大学より技術シーズが300件超出展！研究者ブース常駐の分野横断産学連携イベント"
-      },
-      "decision": "review",
-      "reasons": [
-        "review:trade_only_admission"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "ffbedb76ad85",
         "startDate": "2026-09-02",
         "endDate": "2026-09-04",
         "title": "第102回東京インターナショナル・ギフト・ショー秋2026",
         "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026",
-        "place": "东京Big Sight · 東1-3・7・8ホール、西1-4ホール、南1-4ホール",
-        "time": "10:00-17:00 （最終日は1時間前に終了）",
+        "place": "东京Big Sight · 東1-3・7・8、西1-4、南1-4",
+        "time": "10:00-17:00",
         "price": "無料 (要登録)",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.giftshow.co.jp/tigs/",
         "source": "Tokyo Big Sight",
@@ -139,12 +95,12 @@
         "endDate": "2026-09-04",
         "title": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN",
         "titleZh": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN",
-        "place": "东京Big Sight · 西1・3・4ホール",
-        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "place": "东京Big Sight · 西1・3・4",
+        "time": "10:00-18:00",
         "price": "無料 (要登録)",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.giftshow.co.jp/tigs/life20/",
         "source": "Tokyo Big Sight",
@@ -159,19 +115,19 @@
     },
     {
       "activity": {
-        "id": "405c1a964431",
+        "id": "8f6e4b6b2ea4",
         "startDate": "2026-09-02",
         "endDate": "2026-09-04",
         "title": "LIVING＆DESIGN2026",
         "titleZh": "LIVING＆DESIGN2026",
-        "place": "东京Big Sight · 西4ホール",
-        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "place": "东京Big Sight · 西4",
+        "time": "10:00-18:00",
         "price": "無料 (要登録)",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
-        "sourceUrl": "https://www.living-and-design.com/",
+        "sourceUrl": "https://www.living-and-design.com",
         "source": "Tokyo Big Sight",
         "audience": "商談",
         "description": "トータルインテリアの国際見本市"
@@ -189,12 +145,12 @@
         "endDate": "2026-09-04",
         "title": "第40回グルメショー秋2026",
         "titleZh": "第40回グルメショー秋2026",
-        "place": "东京Big Sight · 東1ホール",
-        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "place": "东京Big Sight · 東1",
+        "time": "10:00-18:00",
         "price": "無料 (要登録)",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.gourmetshow.jp/40gs/",
         "source": "Tokyo Big Sight",
@@ -214,8 +170,33 @@
         "endDate": "2026-09-04",
         "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ヤングファッション＆キッズスタッフフェア",
         "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ヤングファッション＆キッズスタッフフェア",
-        "place": "东京Big Sight · 東2・3ホール",
-        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ベビー＆キッズフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ベビー＆キッズフェア",
+        "place": "东京Big Sight · 東2",
+        "time": "10:00-18:00",
         "price": "無料 (要登録)",
         "vibe": "奇妙体验",
         "color": "#ef5b3f",
@@ -225,6 +206,3081 @@
         "source": "Tokyo Big Sight",
         "audience": "商談",
         "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ステーショナリー＆ペーパーグッズフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ステーショナリー＆ペーパーグッズフェア",
+        "place": "东京Big Sight · 東2",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102東京インターナショナル・ギフト・ショー秋2026 アニメ・コミック＆キャラクターライセンスフェア",
+        "titleZh": "第102東京インターナショナル・ギフト・ショー秋2026 アニメ・コミック＆キャラクターライセンスフェア",
+        "place": "东京Big Sight · 東2",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 生活雑貨フェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 生活雑貨フェア",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 おしゃれ雑貨＆レザーグッズフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 おしゃれ雑貨＆レザーグッズフェア",
+        "place": "东京Big Sight · 東7",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ビューティー＆コスメティックフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ビューティー＆コスメティックフェア",
+        "place": "东京Big Sight · 東7",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 アパレルファッションフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 アパレルファッションフェア",
+        "place": "东京Big Sight · 東7",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ファッションアクセサリーフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ファッションアクセサリーフェア",
+        "place": "东京Big Sight · 東7",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ホームファニシング＆デコラティブフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ホームファニシング＆デコラティブフェア",
+        "place": "东京Big Sight · 西2・4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 フラワー・グリーン＆ガーデングッズフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 フラワー・グリーン＆ガーデングッズフェア",
+        "place": "东京Big Sight · 西2",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 香りの商品フェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 香りの商品フェア",
+        "place": "东京Big Sight · 西2",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 Ethical Styleフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 Ethical Styleフェア",
+        "place": "东京Big Sight · 西2",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 インポートギフトフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 インポートギフトフェア",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b00c7c1f2b58",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN アクティブデザイン＆クラフトフェア",
+        "titleZh": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN アクティブデザイン＆クラフトフェア",
+        "place": "东京Big Sight · 西1",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/life20/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "暮らし方から住まいをデザインする、リノベーションのための見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b00c7c1f2b58",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN 伝統とmodernの日本ブランドフェア",
+        "titleZh": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN 伝統とmodernの日本ブランドフェア",
+        "place": "东京Big Sight · 西3",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/life20/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "暮らし方から住まいをデザインする、リノベーションのための見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b00c7c1f2b58",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN リノベーションゾーン",
+        "titleZh": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN リノベーションゾーン",
+        "place": "东京Big Sight · 西4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/life20/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "暮らし方から住まいをデザインする、リノベーションのための見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f6353101c1ee",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-11",
+        "title": "国際物流総合展2026",
+        "titleZh": "国際物流総合展2026",
+        "place": "东京Big Sight · 東1-3・7・8、西1-4",
+        "time": "10:00-17:00",
+        "price": "￥3000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.logis-tech-tokyo.gr.jp/ltt/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "最新物流機器・システム・情報が一堂に会する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f9faba1ee097",
+        "startDate": "2026-09-09",
+        "endDate": "2026-09-11",
+        "title": "サーモテック 2026",
+        "titleZh": "サーモテック 2026",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://thermotec.jp.messefrankfurt.com/tokyo/ja.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "4年に一度開催するアジア最大規模の工業炉・熱技術、関連機器の国際展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "11143f6ee981",
+        "startDate": "2026-09-09",
+        "endDate": "2026-09-11",
+        "title": "第28回自動認識総合展",
+        "titleZh": "第28回自動認識総合展",
+        "place": "东京Big Sight · 南3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.autoid-expo.com/tokyo/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "バーコード、RFID、画像認識などの自動認識製品・技術とソリューションの専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5ce9cb946411",
+        "startDate": "2026-09-10",
+        "endDate": "2026-09-11",
+        "title": "エンディング産業展2026",
+        "titleZh": "エンディング産業展2026",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyohakuzen.co.jp/endex-exhibition/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "葬儀・埋葬・供養・相続など終活産業関連サービスが集結する日本最大のBtoB展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "58627d9bb779",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "センサエキスポジャパン2026",
+        "titleZh": "センサエキスポジャパン2026",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sensorexpojapan.com/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "センサ・コントロールとその応用技術、機器、システム、ネットワークに関する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4606206256a4",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "FORESTRISE2026（第5回次世代森林産業展）",
+        "titleZh": "FORESTRISE2026（第5回次世代森林産業展）",
+        "place": "东京Big Sight · 東3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.forestrise.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "林業イノベーションが集まる展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e2ac98c58d62",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "地盤技術フォーラム2026",
+        "titleZh": "地盤技術フォーラム2026",
+        "place": "东京Big Sight · 東3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sgrte.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "地盤技術にかかわる4つの展示会の最新技術や製品が一堂に開催！"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "1faf94d0a838",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "INTERMEASURE2026（第32回計量計測展）",
+        "titleZh": "INTERMEASURE2026（第32回計量計測展）",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://intermeasure.org/itms2026/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "計量計測業界国内最大規模の展示会です。"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f619909ffd8b",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "JIMA2026 総合検査機器展",
+        "titleZh": "JIMA2026 総合検査機器展",
+        "place": "东京Big Sight · 東1",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.jima-show.jp/index.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "製造業を主とした検査・計測・試験・評価・保守に関する専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9bf36a9d7247",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第35回 2026知財・情報フェア＆コンファレンス",
+        "titleZh": "第35回 2026知財・情報フェア＆コンファレンス",
+        "place": "东京Big Sight · 東3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://pifc.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "知財戦略に直結する最新情報が集まる国内最大級の専門展示会。"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e5f6a61998ba",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第26回 総務・人事・経理Week【東京｜9月】",
+        "titleZh": "第26回 総務・人事・経理Week【東京｜9月】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大級 バックオフィス向け展示会！DX・業務効率化、働きがい向上を実現"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "85970905b12b",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第25回 オフィス防災 EXPO【東京】",
+        "titleZh": "第25回 オフィス防災 EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/bousai.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "備蓄品、BCP策定、非常用通信など、災害対策を強化する製品・サービスが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9fbfdcef5b86",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第21回 総務サービス EXPO【東京】",
+        "titleZh": "第21回 総務サービス EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/ofs.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "DX・総務BPOなどあらゆる総務向けサービスが出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "1ef987177f76",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第19回 HR EXPO【東京】",
+        "titleZh": "第19回 HR EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/hr.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大！人事業務を支援するサービスが一堂に出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "424185eccf91",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第18回 働き方改革 EXPO【東京】",
+        "titleZh": "第18回 働き方改革 EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/ws.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "生成AI活用、社内DXなどが出展！生産性向上・業務効率化を実現する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4c8feee68852",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第16回 会計・財務 EXPO【東京】",
+        "titleZh": "第16回 会計・財務 EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/acc.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "会計DX・財務DXなどが一堂に！経理の課題を解決できる展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "585146a4b9dc",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第14回 福利厚生 EXPO【東京】",
+        "titleZh": "第14回 福利厚生 EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/wel.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "人材定着・従業員満足度向上に貢献！福利厚生に特化した展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8a695eea722a",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第12回 法務・コンプライアンス EXPO【東京】",
+        "titleZh": "第12回 法務・コンプライアンス EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/legal.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "法務DX・リーガルテックから、コンプライアンス強化支援まで一堂に出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "38cc45c05a1e",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第9回 健康経営 EXPO【東京】",
+        "titleZh": "第9回 健康経営 EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/tokyo/ja-jp/about/hel.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "あらゆる健康経営サービスを一堂に比較検討できる展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "a3efa4e45ad3",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第4回 ワークプレイス改革 EXPO【東京】",
+        "titleZh": "第4回 ワークプレイス改革 EXPO【東京】",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/hub/ja-jp/about/wp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "働く環境をアップデートするサービスが一堂に出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e058fab39b04",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-18",
+        "title": "第１回 バックオフィスAIエージェントEXPO",
+        "titleZh": "第１回 バックオフィスAIエージェントEXPO",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.office-expo.jp/hub/ja-jp/about/ai.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "バックオフィス業務の 自動化・高度化 を実現するAIソリューションが一堂に集結"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "38abb7eca28e",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-01",
+        "title": "Japan Bike Show 2026",
+        "titleZh": "Japan Bike Show 2026",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "http://japanbikeshow.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本の自転車産業をつなぐ展示商談会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "672fc15c1d96",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "FOOD STYLE JAPAN 2026 ＜東京＞",
+        "titleZh": "FOOD STYLE JAPAN 2026 ＜東京＞",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥5000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://foodstyle.jp/tokyo/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大級！外食・中食・小売業界を網羅する商談展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7dc77bf0ce71",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "ラーメン産業展 in Japan",
+        "titleZh": "ラーメン産業展 in Japan",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥5000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://ramenexpo.jp/tokyo.php",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "国内最大級！ラーメン業界専門の商談展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f05188f5d68f",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "食品包装資材＆機械展",
+        "titleZh": "食品包装資材＆機械展",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥5000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://foodpackaging.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "製造から流通までを見据えた食品包装資材と機械の製品・サービスが集結する専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "03928af48d04",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "食品物流＆３ＰＬ総合展",
+        "titleZh": "食品物流＆３ＰＬ総合展",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥5000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://foodlogi.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品物流の課題解決へ 3PL・物流ソリューションが集結する総合展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "58178e8ccb59",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "BEYOND BEAUTY Tokyo2026",
+        "titleZh": "BEYOND BEAUTY Tokyo2026",
+        "place": "东京Big Sight · 西1",
+        "time": "10:00-17:00",
+        "price": "￥5000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://beyondbeauty.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "化粧品・美容機器・インナービューティなど美容の最新トレンドが集結する国際展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c50dd7b66201",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "健康博覧会【秋】",
+        "titleZh": "健康博覧会【秋】",
+        "place": "东京Big Sight · 西1",
+        "time": "10:00-17:00",
+        "price": "￥5000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.this.ne.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "健康商材・サービスが一堂に集う商談展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "72c2d10c2c49",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "危機管理産業展(RISCON TOKYO)2026",
+        "titleZh": "危機管理産業展(RISCON TOKYO)2026",
+        "place": "东京Big Sight · 南1-4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.kikikanri.biz/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "『危機管理』をテーマにした国内最大級の総合トレードショー"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b2332f1c288d",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "FaW TOKYO秋 ファッションワールド秋 2026",
+        "titleZh": "FaW TOKYO秋 ファッションワールド秋 2026",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のファッション展。業界の最新トレンド・ビジネスチャンスが生まれる場"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fc34674e4488",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第30回 日本のファッション 輸出 EXPO 秋",
+        "titleZh": "第30回 日本のファッション 輸出 EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/jfa.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "Made in Japan・国内ブランド、製品・生地の海外輸出の支援をコンセプトとする展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b14d432f2b93",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第30回 ブランド＆デザイナー EXPO 秋",
+        "titleZh": "第30回 ブランド＆デザイナー EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/ifa.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "業界初発表、日本初上陸など、注目のファッションブランド・製品が出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "974010be74db",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "Designer’s Gate デザイナーズゲート",
+        "titleZh": "Designer’s Gate デザイナーズゲート",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/designer.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "＜デザイナー個人が出展する特別なエリア＞未来にはばたく新鋭デザイナーと出会える場"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7c2294d40d8a",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第23回 生地・素材 EXPO 秋",
+        "titleZh": "第23回 生地・素材 EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/textile.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "定番から最新トレンドまで、世界中の生地・素材・副資材が出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9488e106162c",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第23回 アジアの縫製・生産工場 EXPO 秋",
+        "titleZh": "第23回 アジアの縫製・生産工場 EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/oem.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "中国、台湾、バングラデシュ、日本など、アジアの縫製・生産工場が出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b0c98c292abe",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第7回 健康・美容・機能性ウェア EXPO 秋",
+        "titleZh": "第7回 健康・美容・機能性ウェア EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/wef.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "機能性衣料や高機能繊維などが多数出展する展示会です"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c8407f4935a8",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第4回 スポーツファッション EXPO 秋",
+        "titleZh": "第4回 スポーツファッション EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/sports.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "「スポーツ×ファッション」をコンセプトに、ウェア、靴、ブランド、OEMなどが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "77290a42716a",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第10回 ファッションテック EXPO 秋",
+        "titleZh": "第10回 ファッションテック EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/fdx.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "アパレル・雑貨業界の未来を担うファッションテックが出展する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c8119d859c20",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第3回 リユースビジネス EXPO 秋",
+        "titleZh": "第3回 リユースビジネス EXPO 秋",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/autumn/ja-jp/about/reuse.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "リユース取引・販売支援に特化した展示会。リユースに関心ある企業必見"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2304aa9b60df",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第1回 IP×ファッションEXPO",
+        "titleZh": "第1回 IP×ファッションEXPO",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/hub/ja-jp/lp/ip.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "知的財産としてキャラクターや作品とコラボしたファッション商品が集まる新エリア"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "ce6ed375aaf8",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第1回 魅せるユニフォーム・ワークウェアEXPO【秋】通称： 魅せユニ",
+        "titleZh": "第1回 魅せるユニフォーム・ワークウェアEXPO【秋】通称： 魅せユニ",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.fashion-tokyo.jp/hub/ja-jp/lp-vis/faw.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "需要拡大するユニフォーム・ 作業着市場に応える新ゾーン"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5a4cc5857f43",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第30回 ライフスタイルWeek【秋】",
+        "titleZh": "第30回 ライフスタイルWeek【秋】",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.lifestyle-expo.jp/autumn/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "「推し活」「インバウンド」そして“次に来るトレンド”を生み出す展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "72a94bf1c296",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第4回 インバウンド向けグッズEXPO【秋】",
+        "titleZh": "第4回 インバウンド向けグッズEXPO【秋】",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.lifestyle-expo.jp/hub/ja-jp/lp/ib.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "おみやげ、和デザイン、食品、キャラクターグッズなど訪日外国人の心を掴む製品が出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0cbabe5e1f83",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第6回 推し活EXPO【秋】",
+        "titleZh": "第6回 推し活EXPO【秋】",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.lifestyle-expo.jp/hub/ja-jp/lp/fave.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "推しビジネスを始めたい方必見！推し活にまつわる最新グッズ・サービスが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "39112cbbb9ee",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第30回 雑貨EXPO【秋】",
+        "titleZh": "第30回 雑貨EXPO【秋】",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.lifestyle-expo.jp/hub/ja-jp/lp/giftex.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "推し活アイテム・インバウンド向けグッズ・エコ製品などトレンド製品が多数出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "baf5bfd85d3d",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第2回 アジアのOEM工場 EXPO【秋】",
+        "titleZh": "第2回 アジアのOEM工場 EXPO【秋】",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.lifestyle-expo.jp/hub/ja-jp/lp/oem.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "雑貨・食器・ファッションなどが出展！ビジネスパートナーと出会えるOEMの展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "688579dd1f3c",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第1回 猛暑対策グッズ EXPO",
+        "titleZh": "第1回 猛暑対策グッズ EXPO",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.lifestyle-expo.jp/hub/ja-jp/lp/mg.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "売れる夏商材が一気に揃う、猛暑対策グッズを手掛ける企業が一堂に出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "573a5a1a84b5",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第28回 マーケティングWeek -秋-",
+        "titleZh": "第28回 マーケティングWeek -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/autumn/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "【秋展 初開催】9つの専門展で構成される 日本最大級のマーケティングの総合展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e26ed428691e",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第27回 販促 EXPO -秋-",
+        "titleZh": "第27回 販促 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/spex.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "販売促進に役立つ製品・サービスが一堂に出展する日本最大の販促専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "989c7bca7a16",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第19回 SNS・インフルエンサー活用 EXPO -秋-",
+        "titleZh": "第19回 SNS・インフルエンサー活用 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/sns.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "SNS、口コミ、インフルエンサー活用など、あらゆるSNSマーケティングが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6da3fb900997",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第23回 営業支援 EXPO -秋-",
+        "titleZh": "第23回 営業支援 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/sse.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "SFA、CRM、営業代行など、営業強化・効率化のためのサービスが一堂に出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c01130914a3c",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第21回 広告メディア枠 EXPO -秋-",
+        "titleZh": "第21回 広告メディア枠 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/ad.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "TVCM、屋外広告、インストアメディアなど、あらゆる広告メディアが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "89cffa857924",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第11回 CX向上 EXPO -秋-",
+        "titleZh": "第11回 CX向上 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/cx.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "CXM、Web接客ツール、FAQなど、顧客分析・顧客体験の向上に特化した専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b032e3d741a1",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第19回 デジタルマーケティング強化 EXPO -秋-",
+        "titleZh": "第19回 デジタルマーケティング強化 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/degital-marketing.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "広告運用、SEO・AIO対策、MA・CRM、動画活用などのソリューションが集う商談展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "537cbf1c09cf",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第3回 マーケティング戦略立案 EXPO -秋-",
+        "titleZh": "第3回 マーケティング戦略立案 EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/strategy.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "市場分析からマーケティング施策構築、デジタル活用まで、多様なソリューションが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "26c9ca94ba86",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第7回 EC売上アップ EXPO -秋-",
+        "titleZh": "第7回 EC売上アップ EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/ec.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "最新のECサイト構築、アプリ開発、OMOなど、ECサービスに特化した専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6949528e4a6c",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-09",
+        "title": "第3回 ブランド戦略・PR EXPO -秋-",
+        "titleZh": "第3回 ブランド戦略・PR EXPO -秋-",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "未定 ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.marketing-week.jp/hub/ja-jp/about/brand.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "戦略立案、ビジュアル開発など、ブランディング成果を最大化するソリューションが集結"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "beee6ce61b83",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "title": "ヘルスイングリディエンツ ジャパン（食品開発展2026）",
+        "titleZh": "ヘルスイングリディエンツ ジャパン（食品開発展2026）",
+        "place": "东京Big Sight · 西1・2・4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.hijapan.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "健康・機能性食品素材の展示会＆会議"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "beee6ce61b83",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "title": "フード・テイストジャパン（食品開発展2026）",
+        "titleZh": "フード・テイストジャパン（食品開発展2026）",
+        "place": "东京Big Sight · 西1・2・4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.hijapan.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "新しい味・香り・テクスチャー・色など食品の美味しさを追求する展示会＆会議"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "beee6ce61b83",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "title": "セーフティ＆テクノロジー ジャパン（食品開発展2026）",
+        "titleZh": "セーフティ＆テクノロジー ジャパン（食品開発展2026）",
+        "place": "东京Big Sight · 西1・2・4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.hijapan.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品の安全性、品質向上を目指す技術展＆会議"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "beee6ce61b83",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "title": "フードロングライフジャパン（食品開発展2026）",
+        "titleZh": "フードロングライフジャパン（食品開発展2026）",
+        "place": "东京Big Sight · 西1・2・4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.hijapan.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "フードロス削減のためのロングライフ化技術展＆会議"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b85ddb507d13",
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-06",
+        "title": "レジャー＆サービス産業展2026",
+        "titleZh": "レジャー＆サービス産業展2026",
+        "place": "东京Big Sight · 東3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sogo-unicom.co.jp/lsi/index.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "レジャー・サービス施設の開発・投資に関連する商材・システムが集うビジネスフェア"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "11da2583a709",
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-06",
+        "title": "レジャーホテルフェア2026",
+        "titleZh": "レジャーホテルフェア2026",
+        "place": "东京Big Sight · 東3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sogo-unicom.co.jp/lhf/index.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "レジャーホテルの開発・投資・運営に関連する商材・システムが集うビジネスフェア"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "021f37b020c7",
+        "startDate": "2026-11-10",
+        "endDate": "2026-11-13",
+        "title": "アグリビジネス創出フェア2026",
+        "titleZh": "アグリビジネス創出フェア2026",
+        "place": "东京Big Sight · 西4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://agribiz.maff.go.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "農林水産・食品分野等の最新研究成果を紹介-出展者と来場者のマッチングを創出"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "FOOD展2026【食品産業の複合展】",
+        "titleZh": "FOOD展2026【食品産業の複合展】",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品産業の複合展 ＜給食・大量調理／食品衛生／工場設備／食品物流／惣菜製造＞"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "フードシステムソリューション(F-SYS)2026【給食・大量調理展】",
+        "titleZh": "フードシステムソリューション(F-SYS)2026【給食・大量調理展】",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "学校や病院・福祉施設などの「給食／大量調理現場」に特化した国内最大級の専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "フードセーフティジャパン(FSJ)2026【食品安全・衛生対策展】",
+        "titleZh": "フードセーフティジャパン(FSJ)2026【食品安全・衛生対策展】",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "「食の安全・安心」を守る最新技術が集結する国内随一の専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "フードファクトリー(FF)2026【食品工場改善展】",
+        "titleZh": "フードファクトリー(FF)2026【食品工場改善展】",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品工場に特化した設備・機器の専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "フードディストリビューション(FD)2026【食品物流改善展】",
+        "titleZh": "フードディストリビューション(FD)2026【食品物流改善展】",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品物流の課題解決を提案する専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "惣菜・デリカJAPAN(SDJ)2026【惣菜・中食産業展】",
+        "titleZh": "惣菜・デリカJAPAN(SDJ)2026【惣菜・中食産業展】",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "惣菜・中食市場に特化した専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "FOOD-DX 2026",
+        "titleZh": "FOOD-DX 2026",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品産業の複合展におけるDX化を推進"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "FOOD-COLDTECH 2026",
+        "titleZh": "FOOD-COLDTECH 2026",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品産業の複合展における冷凍・冷蔵対応に着目"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24a7ccfc4d1d",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "FOOD-ECOX 2026",
+        "titleZh": "FOOD-ECOX 2026",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.food-exhibition.info/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品産業の複合展におけるサステナブル提案が集結"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "a0e83a15104b",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "エヌプラス(N-Plus)2026 「New」「Next」をプラスする新素材・新技術展",
+        "titleZh": "エヌプラス(N-Plus)2026 「New」「Next」をプラスする新素材・新技術展",
+        "place": "东京Big Sight · 東2",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.n-plus.biz/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "全15のキーワード別展示会から成る「ものづくり」の製品開発素材・技術展です。"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3ff0830bf909",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "第13回 日本の食品 輸出EXPO WINTER",
+        "titleZh": "第13回 日本の食品 輸出EXPO WINTER",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jpfood/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "世界に誇る 日本の食品 が出展、海外バイヤー・国内の輸出商などが来場する専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f5b8574edf7e",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "JFEX WINTER - 第9回 [国際] 食品･飲料 商談 Week -",
+        "titleZh": "JFEX WINTER - 第9回 [国際] 食品･飲料 商談 Week -",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jfex/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本・世界から食品・飲料が集結する、仕入れ商談に特化した総合展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "bf2053e34dcb",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "第9回 加工食品 EXPO - JFEX FOOD WINTER -",
+        "titleZh": "第9回 加工食品 EXPO - JFEX FOOD WINTER -",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jfex/ja-jp/about/food.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "世界中の冷凍食品・レトルト食品・菓子・調味料・健康食品などが出展する専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8e96deff56ef",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "第9回 ワイン･酒 EXPO - JFEX WINE＆SPIRITS -",
+        "titleZh": "第9回 ワイン･酒 EXPO - JFEX WINE＆SPIRITS -",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jfex/ja-jp/about/wine.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "世界中のワイン・ビール・ウイスキー・日本酒などの酒類が出展する専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "1ae72c6e3b14",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "第7回 プレミアム食品 EXPO - JFEX PREMIUM -",
+        "titleZh": "第7回 プレミアム食品 EXPO - JFEX PREMIUM -",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jfex/ja-jp/about/premium.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "高級食品にターゲットを絞った日本唯一の専門展。ハイクラスな食品が一堂に出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b651008eb474",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "第5回 生鮮食品 EXPO - JFEX FRESH -",
+        "titleZh": "第5回 生鮮食品 EXPO - JFEX FRESH -",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jfex/ja-jp/about/fresh.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本・世界の肉・野菜・フルーツ・魚介類などの生鮮食品が出展する専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9faf482d1958",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "第5回 インバウンド向け食品 EXPO - JFEX インバウンド -",
+        "titleZh": "第5回 インバウンド向け食品 EXPO - JFEX インバウンド -",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.jfex.jp/jfex/ja-jp/about/inbound.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "インバウンド需要に合わせた、訪日外国人の関心が高い食品に特化した専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "51c3ba2b78fc",
+        "startDate": "2026-11-11",
+        "endDate": "2026-11-13",
+        "title": "産業交流展2026",
+        "titleZh": "産業交流展2026",
+        "place": "东京Big Sight · 西1・2",
+        "time": "10:00-17:00",
+        "price": "無料",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sangyo-koryuten.tokyo/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "優れた技術や製品を持つ首都圏の中小企業等が一堂に会する総合展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0d1e8fc006e1",
+        "startDate": "2026-11-17",
+        "endDate": "2026-11-18",
+        "title": "第3回 バックオフィスDXPO東京’26【秋】",
+        "titleZh": "第3回 バックオフィスDXPO東京’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "9:30-17:30",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://dxpo.jp/real/box/tokyo2/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "管理部門の業務効率化・DX推進のための展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f4422720d889",
+        "startDate": "2026-11-17",
+        "endDate": "2026-11-18",
+        "title": "第1回 【管理部門】AIエージェントDXPO東京’26【秋】",
+        "titleZh": "第1回 【管理部門】AIエージェントDXPO東京’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "9:30-17:30",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://dxpo.jp/real/box/tokyo2/aiagent/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "管理部門の定型業務を自動化する最新AIが集う展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f6780e3a2750",
+        "startDate": "2026-11-19",
+        "endDate": "2026-11-20",
+        "title": "第3回 営業・マーケDXPO東京’26【秋】",
+        "titleZh": "第3回 営業・マーケDXPO東京’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "9:30-17:30",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://dxpo.jp/real/fox/tokyo2/sales/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "売上アップ・販売促進・DX推進のための展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2676ea352b26",
+        "startDate": "2026-11-19",
+        "endDate": "2026-11-20",
+        "title": "第1回 【営業・マーケ・DX推進】AIエージェントDXPO東京’26【秋】",
+        "titleZh": "第1回 【営業・マーケ・DX推進】AIエージェントDXPO東京’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "9:30-17:30",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://dxpo.jp/real/fox/tokyo2/aiagent/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "脱属人化・業務効率化を推進する最新AIが集う展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f7ad85a9320e",
+        "startDate": "2026-11-19",
+        "endDate": "2026-11-20",
+        "title": "第2回 IT・情シスDXPO東京’26【秋】",
+        "titleZh": "第2回 IT・情シスDXPO東京’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "9:30-17:30",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://dxpo.jp/real/fox/tokyo2/system/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "システム開発・セキュリティ・IT人材育成のための展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "081d45c38750",
+        "startDate": "2026-11-19",
+        "endDate": "2026-11-20",
+        "title": "第3回 EC・通販DXPO東京’26【秋】",
+        "titleZh": "第3回 EC・通販DXPO東京’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "9:30-17:30",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://dxpo.jp/real/fox/tokyo2/store/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "EC・通販事業のビジネス拡大・業務効率化のための展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "a6bc7489714b",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "2026洗浄総合展",
+        "titleZh": "2026洗浄総合展",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://biz.nikkan.co.jp/eve/senjyo/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大級の産業洗浄専門展。製造業の洗浄課題を解決する製品・技術が集結"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0212bc97ce9d",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "VACUUM2026真空展",
+        "titleZh": "VACUUM2026真空展",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://biz.nikkan.co.jp/eve/vacuum/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "真空機器・真空装置など、真空技術に関する最新製品・技術が集う専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "a719aa809915",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "sampe Japan 先端材料技術展2026",
+        "titleZh": "sampe Japan 先端材料技術展2026",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://biz.nikkan.co.jp/eve/sampe/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "高性能化、高付加価値、軽量化、高強度化を実現する先端材料・その応用技術の専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c88404c5ec0d",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "スマートファクトリーJapan2026",
+        "titleZh": "スマートファクトリーJapan2026",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://biz.nikkan.co.jp/eve/smart-factory/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "モノづくり現場の先進化・効率化に向けた各種技術・製品・サービスの専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "dc8432866ee5",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "高精度・難加工技術展2026",
+        "titleZh": "高精度・難加工技術展2026",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://biz.nikkan.co.jp/eve/hds/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "高度な製造技術の紹介・汎用性の高い技術の提案をする、技術の専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "dc8432866ee5",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "表面改質展2026",
+        "titleZh": "表面改質展2026",
+        "place": "东京Big Sight · 東1-3",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://biz.nikkan.co.jp/eve/hds/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "表面処理の高付加価値化・高機能化を実現する技術や関連機器の専門展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "05a6c05a268e",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "第11回 ドリンク ジャパン -[飲料][液状食品] 開発・製造 展-",
+        "titleZh": "第11回 ドリンク ジャパン -[飲料][液状食品] 開発・製造 展-",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.drinkjapan.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本唯一！飲料／酒類／液状食品の開発・製造に特化した展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fb9bfb2899be",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "第7回 食品工場Week",
+        "titleZh": "第7回 食品工場Week",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.foodtechjapan.jp/ftw/ja-jp.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品工場の自動化・DX、衛生・安全対策、食品ロス対策に関する先端技術が出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c3773782f0c2",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "第7回 食品工場の自動化・DX 展",
+        "titleZh": "第7回 食品工場の自動化・DX 展",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.foodtechjapan.jp/tokyo/ja-jp/about/ftech.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "食品工場の生産効率化・省力化、人手不足に繋がる自動化・DXソリューションが出展"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fc4f9f5ba137",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "第3回 食品安全・衛生イノベーション展",
+        "titleZh": "第3回 食品安全・衛生イノベーション展",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.foodtechjapan.jp/tokyo/ja-jp/about/fhi.html",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "「食品安全・衛生」の課題を解決する技術・サービスが一堂に出展！"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "752e4c6010ea",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "Japan Home Show & Building Show 2026",
+        "titleZh": "Japan Home Show & Building Show 2026",
+        "place": "东京Big Sight · 西1-3",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.jma.or.jp/homeshow/tokyo/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "建築のプロに提案できる 国内最大級の建築・建設総合展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "981521711893",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "第45回 JAPANTEX 2026",
+        "titleZh": "第45回 JAPANTEX 2026",
+        "place": "东京Big Sight · 西4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://japantex.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大級のインテリア国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "47b96be3f457",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "第11回 アジア・ファニシング・フェア 2026",
+        "titleZh": "第11回 アジア・ファニシング・フェア 2026",
+        "place": "东京Big Sight · 南3・4",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.aff-fair.com/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "家具を中心としたインテリア製品などを幅広く展示する家具インテリアの総合見本市です"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3a4e11ad37b8",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "ビルメンヒューマンフェア＆クリーンEXPO 2026",
+        "titleZh": "ビルメンヒューマンフェア＆クリーンEXPO 2026",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://bmcl.jma.or.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大級のビルメンテナンス分野に特化した専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "14a685ee2138",
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-20",
+        "title": "HOSPEX Japan 2026",
+        "titleZh": "HOSPEX Japan 2026",
+        "place": "东京Big Sight · 西2",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.bigsight.jp/visitor/event/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "医療、研究機関、行政など幅広い業界関係者が一堂会する展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7e07fff5a58a",
+        "startDate": "2026-11-25",
+        "endDate": "2026-11-27",
+        "title": "POWTEX 2026 ［第46回国際粉体工業展］",
+        "titleZh": "POWTEX 2026 ［第46回国際粉体工業展］",
+        "place": "东京Big Sight · 東1-3",
+        "time": "9:30-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.powtex.com/tokyo/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "粉体機器・装置や粉体材料など「粉の技術」に関する専門展示会です"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d451f1e11b79",
+        "startDate": "2026-11-25",
+        "endDate": "2026-11-27",
+        "title": "レジャー＆アウトドアジャパン2026",
+        "titleZh": "レジャー＆アウトドアジャパン2026",
+        "place": "东京Big Sight · 東7",
+        "time": "10:00-17:00",
+        "price": "￥2000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://leisure-japan.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "レジャー産業の最新トレンドが集結する、 日本最大級の専門展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "891de7242412",
+        "startDate": "2026-11-25",
+        "endDate": "2026-11-27",
+        "title": "第5回 東京トレーラーハウスショー",
+        "titleZh": "第5回 東京トレーラーハウスショー",
+        "place": "东京Big Sight · 東7",
+        "time": "10:00-17:00",
+        "price": "￥2000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://trailerhouse-show.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "トレーラーハウスを文化に、そして、未来の新たな産業に"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "867557551738",
+        "startDate": "2026-11-25",
+        "endDate": "2026-11-27",
+        "title": "イベントJAPAN2026",
+        "titleZh": "イベントJAPAN2026",
+        "place": "东京Big Sight · 東8",
+        "time": "10:00-17:00",
+        "price": "￥2000 (事前登録者無料)",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.intercross-com.co.jp/event-japan/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "「集客・販促・イベントのミッションを最大化する」展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "review:trade_only_admission"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fac3dc111fc8",
+        "startDate": "2026-11-26",
+        "endDate": "2026-11-27",
+        "title": "ケミカルマテリアルJapan2026",
+        "titleZh": "ケミカルマテリアルJapan2026",
+        "place": "东京Big Sight · 南1・2",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.chemmate.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "化学産業領域を対象とする総合展示会"
       },
       "decision": "review",
       "reasons": [
@@ -609,22 +3665,22 @@
     },
     {
       "activity": {
-        "id": "86ad024fee77",
-        "startDate": "2026-08-28",
-        "endDate": "2026-08-29",
-        "title": "日経・東証IRフェア2026",
-        "titleZh": "日経・東証IRフェア2026",
-        "place": "东京Big Sight · 南3・4ホール",
-        "time": "10:00-17:00",
-        "price": "無料 (要登録)",
+        "id": "672f575f09f1",
+        "startDate": "2026-09-13",
+        "endDate": "2026-09-13",
+        "title": "TOKYO FES Sep.2026",
+        "titleZh": "TOKYO FES Sep.2026",
+        "place": "东京Big Sight · 東1-3・7・8",
+        "time": "10:30-15:00",
+        "price": "1300",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
-        "sourceUrl": "https://ps.nikkei.com/irfair/",
+        "sourceUrl": "https://www.akaboo.jp/event/item/20205021.html",
         "source": "Tokyo Big Sight",
         "audience": "一般",
-        "description": "日本最大級の個人投資家向けＩＲフェア"
+        "description": "同人誌即売会"
       },
       "eligible": true,
       "decision": "review",
@@ -637,19 +3693,355 @@
     },
     {
       "activity": {
-        "id": "93660f0b1656",
-        "startDate": "2026-08-30",
-        "endDate": "2026-08-30",
-        "title": "COMIC CITY VEGA 2026",
-        "titleZh": "COMIC CITY VEGA 2026",
-        "place": "东京Big Sight · 東1-3・7・8ホール",
-        "time": "10:30-15:00",
-        "price": "￥1200",
+        "id": "0d53cda8d848",
+        "startDate": "2026-09-16",
+        "endDate": "2026-09-19",
+        "title": "2026 国際ウエルディングショー",
+        "titleZh": "2026 国際ウエルディングショー",
+        "place": "东京Big Sight · 西1・2",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://weldingshow.jp/2026/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談・一般",
+        "description": "溶接接合技術ならびに関連分野における最新の製品と先端溶接加工システム技術を結集。"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7100af48873e",
+        "startDate": "2026-09-20",
+        "endDate": "2026-09-21",
+        "title": "日本ダーツ祭り2026 / 餃子祭",
+        "titleZh": "日本ダーツ祭り2026 / 餃子祭",
+        "place": "东京Big Sight · 東2・3",
+        "time": "10:00-18:00",
+        "price": "無料",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.dartslive.com/matsuri/jp/index.html",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "日本最大級のダーツイベント「日本ダーツ祭り」は、入場無料で楽しめるダーツの祭典！"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b531370da023",
+        "startDate": "2026-09-24",
+        "endDate": "2026-09-27",
+        "title": "ツーリズムEXPOジャパン2026",
+        "titleZh": "ツーリズムEXPOジャパン2026",
+        "place": "东京Big Sight · 東1-3・7・8",
+        "time": "10:00-18:00",
+        "price": "￥1500 (前売あり) ウェブをご参照ください",
         "vibe": "奇妙体验",
         "color": "#3d66f5",
         "symbol": "◒",
         "mates": 0,
-        "sourceUrl": "https://www.akaboo.jp/event/item/20204965.html",
+        "sourceUrl": "https://www.t-expo.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談・一般",
+        "description": "世界最大級の旅の祭典。2年ぶり東京ビッグサイトで開催。世界約80カ国が集結します！"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "11b66517c387",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-02",
+        "title": "産業DX総合展",
+        "titleZh": "産業DX総合展",
+        "place": "东京Big Sight · 東7・8",
+        "time": "10:00-17:00",
+        "price": "無料",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.bizcrew.jp/expo/industrial-dx-tokyo",
+        "source": "Tokyo Big Sight",
+        "audience": "商談・一般",
+        "description": "製造業、物流など産業のDX化を実現するサービス・ソリューションが一堂に集う総合展"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "47a7c5e4a31b",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-11",
+        "title": "COMIC CITY SPARK 21",
+        "titleZh": "COMIC CITY SPARK 21",
+        "place": "东京Big Sight · 西1-4、南1-4",
+        "time": "10:30-15:00",
+        "price": "未定",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.akaboo.jp/event/item/20205433.html",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "同人誌即売会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "967359985ec3",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "title": "TOKYO PACK 2026",
+        "titleZh": "TOKYO PACK 2026",
+        "place": "东京Big Sight · 東1-3・7・8",
+        "time": "10:00-17:00",
+        "price": "￥1000 (事前登録者無料) ウェブをご参照ください",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyo-pack.jp",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "包装の最新情報が一堂に集まる国際包装展"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b26c9df8e8cd",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "title": "ラベルフォーラムジャパン2026",
+        "titleZh": "ラベルフォーラムジャパン2026",
+        "place": "东京Big Sight · 西3",
+        "time": "9:30-17:00",
+        "price": "￥3000 (事前登録者無料)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://lfj2024.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談・一般",
+        "description": "国内最大のラベル専門展ーラベル製造向け資機材と最新のラベル製品が一堂にー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fa2b98a56448",
+        "startDate": "2026-10-21",
+        "endDate": "2026-10-23",
+        "title": "第67回サインアンドディスプレイショウ",
+        "titleZh": "第67回サインアンドディスプレイショウ",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録) ウェブをご参照ください 事務局へお問合せください",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://tokobi.or.jp/sds/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談・一般",
+        "description": "サイン・ディスプレイの製作、施工に必要な資材・素材及び加工機器、工作車両等関連品"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "ad86874a6344",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "title": "冬スポ!!WINTER SPORTS FESTA season26",
+        "titleZh": "冬スポ!!WINTER SPORTS FESTA season26",
+        "place": "东京Big Sight · 東3",
+        "time": "11:00-19:00",
+        "price": "無料",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.fuyusupo.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "ウィンタースポーツ用品の販売イベント"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "08a84e9dda44",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "title": "JOIN-FURUSATO 移住・交流&地域おこしフェア 2026",
+        "titleZh": "JOIN-FURUSATO 移住・交流&地域おこしフェア 2026",
+        "place": "东京Big Sight · 東7",
+        "time": "11/14 11:00～17:00， 11/15 10:00～16:00",
+        "price": "無料",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.iju-join.jp/feature_cont/joinfair/",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "全国の移住・交流などに関する情報収集や、自治体に直接相談ができるイベントです！"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4ade80fd4a65",
+        "startDate": "2026-11-15",
+        "endDate": "2026-11-15",
+        "title": "新・農業人フェア",
+        "titleZh": "新・農業人フェア",
+        "place": "东京Big Sight · 東8",
+        "time": "10:00-16:00",
+        "price": "無料",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://agri.mynavi.jp/shin-nogyojin/",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "全国から自治体、農業法人、就農支援機関などが出展する日本最大の就農相談会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "37aafe7a0df0",
+        "startDate": "2026-11-22",
+        "endDate": "2026-11-23",
+        "title": "癒しフェア",
+        "titleZh": "癒しフェア",
+        "place": "东京Big Sight · 西4",
+        "time": "10:00-18:00",
+        "price": "1000",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.a-advice.com/tokyo_2026/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談・一般",
+        "description": "心とカラダそして地球にやさしい癒し関連の商品・サービスを一度に体感"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d45896c2f1ae",
+        "startDate": "2026-11-29",
+        "endDate": "2026-11-29",
+        "title": "COMIC CITY 東京153",
+        "titleZh": "COMIC CITY 東京153",
+        "place": "东京Big Sight · 西1-4",
+        "time": "10:30-15:00",
+        "price": "未定",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.akaboo.jp/event/item/20205432.html",
         "source": "Tokyo Big Sight",
         "audience": "一般",
         "description": "同人誌即売会"
@@ -964,6 +4356,168 @@
     },
     {
       "activity": {
+        "id": "54f1413c1af6",
+        "startDate": "2026-06-18",
+        "endDate": "2026-09-21",
+        "title": "出光真子 おんなのさくひん――ある映像作家の自伝",
+        "titleZh": "出光真子 おんなのさくひん――ある映像作家の自伝",
+        "place": "東京都写真美術館",
+        "time": "2026/6/18(木) − 2026/9/21(月・祝)",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://topmuseum.jp/exhibition/5417/",
+        "source": "東京都歴史文化財団",
+        "attribution": "東京都写真美術館"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9f618f7b28ec",
+        "startDate": "2026-07-02",
+        "endDate": "2026-09-21",
+        "title": "TOPコレクション 明日の食卓",
+        "titleZh": "TOPコレクション 明日の食卓",
+        "place": "東京都写真美術館",
+        "time": "2026/7/2(木) − 2026/9/21(月・祝)",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://topmuseum.jp/exhibition/5419/",
+        "source": "東京都歴史文化財団",
+        "attribution": "東京都写真美術館"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "20e9788c80ea",
+        "startDate": "2026-09-05",
+        "endDate": "2026-12-13",
+        "title": "共時的星叢──時を共にした星たち 越境する芸術のまなざし",
+        "titleZh": "共時的星叢──時を共にした星たち 越境する芸術のまなざし",
+        "place": "東京都現代美術館",
+        "time": "2026/9/5 (土) − 2026/12/13 (日)",
+        "price": "一般 ￥2000",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.mot-art-museum.jp/exhibitions/Constellation/",
+        "source": "東京都歴史文化財団",
+        "attribution": "東京都現代美術館"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c0372350b4c3",
+        "startDate": "2026-08-29",
+        "endDate": "2026-12-06",
+        "title": "多田美波―光、凛と ゆれる",
+        "titleZh": "多田美波―光、凛と ゆれる",
+        "place": "東京都現代美術館",
+        "time": "2026/8/29（土）− 2026/12/6（日）",
+        "price": "一般 ￥1600",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/",
+        "source": "東京都歴史文化財団",
+        "attribution": "東京都現代美術館"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "997fdb79eb86",
+        "startDate": "2026-07-18",
+        "endDate": "2026-12-13",
+        "title": "武蔵野の歴史と民俗～武蔵野郷土館コレクション2026～",
+        "titleZh": "武蔵野の歴史と民俗～武蔵野郷土館コレクション2026～",
+        "place": "江戸東京たてもの園",
+        "time": "2026/7/18(土) − 2026/12/13 (日)",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.tatemonoen.jp/special/2026/20260718.php",
+        "source": "東京都歴史文化財団",
+        "attribution": "江戸東京たてもの園"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6a16167a0033",
+        "startDate": "2026-07-04",
+        "endDate": "2026-09-13",
+        "title": "ルーシー・リー展―東西をつなぐ優美のうつわ―",
+        "titleZh": "ルーシー・リー展―東西をつなぐ優美のうつわ―",
+        "place": "東京都庭園美術館",
+        "time": "2026/07/4 (土) − 2026/09/13 (日)",
+        "price": "一般 ￥1400",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.teien-art-museum.ne.jp/exhibition/lucie-rie/",
+        "source": "東京都歴史文化財団",
+        "attribution": "東京都庭園美術館"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
         "id": "295ad8ca57b1",
         "startDate": "2026-08-28",
         "endDate": "2026-09-06",
@@ -1033,6 +4587,34 @@
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/033-20260604-257911018",
         "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "74c2a874387b",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-21",
+        "title": "Growth就活DXPO’26【秋】",
+        "titleZh": "Growth就活DXPO’26【秋】",
+        "place": "东京Big Sight · 有明GYM-EX",
+        "time": "11:00-18:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://growth.dxpo.jp/real/",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "27卒・28卒・第二新卒向け「大規模採用イベント」"
       },
       "eligible": false,
       "decision": "exclude",

@@ -1,11 +1,12 @@
 import { parseMyTokyo } from './my-tokyo.mjs';
 import { parseRss } from './rss.mjs';
-import { parseTokyoBigSight, TOKYO_BIG_SIGHT_URL } from './tokyo-big-sight.mjs';
+import { mapRecord as mapTokyoBigSight, TOKYO_BIG_SIGHT_URL } from './tokyo-big-sight.mjs';
 import { parseUTokyoEvents, UTOKYO_EVENTS_URL } from './utokyo-events.mjs';
 import { parseTokyoMetropolitanArtMuseum, TOKYO_METROPOLITAN_ART_MUSEUM_URL } from './tokyo-metropolitan-art-museum.mjs';
 import { parseGeidaiMuseum } from './geidai-museum.mjs';
 import { parseWasedaEvents, WASEDA_EVENTS_URL } from './waseda-events.mjs';
 import { parseShibuyaParcoEvents, SHIBUYA_PARCO_EVENTS_URL } from './shibuya-parco-events.mjs';
+import { mapRecord as mapRekibun, REKIBUN_BENEFITS_URL } from './rekibun.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -27,11 +28,13 @@ export const SOURCES = [
     parse: parseMyTokyo,
   },
   {
+    // The venue's own open data, not its HTML listing: ten events became 154,
+    // and 来場対象者 replaced a regex guess at who may attend.
     name: 'Tokyo Big Sight', sourceFamily: 'exhibition_hall', trustTier: 'S0',
-    url: TOKYO_BIG_SIGHT_URL, origin: 'https://www.bigsight.jp',
-    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
-    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-27', ownerOrContact: '东京国际展示场',
-    parse: parseTokyoBigSight,
+    url: TOKYO_BIG_SIGHT_URL, origin: 'https://www.opendata.metro.tokyo.lg.jp',
+    accessMethod: 'csv', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '东京国际展示场（東京都开放数据）',
+    map: mapTokyoBigSight,
   },
   {
     name: '東京大学', sourceFamily: 'university', trustTier: 'S0',
@@ -82,6 +85,16 @@ export const SOURCES = [
     parse: parseWasedaEvents,
   },
   {
+    // One operator reaches 都美術館 / 現代美術館 / 写真美術館 / 庭園美術館 /
+    // 江戸東京たてもの園 at once — the lawful route to the art listings that
+    // Tokyo Art Beat aggregates but does not license.
+    name: '東京都歴史文化財団', sourceFamily: 'museum_operator', trustTier: 'S0',
+    url: REKIBUN_BENEFITS_URL, origin: 'https://www.rekibun.or.jp',
+    accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '公益财团法人东京都历史文化财团',
+    map: mapRekibun,
+  },
+  {
     name: '渋谷PARCO', sourceFamily: 'commercial_venue', trustTier: 'S0',
     url: SHIBUYA_PARCO_EVENTS_URL, origin: 'https://shibuya.parco.jp',
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
@@ -90,4 +103,4 @@ export const SOURCES = [
   },
 ];
 
-export { parseMyTokyo, parseRss, parseTokyoBigSight, parseUTokyoEvents, parseTokyoMetropolitanArtMuseum, parseGeidaiMuseum, parseWasedaEvents, parseShibuyaParcoEvents };
+export { parseMyTokyo, parseRss, parseUTokyoEvents, parseTokyoMetropolitanArtMuseum, parseGeidaiMuseum, parseWasedaEvents, parseShibuyaParcoEvents };
