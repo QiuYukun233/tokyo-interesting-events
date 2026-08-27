@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mapRekibunPost, parseExhibitionPeriod, priceFor } from './rekibun.mjs';
+import { REKIBUN_HANDS_ON_URLS, mapRekibunPost, parseExhibitionPeriod, parseRekibunHandsOn, priceFor } from './rekibun.mjs';
 
 const source = { name: '東京都歴史文化財団' };
 
@@ -67,4 +67,51 @@ test('without a museum link the foundation post stands in', () => {
 
 test('exhibitions are tagged as art so the filter recognises them', () => {
   assert.equal(mapRekibunPost(post(), source).vibe, '艺术现场');
+});
+
+/* ---- アート・カルチャー体験100 -------------------------------------------- */
+
+const handsOnPage = `<html><body><ul class="list1">
+<li class="11915"><a href="https://www.teien-art-museum.ne.jp/event/signs-beyond/" target="_blank"><span class="place">東京都庭園美術館</span><span class="date">2026/08/25 &#8211; 2026/09/13</span><span class="txt">正門横スペースにおける特別展示　「ランドスケープをつくる」展</span><span class="genre113">展示</span></a></li>
+<li class="11602"><a href="https://www.edo-tokyo-museum.or.jp/education/event/11712/" target="_blank"><span class="place">東京都江戸東京博物館</span><span class="date">2026/08/28</span><span class="txt">ミュージアムトーク</span><span class="genre110">トーク・講座</span></a></li>
+<li class="11603"><a href="https://www.edo-tokyo-museum.or.jp/education/event/11712/" target="_blank"><span class="place">東京都江戸東京博物館</span><span class="date">2026/08/28</span><span class="txt">ミュージアムトーク</span><span class="genre110">トーク・講座</span></a></li>
+<li class="11604"><a href="https://x.test/no-date/"><span class="place">東京文化会館</span><span class="date">日程未定</span><span class="txt">日付のない催し</span><span class="genre107">ワークショップ</span></a></li>
+</ul></body></html>`;
+
+test('hands-on listing yields venue, period, genre and the venue link', () => {
+  const events = parseRekibunHandsOn(handsOnPage, source);
+  assert.equal(events.length, 2, 'the duplicate and the undated item are dropped');
+  const [exhibition, talk] = events;
+  assert.equal(exhibition.startDate, '2026-08-25');
+  assert.equal(exhibition.endDate, '2026-09-13');
+  assert.equal(exhibition.place, '東京都庭園美術館');
+  assert.equal(exhibition.category, '展示');
+  // The listing links straight out to the venue running the programme.
+  assert.equal(exhibition.sourceUrl, 'https://www.teien-art-museum.ne.jp/event/signs-beyond/');
+  assert.equal(talk.startDate, '2026-08-28');
+  assert.ok(!('endDate' in talk), 'a single-day item has no end date');
+});
+
+test('the en dash here and the minus sign in the exhibition feed both parse', () => {
+  // Same operator, two different separators — hence reading dates positionally.
+  const [event] = parseRekibunHandsOn(handsOnPage, source);
+  assert.equal(event.startDate, '2026-08-25');
+  assert.equal(parseExhibitionPeriod('2026/8/29（土）− 2026/12/6（日）').startDate, '2026-08-29');
+});
+
+test('the genre label is kept, not the taxonomy id in the class name', () => {
+  const [, talk] = parseRekibunHandsOn(handsOnPage, source);
+  assert.equal(talk.category, 'トーク・講座');
+});
+
+test('a page past the end parses to nothing rather than throwing', () => {
+  assert.deepEqual(parseRekibunHandsOn('<html><body><ul class="list1"></ul></body></html>', source), []);
+  assert.deepEqual(parseRekibunHandsOn('<html><body></body></html>', source), []);
+});
+
+test('the page list covers the full horizon and starts at the unpaged URL', () => {
+  assert.ok(REKIBUN_HANDS_ON_URLS.length >= 12);
+  assert.equal(REKIBUN_HANDS_ON_URLS[0], 'https://www.rekibun.or.jp/hands_on_events/');
+  assert.equal(REKIBUN_HANDS_ON_URLS[1], 'https://www.rekibun.or.jp/hands_on_events/page/2/');
+  assert.equal(new Set(REKIBUN_HANDS_ON_URLS).size, REKIBUN_HANDS_ON_URLS.length);
 });

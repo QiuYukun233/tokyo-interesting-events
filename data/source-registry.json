@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T17:32:16.716Z",
+  "updatedAt": "2026-08-27T17:45:50.281Z",
   "entries": [
     {
       "id": "My TOKYO::https://www.my.metro.tokyo.lg.jp/event/?sort=near-end",
@@ -14,8 +14,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S1",
       "ownerOrContact": "东京都",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 20,
       "lastError": null,
       "failureStreak": 0,
@@ -39,6 +39,16 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 20
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 20
         }
       ]
     },
@@ -55,8 +65,8 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "东京国际展示场（東京都开放数据）",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 154,
       "lastError": null,
       "failureStreak": 0,
@@ -68,6 +78,16 @@
         },
         {
           "at": "2026-08-27T17:32:16.716Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
           "ok": true,
           "count": 154
         }
@@ -86,8 +106,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京大学",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 6,
       "lastError": null,
       "failureStreak": 0,
@@ -111,6 +131,16 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 6
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 6
         }
       ]
     },
@@ -127,8 +157,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京都美术馆",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 7,
       "lastError": null,
       "failureStreak": 0,
@@ -152,6 +182,16 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 7
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 7
         }
       ]
     },
@@ -168,8 +208,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
@@ -191,6 +231,16 @@
         },
         {
           "at": "2026-08-27T17:32:16.716Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
           "ok": true,
           "count": 1
         }
@@ -209,8 +259,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
@@ -234,6 +284,16 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 1
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 1
         }
       ]
     },
@@ -250,8 +310,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 0,
       "lastError": null,
       "failureStreak": 0,
@@ -275,6 +335,16 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 0
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 0
         }
       ]
     },
@@ -291,8 +361,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "早稻田大学",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 9,
       "lastError": null,
       "failureStreak": 0,
@@ -316,6 +386,16 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 9
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 9
         }
       ]
     },
@@ -332,8 +412,8 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 8,
       "lastError": null,
       "failureStreak": 0,
@@ -342,6 +422,47 @@
           "at": "2026-08-27T17:32:16.716Z",
           "ok": true,
           "count": 8
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "東京都歴史文化財団 · 体験100::https://www.rekibun.or.jp/hands_on_events/",
+      "name": "東京都歴史文化財団 · 体験100",
+      "sourceFamily": "hands_on",
+      "baseUrl": "https://www.rekibun.or.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "公益财团法人东京都历史文化财团",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
+      "lastItemCount": 82,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 82
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
+          "ok": true,
+          "count": 82
         }
       ]
     },
@@ -358,8 +479,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "涩谷 PARCO",
-      "lastRunAt": "2026-08-27T17:32:16.716Z",
-      "lastSuccessAt": "2026-08-27T17:32:16.716Z",
+      "lastRunAt": "2026-08-27T17:45:50.281Z",
+      "lastSuccessAt": "2026-08-27T17:45:50.281Z",
       "lastItemCount": 2,
       "lastError": null,
       "failureStreak": 0,
@@ -381,6 +502,16 @@
         },
         {
           "at": "2026-08-27T17:32:16.716Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-08-27T17:44:44.340Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-08-27T17:45:50.281Z",
           "ok": true,
           "count": 2
         }

@@ -6,7 +6,7 @@ import { parseTokyoMetropolitanArtMuseum, TOKYO_METROPOLITAN_ART_MUSEUM_URL } fr
 import { parseGeidaiMuseum } from './geidai-museum.mjs';
 import { parseWasedaEvents, WASEDA_EVENTS_URL } from './waseda-events.mjs';
 import { parseShibuyaParcoEvents, SHIBUYA_PARCO_EVENTS_URL } from './shibuya-parco-events.mjs';
-import { mapRecord as mapRekibun, REKIBUN_BENEFITS_URL } from './rekibun.mjs';
+import { mapRecord as mapRekibun, parseRekibunHandsOn, REKIBUN_BENEFITS_URL, REKIBUN_HANDS_ON_URLS } from './rekibun.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -93,6 +93,16 @@ export const SOURCES = [
     accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '公益财团法人东京都历史文化财团',
     map: mapRekibun,
+  },
+  {
+    // アート・カルチャー体験100 — workshops, tours, talks and children's
+    // programmes across the same operator's venues. This is the plan's
+    // 参与式消遣 family, which had no source at all.
+    name: '東京都歴史文化財団 · 体験100', sourceFamily: 'hands_on', trustTier: 'S0',
+    url: REKIBUN_HANDS_ON_URLS[0], urls: REKIBUN_HANDS_ON_URLS, origin: 'https://www.rekibun.or.jp',
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 14,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '公益财团法人东京都历史文化财团',
+    parse: parseRekibunHandsOn,
   },
   {
     name: '渋谷PARCO', sourceFamily: 'commercial_venue', trustTier: 'S0',

@@ -1,3 +1,4 @@
+import * as cheerio from 'cheerio';
 import { createEventCandidate } from '../lib/event-utils.mjs';
 
 /**
@@ -83,3 +84,73 @@ export function mapRekibunPost(post, source, visualIndex = 0) {
 }
 
 export const mapRecord = (post, source, index = 0) => mapRekibunPost(post, source, index);
+
+/* ------------------------------------------------------------------------- */
+
+/**
+ * アート・カルチャー体験100 — the foundation's hands-on programme listing.
+ *
+ * This is the 参与式消遣 family the plan had at zero: workshops, theatre and
+ * backstage tours, gallery talks, children's programmes, technology sessions.
+ *
+ * The REST API is a dead end here — `hands_on_events` posts return empty
+ * content, excerpt and ACF, and their detail pages are stubs ending right after
+ * the title. The listing page, however, ships the whole record in its initial
+ * HTML: venue, date, title, genre and a link straight to the venue's own page.
+ * So this costs a dozen page fetches, not 597 detail fetches.
+ *
+ * Items are ordered by date from today onward, ten per page. Pages past the end
+ * return 200 with an empty list rather than 404, so a fixed page list is safe.
+ */
+const HANDS_ON_BASE = 'https://www.rekibun.or.jp/hands_on_events/';
+const HANDS_ON_PAGES = 12;
+
+export const REKIBUN_HANDS_ON_URLS = [
+  HANDS_ON_BASE,
+  ...Array.from({ length: HANDS_ON_PAGES - 1 }, (_, index) => `${HANDS_ON_BASE}page/${index + 2}/`),
+];
+
+/**
+ * Parse a listing page.
+ *
+ * Dates read `2026/08/25 – 2026/09/13` or a single `2026/08/28`. The separator
+ * is an en dash here and a minus sign in the exhibition feed, so dates are
+ * again taken positionally rather than by splitting.
+ */
+export function parseRekibunHandsOn(html, source) {
+  const $ = cheerio.load(html);
+  const events = [];
+  const seen = new Set();
+  $('ul.list1 > li > a').each((_, node) => {
+    const link = $(node);
+    const sourceUrl = link.attr('href');
+    const title = compact(link.find('span.txt').text());
+    const period = compact(link.find('span.date').text());
+    const dates = [...period.matchAll(/(20\d{2})\/(\d{1,2})\/(\d{1,2})/g)]
+      .map(([, year, month, day]) => `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`);
+    if (!sourceUrl || !title || !dates.length) return;
+
+    const key = `${sourceUrl}:${title}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+
+    const venue = compact(link.find('span.place').text());
+    // The genre class carries the taxonomy id (genre107, genre113 ...); the
+    // label is the text, and only the label is worth keeping.
+    const genre = compact(link.find('span[class^="genre"]').first().text());
+    const candidate = createEventCandidate({
+      sourceName: source?.name || '東京都歴史文化財団',
+      sourceUrl,
+      title,
+      startDate: dates[0],
+      endDate: dates[1] || undefined,
+      place: venue || '东京都内 · 都立文化设施',
+      time: period || '详见活动页',
+      price: '详见活动页',
+      text: `${title} ${genre}`,
+      visualIndex: events.length,
+    });
+    if (candidate) events.push({ ...candidate, ...(venue ? { attribution: venue } : {}), ...(genre ? { category: genre } : {}) });
+  });
+  return events;
+}

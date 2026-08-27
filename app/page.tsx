@@ -4,7 +4,11 @@ import { FormEvent, useMemo, useState } from 'react';
 import eventData from '../data/events.json';
 
 type EventItem = (typeof eventData.events)[number];
-const filters = ['全部', '今晚', '本周末', '奇妙体验', '艺术现场', '好好聊天'];
+// Vibe chips are derived from the data, not listed by hand: when the sources
+// started carrying performances a fourth vibe appeared and its events had no
+// filter to reach them.
+const vibes = [...new Set(eventData.events.map((event) => event.vibe))].filter(Boolean).sort();
+const filters = ['全部', '今晚', '本周末', ...vibes];
 
 function dayMeta(date: string) {
   const value = new Date(`${date}T12:00:00+09:00`);

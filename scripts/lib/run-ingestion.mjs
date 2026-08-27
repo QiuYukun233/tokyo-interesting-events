@@ -74,7 +74,17 @@ export async function fetchSourcePages(source, fetchImpl = fetch) {
   return { events, robotsUnavailable };
 }
 
-function mergeEvents({ manual, fetched, existing, now, limit = 80, horizonDays = 180 }) {
+/**
+ * `limit` bounds the pool, not the page. It was 80, which stopped binding on
+ * supply and started binding on the horizon: after the open-data and hands-on
+ * sources landed, 80 truncated the pool at one month out and silently dropped
+ * 文学フリマ, COMIC CITY and 模型ホビーショー from Big Sight's tail. 300 covers the
+ * full 180-day horizon with room to spare.
+ *
+ * Note this file is imported at build time by the front end, which currently
+ * renders the whole pool — see docs/信息获取管道设计.md.
+ */
+function mergeEvents({ manual, fetched, existing, now, limit = 300, horizonDays = 180 }) {
   const cutoff = new Date(now.getTime() + horizonDays * 86400000);
   const prioritized = [...existing, ...fetched, ...manual];
   return [...new Map(prioritized.map((event) => [`${event.sourceUrl}:${event.title}`, event])).values()]
