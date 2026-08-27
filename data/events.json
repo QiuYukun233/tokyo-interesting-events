@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-28T00:22:13+09:00",
-  "updatedAtLabel": "今日 00:22",
+  "updatedAt": "2026-08-28T00:59:57+09:00",
+  "updatedAtLabel": "今日 00:59",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -21,9 +21,54 @@
       "name": "東京都美術館",
       "ok": true,
       "count": 7
+    },
+    {
+      "name": "東京藝術大学大学美術館",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京藝術大学大学美術館",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京藝術大学大学美術館",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "name": "早稲田大学",
+      "ok": false,
+      "count": 0,
+      "error": "早稲田大学 robots.txt returned 403"
+    },
+    {
+      "name": "渋谷PARCO",
+      "ok": true,
+      "count": 2
     }
   ],
   "events": [
+    {
+      "id": "617c4ac4b5c4",
+      "startDate": "2026-06-06",
+      "endDate": "2026-08-30",
+      "title": "KOJIMA PRODUCTIONS×PARCO GAMES STRAND STORE",
+      "titleZh": "KOJIMA PRODUCTIONS×PARCO GAMES STRAND STORE",
+      "place": "涩谷 PARCO · 5F EVENT SPACE",
+      "time": "2026.6.6 - 2026.8.30",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#6c59c8",
+      "symbol": "♪",
+      "mates": 0,
+      "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8847",
+      "source": "渋谷PARCO",
+      "category": "EVENT",
+      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260526131437.jpg",
+      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
+    },
     {
       "id": "c992bb63303c",
       "startDate": "2026-07-23",
@@ -42,6 +87,24 @@
       "category": "企画展",
       "description": "企画展",
       "why": "上野正在发生的正式展览，适合作为一次有明确主题的朋友出行"
+    },
+    {
+      "id": "b92a9702c249",
+      "startDate": "2026-07-24",
+      "endDate": "2026-09-23",
+      "title": "藝大式 美術の \"ミカタ\" ―この夏、藝大生になる―",
+      "titleZh": "藝大式 美術の \"ミカタ\" ―この夏、藝大生になる―",
+      "place": "东京艺术大学大学美术馆 · 上野本馆",
+      "time": "日程2026年07月24日(金) - 2026年09月23日(水)",
+      "price": "详见展览页",
+      "vibe": "艺术现场",
+      "color": "#3d66f5",
+      "symbol": "◒",
+      "mates": 0,
+      "sourceUrl": "https://museum.geidai.ac.jp/exhibit/2026/07/mikata2026.html",
+      "source": "東京藝術大学大学美術館",
+      "category": "大学美术馆展览",
+      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
     },
     {
       "id": "02b0b4f2fc9c",
@@ -82,6 +145,24 @@
       "attribution": "池袋経済新聞",
       "endDate": "2026-09-30",
       "why": "东京新出现的店铺形态，适合和朋友一起尝鲜"
+    },
+    {
+      "id": "c74ce10ccf54",
+      "startDate": "2026-08-26",
+      "endDate": "2026-09-06",
+      "title": "東京藝術大学日本画第一研究室研究発表展",
+      "titleZh": "東京藝術大学日本画第一研究室研究発表展",
+      "place": "东京艺术大学大学美术馆 · 陈列馆",
+      "time": "日程2026年08月26日(水) - 2026年09月06日(日)",
+      "price": "详见展览页",
+      "vibe": "艺术现场",
+      "color": "#3d66f5",
+      "symbol": "◒",
+      "mates": 0,
+      "sourceUrl": "https://museum.geidai.ac.jp/exhibit/2026/08/ichikenten2026.html",
+      "source": "東京藝術大学大学美術館",
+      "category": "大学美术馆展览",
+      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
     },
     {
       "id": "summer-night-museum-2026",
@@ -158,6 +239,25 @@
       "endDate": "2026-10-02",
       "attribution": "シブヤ経済新聞",
       "why": "东京新出现的店铺形态，适合和朋友一起尝鲜"
+    },
+    {
+      "id": "295ad8ca57b1",
+      "startDate": "2026-08-28",
+      "endDate": "2026-09-06",
+      "title": "MASU Instant Castle",
+      "titleZh": "MASU Instant Castle",
+      "place": "涩谷 PARCO · 2F POP UP SPACE「CRACK」",
+      "time": "2026.8.28 - 2026.9.6",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#d6a72d",
+      "symbol": "●",
+      "mates": 0,
+      "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8886",
+      "source": "渋谷PARCO",
+      "category": "POPUP",
+      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260806165606.jpg",
+      "why": "官方公开、近期可去，而且比常规吃饭逛街更容易形成共同记忆"
     },
     {
       "id": "2981d2c992b4",

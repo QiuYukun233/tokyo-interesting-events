@@ -36,3 +36,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# openai sites 打包产物
+.openai/site-version.tar.gz

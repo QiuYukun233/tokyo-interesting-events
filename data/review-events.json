@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T00:22:13+09:00",
+  "updatedAt": "2026-08-28T00:59:57+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -20,6 +20,32 @@
       "name": "東京都美術館",
       "ok": true,
       "count": 7
+    },
+    {
+      "name": "東京藝術大学大学美術館",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京藝術大学大学美術館",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京藝術大学大学美術館",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "name": "早稲田大学",
+      "ok": false,
+      "count": 0,
+      "error": "早稲田大学 robots.txt returned 403"
+    },
+    {
+      "name": "渋谷PARCO",
+      "ok": true,
+      "count": 2
     }
   ],
   "events": [
@@ -707,6 +733,80 @@
         "source": "東京都美術館",
         "category": "特別展",
         "description": "特別展"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "c74ce10ccf54",
+        "startDate": "2026-08-26",
+        "endDate": "2026-09-06",
+        "title": "東京藝術大学日本画第一研究室研究発表展",
+        "titleZh": "東京藝術大学日本画第一研究室研究発表展",
+        "place": "东京艺术大学大学美术馆 · 陈列馆",
+        "time": "日程2026年08月26日(水) - 2026年09月06日(日)",
+        "price": "详见展览页",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://museum.geidai.ac.jp/exhibit/2026/08/ichikenten2026.html",
+        "source": "東京藝術大学大学美術館",
+        "category": "大学美术馆展览"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "295ad8ca57b1",
+        "startDate": "2026-08-28",
+        "endDate": "2026-09-06",
+        "title": "MASU Instant Castle",
+        "titleZh": "MASU Instant Castle",
+        "place": "涩谷 PARCO · 2F POP UP SPACE「CRACK」",
+        "time": "2026.8.28 - 2026.9.6",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8886",
+        "source": "渋谷PARCO",
+        "category": "POPUP",
+        "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260806165606.jpg"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "617c4ac4b5c4",
+        "startDate": "2026-06-06",
+        "endDate": "2026-08-30",
+        "title": "KOJIMA PRODUCTIONS×PARCO GAMES STRAND STORE",
+        "titleZh": "KOJIMA PRODUCTIONS×PARCO GAMES STRAND STORE",
+        "place": "涩谷 PARCO · 5F EVENT SPACE",
+        "time": "2026.6.6 - 2026.8.30",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8847",
+        "source": "渋谷PARCO",
+        "category": "EVENT",
+        "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260526131437.jpg"
       },
       "eligible": true,
       "decision": "review",
