@@ -1,0 +1,767 @@
+{
+  "updatedAt": "2026-08-28T00:22:13+09:00",
+  "sourceStatus": [
+    {
+      "name": "My TOKYO",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "name": "Tokyo Big Sight",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "東京大学",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "name": "東京都美術館",
+      "ok": true,
+      "count": 7
+    }
+  ],
+  "events": [
+    {
+      "activity": {
+        "id": "04a3d3fea16d",
+        "startDate": "2026-08-26",
+        "endDate": "2026-08-28",
+        "title": "ジャパンジュエリーフェア2026",
+        "titleZh": "ジャパンジュエリーフェア2026",
+        "place": "东京Big Sight · 東1・2ホール",
+        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "price": "無料 (要登録)",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.japanjewelleryfair.com/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "国内外から350社以上が一堂に集結するBtoBのプロ向けジュエリー国際展示会"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "75995c691c16",
+        "startDate": "2026-08-27",
+        "endDate": "2026-08-28",
+        "title": "大学見本市2026 ～イノベーションジャパン Seeds for Tomorrow's Startups",
+        "titleZh": "大学見本市2026 ～イノベーションジャパン Seeds for Tomorrow's Startups",
+        "place": "东京Big Sight · 南1ホール",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://innovationjapan.jst.go.jp/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "全国大学より技術シーズが300件超出展！研究者ブース常駐の分野横断産学連携イベント"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "ffbedb76ad85",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026",
+        "place": "东京Big Sight · 東1-3・7・8ホール、西1-4ホール、南1-4ホール",
+        "time": "10:00-17:00 （最終日は1時間前に終了）",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "b00c7c1f2b58",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN",
+        "titleZh": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN",
+        "place": "东京Big Sight · 西1・3・4ホール",
+        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/life20/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "暮らし方から住まいをデザインする、リノベーションのための見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "405c1a964431",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "LIVING＆DESIGN2026",
+        "titleZh": "LIVING＆DESIGN2026",
+        "place": "东京Big Sight · 西4ホール",
+        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.living-and-design.com/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "トータルインテリアの国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "3e0c0f2ce73e",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第40回グルメショー秋2026",
+        "titleZh": "第40回グルメショー秋2026",
+        "place": "东京Big Sight · 東1ホール",
+        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.gourmetshow.jp/40gs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "新しいフードマーケットを切り拓く、プレミアムフードの見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "e3c1e1359318",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-04",
+        "title": "第102回東京インターナショナル・ギフト・ショー秋2026 ヤングファッション＆キッズスタッフフェア",
+        "titleZh": "第102回東京インターナショナル・ギフト・ショー秋2026 ヤングファッション＆キッズスタッフフェア",
+        "place": "东京Big Sight · 東2・3ホール",
+        "time": "10:00-18:00 （最終日は1時間前に終了）",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.giftshow.co.jp/tigs/102tigs/",
+        "source": "Tokyo Big Sight",
+        "audience": "商談",
+        "description": "日本最大のパーソナルギフトと生活雑貨の国際見本市"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: trade-only admission"
+      ]
+    },
+    {
+      "activity": {
+        "id": "de7e9da2d041",
+        "startDate": "2026-08-26",
+        "title": "川のパネル展を開催します！",
+        "titleZh": "川のパネル展を開催します！",
+        "place": "新宿駅西口広場イベントコーナー",
+        "time": "2026年08月26日～2026年08月28日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/017-20260623-259759527",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "63b71f763e3f",
+        "startDate": "2026-08-28",
+        "title": "令和８年度多摩川水系上下流交流会の参加者を募集します ～いつも飲んでいる水道水の“はじまり”を知りたくないですか？～",
+        "titleZh": "令和８年度多摩川水系上下流交流会の参加者を募集します ～いつも飲んでいる水道水の“はじまり”を知りたくないですか？～",
+        "place": "西多摩郡奥多摩町",
+        "time": "2026年08月28日",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260727-262861147",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "9abbeeb5d39f",
+        "startDate": "2026-08-28",
+        "title": "多摩川水系上下流交流会の参加者を募集中です",
+        "titleZh": "多摩川水系上下流交流会の参加者を募集中です",
+        "place": "東京都西多摩郡奥多摩町",
+        "time": "2026年08月28日",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260728-263036315",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "ea2208c42302",
+        "startDate": "2026-08-08",
+        "title": "水道サポーター 令和８年度 「動画制作ラボ」の参加者募集 ～山之内すずと動画を作ろう！～",
+        "titleZh": "水道サポーター 令和８年度 「動画制作ラボ」の参加者募集 ～山之内すずと動画を作ろう！～",
+        "place": "23区内",
+        "time": "2026年08月08日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260528-257157191",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "7a5acb74176c",
+        "startDate": "2026-07-25",
+        "title": "東京2020オリンピック・パラリンピック競技大会から5周年！メモリアルイベントを開催、エピソード＆メッセージを募集",
+        "titleZh": "東京2020オリンピック・パラリンピック競技大会から5周年！メモリアルイベントを開催、エピソード＆メッセージを募集",
+        "place": "東京ミッドタウン アトリウム（港区赤坂九丁目7番1号）、東京国際フォーラム（千代田区丸の内三丁目5番1号）",
+        "time": "2026年07月25日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/118-20260529-257303145",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "2ef79c3725ad",
+        "startDate": "2026-08-30",
+        "title": "東京2020パラリンピック5周年記念事業 稲垣さん、草彅さん、香取さんが登壇する東京2020パラリンピック5周年記念スペシャルステージ観覧募集開始！抽選で約300名様ご招待！",
+        "titleZh": "東京2020パラリンピック5周年記念事業 稲垣さん、草彅さん、香取さんが登壇する東京2020パラリンピック5周年記念スペシャルステージ観覧募集開始！抽選で約300名様ご招待！",
+        "place": "東京国際フォーラム ホールB5",
+        "time": "2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/118-20260626-260127397",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "69f0e3f0ff4f",
+        "startDate": "2026-07-18",
+        "title": "夏の思い出づくりは都営交通で！ 都営地下鉄「夏」のワンデーパスを発売します。",
+        "titleZh": "夏の思い出づくりは都営交通で！ 都営地下鉄「夏」のワンデーパスを発売します。",
+        "place": "都営地下鉄各駅の自動券売機",
+        "time": "2026年07月18日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/080-20260710-261480144",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "630db1a49da1",
+        "startDate": "2026-08-02",
+        "title": "【東部７公園】８月のイベント情報",
+        "titleZh": "【東部７公園】８月のイベント情報",
+        "place": "亀戸中央公園、大島小松川公園、尾久の原公園、猿江恩賜公園",
+        "time": "2026年08月02日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260721-262358446",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "2981d2c992b4",
+        "startDate": "2026-08-29",
+        "title": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
+        "titleZh": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
+        "place": "江東区 猿江恩賜公園",
+        "time": "2026年08月29日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260724-262721694",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "b3ccf44afe4a",
+        "startDate": "2026-08-30",
+        "title": "【尾久の原公園】8/30(日) 自然観察会「草地のバッタ」を開催します！",
+        "titleZh": "【尾久の原公園】8/30(日) 自然観察会「草地のバッタ」を開催します！",
+        "place": "尾久の原公園",
+        "time": "2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260801-263469688",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "c22d5637b1ad",
+        "startDate": "2026-07-22",
+        "title": "金融、航空など50社以上が参画！STEM分野で働く先輩たちや現場に触れる「女子中高生向けオフィスツアー」参加者募集開始",
+        "titleZh": "金融、航空など50社以上が参画！STEM分野で働く先輩たちや現場に触れる「女子中高生向けオフィスツアー」参加者募集開始",
+        "place": "企業のオフィスや研究所",
+        "time": "2026年07月22日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/116-20260521-256407929",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "b31b39c07da9",
+        "startDate": "2026-06-26",
+        "title": "「暑さ対策 くらしの知恵」暑さ対策グッズ活用写真募集！",
+        "titleZh": "「暑さ対策 くらしの知恵」暑さ対策グッズ活用写真募集！",
+        "place": "オンライン",
+        "time": "2026年06月26日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/021-20260626-260127005",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "30b1e5459d14",
+        "startDate": "2026-07-01",
+        "title": "今年もスマホでいきもの調査！「東京いきもの調査団 2026夏編」スタート",
+        "titleZh": "今年もスマホでいきもの調査！「東京いきもの調査団 2026夏編」スタート",
+        "place": "森、里山、都市公園、干潟、サンゴ礁など自然環境",
+        "time": "2026年07月01日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/021-20260701-260585111",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "625efb60a1a4",
+        "startDate": "2026-07-18",
+        "title": "水道歴史館夏休みイベント2026",
+        "titleZh": "水道歴史館夏休みイベント2026",
+        "place": "文京区 東京都水道歴史館",
+        "time": "2026年07月18日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260703-260811105",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "1912ec78f1d7",
+        "startDate": "2026-07-21",
+        "title": "第6回「都民の人権川柳」5つのテーマで募集します！",
+        "titleZh": "第6回「都民の人権川柳」5つのテーマで募集します！",
+        "place": "オンライン",
+        "time": "2026年07月21日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/003-20260721-262339856",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "86ad024fee77",
+        "startDate": "2026-08-28",
+        "endDate": "2026-08-29",
+        "title": "日経・東証IRフェア2026",
+        "titleZh": "日経・東証IRフェア2026",
+        "place": "东京Big Sight · 南3・4ホール",
+        "time": "10:00-17:00",
+        "price": "無料 (要登録)",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://ps.nikkei.com/irfair/",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "日本最大級の個人投資家向けＩＲフェア"
+      },
+      "decision": "review",
+      "reasons": [
+        "Tokyo Big Sight: public but lacks an experiential-interest signal"
+      ]
+    },
+    {
+      "activity": {
+        "id": "93660f0b1656",
+        "startDate": "2026-08-30",
+        "endDate": "2026-08-30",
+        "title": "COMIC CITY VEGA 2026",
+        "titleZh": "COMIC CITY VEGA 2026",
+        "place": "东京Big Sight · 東1-3・7・8ホール",
+        "time": "10:30-15:00",
+        "price": "￥1200",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.akaboo.jp/event/item/20204965.html",
+        "source": "Tokyo Big Sight",
+        "audience": "一般",
+        "description": "同人誌即売会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "e6beb0eae18f",
+        "startDate": "2026-09-25",
+        "title": "令和8年度 研究倫理セミナー",
+        "titleZh": "令和8年度 研究倫理セミナー",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "decision": "review",
+      "reasons": [
+        "University: recruitment, internal, or professional-training content"
+      ]
+    },
+    {
+      "activity": {
+        "id": "d7214d9452ec",
+        "startDate": "2026-09-22",
+        "title": "RCAST セキュリティセミナー／比較政治トーク",
+        "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
+        "place": "駒場地区",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
+        "source": "東京大学",
+        "audience": "駒場地区",
+        "description": "駒場地区"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "da4053cec19a",
+        "startDate": "2026-10-23",
+        "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
+        "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "472936376dc6",
+        "startDate": "2026-08-03",
+        "endDate": "2026-09-02",
+        "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+        "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "decision": "review",
+      "reasons": [
+        "University: recruitment, internal, or professional-training content"
+      ]
+    },
+    {
+      "activity": {
+        "id": "83400d097257",
+        "startDate": "2026-09-07",
+        "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
+        "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
+        "place": "本郷地区",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
+        "source": "東京大学",
+        "audience": "本郷地区",
+        "description": "本郷地区"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "4d996b1dd606",
+        "startDate": "2027-04-24",
+        "endDate": "2027-08-22",
+        "title": "デュフィ展",
+        "titleZh": "デュフィ展",
+        "place": "东京都美术馆 · 上野",
+        "time": "2027年4月24日(土)～8月22日(日)",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.tobikan.jp/exhibition/2027_dufy.html",
+        "source": "東京都美術館",
+        "category": "特別展",
+        "description": "特別展"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": []
+    },
+    {
+      "activity": {
+        "id": "14c9f9dba4d4",
+        "startDate": "2026-09-24",
+        "endDate": "2026-11-12",
+        "title": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
+        "titleZh": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0104_02225.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "decision": "review",
+      "reasons": [
+        "University: recruitment, internal, or professional-training content"
+      ]
+    },
+    {
+      "activity": {
+        "id": "609045d4bb2b",
+        "startDate": "2026-08-29",
+        "title": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
+        "titleZh": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
+        "place": "渋谷区渋谷3",
+        "time": "报道所述变动日",
+        "price": "不适用",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.shibukei.com/headline/20109/",
+        "source": "シブヤ経済新聞",
+        "description": "JR渋谷駅・旧新南口近くの「カフェ・ベローチェ 渋谷駅新南口店」（渋谷区渋谷3）が8月29日で閉店する。",
+        "category": "食べる",
+        "changeType": "closing",
+        "dateKind": "change"
+      },
+      "decision": "review",
+      "reasons": [
+        "Shop change: real but not yet distinctive enough for automatic publication"
+      ]
+    }
+  ]
+}

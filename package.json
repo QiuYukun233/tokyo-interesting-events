@@ -13,9 +13,15 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
+    "chrono-node": "^2.10.1",
+    "fast-xml-parser": "^5.11.1",
+    "feedsmith": "^2.9.6",
+    "ical.js": "^2.2.1",
     "next": "16.2.6",
     "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react-dom": "19.2.6",
+    "robots-parser": "^3.0.1"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",
