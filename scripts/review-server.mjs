@@ -1,50 +1,46 @@
 #!/usr/bin/env node
 /**
- * Local editorial console. `npm run review` → http://127.0.0.1:4321
+ * Local back office. `npm run review` → http://127.0.0.1:4321
  *
- * Why a local server and not a page on the site: the site is a static build
- * from JSON in git, and editorial judgement belongs in git too. This writes
- * data/editorial-labels.json directly, so a labelling session ends as a normal
- * commit and needs no backend, no auth, and no infrastructure.
+ * The writable half of the back office. `/backstage` on the site shows the same
+ * pool read-only; this is where candidates are actually promoted or rejected.
  *
- * What it is NOT: an approval queue. Labels never change what gets published.
- * They exist to measure the rules — see lib/editorial-labels.mjs.
+ * Local-only on purpose: the site is a static build from files in git, and
+ * editorial judgement belongs in git too. Decisions go straight into
+ * data/pool.db, so a session ends as a normal commit — no backend, no auth, no
+ * infrastructure. Binds to loopback; no dependencies beyond node builtins.
  *
- * Binds to loopback only. No dependencies beyond node builtins.
+ * Publishing here does not change the site until `npm run export-site` runs.
+ * That separation is deliberate: deciding and shipping are different acts.
  */
 import { createServer } from 'node:http';
-import { readFile, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import { REASON_LABELS } from '../lib/activity-filter.mjs';
-import { agreementByReason, agreementBySource, attachLabels, collectCandidates, coverage, emptyLabels, gateProjection, removeLabel, upsertLabel } from '../lib/editorial-labels.mjs';
+import { OBJECT_TYPES, OBJECT_TYPE_LABELS } from '../lib/object-type.mjs';
+import { agreementByObjectType, agreementByReason, agreementBySource, coverage, gateProjection } from '../lib/gate-evidence.mjs';
+import { decide, listCandidates, openPool, poolSummary, undecide } from '../lib/pool-db.mjs';
 
-const ROOT = new URL('../', import.meta.url);
-const EVENTS = new URL('data/events.json', ROOT);
-const REVIEW = new URL('data/review-events.json', ROOT);
-const LABELS = new URL('data/editorial-labels.json', ROOT);
+const POOL = new URL('../data/pool.db', import.meta.url);
 const PORT = Number(process.env.REVIEW_PORT || 4321);
 
-const readJson = (url, fallback) => readFile(url, 'utf8').then(JSON.parse).catch((error) => {
-  if (error.code === 'ENOENT') return fallback;
-  throw error;
-});
+const pool = openPool(fileURLToPath(POOL));
 
-async function loadState() {
-  const [events, review, store] = await Promise.all([
-    readJson(EVENTS, { events: [] }),
-    readJson(REVIEW, { events: [] }),
-    readJson(LABELS, emptyLabels()),
-  ]);
-  const candidates = collectCandidates({ published: events.events, review: review.events });
-  const labelled = attachLabels(candidates, store);
-  return { store, labelled, updatedAt: events.updatedAt };
-}
-
-const summarize = (labelled) => ({
-  coverage: coverage(labelled),
-  byReason: agreementByReason(labelled),
-  bySource: agreementBySource(labelled),
-  projection: gateProjection(labelled),
-});
+const state = () => {
+  const candidates = listCandidates(pool, { horizonDays: 180 });
+  return {
+    objectTypes: OBJECT_TYPES.map((type) => ({ type, label: OBJECT_TYPE_LABELS[type] })),
+    reasonLabels: REASON_LABELS,
+    summary: poolSummary(pool),
+    candidates,
+    evidence: {
+      coverage: coverage(candidates),
+      byReason: agreementByReason(candidates),
+      bySource: agreementBySource(candidates),
+      byObjectType: agreementByObjectType(candidates),
+      projection: gateProjection(candidates),
+    },
+  };
+};
 
 const json = (response, status, body) => {
   response.writeHead(status, { 'content-type': 'application/json; charset=utf-8' });
@@ -52,7 +48,7 @@ const json = (response, status, body) => {
 };
 
 // Collect Buffers and decode once: a note in Japanese or Chinese can put a
-// multi-byte character across a chunk boundary, and decoding per chunk mangles it.
+// multi-byte character across a chunk boundary, and per-chunk decoding mangles it.
 const readBody = (request) => new Promise((resolve, reject) => {
   const chunks = [];
   let size = 0;
@@ -76,26 +72,13 @@ const server = createServer(async (request, response) => {
       response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
       return response.end(PAGE);
     }
+    if (request.method === 'GET' && url.pathname === '/api/state') return json(response, 200, state());
 
-    if (request.method === 'GET' && url.pathname === '/api/state') {
-      const { labelled, updatedAt } = await loadState();
-      return json(response, 200, {
-        updatedAt,
-        reasonLabels: REASON_LABELS,
-        candidates: labelled,
-        summary: summarize(labelled),
-      });
-    }
-
-    if (request.method === 'POST' && url.pathname === '/api/label') {
-      const { id, verdict, note } = await readBody(request);
-      const store = await readJson(LABELS, emptyLabels());
-      const next = verdict === null
-        ? removeLabel(store, id)
-        : upsertLabel(store, id, { verdict, note, at: new Date().toISOString() });
-      await writeFile(LABELS, `${JSON.stringify(next, null, 2)}\n`);
-      const { labelled } = await loadState();
-      return json(response, 200, { ok: true, summary: summarize(labelled) });
+    if (request.method === 'POST' && url.pathname === '/api/decide') {
+      const { id, state: next, note } = await readBody(request);
+      if (next === null) undecide(pool, id);
+      else decide(pool, id, { state: next, decidedBy: 'human', note: note || null });
+      return json(response, 200, { ok: true, ...state() });
     }
 
     json(response, 404, { error: 'not found' });
@@ -105,208 +88,244 @@ const server = createServer(async (request, response) => {
 });
 
 server.listen(PORT, '127.0.0.1', () => {
-  console.log(`候选诊断台  http://127.0.0.1:${PORT}`);
-  console.log('标注写入 data/editorial-labels.json，不影响发布。Ctrl+C 退出。');
+  const { pending, published, rejected } = poolSummary(pool);
+  console.log(`后台  http://127.0.0.1:${PORT}`);
+  console.log(`池子：${pending} 待定 · ${published} 已发布 · ${rejected} 已排除`);
+  console.log('放行后跑 `npm run export-site` 才会更新站点。Ctrl+C 退出。');
 });
 
 const PAGE = String.raw`<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><title>候选诊断台</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>后台 · 东京有点意思</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
-:root{--bg:#faf9f7;--fg:#1c1a17;--muted:#6b6560;--line:#e2ddd6;--card:#fff;--good:#2f7d4f;--bad:#b4472f;--unsure:#8a7a3d;--accent:#3d66f5}
-@media(prefers-color-scheme:dark){:root{--bg:#161513;--fg:#eceae6;--muted:#9a938c;--line:#2f2c28;--card:#1f1d1a}}
+/* Same design language as the site: ink/paper/acid, 1.5px rules, hard shadows,
+   monospace kickers, heavy display type. Denser, because this is a workbench. */
+:root{--ink:#151515;--paper:#f2f0e9;--acid:#d7ff3f;--red:#ef5b3f;--green:#2f7d4f}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 ui-sans-serif,system-ui,"Hiragino Sans","Noto Sans CJK SC",sans-serif}
-header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:14px 20px}
-h1{font-size:17px;margin:0 0 2px}
-.sub{color:var(--muted);font-size:13px}
-main{padding:20px;max-width:1180px;margin:0 auto}
-section{margin-bottom:26px}
-h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px;font-weight:600}
-.panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{text-align:left;padding:5px 8px 5px 0;border-bottom:1px solid var(--line);vertical-align:top}
-th{color:var(--muted);font-weight:600}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 Arial,"Noto Sans SC","Hiragino Sans",sans-serif}
+a{color:inherit}
+nav{height:70px;padding:0 32px;display:flex;align-items:center;gap:14px;border-bottom:1.5px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:9}
+.mark{width:32px;height:32px;display:grid;place-items:center;background:var(--ink);color:var(--acid);border-radius:50%;font-size:14px;font-weight:900;transform:rotate(-8deg)}
+nav b{font-size:17px;font-weight:900;letter-spacing:-.04em}
+nav .hint{margin-left:auto;font:700 11px/1 monospace;letter-spacing:.1em;color:#666}
+header{padding:44px 32px 0}
+.kicker{font:700 11px/1 monospace;letter-spacing:.14em;color:#666}
+h1{font-size:clamp(32px,4.5vw,58px);letter-spacing:-.07em;margin:12px 0 8px;font-weight:950}
+.lede{font-size:13.5px;line-height:1.8;font-weight:600;max-width:64ch;color:#444}
+.lede b{background:var(--acid);padding:1px 5px;color:var(--ink)}
+.stats{display:flex;flex-wrap:wrap;gap:12px;padding:28px 32px 0}
+.stat{border:1.5px solid var(--ink);background:#faf9f5;box-shadow:5px 5px 0 var(--ink);padding:14px 20px;min-width:118px}
+.stat b{display:block;font-size:34px;line-height:1;letter-spacing:-.06em}
+.stat span{font:700 10px/1 monospace;letter-spacing:.12em;color:#666}
+.stat.pending{background:var(--acid)}
+.controls{padding:34px 32px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button,select,input{font:inherit}
+.chip{border:1.5px solid var(--ink);padding:7px 14px;background:transparent;border-radius:100px;cursor:pointer;font-size:12.5px;font-weight:700}
+.chip:hover,.chip[aria-pressed=true]{background:var(--ink);color:#fff}
+select{border:1.5px solid var(--ink);background:transparent;padding:7px 12px;border-radius:100px;font-size:12.5px;font-weight:700}
+.count{margin-left:auto;font:700 11px/1 monospace;letter-spacing:.1em;color:#666}
+section{padding:38px 32px 0}
+.sechead{display:flex;align-items:baseline;gap:12px;border-bottom:1.5px solid var(--ink);padding-bottom:9px;margin-bottom:16px}
+.sechead h2{font-size:24px;letter-spacing:-.05em;margin:0;font-weight:900}
+.sechead em{font:700 10px/1 monospace;letter-spacing:.12em;color:#666;font-style:normal}
+.sechead span{margin-left:auto;font:700 11px/1 monospace;color:#666}
+.rows{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:74px 1fr auto;gap:14px;align-items:start;border:1.5px solid var(--ink);background:#faf9f5;padding:12px 15px}
+.row.pending{box-shadow:4px 4px 0 var(--acid)}
+.row.published{background:#f2f0e9;opacity:.85}
+.row.rejected{background:#e8e5dd;opacity:.6}
+.when{font:800 12px/1.45 monospace}
+.when small{display:block;font-size:10px;color:#888}
+.what h3{font-size:15px;line-height:1.4;margin:0 0 4px;font-weight:800;letter-spacing:-.02em}
+.meta{font-size:11.5px;color:#666;display:flex;flex-wrap:wrap;gap:10px}
+.meta b{color:var(--ink)}
+.codes{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.code{font:700 10px/1 monospace;padding:3px 7px;border:1px solid #c9c6be;color:#777;border-radius:20px}
+.code.signal{border-color:var(--green);color:var(--green)}
+.code.hard{border-color:var(--red);color:var(--red)}
+.acts{display:flex;flex-direction:column;gap:5px;align-items:stretch;min-width:104px}
+.acts button{border:1.5px solid var(--ink);background:transparent;padding:6px 10px;font-size:11.5px;font-weight:800;cursor:pointer}
+.acts button:hover{background:var(--ink);color:#fff}
+.acts button[aria-pressed=true][data-s=published]{background:var(--ink);color:#fff}
+.acts button[aria-pressed=true][data-s=rejected]{background:var(--red);color:#fff;border-color:var(--red)}
+.by{font:700 9px/1.4 monospace;color:#888;text-align:center}
+.panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;padding:0 32px}
+.panel{border:1.5px solid var(--ink);background:#faf9f5;box-shadow:5px 5px 0 var(--ink);padding:16px}
+.panel h3{font:700 10px/1 monospace;letter-spacing:.12em;color:#666;margin:0 0 12px;text-transform:uppercase}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{text-align:left;padding:5px 8px 5px 0;border-bottom:1px solid #d2d0c9;vertical-align:top}
+th{font:700 10px/1 monospace;letter-spacing:.08em;color:#888}
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
-.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden;min-width:56px}
-.bar>i{display:block;height:100%;background:var(--good)}
-.thin{opacity:.5}
-.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
-select,input[type=search]{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:7px;background:var(--card);color:var(--fg)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:9px}
-.card.done{opacity:.62}
-.top{display:flex;gap:12px;justify-content:space-between;align-items:baseline}
-.title{font-weight:600}
-.meta{color:var(--muted);font-size:12.5px;margin-top:2px}
-.codes{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
-.code{font-size:11.5px;padding:2px 7px;border-radius:20px;border:1px solid var(--line);color:var(--muted)}
-.code.sig{border-color:var(--good);color:var(--good)}
-.code.hard{border-color:var(--bad);color:var(--bad)}
-.pill{font-size:11.5px;padding:2px 8px;border-radius:20px;border:1px solid var(--line);white-space:nowrap}
-.pill.pub{border-color:var(--accent);color:var(--accent)}
-.acts{margin-top:9px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
-button{font:inherit;font-size:13px;padding:4px 12px;border-radius:7px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
-button:hover{border-color:var(--muted)}
-button[aria-pressed=true][data-v=good]{background:var(--good);border-color:var(--good);color:#fff}
-button[aria-pressed=true][data-v=bad]{background:var(--bad);border-color:var(--bad);color:#fff}
-button[aria-pressed=true][data-v=unsure]{background:var(--unsure);border-color:var(--unsure);color:#fff}
-a{color:var(--accent)}
-.note{font:inherit;font-size:12.5px;padding:4px 8px;border:1px solid var(--line);border-radius:7px;background:transparent;color:var(--fg);flex:1;min-width:150px}
-.empty{color:var(--muted);padding:22px 0}
-.hint{color:var(--muted);font-size:12.5px;margin-top:8px}
-kbd{font:inherit;font-size:11.5px;border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px}
+.bar{height:6px;background:#ddd9d0;min-width:52px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--green)}
+.thin{opacity:.45}
+.hint2{font-size:11.5px;color:#666;margin-top:10px;line-height:1.7}
+.empty{border:1.5px dashed var(--ink);padding:34px;text-align:center;color:#666;font-size:13px}
+footer{padding:60px 32px 80px;font-size:12px;line-height:1.9;color:#666}
+footer b{color:var(--ink)}
+@media(max-width:760px){.row{grid-template-columns:1fr}.count{margin-left:0;width:100%}}
 </style></head><body>
+<nav><span class="mark">东</span><b>后台</b><span class="hint" id="hint">载入中…</span></nav>
 <header>
-  <h1>候选诊断台</h1>
-  <div class="sub" id="sub">载入中…</div>
+  <div class="kicker">BACKSTAGE · 候选池</div>
+  <h1>新来的东西，先在这儿。</h1>
+  <p class="lede">抓到的候选先进后台，按方案 §4.1 的对象类型分门别类。
+    <b>待定的不会自己上前台</b>。放行只是写一条判决——<b>还要跑 npm run export-site 站点才会变</b>。</p>
 </header>
-<main>
-  <section>
-    <h2>统计</h2>
-    <div class="panels">
-      <div class="panel"><h2>标注进度</h2><div id="cov"></div></div>
-      <div class="panel"><h2>若把现有规则当闸门</h2><div id="proj"></div></div>
-    </div>
-  </section>
-  <section>
-    <h2>各理由码与人判断的吻合度</h2>
-    <div class="panel"><div id="reasons"></div>
-      <div class="hint">「想去率」高说明这条规则拦的多是人想去的东西，作为闸门是错的；低才说明它拦得准。样本不足 10 条的行是灰的，不要据此下结论。</div>
-    </div>
-  </section>
-  <section>
-    <h2>各来源</h2>
-    <div class="panel"><div id="sources"></div></div>
-  </section>
-  <section>
-    <h2>候选</h2>
-    <div class="filters">
-      <select id="f-decision"><option value="">全部判定</option><option value="keep">keep</option><option value="review">review</option><option value="exclude">exclude</option></select>
-      <select id="f-source"><option value="">全部来源</option></select>
-      <select id="f-reason"><option value="">全部理由码</option></select>
-      <select id="f-labelled"><option value="">全部</option><option value="no">未标注</option><option value="yes">已标注</option></select>
-      <input type="search" id="f-text" placeholder="搜索标题">
-      <span class="sub" id="count"></span>
-    </div>
-    <div id="list"></div>
-  </section>
-</main>
+<div class="stats" id="stats"></div>
+<div class="controls">
+  <button class="chip" data-f="state" data-v="pending" aria-pressed="true">待定</button>
+  <button class="chip" data-f="state" data-v="published" aria-pressed="false">已发布</button>
+  <button class="chip" data-f="state" data-v="rejected" aria-pressed="false">已排除</button>
+  <button class="chip" data-f="state" data-v="" aria-pressed="false">全部</button>
+  <select id="f-source"><option value="">全部来源</option></select>
+  <select id="f-type"><option value="">全部类型</option></select>
+  <input id="f-text" placeholder="搜索标题" style="border:1.5px solid var(--ink);background:transparent;padding:7px 12px;border-radius:100px;font-size:12.5px">
+  <span class="count" id="count"></span>
+</div>
+<div id="list"></div>
+<section><div class="sechead"><h2>给自动闸门的判据</h2><em>GATE EVIDENCE</em></div></section>
+<div class="panels" id="panels"></div>
+<footer>
+  <b>为什么判决和抓取分两张表：</b>抓取每天重跑，判决只写 <code>decisions</code>，抓取碰不到它。所以重抓永远不会撤销你的决定。<br>
+  <b>为什么这里不直接改站点：</b>放行是判断，发布是动作。判完跑 <code>npm run export-site</code>。<br>
+  <b>这些判决同时是闸门的训练数据：</b>「想去率」高的理由码说明它拦错了人想去的东西；低才说明它拦得准。样本不足 10 条的行是灰的。
+</footer>
 <script>
 const $ = (id) => document.getElementById(id);
-let state = { candidates: [], summary: null, reasonLabels: {} };
+let data = null;
+const filters = { state: 'pending', source: '', type: '', text: '' };
 
-const pct = (value) => value === null || value === undefined ? '—' : (value * 100).toFixed(0) + '%';
-const esc = (value) => String(value ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const esc = (v) => String(v ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const pct = (v) => v === null || v === undefined ? '—' : (v * 100).toFixed(0) + '%';
+const STATE_CN = { pending: '待定', published: '已发布', rejected: '已排除' };
 
-function rateTable(rows, keyName, keyOf) {
-  if (!rows.length) return '<div class="empty">还没有标注，先在下面判几条。</div>';
-  return '<table><thead><tr><th>' + keyName + '</th><th class="num">已判</th><th class="num">想去</th><th class="num">想去率</th><th></th></tr></thead><tbody>'
-    + rows.map((row) => '<tr class="' + (row.enoughSamples ? '' : 'thin') + '">'
-      + '<td>' + esc(keyOf(row)) + (state.reasonLabels[keyOf(row)] ? ' <span class="sub">' + esc(state.reasonLabels[keyOf(row)]) + '</span>' : '')
-      + '</td><td class="num">' + row.labelled + '</td><td class="num">' + row.good + '</td><td class="num">' + pct(row.goodRate) + '</td>'
-      + '<td><div class="bar"><i style="width:' + (row.goodRate * 100).toFixed(0) + '%"></i></div></td></tr>').join('')
-    + '</tbody></table>';
+function when(item) {
+  const short = (d) => d.slice(5).replace('-', '.');
+  return item.endDate && item.endDate !== item.startDate
+    ? [short(item.startDate), '→ ' + short(item.endDate)]
+    : [short(item.startDate), item.startDate.slice(0, 4)];
 }
 
-function renderSummary() {
-  const { coverage: cov, projection: proj, byReason, bySource } = state.summary;
-  $('cov').innerHTML = '<table><tbody>'
-    + '<tr><td>合计</td><td class="num">' + cov.labelled + ' / ' + cov.total + '</td></tr>'
-    + Object.entries(cov.byDecision).map(([decision, value]) =>
-        '<tr><td>' + esc(decision) + '</td><td class="num">' + value.labelled + ' / ' + value.total + '</td></tr>').join('')
-    + '</tbody></table>';
-
-  $('proj').innerHTML = proj.judged === 0
-    ? '<div class="empty">判够几条之后这里会给出：开闸门会放行多少、拦掉多少、以及拦错多少。</div>'
-    : '<table><tbody>'
-      + '<tr><td>已判候选</td><td class="num">' + proj.judged + '</td></tr>'
-      + '<tr><td>会放行 / 会拦下</td><td class="num">' + proj.wouldPublish + ' / ' + proj.wouldWithhold + '</td></tr>'
-      + '<tr><td>放行里确实想去（精确率）</td><td class="num">' + pct(proj.precision) + '</td></tr>'
-      + '<tr><td>想去的里放行了（召回率）</td><td class="num">' + pct(proj.recall) + '</td></tr>'
-      + '<tr><td><b>误拦掉的好东西</b></td><td class="num"><b>' + proj.missedGood + '</b></td></tr>'
-      + '<tr><td>拦对的</td><td class="num">' + proj.correctlyWithheld + '</td></tr>'
-      + '</tbody></table>';
-
-  $('reasons').innerHTML = rateTable(byReason, '理由码', (row) => row.code);
-  $('sources').innerHTML = rateTable(bySource, '来源', (row) => row.source);
-}
-
-function fillOptions() {
-  const sources = [...new Set(state.candidates.map((c) => c.activity.source).filter(Boolean))].sort();
-  const codes = [...new Set(state.candidates.flatMap((c) => [...c.reasons, ...c.signals]))].sort();
-  $('f-source').innerHTML = '<option value="">全部来源</option>' + sources.map((s) => '<option>' + esc(s) + '</option>').join('');
-  $('f-reason').innerHTML = '<option value="">全部理由码</option>' + codes.map((c) => '<option>' + esc(c) + '</option>').join('');
+function decidedBy(by) {
+  if (!by) return '';
+  if (by === 'human') return '人工';
+  if (by === 'legacy') return '扩源前既有';
+  return by.startsWith('rule:') ? '规则 ' + by.slice(5) : by;
 }
 
 function visible() {
-  const decision = $('f-decision').value, source = $('f-source').value, reason = $('f-reason').value;
-  const labelled = $('f-labelled').value, text = $('f-text').value.trim().toLowerCase();
-  return state.candidates.filter((c) =>
-    (!decision || c.decision === decision)
-    && (!source || c.activity.source === source)
-    && (!reason || c.reasons.includes(reason) || c.signals.includes(reason))
-    && (!labelled || (labelled === 'yes' ? Boolean(c.label) : !c.label))
-    && (!text || String(c.activity.title || '').toLowerCase().includes(text)));
+  return data.candidates.filter((c) =>
+    (!filters.state || c.state === filters.state)
+    && (!filters.source || c.source === filters.source)
+    && (!filters.type || c.objectType === filters.type)
+    && (!filters.text || String(c.title || '').toLowerCase().includes(filters.text)));
+}
+
+function renderStats() {
+  const s = data.summary;
+  $('stats').innerHTML = [['pending', s.pending, 'PENDING 待定'], ['', s.published, 'PUBLISHED 已发布'], ['', s.rejected, 'REJECTED 已排除'], ['', s.total, 'TOTAL 候选总数']]
+    .map(([cls, n, label]) => '<div class="stat ' + cls + '"><b>' + n + '</b><span>' + label + '</span></div>').join('');
+  $('hint').textContent = s.pending + ' 待定 · ' + s.published + ' 已发布';
 }
 
 function renderList() {
   const rows = visible();
   $('count').textContent = rows.length + ' 条';
-  $('list').innerHTML = rows.length === 0 ? '<div class="empty">没有符合条件的候选。</div>' : rows.map((c) => {
-    const a = c.activity, verdict = c.label?.verdict;
-    const codes = [
-      ...c.reasons.map((code) => '<span class="code ' + (code.startsWith('hard:') ? 'hard' : '') + '" title="' + esc(state.reasonLabels[code] || '') + '">' + esc(code) + '</span>'),
-      ...c.signals.filter((code) => !c.reasons.includes(code)).map((code) => '<span class="code sig">' + esc(code) + '</span>'),
-    ].join('');
-    const button = (v, text) => '<button data-id="' + esc(a.id) + '" data-v="' + v + '" aria-pressed="' + (verdict === v) + '">' + text + '</button>';
-    return '<div class="card ' + (verdict ? 'done' : '') + '">'
-      + '<div class="top"><div><div class="title">' + esc(a.titleZh || a.title) + '</div>'
-      + '<div class="meta">' + esc(a.source || '—') + ' · ' + esc(a.place || '—') + ' · ' + esc(a.time || a.startDate || '—')
-      + ' · <a href="' + esc(a.sourceUrl) + '" target="_blank" rel="noreferrer">原文</a></div></div>'
-      + '<div><span class="pill">' + esc(c.decision) + '</span> ' + (c.published ? '<span class="pill pub">已在首页</span>' : '') + '</div></div>'
-      + '<div class="codes">' + codes + '</div>'
-      + '<div class="acts">' + button('good', '想去') + button('bad', '不想去') + button('unsure', '说不好')
-      + '<input class="note" data-id="' + esc(a.id) + '" placeholder="备注（可留空）" value="' + esc(c.label?.note || '') + '"></div>'
-      + '</div>';
-  }).join('');
+  const byType = new Map();
+  for (const c of rows) { if (!byType.has(c.objectType)) byType.set(c.objectType, []); byType.get(c.objectType).push(c); }
+  const order = data.objectTypes.filter((t) => byType.has(t.type));
+  $('list').innerHTML = order.length === 0
+    ? '<section><div class="empty">没有符合条件的候选。</div></section>'
+    : order.map((t) => {
+      const items = byType.get(t.type);
+      return '<section><div class="sechead"><h2>' + esc(t.label) + '</h2><em>' + t.type.toUpperCase() + '</em><span>' + items.length + ' 条</span></div><div class="rows">'
+        + items.map((c) => {
+          const [main, sub] = when(c);
+          const codes = [
+            ...c.reasons.map((code) => '<span class="code ' + (code.startsWith('hard:') ? 'hard' : '') + '" title="' + esc(data.reasonLabels[code] || '') + '">' + esc(code) + '</span>'),
+            ...c.signals.filter((code) => !c.reasons.includes(code)).map((code) => '<span class="code signal">' + esc(code) + '</span>'),
+          ].join('');
+          const act = (s, label) => '<button data-id="' + esc(c.id) + '" data-s="' + s + '" aria-pressed="' + (c.state === s) + '">' + label + '</button>';
+          return '<article class="row ' + c.state + '">'
+            + '<div class="when">' + main + '<small>' + sub + '</small></div>'
+            + '<div class="what"><h3>' + (c.sourceUrl ? '<a href="' + esc(c.sourceUrl) + '" target="_blank" rel="noreferrer">' + esc(c.titleZh || c.title) + '</a>' : esc(c.titleZh || c.title)) + '</h3>'
+            + '<div class="meta"><span><b>' + esc(c.source || '编辑精选') + '</b></span>'
+            + (c.place ? '<span>' + esc(c.place) + '</span>' : '')
+            + (c.category ? '<span>' + esc(c.category) + '</span>' : '')
+            + (c.audience ? '<span>来场对象 ' + esc(c.audience) + '</span>' : '')
+            + (c.price ? '<span>' + esc(c.price) + '</span>' : '') + '</div>'
+            + (codes ? '<div class="codes">' + codes + '</div>' : '')
+            + '</div>'
+            + '<div class="acts">' + act('published', '放行') + act('rejected', '排除')
+            + (c.state !== 'pending' ? '<div class="by">' + esc(decidedBy(c.decidedBy)) + '</div>' : '') + '</div>'
+            + '</article>';
+        }).join('') + '</div></section>';
+    }).join('');
 }
 
-async function send(id, verdict, note) {
-  const response = await fetch('/api/label', {
-    method: 'POST', headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ id, verdict, note }),
-  });
+function rateTable(rows, keyName, keyOf) {
+  if (!rows.length) return '<div class="empty">还没有判决，先在上面放行或排除几条。</div>';
+  return '<table><thead><tr><th>' + keyName + '</th><th class="num">已判</th><th class="num">放行</th><th class="num">想去率</th><th></th></tr></thead><tbody>'
+    + rows.map((r) => '<tr class="' + (r.enoughSamples ? '' : 'thin') + '"><td>' + esc(keyOf(r))
+      + (data.reasonLabels[keyOf(r)] ? ' <span style="color:#888">' + esc(data.reasonLabels[keyOf(r)]) + '</span>' : '')
+      + '</td><td class="num">' + r.decided + '</td><td class="num">' + r.published + '</td><td class="num">' + pct(r.publishRate)
+      + '</td><td><div class="bar"><i style="width:' + (r.publishRate * 100).toFixed(0) + '%"></i></div></td></tr>').join('')
+    + '</tbody></table>';
+}
+
+function renderPanels() {
+  const e = data.evidence;
+  const p = e.projection;
+  $('panels').innerHTML =
+    '<div class="panel"><h3>判决进度</h3><table><tbody>'
+      + '<tr><td>已判 / 合计</td><td class="num">' + e.coverage.decided + ' / ' + e.coverage.total + '</td></tr>'
+      + Object.entries(e.coverage.byType).map(([t, v]) => '<tr><td>' + esc(t) + '</td><td class="num">' + v.decided + ' / ' + v.total + '</td></tr>').join('')
+      + '</tbody></table></div>'
+    + '<div class="panel"><h3>若把抓取期过滤器当闸门</h3>' + (p.judged === 0
+      ? '<div class="empty">判够几条之后这里会给出精确率、召回率和误拦数。</div>'
+      : '<table><tbody>'
+        + '<tr><td>已判候选</td><td class="num">' + p.judged + '</td></tr>'
+        + '<tr><td>会放行 / 会拦下</td><td class="num">' + p.wouldPublish + ' / ' + p.wouldWithhold + '</td></tr>'
+        + '<tr><td>精确率</td><td class="num">' + pct(p.precision) + '</td></tr>'
+        + '<tr><td>召回率</td><td class="num">' + pct(p.recall) + '</td></tr>'
+        + '<tr><td><b>误拦掉的好东西</b></td><td class="num"><b>' + p.missedGood + '</b></td></tr>'
+        + '<tr><td>拦对的</td><td class="num">' + p.correctlyWithheld + '</td></tr></tbody></table>') + '</div>'
+    + '<div class="panel"><h3>各理由码</h3>' + rateTable(e.byReason, '理由码', (r) => r.code) + '<div class="hint2">「想去率」高＝这条规则拦的多是人想去的东西，作为闸门是错的。</div></div>'
+    + '<div class="panel"><h3>各来源</h3>' + rateTable(e.bySource, '来源', (r) => r.source) + '</div>'
+    + '<div class="panel"><h3>各对象类型</h3>' + rateTable(e.byObjectType, '类型', (r) => r.objectType) + '</div>';
+}
+
+function fillOptions() {
+  const sources = [...new Set(data.candidates.map((c) => c.source).filter(Boolean))].sort();
+  $('f-source').innerHTML = '<option value="">全部来源</option>' + sources.map((s) => '<option>' + esc(s) + '</option>').join('');
+  $('f-type').innerHTML = '<option value="">全部类型</option>'
+    + data.objectTypes.map((t) => '<option value="' + t.type + '">' + esc(t.label) + '</option>').join('');
+}
+
+function renderAll() { renderStats(); renderList(); renderPanels(); }
+
+document.addEventListener('click', async (event) => {
+  const chip = event.target.closest('.chip[data-f=state]');
+  if (chip) {
+    filters.state = chip.dataset.v;
+    document.querySelectorAll('.chip[data-f=state]').forEach((b) => b.setAttribute('aria-pressed', String(b === chip)));
+    return renderList();
+  }
+  const button = event.target.closest('.acts button');
+  if (!button) return;
+  const current = data.candidates.find((c) => c.id === button.dataset.id);
+  const next = current.state === button.dataset.s ? null : button.dataset.s;
+  const response = await fetch('/api/decide', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ id: button.dataset.id, state: next }) });
   const body = await response.json();
   if (!response.ok) return alert(body.error);
-  const candidate = state.candidates.find((c) => c.activity.id === id);
-  candidate.label = verdict === null ? null : { verdict, note: note || '', labeledAt: new Date().toISOString() };
-  state.summary = body.summary;
-  renderSummary(); renderList();
-}
-
-document.addEventListener('click', (event) => {
-  const button = event.target.closest('button[data-v]');
-  if (!button) return;
-  const id = button.dataset.id;
-  const current = state.candidates.find((c) => c.activity.id === id)?.label?.verdict;
-  const note = document.querySelector('.note[data-id="' + CSS.escape(id) + '"]')?.value || '';
-  send(id, current === button.dataset.v ? null : button.dataset.v, note);
+  data = { ...data, ...body };
+  renderAll();
 });
 
-document.addEventListener('change', (event) => {
-  if (event.target.classList.contains('note')) {
-    const id = event.target.dataset.id;
-    const verdict = state.candidates.find((c) => c.activity.id === id)?.label?.verdict;
-    if (verdict) send(id, verdict, event.target.value);
-  } else if (event.target.id.startsWith('f-')) renderList();
-});
-$('f-text').addEventListener('input', renderList);
+$('f-source').addEventListener('change', (e) => { filters.source = e.target.value; renderList(); });
+$('f-type').addEventListener('change', (e) => { filters.type = e.target.value; renderList(); });
+$('f-text').addEventListener('input', (e) => { filters.text = e.target.value.trim().toLowerCase(); renderList(); });
 
-fetch('/api/state').then((r) => r.json()).then((data) => {
-  state = data;
-  $('sub').innerHTML = data.candidates.length + ' 条候选 · 数据 ' + esc(data.updatedAt || '—')
-    + ' · 标注只用于衡量规则，<b>不改变发布</b>';
-  fillOptions(); renderSummary(); renderList();
-});
+fetch('/api/state').then((r) => r.json()).then((payload) => { data = payload; fillOptions(); renderAll(); });
 </script></body></html>`;

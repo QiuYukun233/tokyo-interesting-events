@@ -12,9 +12,11 @@
 ```bash
 npm test                     # node:test，覆盖 lib/ 和 scripts/ 下全部 *.test.mjs
 npm run lint                 # eslint
-npm run update-events        # 跑抓取管线，写 data/events.json + review + source-registry
+npm run update-events        # 抓取，把候选写进 data/pool.db（不发布任何东西）
+npm run apply-gate           # 自动规则判决事实性不合格的候选
+npm run review               # 本地后台 http://127.0.0.1:4321，人工放行/排除
+npm run export-site          # 池子 → data/events.json（已发布）+ backstage.json
 npm run check-sources        # 读注册表报来源健康；有严重告警则退出码非 0
-npm run review               # 本地候选诊断台 http://127.0.0.1:4321
 npm run collect-shop-changes # 单独跑开闭店采集
 npm run dev                  # 本地站点
 npm run build                # 构建
@@ -28,6 +30,7 @@ npm run build                # 构建
 | 路径 | 职责 |
 |---|---|
 | `app/` | 前台页面（Next.js / vinext）。直接 import `data/events.json`，无运行时抓取 |
+| `data/pool.db` | **候选池，记录之源**（SQLite）。`events.json` 与 `backstage.json` 都是它的导出 |
 | `data/` | 管线产物 + 人工数据。字段定义见 `docs/数据契约.md` |
 | `lib/` | 与抓取无关的纯逻辑：过滤、去重、契约校验、来源健康、编辑标注 |
 | `scripts/sources/` | **每个来源一个适配器**，导出 `parseXxx(html, source)`，旁边放同名 `.test.mjs` |
@@ -53,36 +56,38 @@ npm run build                # 构建
 ## 数据流
 
 ```
-scripts/update-events.mjs
-  → scripts/sources/index.mjs        来源注册表（9 条，方案 §3.3 的静态字段）
-  → scripts/lib/run-ingestion.mjs    robots 校验 → 并发抓取 → 解析
-      → lib/activity-filter.mjs      硬排除 / 分流 / 去重，每条判定都带理由码
-      → 合并 manual + existing + fetched，按 180 天窗口与 80 条上限截断
-      → lib/source-health.mjs        折进注册表，算静默失效告警
-  → data/events.json           前台读这份
-  → data/review-events.json    候选诊断队列（npm run review 消费）
-  → data/source-registry.json  来源观测状态与告警（npm run check-sources 消费）
+npm run update-events
+  → scripts/sources/index.mjs        来源注册表（11 条 + 开闭店家族 15 版）
+  → scripts/lib/run-ingestion.mjs    robots 校验 → 并发抓取 → 按 accessMethod 解析
+      → lib/activity-filter.mjs      算理由码（不再决定发布）
+      → lib/pool-db.mjs              upsert 进 candidates 表
+  → data/pool.db                     ← 记录之源
+  → data/review-events.json          诊断队列
+  → data/source-registry.json        来源健康
+
+npm run apply-gate    → lib/gate.mjs 对 pending 应用规则，写 decisions（decidedBy: rule:…）
+npm run review        → 本地后台，人工写 decisions（decidedBy: human）
+npm run export-site   → data/events.json（只含 published）+ data/backstage.json（整池，分类）
 ```
 
-`data/editorial-labels.json` 是人工标注，由 `npm run review` 写入，
-用于衡量规则、给自动闸门攒判据，**不参与管线、不影响发布**。
+**最要紧的一条规矩：抓取只写 `candidates`，判决只写 `decisions`。**
+没有判决行的候选就是 pending，所以重抓永远不会撤销任何人的决定，
+也没有任何抓取代码路径能让东西上前台。见 `docs/决策记录/0003-候选池与后台.md`。
 
 详细说明见 `docs/架构.md`。事件记录的字段契约见 `docs/数据契约.md`，
 来源逐个的状态见 `docs/来源清单.md`。
 
 ## 已知问题
 
-1. **发布仍然没有闸门。** `lib/activity-filter.mjs` 只把 `exclude` 挡在外面，
-   `review` 的条目照样进 `events.json` 上前台。这与方案 §2「爬虫的任务是发现候选，
-   不是直接发布」冲突。**这是已知且是刻意的**：人工审批队列在这个候选量下会淹没
-   审批者，闸门要做成自动的。`npm run review` 就是为设计它攒判据的工具，
-   见 `docs/决策记录/0002-闸门要自动化.md`。
-2. **兜底靠人眼。** 在自动闸门出现之前，前台上的内容只经过硬排除，没有质量把关。
-3. **前台一次渲染整个池子。** `app/page.tsx` 与 `app/pool/page.tsx` 都把
-   `data/events.json` 全量铺开，现在是 126 条一页。方案 §7 的探索队列
-   （每轮 12–20 项）本来就是解决这个的，但它还不存在——在那之前，
-   池子变大直接等于页面变长。
-4. **候选量距漏斗目标仍有差距。** 前台 126 条、99 条尚未开始
-   （接管道之前是 34 条／17 条）。方案 §10 的目标是每周 1,000 条原始候选。
-   六个来源家族现在只剩「新运动」还偏薄。方案与实测见
-   `docs/信息获取管道设计.md`。
+1. **126 条候选积压在后台等人判。** 这是 0003 那条决定的直接后果，也是
+   0002 警告过的那个问题（人工队列会淹没审批者）。唯一的出路是从已有判决里
+   长出更多规则——本地后台底部的判据面板就是为此存在的。目前只有一条规则
+   `rule:trade_only_admission`。
+2. **前台只有 30 条**，因为只有扩源前既有的那批被追认为已发布。
+   池子里还有 126 条待定。
+3. **前台一次渲染整个已发布集合。** `app/page.tsx` 与 `app/pool/page.tsx`
+   都全量铺开。方案 §7 的探索队列（每轮 12–20 项）本来就是解决这个的，
+   但它还不存在。
+4. **候选量距漏斗目标仍有差距。** 池子 236 条候选。方案 §10 的目标是
+   每周 1,000 条原始候选。六个来源家族里只剩「新运动」还偏薄。
+   方案与实测见 `docs/信息获取管道设计.md`。

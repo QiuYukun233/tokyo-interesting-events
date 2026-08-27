@@ -1,14 +1,16 @@
 import { readFile, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import robotsParser from 'robots-parser';
 import { filterAndDedupeActivities } from '../../lib/activity-filter.mjs';
 import { readCsvRecords } from '../../lib/csv.mjs';
+import { openPool, upsertCandidate } from '../../lib/pool-db.mjs';
 import { formatAlert, updateRegistry } from '../../lib/source-health.mjs';
 
 const ROOT = new URL('../../', import.meta.url);
-const OUTPUT = new URL('data/events.json', ROOT);
 const REVIEW_OUTPUT = new URL('data/review-events.json', ROOT);
 const MANUAL = new URL('data/manual-events.json', ROOT);
 const REGISTRY = new URL('data/source-registry.json', ROOT);
+const POOL = new URL('data/pool.db', ROOT);
 const USER_AGENT = 'TokyoInterestingEvents/0.6 (+contact via repository)';
 
 /**
@@ -74,29 +76,6 @@ export async function fetchSourcePages(source, fetchImpl = fetch) {
   return { events, robotsUnavailable };
 }
 
-/**
- * `limit` bounds the pool, not the page. It was 80, which stopped binding on
- * supply and started binding on the horizon: after the open-data and hands-on
- * sources landed, 80 truncated the pool at one month out and silently dropped
- * 文学フリマ, COMIC CITY and 模型ホビーショー from Big Sight's tail. 300 covers the
- * full 180-day horizon with room to spare.
- *
- * Note this file is imported at build time by the front end, which currently
- * renders the whole pool — see docs/信息获取管道设计.md.
- */
-function mergeEvents({ manual, fetched, existing, now, limit = 300, horizonDays = 180 }) {
-  const cutoff = new Date(now.getTime() + horizonDays * 86400000);
-  const prioritized = [...existing, ...fetched, ...manual];
-  return [...new Map(prioritized.map((event) => [`${event.sourceUrl}:${event.title}`, event])).values()]
-    .filter((event) => {
-      const starts = new Date(`${event.startDate}T00:00:00+09:00`);
-      const ends = new Date(`${event.endDate || event.startDate}T23:59:59+09:00`);
-      return ends >= now && starts <= cutoff;
-    })
-    .sort((a, b) => a.startDate.localeCompare(b.startDate))
-    .slice(0, limit);
-}
-
 const isPubliclyAccessible = (event) => event.source !== 'Tokyo Big Sight' || /一般/.test(event.audience || '');
 
 async function readJson(url, fallback) {
@@ -119,16 +98,27 @@ export async function runIngestion(sources) {
   const rawFetched = successful.flatMap(({ events }) => events);
   const tradeOnly = rawFetched.filter((event) => !isPubliclyAccessible(event));
   const fetchedTriage = filterAndDedupeActivities(rawFetched.filter(isPubliclyAccessible));
-  const manual = (await readJson(MANUAL, { events: [] })).events;
-  const existing = (await readJson(OUTPUT, { events: [] })).events;
-  const existingTriage = filterAndDedupeActivities(existing.filter(isPubliclyAccessible));
-  const events = mergeEvents({ manual, fetched: fetchedTriage.activities, existing: existingTriage.activities, now });
+
+  // Everything the crawl found goes into the pool, whatever the filter thought
+  // of it. The pool is the record; publication is a separate decision recorded
+  // in its own table, so this write can never undo a ruling. New candidates
+  // land with no decision row, which is what "pending in the back office" is.
+  const pool = openPool(fileURLToPath(POOL));
+  const codesFor = new Map();
+  for (const entry of [...fetchedTriage.review, ...fetchedTriage.excluded]) {
+    codesFor.set(entry.activity.id, { reasons: entry.reasons || [], signals: entry.signals || [] });
+  }
+  for (const activity of tradeOnly) codesFor.set(activity.id, { reasons: ['review:trade_only_admission'], signals: [] });
+  let stored = 0;
+  for (const activity of [...rawFetched, ...(await readJson(MANUAL, { events: [] })).events]) {
+    if (!activity?.id || !activity?.startDate) continue;
+    upsertCandidate(pool, activity, { now, ...codesFor.get(activity.id) });
+    stored += 1;
+  }
 
   const tokyoNow = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo', dateStyle: 'short', timeStyle: 'medium' }).format(now).replace(' ', 'T') + '+09:00';
-  const updatedAtLabel = `今日 ${new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Tokyo', hour: '2-digit', minute: '2-digit', hour12: false }).format(now)}`;
 
-  // The review queue is a diagnostic surface, not a gate: everything here is
-  // also published. See docs/架构.md and 决策记录/0002.
+  // The review queue stays as a diagnostic surface; see docs/架构.md.
   const review = [
     ...tradeOnly.map((activity) => ({ activity, decision: 'review', reasons: ['review:trade_only_admission'], signals: [] })),
     ...fetchedTriage.review,
@@ -152,11 +142,14 @@ export async function runIngestion(sources) {
   const registry = updateRegistry(await readJson(REGISTRY, { entries: [] }), sources, perSource, now);
 
   await Promise.all([
-    writeFile(OUTPUT, `${JSON.stringify({ updatedAt: tokyoNow, updatedAtLabel, sourceStatus, events }, null, 2)}\n`),
-    writeFile(REVIEW_OUTPUT, `${JSON.stringify({ updatedAt: tokyoNow, sourceStatus, events: review }, null, 2)}\n`),
-    writeFile(REGISTRY, `${JSON.stringify(registry, null, 2)}\n`),
+    writeFile(REVIEW_OUTPUT, `${JSON.stringify({ updatedAt: tokyoNow, sourceStatus, events: review }, null, 2)}
+`),
+    writeFile(REGISTRY, `${JSON.stringify(registry, null, 2)}
+`),
   ]);
+  pool.close();
 
-  console.log(`Updated ${events.length} events from ${successful.length}/${sources.length} sources. Excluded ${fetchedTriage.excluded.length + existingTriage.excluded.length}; review ${review.length}.`);
+  console.log(`Pooled ${stored} candidates from ${successful.length}/${sources.length} sources. Review queue ${review.length}.`);
+  console.log('Run `npm run export-site` to refresh what the site shows.');
   for (const alert of registry.alerts) console.warn(formatAlert(alert));
 }

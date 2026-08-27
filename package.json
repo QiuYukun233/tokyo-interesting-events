@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=22.13.0"
+    "node": ">=24.0.0"
   },
   "scripts": {
     "dev": "vinext dev",
@@ -14,7 +14,10 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "collect-shop-changes": "node scripts/collect-shop-changes.mjs",
     "check-sources": "node scripts/check-sources.mjs",
-    "review": "node scripts/review-server.mjs"
+    "review": "node scripts/review-server.mjs",
+    "export-site": "node scripts/export-site-data.mjs",
+    "seed-pool": "node scripts/seed-pool.mjs",
+    "apply-gate": "node scripts/apply-gate.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

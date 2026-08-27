@@ -1,0 +1,93 @@
+/*
+ * Back office, in the front-of-house design language: same ink/paper/acid
+ * palette, 1.5px rules, hard offset shadows, monospace kickers, heavy display
+ * type. It is a working surface rather than a shop window, so the type scale is
+ * smaller and the density higher — but the vocabulary is deliberately the same
+ * one the site uses, not a second visual system.
+ */
+
+.page { min-height: 100vh; background: var(--paper); color: var(--ink); }
+
+.nav {
+  height: 76px; padding: 0 5vw; display: flex; align-items: center; justify-content: space-between;
+  border-bottom: 1.5px solid var(--ink);
+}
+.brand { display: flex; align-items: center; gap: 11px; font-size: 17px; font-weight: 900; text-decoration: none; letter-spacing: -0.04em; }
+.brandMark { width: 32px; height: 32px; display: grid; place-items: center; background: var(--ink); color: var(--acid); border-radius: 50%; font-size: 14px; transform: rotate(-8deg); }
+.navLinks { display: flex; align-items: center; gap: 26px; font-size: 13px; font-weight: 700; }
+.navLinks a { text-decoration: none; }
+
+.head { padding: 56px 5vw 0; }
+.kicker { font: 700 11px/1 monospace; letter-spacing: 0.14em; color: #666; }
+.head h1 { font-size: clamp(38px, 5.5vw, 76px); letter-spacing: -0.07em; margin: 14px 0 10px; font-weight: 950; }
+.lede { font-size: 14px; line-height: 1.8; font-weight: 600; max-width: 62ch; }
+.lede b { background: var(--acid); padding: 1px 5px; }
+
+/* Counters ---------------------------------------------------------------- */
+.stats { display: flex; flex-wrap: wrap; gap: 14px; padding: 34px 5vw 0; }
+.stat {
+  border: 1.5px solid var(--ink); background: #faf9f5; box-shadow: 5px 5px 0 var(--ink);
+  padding: 16px 22px; min-width: 132px;
+}
+.stat b { display: block; font-size: 38px; line-height: 1; letter-spacing: -0.06em; }
+.stat span { font: 700 10px/1 monospace; letter-spacing: 0.12em; color: #666; }
+.stat.pending { background: var(--acid); }
+
+/* Filters ----------------------------------------------------------------- */
+.controls { padding: 40px 5vw 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.controls button {
+  border: 1.5px solid var(--ink); padding: 8px 15px; background: transparent; border-radius: 100px;
+  cursor: pointer; font-size: 12.5px; font-weight: 700; transition: 0.15s;
+}
+.controls button:hover, .controls button.active { background: var(--ink); color: #fff; }
+.controls select {
+  border: 1.5px solid var(--ink); background: transparent; color: inherit; font: inherit;
+  font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 100px;
+}
+.count { font: 700 11px/1 monospace; letter-spacing: 0.1em; color: #666; margin-left: auto; }
+
+/* Type sections ----------------------------------------------------------- */
+.section { padding: 48px 5vw 0; }
+.sectionHead { display: flex; align-items: baseline; gap: 14px; border-bottom: 1.5px solid var(--ink); padding-bottom: 10px; margin-bottom: 20px; }
+.sectionHead h2 { font-size: 27px; letter-spacing: -0.05em; margin: 0; font-weight: 900; }
+.sectionHead em { font: 700 10px/1 monospace; letter-spacing: 0.12em; color: #666; font-style: normal; }
+.sectionHead span { margin-left: auto; font: 700 11px/1 monospace; color: #666; }
+
+.rows { display: grid; gap: 8px; }
+.row {
+  display: grid; grid-template-columns: 78px 1fr auto; gap: 16px; align-items: start;
+  border: 1.5px solid var(--ink); background: #faf9f5; padding: 13px 16px;
+}
+.row.pending { box-shadow: 4px 4px 0 var(--acid); }
+.row.published { background: #f2f0e9; opacity: 0.82; }
+.row.rejected { background: #e8e5dd; opacity: 0.6; }
+
+.when { font: 800 12px/1.45 monospace; letter-spacing: -0.01em; }
+.when small { display: block; font-size: 10px; font-weight: 700; color: #888; }
+
+.what h3 { font-size: 15px; line-height: 1.4; margin: 0 0 4px; letter-spacing: -0.02em; font-weight: 800; }
+.what h3 a { text-decoration: none; border-bottom: 1.5px solid transparent; }
+.what h3 a:hover { border-bottom-color: var(--ink); }
+.meta { font-size: 11.5px; color: #666; display: flex; flex-wrap: wrap; gap: 10px; }
+.meta b { color: var(--ink); font-weight: 700; }
+.codes { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.code { font: 700 10px/1 monospace; padding: 3px 7px; border: 1px solid #c9c6be; color: #777; border-radius: 20px; }
+.code.signal { border-color: #2f7d4f; color: #2f7d4f; }
+.code.hard { border-color: var(--red); color: var(--red); }
+
+.state { font: 900 10px/1 monospace; letter-spacing: 0.1em; padding: 6px 10px; border: 1.5px solid var(--ink); white-space: nowrap; }
+.state.pending { background: var(--acid); }
+.state.published { background: var(--ink); color: #fff; }
+.state.rejected { background: transparent; color: #888; border-color: #bbb; }
+.by { display: block; margin-top: 5px; font: 700 9px/1 monospace; color: #888; text-align: right; }
+
+.empty { border: 1.5px dashed var(--ink); padding: 38px; text-align: center; font-size: 13px; color: #666; }
+.foot { padding: 70px 5vw 90px; font-size: 12px; line-height: 1.9; color: #666; }
+.foot b { color: var(--ink); }
+
+@media (max-width: 760px) {
+  .row { grid-template-columns: 1fr; gap: 8px; }
+  .state { justify-self: start; }
+  .by { text-align: left; }
+  .count { margin-left: 0; width: 100%; }
+}

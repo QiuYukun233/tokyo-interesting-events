@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T02:45:50+09:00",
+  "updatedAt": "2026-08-28T03:27:27+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -15,9 +15,10 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6,
-      "pages": 1
+      "ok": false,
+      "count": 0,
+      "pages": 1,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -4063,142 +4064,6 @@
     },
     {
       "activity": {
-        "id": "e6beb0eae18f",
-        "startDate": "2026-09-25",
-        "title": "令和8年度 研究倫理セミナー",
-        "titleZh": "令和8年度 研究倫理セミナー",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "d7214d9452ec",
-        "startDate": "2026-09-22",
-        "title": "RCAST セキュリティセミナー／比較政治トーク",
-        "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
-        "place": "駒場地区",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
-        "source": "東京大学",
-        "audience": "駒場地区",
-        "description": "駒場地区"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "da4053cec19a",
-        "startDate": "2026-10-23",
-        "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-        "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "472936376dc6",
-        "startDate": "2026-08-03",
-        "endDate": "2026-09-02",
-        "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-        "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "83400d097257",
-        "startDate": "2026-09-07",
-        "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-        "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-        "place": "本郷地区",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
-        "source": "東京大学",
-        "audience": "本郷地区",
-        "description": "本郷地区"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "4d996b1dd606",
         "startDate": "2027-04-24",
         "endDate": "2027-08-22",
@@ -4552,15 +4417,15 @@
     {
       "activity": {
         "id": "10ad0b6f31e8",
-        "startDate": "2026-09-19",
+        "startDate": "2026-08-29",
         "title": "ハラサオリ：パフォーマンス トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
         "titleZh": "ハラサオリ：パフォーマンス トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
         "place": "トーキョーアーツアンドスペース本郷",
-        "time": "2026/09/19",
+        "time": "2026/08/29",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260829-7573.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4713,6 +4578,33 @@
     },
     {
       "activity": {
+        "id": "10ad0b6f31e8",
+        "startDate": "2026-09-12",
+        "title": "ハラサオリ：パフォーマンス トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "titleZh": "ハラサオリ：パフォーマンス トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "place": "トーキョーアーツアンドスペース本郷",
+        "time": "2026/09/12",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260829-7573.html",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "トーキョーアーツアンドスペース本郷",
+        "category": "パフォーマンス"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
         "id": "8493d18bbb03",
         "startDate": "2026-09-12",
         "endDate": "2026-09-13",
@@ -4769,20 +4661,20 @@
     {
       "activity": {
         "id": "afdb89eb9f6e",
-        "startDate": "2026-09-20",
+        "startDate": "2026-09-15",
         "title": "東京芸術劇場 劇場ツアー［2026年9月］ 劇場を歩こう！",
         "titleZh": "東京芸術劇場 劇場ツアー［2026年9月］ 劇場を歩こう！",
         "place": "東京芸術劇場",
-        "time": "2026/09/20",
+        "time": "2026/09/15",
         "price": "详见活动页",
         "vibe": "艺术现场",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.geigeki.jp/performance/gt2026-09/",
         "source": "東京都歴史文化財団 · 体験100",
         "attribution": "東京芸術劇場",
-        "category": "鑑賞サポート"
+        "category": "見学・ツアー"
       },
       "eligible": true,
       "decision": "review",
@@ -4876,16 +4768,43 @@
     },
     {
       "activity": {
-        "id": "cf187e84a510",
-        "startDate": "2026-09-20",
-        "title": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
-        "titleZh": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "id": "10ad0b6f31e8",
+        "startDate": "2026-09-19",
+        "title": "ハラサオリ：パフォーマンス トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "titleZh": "ハラサオリ：パフォーマンス トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
         "place": "トーキョーアーツアンドスペース本郷",
-        "time": "2026/09/20",
+        "time": "2026/09/19",
         "price": "详见活动页",
         "vibe": "奇妙体验",
         "color": "#d6a72d",
         "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260829-7573.html",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "トーキョーアーツアンドスペース本郷",
+        "category": "パフォーマンス"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "cf187e84a510",
+        "startDate": "2026-09-19",
+        "title": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "titleZh": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "place": "トーキョーアーツアンドスペース本郷",
+        "time": "2026/09/19",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260815-7576.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4931,11 +4850,11 @@
     {
       "activity": {
         "id": "a0fb586229c3",
-        "startDate": "2027-01-23",
+        "startDate": "2026-09-19",
         "title": "とびラーによる建築ツアー",
         "titleZh": "とびラーによる建築ツアー",
         "place": "東京都美術館",
-        "time": "2027/01/23",
+        "time": "2026/09/19",
         "price": "详见活动页",
         "vibe": "奇妙体验",
         "color": "#ef5b3f",
@@ -4945,6 +4864,60 @@
         "source": "東京都歴史文化財団 · 体験100",
         "attribution": "東京都美術館",
         "category": "見学・ツアー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "afdb89eb9f6e",
+        "startDate": "2026-09-20",
+        "title": "東京芸術劇場 劇場ツアー［2026年9月］ 劇場を歩こう！",
+        "titleZh": "東京芸術劇場 劇場ツアー［2026年9月］ 劇場を歩こう！",
+        "place": "東京芸術劇場",
+        "time": "2026/09/20",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.geigeki.jp/performance/gt2026-09/",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "東京芸術劇場",
+        "category": "鑑賞サポート"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "cf187e84a510",
+        "startDate": "2026-09-20",
+        "title": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "titleZh": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
+        "place": "トーキョーアーツアンドスペース本郷",
+        "time": "2026/09/20",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260815-7576.html",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "トーキョーアーツアンドスペース本郷",
+        "category": "パフォーマンス"
       },
       "eligible": true,
       "decision": "review",
@@ -5147,11 +5120,11 @@
     {
       "activity": {
         "id": "74ad21490a61",
-        "startDate": "2026-12-03",
+        "startDate": "2026-10-22",
         "title": "マリメッコ展｜担当学芸員によるミニトーク",
         "titleZh": "マリメッコ展｜担当学芸員によるミニトーク",
         "place": "東京都庭園美術館",
-        "time": "2026/12/03",
+        "time": "2026/10/22",
         "price": "详见活动页",
         "vibe": "好好聊天",
         "color": "#d6a72d",
@@ -5227,6 +5200,33 @@
     },
     {
       "activity": {
+        "id": "a0fb586229c3",
+        "startDate": "2026-11-21",
+        "title": "とびラーによる建築ツアー",
+        "titleZh": "とびラーによる建築ツアー",
+        "place": "東京都美術館",
+        "time": "2026/11/21",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "東京都美術館",
+        "category": "見学・ツアー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
         "id": "df3b97348578",
         "startDate": "2026-11-22",
         "title": "アール・ブリュット2026巡回展 関連イベント 視覚障害のある方のための触図をつかった鑑賞ツアー",
@@ -5269,6 +5269,60 @@
         "source": "東京都歴史文化財団 · 体験100",
         "attribution": "東京都渋谷公園通りギャラリー",
         "category": "トーク・講座"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "74ad21490a61",
+        "startDate": "2026-12-03",
+        "title": "マリメッコ展｜担当学芸員によるミニトーク",
+        "titleZh": "マリメッコ展｜担当学芸員によるミニトーク",
+        "place": "東京都庭園美術館",
+        "time": "2026/12/03",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.teien-art-museum.ne.jp/event/minitalk1022-1203/",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "東京都庭園美術館",
+        "category": "トーク・講座"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "a0fb586229c3",
+        "startDate": "2027-01-23",
+        "title": "とびラーによる建築ツアー",
+        "titleZh": "とびラーによる建築ツアー",
+        "place": "東京都美術館",
+        "time": "2027/01/23",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
+        "source": "東京都歴史文化財団 · 体験100",
+        "attribution": "東京都美術館",
+        "category": "見学・ツアー"
       },
       "eligible": true,
       "decision": "review",
@@ -5385,188 +5439,6 @@
       "publicExperience": false,
       "reasons": [
         "hard:recruiting"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "609045d4bb2b",
-        "startDate": "2026-08-29",
-        "title": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-        "titleZh": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-        "place": "渋谷区渋谷3",
-        "time": "报道所述变动日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.shibukei.com/headline/20109/",
-        "source": "シブヤ経済新聞",
-        "category": "食べる",
-        "changeType": "closing",
-        "dateKind": "change",
-        "attribution": "シブヤ経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not yet distinctive enough for automatic publication"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "89a9696aab32",
-        "startDate": "2026-08-08",
-        "title": "英発ファッションブランド「ナイジェル・ケーボン」、表参道に新店舗",
-        "titleZh": "英発ファッションブランド「ナイジェル・ケーボン」、表参道に新店舗",
-        "place": "渋谷区神宮前5",
-        "time": "报道所述变动日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.shibukei.com/headline/20094/",
-        "source": "シブヤ経済新聞",
-        "category": "買う",
-        "changeType": "opening",
-        "dateKind": "change",
-        "attribution": "シブヤ経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not yet distinctive enough for automatic publication"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "8ce56370fa9f",
-        "startDate": "2026-08-03",
-        "title": "高円寺に立ち飲み「17番」 大衆酒場「左利き」が新店",
-        "titleZh": "高円寺に立ち飲み「17番」 大衆酒場「左利き」が新店",
-        "place": "杉並区高円寺南3",
-        "time": "报道所述变动日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://koenji.keizai.biz/headline/1745/",
-        "source": "高円寺経済新聞",
-        "category": "食べる",
-        "changeType": "opening",
-        "dateKind": "change",
-        "attribution": "高円寺経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not distinctive enough for automatic publication"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "32ff63ed87bd",
-        "startDate": "2026-07-19",
-        "title": "下北沢にもつ焼きの新店 ナチュラルワインや創作メニューも提供",
-        "titleZh": "下北沢にもつ焼きの新店 ナチュラルワインや創作メニューも提供",
-        "place": "世田谷区北沢2",
-        "time": "报道所述变动日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://shimokita.keizai.biz/headline/3273/",
-        "source": "下北沢経済新聞",
-        "category": "食べる",
-        "changeType": "opening",
-        "dateKind": "change",
-        "attribution": "下北沢経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not distinctive enough for automatic publication"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "7d1901cd57f0",
-        "startDate": "2026-08-27",
-        "title": "武蔵小山に「立呑みバル TOKIDOKI」 マーケターがパパ友を誘って開業",
-        "titleZh": "武蔵小山に「立呑みバル TOKIDOKI」 マーケターがパパ友を誘って開業",
-        "place": "品川区小山4",
-        "time": "报道发布日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://shinagawa.keizai.biz/headline/5065/",
-        "source": "品川経済新聞",
-        "category": "食べる",
-        "changeType": "opening",
-        "dateKind": "published",
-        "attribution": "品川経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not distinctive enough for automatic publication"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "a52917172d45",
-        "startDate": "2026-09-07",
-        "title": "「イオン八王子滝山」に「アトリエうかい」 9月出店へ",
-        "titleZh": "「イオン八王子滝山」に「アトリエうかい」 9月出店へ",
-        "place": "八王子市南浅川町",
-        "time": "报道所述变动日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://hachioji.keizai.biz/headline/4290/",
-        "source": "八王子経済新聞",
-        "category": "買う",
-        "changeType": "opening",
-        "dateKind": "change",
-        "attribution": "八王子経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not distinctive enough for automatic publication"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "1f02aa5687c3",
-        "startDate": "2026-07-29",
-        "title": "立川駅南口に日替わりでキッチンカーが出店 社会実験の一環として",
-        "titleZh": "立川駅南口に日替わりでキッチンカーが出店 社会実験の一環として",
-        "place": "立川市柴崎町3",
-        "time": "报道发布日",
-        "price": "不适用",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://tachikawa.keizai.biz/headline/4202/",
-        "source": "立川経済新聞",
-        "category": "食べる",
-        "changeType": "opening",
-        "dateKind": "published",
-        "attribution": "立川経済新聞"
-      },
-      "decision": "review",
-      "reasons": [
-        "Shop change: real but not distinctive enough for automatic publication"
       ],
       "signals": []
     }
