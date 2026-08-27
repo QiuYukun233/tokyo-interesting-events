@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "id": "summer-night-museum-2026",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-28",
+      "title": "サマーナイトミュージアム 2026",
+      "titleZh": "夏夜博物馆：下班后再去看展",
+      "place": "东京都立文化设施",
+      "time": "夜间开放 · 至 8月28日",
+      "price": "依场馆而定",
+      "vibe": "艺术现场",
+      "color": "#ef5b3f",
+      "symbol": "✦",
+      "mates": 5,
+      "sourceUrl": "https://www.english.metro.tokyo.lg.jp/events"
+    },
+    {
+      "id": "paralympics-fifth-2026",
+      "startDate": "2026-08-30",
+      "title": "東京2020パラリンピック 5周年記念イベント",
+      "titleZh": "东京 2020 残奥会五周年纪念活动",
+      "place": "东京都内 · 详见主办方",
+      "time": "8月30日",
+      "price": "免费 / 部分需预约",
+      "vibe": "好好聊天",
+      "color": "#d6a72d",
+      "symbol": "●",
+      "mates": 2,
+      "sourceUrl": "https://www.english.metro.tokyo.lg.jp/events"
+    }
+  ]
+}
