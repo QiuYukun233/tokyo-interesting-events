@@ -1,0 +1,61 @@
+import { fileURLToPath } from 'node:url';
+import { classifyActivity } from '../lib/activity-filter.mjs';
+import { openPool, upsertCandidate } from '../lib/pool-db.mjs';
+import { assertRobotsAllowed } from './lib/run-ingestion.mjs';
+import { CATEGORIES_URL, NAKANO_BROADWAY_ORIGIN, buildTaxonomy, mapTenants, postsUrl } from './sources/nakano-broadway.mjs';
+
+/**
+ * Collect 中野ブロードウェイ's tenants as places.
+ *
+ * A building, not an event: 207 small shops that are there every day. Four
+ * requests — one taxonomy, three pages of posts. See
+ * scripts/sources/nakano-broadway.mjs.
+ *
+ *   node scripts/collect-nakano-broadway.mjs
+ *
+ * Occasional rather than daily: tenants change over months, not hours.
+ */
+const USER_AGENT = 'TokyoInterestingEvents/0.6 (+contact via repository)';
+const POOL = new URL('../data/pool.db', import.meta.url);
+const MAX_PAGES = 10;
+
+const get = async (url) => {
+  const response = await fetch(url, { headers: { 'user-agent': USER_AGENT } });
+  if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+  return response.json();
+};
+
+await assertRobotsAllowed({ name: '中野ブロードウェイ', origin: NAKANO_BROADWAY_ORIGIN, url: `${NAKANO_BROADWAY_ORIGIN}/floor/` }, fetch);
+
+const taxonomy = buildTaxonomy(await get(CATEGORIES_URL));
+if (!Object.keys(taxonomy.floors).length) {
+  // Without the floor taxonomy every post would be dropped as "not a tenant",
+  // which would look like an empty building rather than a broken read.
+  console.error('No floor categories found; the taxonomy names must have changed. Nothing collected.');
+  process.exit(1);
+}
+
+const posts = [];
+for (let page = 1; page <= MAX_PAGES; page += 1) {
+  const batch = await get(postsUrl(page)).catch(() => []);
+  if (!batch.length) break;
+  posts.push(...batch);
+}
+
+const events = mapTenants(posts, taxonomy, {
+  name: '中野ブロードウェイ',
+  startDate: new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date()),
+});
+console.log(`${posts.length} posts, ${events.length} tenants (the rest are notices).`);
+if (!events.length) {
+  console.error('No tenants parsed. Nothing collected.');
+  process.exit(1);
+}
+
+const pool = openPool(fileURLToPath(POOL));
+const now = new Date();
+for (const event of events) upsertCandidate(pool, event, { now, ...classifyActivity(event) });
+pool.close();
+
+console.log(`Pooled ${events.length} shops as place candidates.`);
+console.log('Run `npm run export-site` to refresh what the site shows.');
