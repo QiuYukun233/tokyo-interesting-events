@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T23:43:20+09:00",
+  "updatedAt": "2026-08-29T07:11:53+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -15,9 +15,10 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6,
-      "pages": 1
+      "ok": false,
+      "count": 0,
+      "pages": 1,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -58,7 +59,7 @@
     {
       "name": "東京都歴史文化財団 · 体験100",
       "ok": true,
-      "count": 82,
+      "count": 81,
       "pages": 12
     },
     {
@@ -88,7 +89,7 @@
     {
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "ok": true,
-      "count": 166,
+      "count": 165,
       "pages": 1
     },
     {
@@ -106,13 +107,13 @@
     {
       "name": "ルミネtheよしもと",
       "ok": true,
-      "count": 221,
+      "count": 218,
       "pages": 1
     },
     {
       "name": "CoRich舞台芸術！",
       "ok": true,
-      "count": 386,
+      "count": 372,
       "pages": 36
     },
     {
@@ -3356,81 +3357,6 @@
     },
     {
       "activity": {
-        "id": "de7e9da2d041",
-        "startDate": "2026-08-26",
-        "title": "川のパネル展を開催します！",
-        "titleZh": "川のパネル展を開催します！",
-        "place": "新宿駅西口広場イベントコーナー",
-        "time": "2026年08月26日～2026年08月28日",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/017-20260623-259759527",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "63b71f763e3f",
-        "startDate": "2026-08-28",
-        "title": "令和８年度多摩川水系上下流交流会の参加者を募集します ～いつも飲んでいる水道水の“はじまり”を知りたくないですか？～",
-        "titleZh": "令和８年度多摩川水系上下流交流会の参加者を募集します ～いつも飲んでいる水道水の“はじまり”を知りたくないですか？～",
-        "place": "西多摩郡奥多摩町",
-        "time": "2026年08月28日",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260727-262861147",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "9abbeeb5d39f",
-        "startDate": "2026-08-28",
-        "title": "多摩川水系上下流交流会の参加者を募集中です",
-        "titleZh": "多摩川水系上下流交流会の参加者を募集中です",
-        "place": "東京都西多摩郡奥多摩町",
-        "time": "2026年08月28日",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260728-263036315",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "ea2208c42302",
         "startDate": "2026-08-08",
         "title": "水道サポーター 令和８年度 「動画制作ラボ」の参加者募集 ～山之内すずと動画を作ろう！～",
@@ -3439,8 +3365,8 @@
         "time": "2026年08月08日～2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260528-257157191",
         "source": "My TOKYO"
@@ -3464,8 +3390,8 @@
         "time": "2026年07月25日～2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/118-20260529-257303145",
         "source": "My TOKYO"
@@ -3489,8 +3415,8 @@
         "time": "2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/118-20260626-260127397",
         "source": "My TOKYO"
@@ -3514,8 +3440,8 @@
         "time": "2026年08月29日～2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260724-262721694",
         "source": "My TOKYO"
@@ -3539,8 +3465,8 @@
         "time": "2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260801-263469688",
         "source": "My TOKYO"
@@ -3564,8 +3490,8 @@
         "time": "2026年07月22日～2026年08月31日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/116-20260521-256407929",
         "source": "My TOKYO"
@@ -3589,8 +3515,8 @@
         "time": "2026年07月01日～2026年08月31日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/021-20260701-260585111",
         "source": "My TOKYO"
@@ -3614,10 +3540,87 @@
         "time": "2026年07月18日～2026年08月31日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260703-260811105",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": [
+        "signal:in_building"
+      ]
+    },
+    {
+      "activity": {
+        "id": "bf542cd99079",
+        "startDate": "2026-08-01",
+        "title": "【亀戸中央公園】はなもく散歩・夏のネイチャーハントキャンペーン（８月コース）実施中です！",
+        "titleZh": "【亀戸中央公園】はなもく散歩・夏のネイチャーハントキャンペーン（８月コース）実施中です！",
+        "place": "江東区 亀戸中央公園",
+        "time": "2026年08月01日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260730-263309706",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e77c7f56d509",
+        "startDate": "2026-07-31",
+        "title": "都民・大学研究者による事業提案制度 都民投票を開始します！",
+        "titleZh": "都民・大学研究者による事業提案制度 都民投票を開始します！",
+        "place": "インターネット又は郵送",
+        "time": "2026年07月31日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/006-20260803-263610390",
+        "source": "My TOKYO"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "80bf01699422",
+        "startDate": "2026-08-01",
+        "title": "【中川公園】はなもく散歩・夏のネイチャーハントキャンペーン（８月コース）実施中です！",
+        "titleZh": "【中川公園】はなもく散歩・夏のネイチャーハントキャンペーン（８月コース）実施中です！",
+        "place": "中川公園",
+        "time": "2026年08月01日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260803-263621307",
         "source": "My TOKYO"
       },
       "eligible": true,
@@ -4023,142 +4026,6 @@
     },
     {
       "activity": {
-        "id": "e6beb0eae18f",
-        "startDate": "2026-09-25",
-        "title": "令和8年度 研究倫理セミナー",
-        "titleZh": "令和8年度 研究倫理セミナー",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "d7214d9452ec",
-        "startDate": "2026-09-22",
-        "title": "RCAST セキュリティセミナー／比較政治トーク",
-        "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
-        "place": "駒場地区",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
-        "source": "東京大学",
-        "audience": "駒場地区",
-        "description": "駒場地区"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "da4053cec19a",
-        "startDate": "2026-10-23",
-        "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-        "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "472936376dc6",
-        "startDate": "2026-08-03",
-        "endDate": "2026-09-02",
-        "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-        "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "83400d097257",
-        "startDate": "2026-09-07",
-        "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-        "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-        "place": "本郷地区",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
-        "source": "東京大学",
-        "audience": "本郷地区",
-        "description": "本郷地区"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "4d996b1dd606",
         "startDate": "2027-04-24",
         "endDate": "2027-08-22",
@@ -4237,7 +4104,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4264,7 +4133,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4291,7 +4162,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4318,7 +4191,10 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street",
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4345,7 +4221,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4372,7 +4250,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4399,7 +4279,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4426,7 +4308,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4480,34 +4364,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "a98483c80b00",
-        "startDate": "2026-08-28",
-        "title": "ミュージアムトーク",
-        "titleZh": "ミュージアムトーク",
-        "place": "東京都江戸東京博物館",
-        "time": "2026/08/28",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.edo-tokyo-museum.or.jp/education/event/11712/",
-        "source": "東京都歴史文化財団 · 体験100",
-        "attribution": "東京都江戸東京博物館",
-        "category": "トーク・講座"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4519,8 +4378,8 @@
         "time": "2026/08/29",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260829-7573.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4546,8 +4405,8 @@
         "time": "2026/08/30",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://topmuseum.jp/exhibition/5419/#event",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4561,7 +4420,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4573,8 +4434,8 @@
         "time": "2026/09/03",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.edo-tokyo-museum.or.jp/education/event/11141/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4588,7 +4449,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4600,8 +4463,8 @@
         "time": "2026/09/05",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://topmuseum.jp/exhibition/12474/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4615,7 +4478,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4627,8 +4492,8 @@
         "time": "2026/09/10",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.edo-tokyo-museum.or.jp/education/event/11146/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4642,7 +4507,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4654,8 +4521,8 @@
         "time": "2026/09/11",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://topmuseum.jp/exhibition/5419/#event",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4669,7 +4536,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4681,8 +4550,8 @@
         "time": "2026/09/12",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260829-7573.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4709,8 +4578,8 @@
         "time": "2026/09/12 – 2026/09/13",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.tatemonoen.jp/event/schedule/2026/schedule789.php",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4736,8 +4605,8 @@
         "time": "2026/09/13",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://topmuseum.jp/exhibition/5419/#event",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4751,7 +4620,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4763,8 +4634,8 @@
         "time": "2026/09/15",
         "price": "详见活动页",
         "vibe": "艺术现场",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.geigeki.jp/performance/gt2026-09/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4790,8 +4661,8 @@
         "time": "2026/09/15",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.edo-tokyo-museum.or.jp/education/event/11143/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4805,7 +4676,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4817,8 +4690,8 @@
         "time": "2026/09/17",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.geigeki.jp/performance/event_organ2026/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4844,8 +4717,8 @@
         "time": "2026/09/18",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://topmuseum.jp/exhibition/5417/#event",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4859,7 +4732,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4871,8 +4746,8 @@
         "time": "2026/09/19",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260829-7573.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4898,8 +4773,8 @@
         "time": "2026/09/19",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260815-7576.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4925,8 +4800,8 @@
         "time": "2026/09/19",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://topmuseum.jp/exhibition/5417/#event",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4940,7 +4815,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4952,8 +4829,8 @@
         "time": "2026/09/19",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -4967,7 +4844,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -4979,40 +4858,13 @@
         "time": "2026/09/20",
         "price": "详见活动页",
         "vibe": "艺术现场",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.geigeki.jp/performance/gt2026-09/",
         "source": "東京都歴史文化財団 · 体験100",
         "attribution": "東京芸術劇場",
         "category": "鑑賞サポート"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "cf187e84a510",
-        "startDate": "2026-09-20",
-        "title": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
-        "titleZh": "宇佐美奈緒×小林萌：パフォーマンス「Inner murmur」 トーキョーアーツアンドスペースレジデンス2026 成果発表展「はだしであるく」",
-        "place": "トーキョーアーツアンドスペース本郷",
-        "time": "2026/09/20",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
-        "mates": 0,
-        "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20260815-7576.html",
-        "source": "東京都歴史文化財団 · 体験100",
-        "attribution": "トーキョーアーツアンドスペース本郷",
-        "category": "パフォーマンス"
       },
       "eligible": true,
       "decision": "review",
@@ -5033,8 +4885,8 @@
         "time": "2026/09/21",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.geigeki.jp/performance/event406/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5060,8 +4912,8 @@
         "time": "2026/09/26",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.tatemonoen.jp/event/schedule/2026/schedule789.php",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5087,8 +4939,8 @@
         "time": "2026/10/03",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20261003-7580.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5114,8 +4966,8 @@
         "time": "2026/10/03",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.tokyoartsandspace.jp/archive/event/2026/20261003-7579.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5141,8 +4993,8 @@
         "time": "2026/10/10",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261010-408.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5168,8 +5020,8 @@
         "time": "2026/10/22",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.teien-art-museum.ne.jp/event/minitalk1022-1203/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5183,7 +5035,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -5195,8 +5049,8 @@
         "time": "2026/11/14",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261114-409.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5222,8 +5076,8 @@
         "time": "2026/11/14",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.teien-art-museum.ne.jp/event/philosophicaldialogue20261114/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5237,7 +5091,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -5249,8 +5105,8 @@
         "time": "2026/11/21",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5264,7 +5120,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -5276,8 +5134,8 @@
         "time": "2026/11/22",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261122-413.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5303,8 +5161,8 @@
         "time": "2026/11/29",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261129-410.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5330,8 +5188,8 @@
         "time": "2026/12/03",
         "price": "详见活动页",
         "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.teien-art-museum.ne.jp/event/minitalk1022-1203/",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5345,7 +5203,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -5357,8 +5217,8 @@
         "time": "2027/01/23",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
         "source": "東京都歴史文化財団 · 体験100",
@@ -5372,7 +5232,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -5400,7 +5262,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5428,7 +5292,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5456,7 +5322,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5485,7 +5353,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5512,7 +5382,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5540,7 +5412,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5568,7 +5442,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5596,7 +5472,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5624,7 +5502,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5652,7 +5532,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5680,7 +5562,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5709,7 +5593,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5737,7 +5623,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5765,7 +5653,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5793,7 +5683,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5821,7 +5713,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5850,7 +5744,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5878,7 +5774,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5906,7 +5804,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5934,7 +5834,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5962,7 +5864,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -5990,7 +5894,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6018,7 +5924,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6046,7 +5954,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6074,7 +5984,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6101,7 +6013,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6130,7 +6044,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6159,7 +6075,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6187,7 +6105,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6215,7 +6135,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6243,7 +6165,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6271,7 +6195,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6298,7 +6224,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6327,7 +6255,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6355,7 +6285,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6384,7 +6316,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6413,7 +6347,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6442,7 +6378,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6470,7 +6408,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6499,7 +6439,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6528,7 +6470,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6556,7 +6500,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6584,7 +6530,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6612,7 +6560,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6640,7 +6590,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6668,7 +6620,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6697,7 +6651,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6726,7 +6682,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6754,7 +6712,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6782,7 +6742,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6809,7 +6771,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6837,7 +6801,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6865,7 +6831,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6893,7 +6861,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6922,7 +6892,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6950,7 +6922,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -6978,7 +6952,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7007,7 +6983,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7036,7 +7014,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7064,7 +7044,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7092,7 +7074,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7120,7 +7104,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7147,7 +7133,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7175,7 +7163,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7203,7 +7193,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7231,7 +7223,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7259,7 +7253,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7287,7 +7283,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7316,7 +7314,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7344,7 +7344,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7372,7 +7374,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7401,7 +7405,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7429,7 +7435,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7457,7 +7465,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7486,7 +7496,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7515,7 +7527,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7543,7 +7557,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7572,7 +7588,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7600,7 +7618,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7629,7 +7649,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7657,7 +7679,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7686,7 +7710,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7715,7 +7741,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7744,7 +7772,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7773,7 +7803,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7801,7 +7833,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7829,7 +7863,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7857,7 +7893,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7886,7 +7924,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7914,7 +7954,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7941,7 +7983,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7969,7 +8013,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -7998,7 +8044,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8026,7 +8074,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8054,7 +8104,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8082,7 +8134,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8111,7 +8165,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8139,7 +8195,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8168,7 +8226,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8196,7 +8256,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8224,7 +8286,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8253,7 +8317,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8282,7 +8348,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8310,7 +8378,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8338,7 +8408,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8366,7 +8438,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8394,7 +8468,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8422,7 +8498,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8451,7 +8529,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8480,7 +8560,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8508,7 +8590,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8536,7 +8620,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8565,7 +8651,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8593,7 +8681,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8622,7 +8712,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8651,7 +8743,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8680,7 +8774,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8708,7 +8804,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8736,7 +8834,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8764,7 +8864,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8792,7 +8894,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8820,7 +8924,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8848,7 +8954,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8876,7 +8984,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8904,7 +9014,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8932,7 +9044,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8960,7 +9074,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -8989,7 +9105,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9017,7 +9135,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9046,7 +9166,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9075,7 +9197,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9103,7 +9227,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9131,7 +9257,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9159,7 +9287,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9187,7 +9317,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9215,7 +9347,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9243,7 +9377,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9271,7 +9407,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9300,7 +9438,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9328,7 +9468,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9357,7 +9499,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9385,7 +9529,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9414,7 +9560,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9442,7 +9590,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9471,7 +9621,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9499,7 +9651,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9528,7 +9682,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9557,7 +9713,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9585,7 +9743,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9614,7 +9774,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9642,7 +9804,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9670,7 +9834,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9698,7 +9864,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9726,7 +9894,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9754,7 +9924,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9783,7 +9955,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9811,7 +9985,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9839,7 +10015,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9867,7 +10045,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9895,7 +10075,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9924,7 +10106,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9953,7 +10137,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -9982,7 +10168,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10011,7 +10199,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10039,7 +10229,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10067,7 +10259,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10095,7 +10289,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10123,7 +10319,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10151,7 +10349,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10179,7 +10379,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10208,7 +10410,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10236,7 +10440,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10265,7 +10471,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10293,7 +10501,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10322,7 +10532,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10351,7 +10563,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10379,7 +10593,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10408,7 +10624,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10436,7 +10654,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10464,7 +10684,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10492,7 +10714,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10519,7 +10743,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10547,7 +10773,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10576,7 +10804,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10604,7 +10834,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10632,7 +10864,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10659,7 +10893,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10687,32 +10923,9 @@
       "reasons": [
         "review:no_public_experience_signal"
       ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "5c909bf1609a",
-        "startDate": "2026-08-28",
-        "title": "大学1・2年生から考える未来のシゴト「都庁×理系キャリア発見フォーラム」を開催します！",
-        "titleZh": "大学1・2年生から考える未来のシゴト「都庁×理系キャリア発見フォーラム」を開催します！",
-        "place": "TKP品川カンファレンスセンター9階ホール（東京都港区高輪3−25−23京急第2ビル）",
-        "time": "2026年08月28日",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/033-20260604-257911018",
-        "source": "My TOKYO"
-      },
-      "eligible": false,
-      "decision": "exclude",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "hard:recruiting"
-      ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10724,8 +10937,8 @@
         "time": "2026年07月18日～2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
+        "color": "#6c59c8",
+        "symbol": "♪",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/080-20260710-261480144",
         "source": "My TOKYO"
@@ -10737,7 +10950,9 @@
       "reasons": [
         "hard:on_sale_announcement"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10749,8 +10964,8 @@
         "time": "2026年08月02日～2026年08月30日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
+        "color": "#3d66f5",
+        "symbol": "◒",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260721-262358446",
         "source": "My TOKYO"
@@ -10774,8 +10989,8 @@
         "time": "2026年06月26日～2026年08月31日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/021-20260626-260127005",
         "source": "My TOKYO"
@@ -10799,8 +11014,8 @@
         "time": "2026年08月01日～2026年08月31日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#d6a72d",
-        "symbol": "●",
+        "color": "#ef5b3f",
+        "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/017-20260709-261350139",
         "source": "My TOKYO"
@@ -10826,8 +11041,8 @@
         "time": "2026年07月21日～2026年08月31日",
         "price": "详见活动页",
         "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
+        "color": "#d6a72d",
+        "symbol": "●",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/003-20260721-262339856",
         "source": "My TOKYO"
@@ -10840,6 +11055,33 @@
         "hard:submission_call"
       ],
       "signals": []
+    },
+    {
+      "activity": {
+        "id": "517ac90ea516",
+        "startDate": "2026-08-07",
+        "title": "東京セカンドキャリア塾の参加者を募集します",
+        "titleZh": "東京セカンドキャリア塾の参加者を募集します",
+        "place": "23区西部校舎：日本大学文理学部キャンパス 23区東部校舎：早稲田大学日本橋キャンパス 多摩校舎：国際基督教大学キャンパス、第1期（10月～11月）：新宿野村ビル 第2期（12月～1月）：立川エリア 第3期（2月～3月）：東京・京橋エリア、",
+        "time": "2026年08月07日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/029-20260805-263844085",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": [
+        "signal:in_building"
+      ]
     },
     {
       "activity": {
@@ -10896,7 +11138,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10924,7 +11168,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -10954,7 +11200,8 @@
         "hard:trade_sales"
       ],
       "signals": [
-        "signal:art"
+        "signal:art",
+        "signal:off_street"
       ]
     },
     {
@@ -10983,7 +11230,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11012,7 +11261,8 @@
         "hard:trade_sales"
       ],
       "signals": [
-        "signal:art"
+        "signal:art",
+        "signal:off_street"
       ]
     },
     {
@@ -11041,7 +11291,9 @@
       "reasons": [
         "hard:trade_sales"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11069,7 +11321,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11098,7 +11352,8 @@
         "hard:trade_sales"
       ],
       "signals": [
-        "signal:art"
+        "signal:art",
+        "signal:off_street"
       ]
     },
     {
@@ -11127,7 +11382,9 @@
       "reasons": [
         "hard:admissions"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11154,7 +11411,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11182,7 +11441,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11211,7 +11472,8 @@
         "hard:trade_sales"
       ],
       "signals": [
-        "signal:art"
+        "signal:art",
+        "signal:off_street"
       ]
     },
     {
@@ -11240,7 +11502,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11268,7 +11532,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11296,7 +11562,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11324,7 +11592,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11352,7 +11622,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11380,7 +11652,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11408,7 +11682,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11437,7 +11713,8 @@
         "hard:trade_sales"
       ],
       "signals": [
-        "signal:art"
+        "signal:art",
+        "signal:off_street"
       ]
     },
     {
@@ -11466,7 +11743,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11494,7 +11773,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11522,7 +11803,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11551,7 +11834,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11579,7 +11864,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11607,7 +11894,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11636,7 +11925,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11664,7 +11955,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11692,7 +11985,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11720,7 +12015,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     },
     {
       "activity": {
@@ -11748,7 +12045,9 @@
       "reasons": [
         "hard:recruiting"
       ],
-      "signals": []
+      "signals": [
+        "signal:off_street"
+      ]
     }
   ]
 }
