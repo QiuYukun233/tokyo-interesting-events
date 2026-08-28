@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T03:12:04.651Z",
+  "updatedAt": "2026-08-28T06:07:13.482Z",
   "entries": [
     {
       "id": "My TOKYO::https://www.my.metro.tokyo.lg.jp/event/?sort=near-end",
@@ -14,8 +14,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S1",
       "ownerOrContact": "东京都",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 20,
       "lastError": null,
       "failureStreak": 0,
@@ -59,6 +59,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 20
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 20
         }
       ]
     },
@@ -75,8 +80,8 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "东京国际展示场（東京都开放数据）",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 154,
       "lastError": null,
       "failureStreak": 0,
@@ -110,6 +115,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 154
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 154
         }
       ]
     },
@@ -126,8 +136,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京大学",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 6,
       "lastError": null,
       "failureStreak": 0,
@@ -171,6 +181,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 6
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 6
         }
       ]
     },
@@ -187,8 +202,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京都美术馆",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 7,
       "lastError": null,
       "failureStreak": 0,
@@ -232,6 +247,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 7
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 7
         }
       ]
     },
@@ -248,8 +268,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
@@ -291,6 +311,11 @@
         },
         {
           "at": "2026-08-28T03:12:04.651Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
           "ok": true,
           "count": 1
         }
@@ -309,8 +334,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
@@ -354,6 +379,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 1
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 1
         }
       ]
     },
@@ -370,8 +400,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 0,
       "lastError": null,
       "failureStreak": 0,
@@ -415,6 +445,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 0
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 0
         }
       ]
     },
@@ -431,8 +466,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "早稻田大学",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 9,
       "lastError": null,
       "failureStreak": 0,
@@ -476,6 +511,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 9
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 9
         }
       ]
     },
@@ -492,8 +532,8 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 8,
       "lastError": null,
       "failureStreak": 0,
@@ -522,6 +562,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 8
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 8
         }
       ]
     },
@@ -538,8 +583,8 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 82,
       "lastError": null,
       "failureStreak": 0,
@@ -563,6 +608,11 @@
           "at": "2026-08-28T03:12:04.651Z",
           "ok": true,
           "count": 82
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
+          "ok": true,
+          "count": 82
         }
       ]
     },
@@ -579,8 +629,8 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "涩谷 PARCO",
-      "lastRunAt": "2026-08-28T03:12:04.651Z",
-      "lastSuccessAt": "2026-08-28T03:12:04.651Z",
+      "lastRunAt": "2026-08-28T06:07:13.482Z",
+      "lastSuccessAt": "2026-08-28T06:07:13.482Z",
       "lastItemCount": 2,
       "lastError": null,
       "failureStreak": 0,
@@ -622,6 +672,11 @@
         },
         {
           "at": "2026-08-28T03:12:04.651Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-08-28T06:07:13.482Z",
           "ok": true,
           "count": 2
         }
