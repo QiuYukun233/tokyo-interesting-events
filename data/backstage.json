@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-28T16:29:20+09:00",
+  "updatedAt": "2026-08-28T17:33:12+09:00",
   "summary": {
-    "total": 1504,
-    "pending": 1224,
+    "total": 1553,
+    "pending": 1273,
     "published": 101,
     "rejected": 179,
     "byType": [
@@ -24,7 +24,7 @@
       {
         "objectType": "event",
         "state": "pending",
-        "n": 1108
+        "n": 1157
       },
       {
         "objectType": "event",
@@ -107,6 +107,11 @@
         "source": "Tokyo Big Sight",
         "state": "rejected",
         "n": 112
+      },
+      {
+        "source": "東京ハンドメイドマルシェ2026",
+        "state": "pending",
+        "n": 49
       },
       {
         "source": "東京都歴史文化財団 · 体験100",
@@ -6463,6 +6468,75 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "0503229f2f65",
+          "startDate": "2026-09-05",
+          "title": "atelier Filmerge",
+          "titleZh": "atelier Filmerge",
+          "place": "東京ドームシティ プリズムホール · ブースF-26",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=80fa32c7-b86f-4048-b229-814638e96fe3",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "0f676d125149",
+          "startDate": "2026-09-05",
+          "title": "WiCKET/ｳｨｹｯﾄ",
+          "titleZh": "WiCKET/ｳｨｹｯﾄ",
+          "place": "東京ドームシティ プリズムホール · ブースK-30",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=e8dda6c4-7965-4218-bc6b-9c4ed5062f5c",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "0f811dd87a54",
+          "startDate": "2026-09-05",
+          "title": "HACHIROKU",
+          "titleZh": "HACHIROKU",
+          "place": "東京ドームシティ プリズムホール · ブースJ-25",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=d4e65f8d-bd3e-4006-8b60-421e71bb6340",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "0f9cd3c6a39e",
           "startDate": "2026-09-05",
           "title": "東京都美術館開館100周年記念 この場所の風景―上野・大牟田・ブエノスアイレストーク・シリーズ ②名もなき誰かの足跡をたどる",
@@ -6489,6 +6563,52 @@
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
+          "id": "1246903e53d6",
+          "startDate": "2026-09-05",
+          "title": "綾tori",
+          "titleZh": "綾tori",
+          "place": "東京ドームシティ プリズムホール · ブースB-02",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=19906000-aefe-4f96-9871-be325b4c7c01",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "1397572d726f",
+          "startDate": "2026-09-05",
+          "title": "すけ",
+          "titleZh": "すけ",
+          "place": "東京ドームシティ プリズムホール · ブースA-10",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=0585cef4-bf47-478f-8597-1a1e8161c9de",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "13a5fea1dd65",
           "startDate": "2026-09-05",
           "title": "「共時的星叢──時を共にした星たち 越境する芸術のまなざし」展関連プログラム 「共時的星叢」の実践から考える台湾近代美術とキュレーション 2026年9月5日（土）13:00～17:30（開場12:30）",
@@ -6513,6 +6633,52 @@
             "signal:art"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
+        },
+        {
+          "id": "185c5062bce3",
+          "startDate": "2026-09-05",
+          "title": "ぜーんぶハリネズミの雑貨やさん〜Chikutto〜",
+          "titleZh": "ぜーんぶハリネズミの雑貨やさん〜Chikutto〜",
+          "place": "東京ドームシティ プリズムホール · ブースJ-10",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=cbf6d737-433a-4a87-a4d9-342a0f9dd60d",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション・インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "1e7b89e2b830",
+          "startDate": "2026-09-05",
+          "title": "yofukashi drawer",
+          "titleZh": "yofukashi drawer",
+          "place": "東京ドームシティ プリズムホール · ブースA-04",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=e329f42d-6dbc-4ae1-8af4-5fbb761b775f",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・インテリア・雑貨・陶芸・食器",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "1e8f9315c83b",
@@ -6567,6 +6733,29 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "2c9271dc5a66",
+          "startDate": "2026-09-05",
+          "title": "ＪＩＪＩ.",
+          "titleZh": "ＪＩＪＩ.",
+          "place": "東京ドームシティ プリズムホール · ブースH-14",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=a3e47900-4d3a-4623-9073-f568ed539a2d",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "インテリア・雑貨・陶芸・食器",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "316e00ce822a",
           "startDate": "2026-09-05",
           "title": "『4M！LY』",
@@ -6615,6 +6804,29 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "38fb7a1dc51a",
+          "startDate": "2026-09-05",
+          "title": "もちゃこ",
+          "titleZh": "もちゃこ",
+          "place": "東京ドームシティ プリズムホール · ブースL-07",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=f2687cae-5f28-40bd-b8a1-337048ec38fc",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "3cfe52af3f9c",
@@ -6669,6 +6881,52 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "4badac72504e",
+          "startDate": "2026-09-05",
+          "title": "Ha6Syo",
+          "titleZh": "Ha6Syo",
+          "place": "東京ドームシティ プリズムホール · ブースA-01",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=71a1181e-cabf-464b-b376-7a7aac1b0123",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "4d31f7f53cd7",
+          "startDate": "2026-09-05",
+          "title": "manus",
+          "titleZh": "manus",
+          "place": "東京ドームシティ プリズムホール · ブースA-13",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=09c4a332-1cd2-403f-a132-243971ebe208",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "55d89b25a8ec",
           "startDate": "2026-09-05",
           "title": "神保町マンゲキお笑いライブ",
@@ -6719,6 +6977,29 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "5a5bc7b67571",
+          "startDate": "2026-09-05",
+          "title": "Lab407",
+          "titleZh": "Lab407",
+          "place": "東京ドームシティ プリズムホール · ブースK-25",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=eab0a306-57a6-4f32-8f05-3e4fada18a62",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "5bd9a4894b4e",
           "startDate": "2026-09-05",
           "title": "六本木お笑いコントライブ！ ※子ども料金、高校生料金あり",
@@ -6744,6 +7025,98 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "5d594bbf2601",
+          "startDate": "2026-09-05",
+          "title": "Myon",
+          "titleZh": "Myon",
+          "place": "東京ドームシティ プリズムホール · ブースD-22",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=5583d66b-106c-439b-907c-dff5087cc936",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "6cdf8721cf4d",
+          "startDate": "2026-09-05",
+          "title": "clarifier icingcookie",
+          "titleZh": "clarifier icingcookie",
+          "place": "東京ドームシティ プリズムホール · ブースM-08",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=e6425a9a-7102-44f5-adfd-ab81205d9ddf",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "クッキー・各種焼き菓子",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "6f0528b466ce",
+          "startDate": "2026-09-05",
+          "title": "freely embroidery",
+          "titleZh": "freely embroidery",
+          "place": "東京ドームシティ プリズムホール · ブースF-22",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=7b826f81-f2c2-4f1c-b4af-e1b1a240a77b",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "7668eafeea6c",
+          "startDate": "2026-09-05",
+          "title": "おはぎともなかと",
+          "titleZh": "おはぎともなかと",
+          "place": "東京ドームシティ プリズムホール · ブースM-04",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=0189f219-c12f-454f-9c5e-8ad48b4f1fcc",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "クッキー・各種焼き菓子・和菓子・ドライフルーツ・グラノーラ",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "788842470ce7",
@@ -6798,6 +7171,29 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "7a447935196e",
+          "startDate": "2026-09-05",
+          "title": "Gem garden",
+          "titleZh": "Gem garden",
+          "place": "東京ドームシティ プリズムホール · ブースH-02",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=cb0eca56-d3cf-4cbf-9916-3c64e11e488d",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "7a940756897d",
           "startDate": "2026-09-05",
           "title": "四季の琴鶴",
@@ -6824,6 +7220,52 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
+          "id": "7bb7be0374a5",
+          "startDate": "2026-09-05",
+          "title": "Etsuko Obuchi",
+          "titleZh": "Etsuko Obuchi",
+          "place": "東京ドームシティ プリズムホール · ブースE-23",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=6750ed1a-51ac-4904-bcbb-a6230d691d44",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション・その他",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "84da168362a7",
+          "startDate": "2026-09-05",
+          "title": "VERYME.",
+          "titleZh": "VERYME.",
+          "place": "東京ドームシティ プリズムホール · ブースI-30",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=cbc31698-6a99-4df9-b669-8518f9129417",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "87faa2741d43",
           "startDate": "2026-09-05",
           "title": "29期同期ライブ「閏ーうるうー」",
@@ -6847,6 +7289,54 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "925d47ef9386",
+          "startDate": "2026-09-05",
+          "title": "GlassAzu",
+          "titleZh": "GlassAzu",
+          "place": "東京ドームシティ プリズムホール · ブースA-15",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=eb4d9190-b1e0-455c-9f48-5c46c56f0431",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・インテリア・雑貨・アート・写真",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "9502ed3960d5",
+          "startDate": "2026-09-05",
+          "title": "anbow",
+          "titleZh": "anbow",
+          "place": "東京ドームシティ プリズムホール · ブースG-15",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=e417deac-537c-4a53-a01e-fee20ca2c2ca",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション・インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "987f884d1a81",
@@ -6976,6 +7466,31 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
+          "id": "bfff73e7fd3f",
+          "startDate": "2026-09-05",
+          "title": "Cherry",
+          "titleZh": "Cherry",
+          "place": "東京ドームシティ プリズムホール · ブースL-19",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=fa3bb325-4205-40c6-b8b7-e40585373353",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "c5f8323c2c1f",
           "startDate": "2026-09-05",
           "title": "六本木よるコントライブ",
@@ -6999,6 +7514,52 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "ca7542996c59",
+          "startDate": "2026-09-05",
+          "title": "jiyun",
+          "titleZh": "jiyun",
+          "place": "東京ドームシティ プリズムホール · ブースF-18",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=77cac240-db1f-4d2b-9002-79231dbf9745",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション・インテリア・雑貨・ステーショナリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "d135afaf0e52",
+          "startDate": "2026-09-05",
+          "title": "mee-felt",
+          "titleZh": "mee-felt",
+          "place": "東京ドームシティ プリズムホール · ブースH-22",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=a616d118-ee80-41b5-9cdd-919548e2c7ee",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "キッズ・ベビー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "d53b55c7e62f",
@@ -7051,6 +7612,29 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "d933d7aec1ff",
+          "startDate": "2026-09-05",
+          "title": "もぎこ",
+          "titleZh": "もぎこ",
+          "place": "東京ドームシティ プリズムホール · ブースC-05",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=2fd10233-ecf3-4957-a454-c64e7be85451",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "ece090949223",
           "startDate": "2026-09-05",
           "title": "9月国立能楽堂ショーケース 盆山・鵺",
@@ -7075,6 +7659,77 @@
             "signal:theater"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
+        },
+        {
+          "id": "eda93106f672",
+          "startDate": "2026-09-05",
+          "title": "ぼんわ",
+          "titleZh": "ぼんわ",
+          "place": "東京ドームシティ プリズムホール · ブースA-22",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=10d1aeb4-9c24-46e0-b8fb-99f5482c8b81",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "f40759f5e0cb",
+          "startDate": "2026-09-05",
+          "title": "mint",
+          "titleZh": "mint",
+          "place": "東京ドームシティ プリズムホール · ブースB-26",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=28f37d26-6a65-4620-9a51-fc4c8591f75e",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "f429891ca731",
+          "startDate": "2026-09-05",
+          "title": "もちもち屋さん",
+          "titleZh": "もちもち屋さん",
+          "place": "東京ドームシティ プリズムホール · ブースK-26",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=eb1f354f-e1a8-4e72-8446-1b7e2a6feb08",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション・インテリア・雑貨・アート・写真",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "f44fc7f62a8a",
@@ -7126,6 +7781,75 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "f754a922c0c2",
+          "startDate": "2026-09-05",
+          "title": "sui sweets",
+          "titleZh": "sui sweets",
+          "place": "東京ドームシティ プリズムホール · ブースM-03",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=a4f247f1-be7e-4bfe-96d8-998d5290ccc1",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "クッキー・ケーキ・各種焼き菓子・その他お菓子・パン",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "f95893cda166",
+          "startDate": "2026-09-05",
+          "title": "針と糸と",
+          "titleZh": "針と糸と",
+          "place": "東京ドームシティ プリズムホール · ブースL-06",
+          "time": "2026-09-05",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=f1f2bae9-17af-4aaf-aed0-adde650662fc",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ステーショナリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "078bb8865687",
+          "startDate": "2026-09-06",
+          "title": "Froliss",
+          "titleZh": "Froliss",
+          "place": "東京ドームシティ プリズムホール · ブースJ-11",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=ccf12a8c-6721-438f-92a1-b549667bc8e8",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "08adc43549fc",
           "startDate": "2026-09-06",
           "title": "六本木お笑いコントライブ！ ※子ども料金、高校生料金あり",
@@ -7149,6 +7873,29 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "0a71c272d12f",
+          "startDate": "2026-09-06",
+          "title": "アトリエ ミイカ",
+          "titleZh": "アトリエ ミイカ",
+          "place": "東京ドームシティ プリズムホール · ブースB-08",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=e7bea7ed-5fea-4e4f-8e1a-d1420a0d4003",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "0a73b724001f",
@@ -7202,6 +7949,29 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
+          "id": "1dcd133de493",
+          "startDate": "2026-09-06",
+          "title": "AN・yuta",
+          "titleZh": "AN・yuta",
+          "place": "東京ドームシティ プリズムホール · ブースE-08",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=0a6f0da4-28e5-4679-9cce-005d54e6e187",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション・ステーショナリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "235dccca3b01",
           "startDate": "2026-09-06",
           "title": "大王×空前メテオ×兄弟×例えば炎 全国ユニット「爆笑前線接近中」",
@@ -7227,6 +7997,52 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "3731099abb57",
+          "startDate": "2026-09-06",
+          "title": "小さなくりの木",
+          "titleZh": "小さなくりの木",
+          "place": "東京ドームシティ プリズムホール · ブースK-21",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=ecc1d19f-7c8e-4e70-95ee-ad5e13103dd6",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "インテリア・雑貨・キッズ・ベビー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "374cc9a73557",
+          "startDate": "2026-09-06",
+          "title": "kometobi",
+          "titleZh": "kometobi",
+          "place": "東京ドームシティ プリズムホール · ブースA-17",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=0b17f4e5-6630-4875-b12a-1687e29d2a78",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・インテリア・雑貨・陶芸・食器",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "379aeed52dbd",
           "startDate": "2026-09-06",
           "title": "伝書鳩ネタとか企画とかライブ「デリバリースター」",
@@ -7250,6 +8066,29 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "42e0caed60c9",
+          "startDate": "2026-09-06",
+          "title": "みかんこ",
+          "titleZh": "みかんこ",
+          "place": "東京ドームシティ プリズムホール · ブースC-10",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=25db71e9-9208-49a4-a0f4-8da09afcc72c",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "43fef13d1511",
@@ -7302,6 +8141,29 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "4cef9e029e35",
+          "startDate": "2026-09-06",
+          "title": "naoko",
+          "titleZh": "naoko",
+          "place": "東京ドームシティ プリズムホール · ブースJ-01",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=a911478a-1d66-4e4a-b134-226e7b2955bf",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "563a0a5e622e",
           "startDate": "2026-09-06",
           "title": "戦国！夏の大和国巡り！",
@@ -7352,6 +8214,29 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "6a3eca5e92ab",
+          "startDate": "2026-09-06",
+          "title": "Floral Concerto",
+          "titleZh": "Floral Concerto",
+          "place": "東京ドームシティ プリズムホール · ブースC-01",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=951393ac-74b5-4c43-b3ae-67e26e784c47",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "72a8773bd448",
@@ -7427,6 +8312,121 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "7bf5e6ce9ca4",
+          "startDate": "2026-09-06",
+          "title": "Panomy-リアルおままごとパン-",
+          "titleZh": "Panomy-リアルおままごとパン-",
+          "place": "東京ドームシティ プリズムホール · ブースL-16",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=a3237942-3e64-4d23-af97-d0cba9bb4ca0",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "8702a3660f0b",
+          "startDate": "2026-09-06",
+          "title": "あんぱんのねこ",
+          "titleZh": "あんぱんのねこ",
+          "place": "東京ドームシティ プリズムホール · ブースC-06",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=2434da0d-ca8f-4815-9fec-180c2a6dc727",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・ファッション・インテリア・雑貨・ステーショナリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "914cc2d87759",
+          "startDate": "2026-09-06",
+          "title": "kubota kokabann",
+          "titleZh": "kubota kokabann",
+          "place": "東京ドームシティ プリズムホール · ブースA-11",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=05493624-e2c4-44c2-97fb-934972fde077",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "925b5138f192",
+          "startDate": "2026-09-06",
+          "title": "SARA",
+          "titleZh": "SARA",
+          "place": "東京ドームシティ プリズムホール · ブースE-16",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=aa122450-a247-4241-bbb6-bce346c4280c",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "ファッション・インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "9651ded10783",
+          "startDate": "2026-09-06",
+          "title": "ito.lace",
+          "titleZh": "ito.lace",
+          "place": "東京ドームシティ プリズムホール · ブースB-04",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=12d1590a-7c7b-4e98-a5cf-e4589679e175",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "9bb77d39207c",
@@ -7530,6 +8530,29 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "ac9734bfd58a",
+          "startDate": "2026-09-06",
+          "title": "ぷちたぷち",
+          "titleZh": "ぷちたぷち",
+          "place": "東京ドームシティ プリズムホール · ブースF-05",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=6395d063-ff3b-4905-9cfc-cc2804555e07",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "aeb4147a9980",
           "startDate": "2026-09-06",
           "title": "渋谷マンゲキお笑いライブ",
@@ -7630,6 +8653,52 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
+          "id": "bb3f279c50cc",
+          "startDate": "2026-09-06",
+          "title": "vivi",
+          "titleZh": "vivi",
+          "place": "東京ドームシティ プリズムホール · ブースC-19",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=37551a51-e912-44d4-81c7-fc479a36ad4c",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "c3b8d72e0b56",
+          "startDate": "2026-09-06",
+          "title": "spinu・spinu",
+          "titleZh": "spinu・spinu",
+          "place": "東京ドームシティ プリズムホール · ブースK-16",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=74a1407c-c83e-4512-a538-68979b4955f6",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "c70a88ca2017",
           "startDate": "2026-09-06",
           "title": "28サンデー ～シルバーウィークを楽しみ尽くすSP～",
@@ -7710,6 +8779,29 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
+          "id": "e6b698ce8751",
+          "startDate": "2026-09-06",
+          "title": "Pozorpes",
+          "titleZh": "Pozorpes",
+          "place": "東京ドームシティ プリズムホール · ブースC-23",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=e466f868-b5f1-47fa-92f8-656c249ed939",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー・インテリア・雑貨",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
           "id": "e991f140df80",
           "startDate": "2026-09-06",
           "title": "漫才ライブ「阿吽」",
@@ -7733,6 +8825,52 @@
             "signal:comedy"
           ],
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
+        },
+        {
+          "id": "f64d1b55fd83",
+          "startDate": "2026-09-06",
+          "title": "mocca",
+          "titleZh": "mocca",
+          "place": "東京ドームシティ プリズムホール · ブースE-19",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=5657e648-a7e9-431c-9b4d-89e5dbb70a6a",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "アクセサリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
+        },
+        {
+          "id": "ff29715ccf48",
+          "startDate": "2026-09-06",
+          "title": "月のGlass工房",
+          "titleZh": "月のGlass工房",
+          "place": "東京ドームシティ プリズムホール · ブースD-01",
+          "time": "2026-09-06",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tokyo.handmade-marche.jp/creators/?exhibitor_id=1137746c-a984-401a-be07-9ccac839ed87",
+          "source": "東京ハンドメイドマルシェ2026",
+          "category": "陶芸・食器",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T08:32:56.965Z"
         },
         {
           "id": "037f5188fd27",
