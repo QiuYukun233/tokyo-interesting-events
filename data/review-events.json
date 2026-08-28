@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T15:35:00+09:00",
+  "updatedAt": "2026-08-28T16:27:01+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -65,6 +65,48 @@
       "name": "渋谷PARCO",
       "ok": true,
       "count": 2,
+      "pages": 1
+    },
+    {
+      "name": "リアル脱出ゲーム池袋店",
+      "ok": true,
+      "count": 8,
+      "pages": 1
+    },
+    {
+      "name": "リアル脱出ゲーム吉祥寺店",
+      "ok": true,
+      "count": 15,
+      "pages": 1
+    },
+    {
+      "name": "東京ミステリーサーカス",
+      "ok": true,
+      "count": 11,
+      "pages": 1
+    },
+    {
+      "name": "YOSHIMOTO ROPPONGI THEATER",
+      "ok": true,
+      "count": 165,
+      "pages": 1
+    },
+    {
+      "name": "渋谷よしもと漫才劇場",
+      "ok": true,
+      "count": 226,
+      "pages": 1
+    },
+    {
+      "name": "神保町よしもと漫才劇場",
+      "ok": true,
+      "count": 229,
+      "pages": 1
+    },
+    {
+      "name": "ルミネtheよしもと",
+      "ok": true,
+      "count": 221,
       "pages": 1
     },
     {

@@ -8,6 +8,8 @@ import { parseWasedaEvents, WASEDA_EVENTS_URL } from './waseda-events.mjs';
 import { parseShibuyaParcoEvents, SHIBUYA_PARCO_EVENTS_URL } from './shibuya-parco-events.mjs';
 import { mapRecord as mapRekibun, parseRekibunHandsOn, REKIBUN_BENEFITS_URL, REKIBUN_HANDS_ON_URLS } from './rekibun.mjs';
 import { CORICH_URLS, parseCorich } from './corich.mjs';
+import { parseScrap } from './scrap.mjs';
+import { mapRecord as mapYoshimoto, yoshimotoUrl } from './yoshimoto.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -111,6 +113,73 @@ export const SOURCES = [
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-27', ownerOrContact: '涩谷 PARCO',
     parse: parseShibuyaParcoEvents,
+  },
+  {
+    // リアル脱出ゲーム池袋店 — SCRAP's own store page doubles as its event list; escape
+    // rooms run as rotating limited-run "games", not dated one-off events.
+    name: 'リアル脱出ゲーム池袋店', sourceFamily: 'entertainment', trustTier: 'S0',
+    url: 'https://www.scrapmagazine.com/ikebukuro/', origin: 'https://www.scrapmagazine.com',
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 14,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '株式会社SCRAP',
+    family: 'shop', parse: parseScrap,
+  },
+  {
+    // リアル脱出ゲーム吉祥寺店 — SCRAP's own store page doubles as its event list; escape
+    // rooms run as rotating limited-run "games", not dated one-off events.
+    name: 'リアル脱出ゲーム吉祥寺店', sourceFamily: 'entertainment', trustTier: 'S0',
+    url: 'https://www.scrapmagazine.com/nazobldg_kichijoji/', origin: 'https://www.scrapmagazine.com',
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 14,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '株式会社SCRAP',
+    family: 'shop', parse: parseScrap,
+  },
+  {
+    // 東京ミステリーサーカス — SCRAP's own store page doubles as its event list; escape
+    // rooms run as rotating limited-run "games", not dated one-off events.
+    name: '東京ミステリーサーカス', sourceFamily: 'entertainment', trustTier: 'S0',
+    url: 'https://mysterycircus.jp/events/', origin: 'https://mysterycircus.jp',
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 14,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '株式会社SCRAP',
+    family: 'tmc', parse: parseScrap,
+  },
+  {
+    // YOSHIMOTO ROPPONGI THEATER — the venue page's own async schedule feed, called at the same
+    // low, once-daily cadence as everything else here. See scripts/sources/yoshimoto.mjs.
+    name: 'YOSHIMOTO ROPPONGI THEATER', sourceFamily: 'entertainment', trustTier: 'S1',
+    url: yoshimotoUrl('roppongi'), origin: 'https://feed-api.yoshimoto.co.jp',
+    place: '六本木',
+    accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
+    map: mapYoshimoto,
+  },
+  {
+    // 渋谷よしもと漫才劇場 — the venue page's own async schedule feed, called at the same
+    // low, once-daily cadence as everything else here. See scripts/sources/yoshimoto.mjs.
+    name: '渋谷よしもと漫才劇場', sourceFamily: 'entertainment', trustTier: 'S1',
+    url: yoshimotoUrl('shibuya_manzaigekijyo'), origin: 'https://feed-api.yoshimoto.co.jp',
+    place: '渋谷',
+    accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
+    map: mapYoshimoto,
+  },
+  {
+    // 神保町よしもと漫才劇場 — the venue page's own async schedule feed, called at the same
+    // low, once-daily cadence as everything else here. See scripts/sources/yoshimoto.mjs.
+    name: '神保町よしもと漫才劇場', sourceFamily: 'entertainment', trustTier: 'S1',
+    url: yoshimotoUrl('jimbocho_manzaigekijyo'), origin: 'https://feed-api.yoshimoto.co.jp',
+    place: '神保町',
+    accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
+    map: mapYoshimoto,
+  },
+  {
+    // ルミネtheよしもと — the venue page's own async schedule feed, called at the same
+    // low, once-daily cadence as everything else here. See scripts/sources/yoshimoto.mjs.
+    name: 'ルミネtheよしもと', sourceFamily: 'entertainment', trustTier: 'S1',
+    url: yoshimotoUrl('lumine'), origin: 'https://feed-api.yoshimoto.co.jp',
+    place: '新宿',
+    accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
+    map: mapYoshimoto,
   },
   {
     // Nationwide theatre/musical listing, filtered to Tokyo client-side —
