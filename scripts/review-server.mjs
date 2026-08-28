@@ -75,9 +75,9 @@ const server = createServer(async (request, response) => {
     if (request.method === 'GET' && url.pathname === '/api/state') return json(response, 200, state());
 
     if (request.method === 'POST' && url.pathname === '/api/decide') {
-      const { id, state: next, note } = await readBody(request);
+      const { id, state: next, note, decidedBy } = await readBody(request);
       if (next === null) undecide(pool, id);
-      else decide(pool, id, { state: next, decidedBy: 'human', note: note || null });
+      else decide(pool, id, { state: next, decidedBy: decidedBy || 'human', note: note || null });
       return json(response, 200, { ok: true, ...state() });
     }
 
@@ -211,6 +211,7 @@ function decidedBy(by) {
   if (!by) return '';
   if (by === 'human') return '人工';
   if (by === 'legacy') return '扩源前既有';
+  if (by === 'ai:claude') return 'AI 初筛（待复核）';
   return by.startsWith('rule:') ? '规则 ' + by.slice(5) : by;
 }
 

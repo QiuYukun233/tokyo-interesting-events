@@ -39,7 +39,7 @@ const groups = backstageData.groups as Group[];
 const summary = backstageData.summary;
 
 const STATE_LABELS: Record<string, string> = { pending: '待定', published: '已发布', rejected: '已排除' };
-const DECIDER_LABELS: Record<string, string> = { human: '人工', legacy: '扩源前既有', };
+const DECIDER_LABELS: Record<string, string> = { human: '人工', legacy: '扩源前既有', 'ai:claude': 'AI 初筛（待复核）' };
 
 function decidedByLabel(by?: string | null) {
   if (!by) return '';

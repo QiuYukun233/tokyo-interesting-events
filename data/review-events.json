@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T03:27:27+09:00",
+  "updatedAt": "2026-08-28T12:12:04+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -15,10 +15,9 @@
     },
     {
       "name": "東京大学",
-      "ok": false,
-      "count": 0,
-      "pages": 1,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6,
+      "pages": 1
     },
     {
       "name": "東京都美術館",
@@ -3447,56 +3446,6 @@
     },
     {
       "activity": {
-        "id": "69f0e3f0ff4f",
-        "startDate": "2026-07-18",
-        "title": "夏の思い出づくりは都営交通で！ 都営地下鉄「夏」のワンデーパスを発売します。",
-        "titleZh": "夏の思い出づくりは都営交通で！ 都営地下鉄「夏」のワンデーパスを発売します。",
-        "place": "都営地下鉄各駅の自動券売機",
-        "time": "2026年07月18日～2026年08月30日",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/080-20260710-261480144",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "630db1a49da1",
-        "startDate": "2026-08-02",
-        "title": "【東部７公園】８月のイベント情報",
-        "titleZh": "【東部７公園】８月のイベント情報",
-        "place": "亀戸中央公園、大島小松川公園、尾久の原公園、猿江恩賜公園",
-        "time": "2026年08月02日～2026年08月30日",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260721-262358446",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "2981d2c992b4",
         "startDate": "2026-08-29",
         "title": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
@@ -3572,31 +3521,6 @@
     },
     {
       "activity": {
-        "id": "b31b39c07da9",
-        "startDate": "2026-06-26",
-        "title": "「暑さ対策 くらしの知恵」暑さ対策グッズ活用写真募集！",
-        "titleZh": "「暑さ対策 くらしの知恵」暑さ対策グッズ活用写真募集！",
-        "place": "オンライン",
-        "time": "2026年06月26日～2026年08月31日",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/021-20260626-260127005",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "30b1e5459d14",
         "startDate": "2026-07-01",
         "title": "今年もスマホでいきもの調査！「東京いきもの調査団 2026夏編」スタート",
@@ -3634,31 +3558,6 @@
         "symbol": "✦",
         "mates": 0,
         "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260703-260811105",
-        "source": "My TOKYO"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "1912ec78f1d7",
-        "startDate": "2026-07-21",
-        "title": "第6回「都民の人権川柳」5つのテーマで募集します！",
-        "titleZh": "第6回「都民の人権川柳」5つのテーマで募集します！",
-        "place": "オンライン",
-        "time": "2026年07月21日～2026年08月31日",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/003-20260721-262339856",
         "source": "My TOKYO"
       },
       "eligible": true,
@@ -4052,6 +3951,142 @@
         "source": "Tokyo Big Sight",
         "audience": "一般",
         "description": "同人誌即売会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e6beb0eae18f",
+        "startDate": "2026-09-25",
+        "title": "令和8年度 研究倫理セミナー",
+        "titleZh": "令和8年度 研究倫理セミナー",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7214d9452ec",
+        "startDate": "2026-09-22",
+        "title": "RCAST セキュリティセミナー／比較政治トーク",
+        "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
+        "place": "駒場地区",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
+        "source": "東京大学",
+        "audience": "駒場地区",
+        "description": "駒場地区"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "da4053cec19a",
+        "startDate": "2026-10-23",
+        "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
+        "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "472936376dc6",
+        "startDate": "2026-08-03",
+        "endDate": "2026-09-02",
+        "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+        "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "83400d097257",
+        "startDate": "2026-09-07",
+        "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
+        "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
+        "place": "本郷地区",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
+        "source": "東京大学",
+        "audience": "本郷地区",
+        "description": "本郷地区"
       },
       "eligible": true,
       "decision": "review",
@@ -5411,6 +5446,133 @@
       "publicExperience": false,
       "reasons": [
         "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "69f0e3f0ff4f",
+        "startDate": "2026-07-18",
+        "title": "夏の思い出づくりは都営交通で！ 都営地下鉄「夏」のワンデーパスを発売します。",
+        "titleZh": "夏の思い出づくりは都営交通で！ 都営地下鉄「夏」のワンデーパスを発売します。",
+        "place": "都営地下鉄各駅の自動券売機",
+        "time": "2026年07月18日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/080-20260710-261480144",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:on_sale_announcement"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "630db1a49da1",
+        "startDate": "2026-08-02",
+        "title": "【東部７公園】８月のイベント情報",
+        "titleZh": "【東部７公園】８月のイベント情報",
+        "place": "亀戸中央公園、大島小松川公園、尾久の原公園、猿江恩賜公園",
+        "time": "2026年08月02日～2026年08月30日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260721-262358446",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:bulletin"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b31b39c07da9",
+        "startDate": "2026-06-26",
+        "title": "「暑さ対策 くらしの知恵」暑さ対策グッズ活用写真募集！",
+        "titleZh": "「暑さ対策 くらしの知恵」暑さ対策グッズ活用写真募集！",
+        "place": "オンライン",
+        "time": "2026年06月26日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/021-20260626-260127005",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:submission_call"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "86c144f93133",
+        "startDate": "2026-08-01",
+        "title": "都立動物園・水族園からのお知らせ Vol.7",
+        "titleZh": "都立動物園・水族園からのお知らせ Vol.7",
+        "place": "多摩動物公園、葛西臨海水族園",
+        "time": "2026年08月01日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/017-20260709-261350139",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": true,
+      "reasons": [
+        "hard:bulletin"
+      ],
+      "signals": [
+        "signal:nature"
+      ]
+    },
+    {
+      "activity": {
+        "id": "1912ec78f1d7",
+        "startDate": "2026-07-21",
+        "title": "第6回「都民の人権川柳」5つのテーマで募集します！",
+        "titleZh": "第6回「都民の人権川柳」5つのテーマで募集します！",
+        "place": "オンライン",
+        "time": "2026年07月21日～2026年08月31日",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/003-20260721-262339856",
+        "source": "My TOKYO"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:submission_call"
       ],
       "signals": []
     },

@@ -1,15 +1,20 @@
 {
-  "updatedAt": "2026-08-28T03:28:50+09:00",
+  "updatedAt": "2026-08-28T12:12:48+09:00",
   "summary": {
     "total": 257,
-    "pending": 126,
-    "published": 30,
-    "rejected": 101,
+    "pending": 0,
+    "published": 86,
+    "rejected": 171,
     "byType": [
       {
         "objectType": "activity",
-        "state": "pending",
-        "n": 32
+        "state": "published",
+        "n": 17
+      },
+      {
+        "objectType": "activity",
+        "state": "rejected",
+        "n": 15
       },
       {
         "objectType": "closing",
@@ -18,33 +23,23 @@
       },
       {
         "objectType": "event",
-        "state": "pending",
-        "n": 63
-      },
-      {
-        "objectType": "event",
         "state": "published",
-        "n": 14
+        "n": 32
       },
       {
         "objectType": "event",
         "state": "rejected",
-        "n": 47
-      },
-      {
-        "objectType": "exhibition",
-        "state": "pending",
-        "n": 26
+        "n": 92
       },
       {
         "objectType": "exhibition",
         "state": "published",
-        "n": 11
+        "n": 29
       },
       {
         "objectType": "exhibition",
         "state": "rejected",
-        "n": 54
+        "n": 62
       },
       {
         "objectType": "open_facility",
@@ -58,50 +53,55 @@
       },
       {
         "objectType": "place",
-        "state": "pending",
-        "n": 5
+        "state": "published",
+        "n": 4
       },
       {
         "objectType": "place",
-        "state": "published",
-        "n": 1
+        "state": "rejected",
+        "n": 2
       }
     ],
     "bySource": [
       {
         "source": "Tokyo Big Sight",
         "state": "rejected",
-        "n": 101
+        "n": 112
       },
       {
         "source": "東京都歴史文化財団 · 体験100",
-        "state": "pending",
-        "n": 63
+        "state": "rejected",
+        "n": 42
+      },
+      {
+        "source": "東京都歴史文化財団 · 体験100",
+        "state": "published",
+        "n": 21
       },
       {
         "source": "Tokyo Big Sight",
-        "state": "pending",
-        "n": 25
-      },
-      {
-        "source": "My TOKYO",
-        "state": "pending",
-        "n": 14
-      },
-      {
-        "source": "早稲田大学",
-        "state": "pending",
-        "n": 9
-      },
-      {
-        "source": "東京都歴史文化財団",
-        "state": "pending",
-        "n": 8
+        "state": "published",
+        "n": 17
       },
       {
         "source": "My TOKYO",
         "state": "published",
-        "n": 6
+        "n": 11
+      },
+      {
+        "source": "My TOKYO",
+        "state": "rejected",
+        "n": 9
+      },
+      {
+        "source": "早稲田大学",
+        "state": "published",
+        "n": 7
+      },
+      {
+        "source": "東京都美術館",
+        "state": "published",
+        "n": 7
       },
       {
         "source": "東京大学",
@@ -109,23 +109,28 @@
         "n": 6
       },
       {
-        "source": "東京都美術館",
-        "state": "published",
-        "n": 5
-      },
-      {
-        "source": "Tokyo Big Sight",
-        "state": "published",
-        "n": 3
-      },
-      {
         "source": "シブヤ経済新聞",
         "state": "published",
-        "n": 3
+        "n": 4
+      },
+      {
+        "source": "東京都歴史文化財団",
+        "state": "published",
+        "n": 4
+      },
+      {
+        "source": "東京都歴史文化財団",
+        "state": "rejected",
+        "n": 4
       },
       {
         "source": null,
         "state": "published",
+        "n": 2
+      },
+      {
+        "source": "早稲田大学",
+        "state": "rejected",
         "n": 2
       },
       {
@@ -134,28 +139,13 @@
         "n": 2
       },
       {
-        "source": "東京都美術館",
-        "state": "pending",
-        "n": 2
-      },
-      {
         "source": "渋谷PARCO",
         "state": "published",
         "n": 2
       },
       {
-        "source": "銀座経済新聞",
-        "state": "pending",
-        "n": 2
-      },
-      {
-        "source": "シブヤ経済新聞",
-        "state": "pending",
-        "n": 1
-      },
-      {
         "source": "吉祥寺経済新聞",
-        "state": "pending",
+        "state": "rejected",
         "n": 1
       },
       {
@@ -165,7 +155,17 @@
       },
       {
         "source": "浅草経済新聞",
-        "state": "pending",
+        "state": "published",
+        "n": 1
+      },
+      {
+        "source": "銀座経済新聞",
+        "state": "published",
+        "n": 1
+      },
+      {
+        "source": "銀座経済新聞",
+        "state": "rejected",
         "n": 1
       }
     ]
@@ -209,8 +209,8 @@
           "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/033-20260604-257911018",
           "source": "My TOKYO",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "hard:recruiting"
           ],
@@ -299,8 +299,8 @@
           "category": "トーク・講座",
           "attribution": "東京都江戸東京博物館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -365,8 +365,8 @@
           "category": "トーク・講座",
           "attribution": "東京都美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -592,8 +592,8 @@
           "source": "早稲田大学",
           "category": "大学公开活动",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -616,8 +616,8 @@
           "category": "トーク・講座",
           "attribution": "東京都美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -638,8 +638,8 @@
           "category": "トーク・講座",
           "attribution": "東京都現代美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -660,8 +660,8 @@
           "category": "トーク・講座",
           "attribution": "東京都写真美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -685,7 +685,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -705,8 +707,8 @@
           "category": "パフォーマンス",
           "attribution": "東京都現代美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -727,8 +729,8 @@
           "category": "パフォーマンス",
           "attribution": "東京都現代美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -749,8 +751,8 @@
           "category": "トーク・講座",
           "attribution": "東京都写真美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -773,8 +775,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -797,8 +799,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -869,8 +871,8 @@
           "category": "パフォーマンス",
           "attribution": "東京芸術劇場",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -893,8 +895,8 @@
           "category": "パフォーマンス",
           "attribution": "トーキョーアーツアンドスペース本郷",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -917,8 +919,8 @@
           "category": "トーク・講座",
           "attribution": "東京都写真美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -941,8 +943,8 @@
           "category": "トーク・講座",
           "attribution": "東京都美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -963,8 +965,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -987,8 +989,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1011,8 +1013,8 @@
           "category": "パフォーマンス",
           "attribution": "トーキョーアーツアンドスペース本郷",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1035,8 +1037,8 @@
           "category": "オンライン",
           "attribution": "東京都美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -1057,8 +1059,8 @@
           "category": "パフォーマンス",
           "attribution": "東京芸術劇場",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1082,7 +1084,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -1102,8 +1106,8 @@
           "category": "パフォーマンス",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -1124,8 +1128,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1149,7 +1153,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -1169,8 +1175,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -1191,8 +1197,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -1213,8 +1219,8 @@
           "category": "トーク・講座",
           "attribution": "東京都美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -1259,8 +1265,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1307,8 +1313,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -1329,8 +1335,8 @@
           "category": "パフォーマンス",
           "attribution": "トーキョーアーツアンドスペース本郷",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1353,8 +1359,8 @@
           "category": "トーク・講座",
           "attribution": "トーキョーアーツアンドスペース本郷",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1377,8 +1383,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1833,8 +1839,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1857,8 +1863,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1881,8 +1887,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1929,8 +1935,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -1954,7 +1960,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -2022,8 +2030,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2046,8 +2054,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -2236,8 +2244,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2260,8 +2268,8 @@
           "category": "トーク・講座",
           "attribution": "東京都庭園美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2284,8 +2292,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2524,8 +2532,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "hard:recruiting"
           ],
@@ -2548,8 +2556,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2596,8 +2604,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -2618,8 +2626,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -2640,8 +2648,8 @@
           "category": "パフォーマンス",
           "attribution": "東京都庭園美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -2662,8 +2670,8 @@
           "category": "トーク・講座",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2686,8 +2694,8 @@
           "category": "パフォーマンス",
           "attribution": "その他",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -2708,8 +2716,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2732,8 +2740,8 @@
           "category": "トーク・講座",
           "attribution": "東京都庭園美術館",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2787,8 +2795,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都写真美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2811,8 +2819,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都写真美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2835,8 +2843,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都庭園美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2859,8 +2867,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "江戸東京たてもの園",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -2905,8 +2913,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -2971,8 +2979,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -2993,8 +3001,8 @@
           "source": "早稲田大学",
           "category": "大学公开活动",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -3017,8 +3025,8 @@
           "source": "早稲田大学",
           "category": "大学公开活动",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3039,8 +3047,8 @@
           "source": "早稲田大学",
           "category": "大学公开活动",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3063,7 +3071,9 @@
           "objectType": "exhibition",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -3132,8 +3142,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都現代美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -3156,8 +3166,8 @@
           "source": "東京都歴史文化財団",
           "attribution": "東京都現代美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -3180,8 +3190,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3299,8 +3309,8 @@
           "category": "展示",
           "attribution": "東京都庭園美術館",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3609,8 +3619,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3703,8 +3713,8 @@
           "source": "Tokyo Big Sight",
           "audience": "一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "human",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3747,8 +3757,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -3913,8 +3923,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4175,8 +4185,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4293,8 +4303,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4717,8 +4727,8 @@
           "source": "Tokyo Big Sight",
           "audience": "商談・一般",
           "objectType": "exhibition",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4772,8 +4782,8 @@
           "changeType": "discovery",
           "attribution": "吉祥寺経済新聞",
           "objectType": "place",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4797,8 +4807,8 @@
           "changeType": "discovery",
           "attribution": "シブヤ経済新聞",
           "objectType": "place",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4822,8 +4832,8 @@
           "changeType": "discovery",
           "attribution": "銀座経済新聞",
           "objectType": "place",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4872,8 +4882,8 @@
           "changeType": "discovery",
           "attribution": "銀座経済新聞",
           "objectType": "place",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -4986,8 +4996,8 @@
           "category": "ワークショップ",
           "attribution": "東京都庭園美術館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5008,8 +5018,8 @@
           "category": "歴史・伝統",
           "attribution": "東京都江戸東京博物館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5032,8 +5042,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5054,8 +5064,8 @@
           "category": "歴史・伝統",
           "attribution": "東京都江戸東京博物館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5079,8 +5089,8 @@
           "category": "ワークショップ",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5101,8 +5111,8 @@
           "category": "ワークショップ",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5124,8 +5134,8 @@
           "category": "ワークショップ",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5146,8 +5156,8 @@
           "category": "歴史・伝統",
           "attribution": "東京都江戸東京博物館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5170,8 +5180,8 @@
           "category": "見学・ツアー",
           "attribution": "東京都美術館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5192,8 +5202,8 @@
           "category": "見学・ツアー",
           "attribution": "東京都美術館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5214,8 +5224,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5236,8 +5246,8 @@
           "category": "鑑賞サポート",
           "attribution": "東京芸術劇場",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5260,8 +5270,8 @@
           "category": "歴史・伝統",
           "attribution": "東京都江戸東京博物館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5282,8 +5292,8 @@
           "category": "歴史・伝統",
           "attribution": "江戸東京たてもの園",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5306,8 +5316,8 @@
           "category": "ワークショップ",
           "attribution": "東京都現代美術館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5328,8 +5338,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5350,8 +5360,8 @@
           "category": "鑑賞サポート",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5375,8 +5385,8 @@
           "category": "ワークショップ",
           "attribution": "東京芸術劇場",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5397,8 +5407,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5419,8 +5429,8 @@
           "category": "鑑賞サポート",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5443,8 +5453,8 @@
           "category": "鑑賞サポート",
           "attribution": "東京都渋谷公園通りギャラリー",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
@@ -5467,8 +5477,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5489,8 +5499,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5511,8 +5521,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5533,8 +5543,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5555,8 +5565,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5577,8 +5587,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5599,8 +5609,8 @@
           "category": "こども",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5621,8 +5631,8 @@
           "category": "鑑賞サポート",
           "attribution": "東京都美術館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5643,8 +5653,8 @@
           "category": "鑑賞サポート",
           "attribution": "その他",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5665,8 +5675,8 @@
           "category": "ワークショップ",
           "attribution": "東京芸術劇場",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
@@ -5687,8 +5697,8 @@
           "category": "見学・ツアー",
           "attribution": "東京都美術館",
           "objectType": "activity",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "published",
+          "decidedBy": "ai:claude",
           "reasons": [
             "review:no_public_experience_signal"
           ],
