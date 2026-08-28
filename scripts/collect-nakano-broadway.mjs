@@ -2,13 +2,14 @@ import { fileURLToPath } from 'node:url';
 import { classifyActivity } from '../lib/activity-filter.mjs';
 import { openPool, upsertCandidate } from '../lib/pool-db.mjs';
 import { assertRobotsAllowed } from './lib/run-ingestion.mjs';
-import { CATEGORIES_URL, NAKANO_BROADWAY_ORIGIN, buildTaxonomy, mapTenants, postsUrl } from './sources/nakano-broadway.mjs';
+import { CATEGORIES_URL, NAKANO_BROADWAY_ORIGIN, buildTaxonomy, mapBuilding, postsUrl } from './sources/nakano-broadway.mjs';
 
 /**
  * Collect 中野ブロードウェイ's tenants as places.
  *
- * A building, not an event: 207 small shops that are there every day. Four
- * requests — one taxonomy, three pages of posts. See
+ * A building, not an event, and **one candidate, not 207**: for deciding where
+ * to go, every shop in it is the same destination. The tenant list becomes the
+ * card's description. Four requests — one taxonomy, three pages of posts. See
  * scripts/sources/nakano-broadway.mjs.
  *
  *   node scripts/collect-nakano-broadway.mjs
@@ -42,20 +43,20 @@ for (let page = 1; page <= MAX_PAGES; page += 1) {
   posts.push(...batch);
 }
 
-const events = mapTenants(posts, taxonomy, {
+const building = mapBuilding(posts, taxonomy, {
   name: '中野ブロードウェイ',
   startDate: new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date()),
 });
-console.log(`${posts.length} posts, ${events.length} tenants (the rest are notices).`);
-if (!events.length) {
-  console.error('No tenants parsed. Nothing collected.');
+if (!building) {
+  console.error(`${posts.length} posts but no tenants parsed. Nothing collected.`);
   process.exit(1);
 }
+console.log(`${posts.length} posts → ${building.description}`);
 
 const pool = openPool(fileURLToPath(POOL));
 const now = new Date();
-for (const event of events) upsertCandidate(pool, event, { now, ...classifyActivity(event) });
+upsertCandidate(pool, building, { now, ...classifyActivity(building) });
 pool.close();
 
-console.log(`Pooled ${events.length} shops as place candidates.`);
+console.log('Pooled the building as one place candidate.');
 console.log('Run `npm run export-site` to refresh what the site shows.');

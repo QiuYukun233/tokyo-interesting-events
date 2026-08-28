@@ -2,18 +2,34 @@ import * as cheerio from 'cheerio';
 import { createEventCandidate } from '../lib/event-utils.mjs';
 
 /**
- * 中野ブロードウェイ — one building, read as a directory of the shops inside it.
+ * 中野ブロードウェイ — **one building, one candidate.**
  *
- * A different shape again from the fair rosters: not "who exhibited once", but
- * **who is permanently upstairs in this building**. Nakano Broadway is four
- * floors of very small, very specific shops — 85 of its 207 tenants are filed
- * by the building itself under サブカルチャー — and almost none of them are
- * street-facing, which is exactly the kind of place lib/activity-filter.mjs's
- * `signal:off_street` was added for. Feeding this source through that rule set
- * labels most of these automatically.
+ * The building is four floors of very small, very specific shops: 207 tenants,
+ * 85 of them filed by the building itself under サブカルチャー, almost none
+ * street-facing.
  *
- * `wp-json/wp/v2/posts?per_page=100` returns everything in three requests, each
- * tenant carrying its own description, opening hours and SNS links.
+ * ## Why this emits one candidate and not 207
+ *
+ * The first version pooled every tenant separately, and that was the wrong
+ * granularity. **For deciding where to go, all 207 shops are the same
+ * destination** — you go to Nakano Broadway once and you have covered them
+ * all. 207 rows would be 207 near-identical answers to "where should we go
+ * this weekend", flooding both the review queue and, later, the discovery
+ * queue (方案 §7.1 wants variety in a round, which this defeats outright).
+ *
+ * Measured before the change: 524 place candidates in the pool collapsed to
+ * 309 distinct street addresses, and 207 of that gap was this one building.
+ * Nothing else in the pool had more than three candidates at one address.
+ *
+ * **The rule this establishes: one address, one candidate.** Shops spread
+ * across a district (モノマチ's 125 workshops, each at its own address) stay
+ * separate, because those are genuinely separate trips.
+ *
+ * The tenant list is not thrown away — it is what the card is made of. What
+ * makes this building worth a trip is precisely "207 specialist shops, 85 of
+ * them subculture", which is a fact about the whole building.
+ *
+ * `wp-json/wp/v2/posts?per_page=100` returns every tenant in three requests.
  *
  * ## Floors come from the taxonomy, not the text
  *
@@ -57,57 +73,71 @@ export function buildTaxonomy(categories = []) {
 }
 
 /**
- * Reduce the post body to its opening prose.
+ * Read one post as a tenant record: `{name, floor, genre}`, or null if the post
+ * is a notice rather than a shop.
  *
- * The editor leaves long runs of empty block markup between paragraphs, so a
- * naive text extraction yields a paragraph followed by hundreds of blank lines.
+ * NEWS&TOPICS entries sit in the same `posts` collection. A post with no floor
+ * category is not a tenant — the floor is both the useful field and the filter.
  */
-export function summarise(html = '', limit = 400) {
-  const text = cheerio.load(html).root().text();
-  const lines = text.split('\n').map((line) => compact(line)).filter(Boolean);
-  return lines.join(' ').slice(0, limit);
+export function readTenant(post, taxonomy) {
+  const name = compact(decode(post?.title?.rendered));
+  const ids = post?.categories ?? [];
+  const floor = ids.map((id) => taxonomy.floors?.[id]).find(Boolean);
+  if (!name || !floor) return null;
+  return { name, floor, genre: ids.map((id) => taxonomy.genres?.[id]).find(Boolean) ?? null };
+}
+
+const countBy = (items, key) => items.reduce((counts, item) => {
+  if (item[key]) counts.set(item[key], (counts.get(item[key]) ?? 0) + 1);
+  return counts;
+}, new Map());
+
+const ranked = (counts) => [...counts].sort((a, b) => b[1] - a[1]);
+
+/**
+ * Describe the building from its tenants.
+ *
+ * This is the card's whole content, so it has to answer "why go" for the
+ * building as a unit: how many shops, of what kinds, on how many floors.
+ */
+export function describeBuilding(tenants = []) {
+  if (!tenants.length) return null;
+  const genres = ranked(countBy(tenants, 'genre'));
+  const floors = ranked(countBy(tenants, 'floor')).length;
+  const breakdown = genres.slice(0, 4).map(([genre, count]) => `${genre}${count}`).join('・');
+  return `専門店${tenants.length}軒が${floors}フロアに密集。${breakdown}。`;
 }
 
 /**
- * One tenant post → one `place` candidate.
- * @param {object} post
+ * All tenants → **one** `place` candidate for the building.
+ *
+ * @param {Array} posts       the raw `posts` collection
  * @param {{floors: object, genres: object}} taxonomy
  * @param {{name: string, startDate: string}} source
  */
-export function mapTenant(post, taxonomy, source, index = 0) {
-  const title = compact(decode(post?.title?.rendered));
-  const ids = post?.categories ?? [];
-  const floor = ids.map((id) => taxonomy.floors?.[id]).find(Boolean);
-  // No floor means this is a notice, not a tenant.
-  if (!title || !floor || !source?.startDate) return null;
+export function mapBuilding(posts = [], taxonomy, source) {
+  const tenants = posts.map((post) => readTenant(post, taxonomy)).filter(Boolean);
+  if (!tenants.length || !source?.startDate) return null;
 
-  const genre = ids.map((id) => taxonomy.genres?.[id]).find(Boolean);
-  const description = summarise(post?.content?.rendered ?? '');
+  const description = describeBuilding(tenants);
+  const genres = ranked(countBy(tenants, 'genre')).map(([genre]) => genre);
   const candidate = createEventCandidate({
     sourceName: source.name,
-    sourceUrl: post.link,
-    title,
+    sourceUrl: `${NAKANO_BROADWAY_ORIGIN}/floor/`,
+    title: '中野ブロードウェイ',
     startDate: source.startDate,
-    // The floor goes into `place` so lib/activity-filter.mjs reads it as
-    // `signal:off_street` — which for this building is true of nearly all of them.
-    place: `${NAKANO_BROADWAY_ADDRESS} ${floor}`,
-    time: '详见店铺',
-    price: '详见店铺',
-    text: `${title} ${genre ?? ''} ${description} 中野ブロードウェイ`,
-    visualIndex: index,
+    place: NAKANO_BROADWAY_ADDRESS,
+    time: '详见各店',
+    price: '详见各店',
+    text: `中野ブロードウェイ ${genres.join(' ')} ${tenants.map((tenant) => tenant.name).join(' ')}`,
   });
   return candidate && {
     ...candidate,
     ongoing: true,
     changeType: 'discovery',
-    ...(genre ? { category: genre } : {}),
-    ...(description ? { description } : {}),
+    category: genres[0] ?? 'サブカルチャー',
+    description,
     attribution: '中野ブロードウェイ 公式店舗情報',
-    why: `中野ブロードウェイ${floor}の一区画。ビルごと専門店の集合体で、店の外からは中身が読めない。`,
+    why: '一つの建物にサブカル専門店がぎっしり。中に入ってしまえば一日中はしごできるので、行き先としてはここ一つで足りる。',
   };
-}
-
-/** Map a page of posts, dropping anything that is not a tenant. */
-export function mapTenants(posts = [], taxonomy, source) {
-  return posts.map((post, index) => mapTenant(post, taxonomy, source, index)).filter(Boolean);
 }
