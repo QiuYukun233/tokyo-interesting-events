@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T20:25:55+09:00",
+  "updatedAt": "2026-08-28T23:43:20+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -15,10 +15,9 @@
     },
     {
       "name": "東京大学",
-      "ok": false,
-      "count": 0,
-      "pages": 1,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6,
+      "pages": 1
     },
     {
       "name": "東京都美術館",
@@ -4012,6 +4011,142 @@
         "source": "Tokyo Big Sight",
         "audience": "一般",
         "description": "同人誌即売会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e6beb0eae18f",
+        "startDate": "2026-09-25",
+        "title": "令和8年度 研究倫理セミナー",
+        "titleZh": "令和8年度 研究倫理セミナー",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7214d9452ec",
+        "startDate": "2026-09-22",
+        "title": "RCAST セキュリティセミナー／比較政治トーク",
+        "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
+        "place": "駒場地区",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
+        "source": "東京大学",
+        "audience": "駒場地区",
+        "description": "駒場地区"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "da4053cec19a",
+        "startDate": "2026-10-23",
+        "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
+        "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "472936376dc6",
+        "startDate": "2026-08-03",
+        "endDate": "2026-09-02",
+        "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+        "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "83400d097257",
+        "startDate": "2026-09-07",
+        "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
+        "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
+        "place": "本郷地区",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
+        "source": "東京大学",
+        "audience": "本郷地区",
+        "description": "本郷地区"
       },
       "eligible": true,
       "decision": "review",

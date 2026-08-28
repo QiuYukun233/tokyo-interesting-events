@@ -116,11 +116,10 @@ export function parseMineralShowPage(html, { label } = {}) {
  * rather than a dated event. `startDate` is the day we learned of it, matching
  * how the shop-lifecycle family records a discovery.
  *
- * Known gap, same one scrap.mjs documents: the pool has no "ongoing, no known
- * end" concept, and its horizon filter reads a missing endDate as a single-day
- * event. A shop would therefore vanish the day after it was collected, so an
- * endDate a year out is written to keep it visible until a later run refreshes
- * it. That is a workaround for a missing concept, not a claim about the shop.
+ * A shop has no end date, so the candidate carries `ongoing: true` — the pool's
+ * flag for "runs until further notice". Before that flag existed this source
+ * wrote an endDate a year out to stay inside the horizon filter, which was a
+ * lie about the shop; `ongoing` states the truth instead.
  */
 export function mapShop(shop, source, index = 0) {
   if (!shop?.name || !shop?.address || !source?.startDate) return null;
@@ -130,7 +129,6 @@ export function mapShop(shop, source, index = 0) {
     sourceUrl: `${source.link || MINERAL_SHOW_ORIGIN}#${encodeURIComponent(shop.name)}`,
     title: shop.name,
     startDate: source.startDate,
-    endDate: source.endDate,
     place: shop.address,
     time: '详见店铺',
     price: '详见店铺',
@@ -139,6 +137,7 @@ export function mapShop(shop, source, index = 0) {
   });
   return candidate && {
     ...candidate,
+    ongoing: true,
     changeType: 'discovery',
     category: '鉱物・化石・隕石の店',
     attribution: source.attribution || '東京ミネラルショー 出展者情報',

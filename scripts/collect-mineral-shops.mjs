@@ -20,8 +20,6 @@ import { MINERAL_SHOW_ORIGIN, MINERAL_SHOW_PAGES, isInPrefecture, mapShop, pageA
  */
 const USER_AGENT = 'TokyoInterestingEvents/0.6 (+contact via repository)';
 const POOL = new URL('../data/pool.db', import.meta.url);
-const YEAR_MS = 365 * 86400000;
-
 function readArg(name, fallback) {
   const index = process.argv.indexOf(`--${name}`);
   return index === -1 ? fallback : process.argv[index + 1];
@@ -31,11 +29,9 @@ const prefecture = readArg('prefecture', '東京都');
 await assertRobotsAllowed({ name: '東京ミネラルショー', origin: MINERAL_SHOW_ORIGIN, url: `${MINERAL_SHOW_ORIGIN}/exhibitor/` }, fetch);
 
 const now = new Date();
+// The discovery date, matching how the shop-lifecycle family records one. The
+// candidate carries `ongoing: true` rather than an invented end date.
 const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(now);
-// See the doc comment in the source module: the pool has no "ongoing, no known
-// end" concept, so a place needs a far endDate to stay inside the horizon
-// filter until a later run refreshes it.
-const horizon = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date(now.getTime() + YEAR_MS));
 
 const shops = [];
 for (const page of MINERAL_SHOW_PAGES) {
@@ -60,7 +56,6 @@ for (const [index, shop] of kept.entries()) {
     name: readArg('name', '東京ミネラルショー'),
     link: shop.link,
     startDate: today,
-    endDate: horizon,
   }, index);
   if (!event) continue;
   upsertCandidate(pool, event, { now, ...classifyActivity(event) });

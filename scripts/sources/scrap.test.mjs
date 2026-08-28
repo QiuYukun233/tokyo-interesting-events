@@ -36,20 +36,34 @@ const tmcItem = ({ href = 'https://mysterycircus.jp/tokyo/events/13929', title =
 const tmcPage = (...items) => `<html><body>${items.join('\n')}</body></html>`;
 
 test('every real period format across both templates parses', () => {
-  assert.deepEqual(parsePeriod('開催：2026年1月29日(木)〜'), { startDate: '2026-01-29', endDate: null });
-  assert.deepEqual(parsePeriod('開催：2026年9月3日(木)〜12月6日(日)'), { startDate: '2026-09-03', endDate: '2026-12-06' });
-  assert.deepEqual(parsePeriod('開催：2026.07.01〜2026.10.12'), { startDate: '2026-07-01', endDate: '2026-10-12' });
+  assert.deepEqual(parsePeriod('開催：2026年1月29日(木)〜'), { startDate: '2026-01-29', endDate: null, ongoing: true });
+  assert.deepEqual(parsePeriod('開催：2026年9月3日(木)〜12月6日(日)'), { startDate: '2026-09-03', endDate: '2026-12-06', ongoing: false });
+  assert.deepEqual(parsePeriod('開催：2026.07.01〜2026.10.12'), { startDate: '2026-07-01', endDate: '2026-10-12', ongoing: false });
   // The fullwidth tilde （U+FF5E） appears on this same site alongside the wave dash.
-  assert.deepEqual(parsePeriod('開催：2026.7.9～2026.9.6'), { startDate: '2026-07-09', endDate: '2026-09-06' });
+  assert.deepEqual(parsePeriod('開催：2026.7.9～2026.9.6'), { startDate: '2026-07-09', endDate: '2026-09-06', ongoing: false });
+});
+
+test('a trailing 〜 means "until further notice", no 〜 at all means one day', () => {
+  // These used to be indistinguishable — both came back as "no end date", which
+  // the pool read as single-day, so 24 still-bookable games had aged out of the
+  // back office by 2026-08-28. The wording is the source's own, not a guess.
+  assert.deepEqual(parsePeriod('開催：2024年12月29日(日)〜'), { startDate: '2024-12-29', endDate: null, ongoing: true });
+  assert.deepEqual(parsePeriod('開催：2026年8月30日(土)'), { startDate: '2026-08-30', endDate: null, ongoing: false });
+  // A 〜 followed by prose rather than a date is still open-ended.
+  assert.deepEqual(parsePeriod('開催：2026年3月1日(日)〜好評につき延長中'), { startDate: '2026-03-01', endDate: null, ongoing: true });
+});
+
+test('a same-day range reports one day, not an open-ended run', () => {
+  assert.deepEqual(parsePeriod('開催：2026年5月4日(月)〜2026年5月4日(月)'), { startDate: '2026-05-04', endDate: null, ongoing: false });
 });
 
 test('an end date with no year rolls into the next year across December', () => {
-  assert.deepEqual(parsePeriod('開催：2026年12月20日(日)〜1月5日(月)'), { startDate: '2026-12-20', endDate: '2027-01-05' });
+  assert.deepEqual(parsePeriod('開催：2026年12月20日(日)〜1月5日(月)'), { startDate: '2026-12-20', endDate: '2027-01-05', ongoing: false });
 });
 
 test('an unparseable period yields nothing rather than a guess', () => {
-  assert.deepEqual(parsePeriod('日程未定'), { startDate: null, endDate: null });
-  assert.deepEqual(parsePeriod(''), { startDate: null, endDate: null });
+  assert.deepEqual(parsePeriod('日程未定'), { startDate: null, endDate: null, ongoing: false });
+  assert.deepEqual(parsePeriod(''), { startDate: null, endDate: null, ongoing: false });
 });
 
 test('the shop template (池袋/吉祥寺) parses title, dates, price and duration', () => {

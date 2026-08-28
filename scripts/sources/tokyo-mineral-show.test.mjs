@@ -6,7 +6,6 @@ const source = {
   name: '東京ミネラルショー2026',
   link: 'https://www.tokyomineralshow.com/exhibitor/list_ka/',
   startDate: '2026-08-28',
-  endDate: '2027-08-28',
 };
 
 const pair = ({ name = '世界の化石販売 KASEKIYA', hall = '2', area = 'L', booth = 'B31', contact = '192-0355\n東京都八王子市堀之内2-6-1-110\n042-670-9494' } = {}) => `
@@ -81,7 +80,10 @@ test('a shop maps to a place candidate, not a dated event', () => {
   assert.equal(event.place, '東京都八王子市堀之内2-6-1-110');
   assert.equal(event.category, '鉱物・化石・隕石の店');
   assert.match(event.why, /ブースB31/);
-  assert.equal(event.endDate, '2027-08-28');
+  // A shop has no end date; `ongoing` is what keeps it inside the horizon
+  // filter, instead of the invented far-future endDate this used to write.
+  assert.equal(event.ongoing, true);
+  assert.equal(event.endDate, undefined);
 });
 
 test('a shop with no address is not turned into a place', () => {

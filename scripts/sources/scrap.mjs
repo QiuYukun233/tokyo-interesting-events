@@ -19,14 +19,15 @@ import { createEventCandidate } from '../lib/event-utils.mjs';
  *
  * No terms-of-use page was found restricting reuse of the schedule data.
  *
- * Known gap: several games run open-ended with no announced end date — the
- * page just says "開催：2024年12月29日〜". Everywhere else in this codebase, no
- * end date means "single-day event", and `lib/pool-db.mjs`'s horizon filter
- * is built on that: `COALESCE(endDate, startDate) >= today`. For a game whose
- * only date is a launch a year ago, that reads as long expired, so it quietly
- * ages out of `/backstage` and `npm run review` even while still bookable.
- * Fixing this needs a real "ongoing, no known end" concept in the pool, which
- * is a bigger question than this adapter — noted rather than patched around.
+ * Several games run open-ended with no announced end date — the page just says
+ * "開催：2024年12月29日〜". That used to be indistinguishable from a single-day
+ * event, because both parsed to "no end date" and `lib/pool-db.mjs`'s horizon
+ * filter read a missing endDate as single-day. Twenty-four still-bookable games
+ * had silently aged out of `/backstage` and `npm run review` by 2026-08-28.
+ *
+ * The pool now has an explicit `ongoing` flag and `parsePeriod` reports it: a
+ * trailing 〜 with nothing after it means "until further notice", no 〜 at all
+ * means one day. The distinction is the source's own wording, not a guess.
  */
 export const SCRAP_SOURCES = [
   { name: 'リアル脱出ゲーム池袋店', family: 'shop', url: 'https://www.scrapmagazine.com/ikebukuro/', origin: 'https://www.scrapmagazine.com' },
@@ -52,9 +53,14 @@ export function parsePeriod(value = '') {
     return match ? { year: match[1], month: match[2].padStart(2, '0'), day: match[3].padStart(2, '0') } : null;
   };
   const start = full(before);
-  if (!start) return { startDate: null, endDate: null };
+  if (!start) return { startDate: null, endDate: null, ongoing: false };
   const startDate = `${start.year}-${start.month}-${start.day}`;
-  if (!after?.trim()) return { startDate, endDate: null };
+  // A trailing 〜 with nothing after it is SCRAP saying "runs until further
+  // notice"; no 〜 at all is a single day. Both used to come back as "no end
+  // date", which the pool read as single-day and quietly aged the long-running
+  // games out of view. `ongoing` keeps the two apart.
+  if (after !== undefined && !after.trim()) return { startDate, endDate: null, ongoing: true };
+  if (after === undefined) return { startDate, endDate: null, ongoing: false };
 
   let end = full(after);
   if (!end) {
@@ -65,7 +71,9 @@ export function parsePeriod(value = '') {
     }
   }
   const endDate = end ? `${end.year}-${end.month}-${end.day}` : null;
-  return { startDate, endDate: endDate === startDate ? null : endDate };
+  // A parsed 〜 whose right side is not a date (「〜好評につき延長中」) is also
+  // open-ended, not single-day.
+  return { startDate, endDate: endDate === startDate ? null : endDate, ongoing: !endDate };
 }
 
 function buildTime(limit, people, duration) {
@@ -74,7 +82,7 @@ function buildTime(limit, people, duration) {
 }
 
 function toCandidate(source, index, { href, title, price, period, limit, people, duration }) {
-  const { startDate, endDate } = parsePeriod(period);
+  const { startDate, endDate, ongoing } = parsePeriod(period);
   if (!href || !title || !startDate) return null;
   const candidate = createEventCandidate({
     sourceName: source.name,
@@ -88,7 +96,7 @@ function toCandidate(source, index, { href, title, price, period, limit, people,
     text: title,
     visualIndex: index,
   });
-  return candidate && { ...candidate, category: '脱出ゲーム・謎解き' };
+  return candidate && { ...candidate, category: '脱出ゲーム・謎解き', ...(ongoing ? { ongoing: true } : {}) };
 }
 
 function parseShopTemplate($, source) {
