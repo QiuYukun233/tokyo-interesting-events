@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-28T15:07:37+09:00",
-  "updatedAtLabel": "今日 15:07",
+  "updatedAt": "2026-08-28T15:35:49+09:00",
+  "updatedAtLabel": "今日 15:35",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -56,6 +56,11 @@
       "name": "渋谷PARCO",
       "ok": true,
       "count": 2
+    },
+    {
+      "name": "CoRich舞台芸術！",
+      "ok": true,
+      "count": 386
     }
   ],
   "events": [

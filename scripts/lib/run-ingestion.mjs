@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import robotsParser from 'robots-parser';
-import { filterAndDedupeActivities } from '../../lib/activity-filter.mjs';
+import { classifyActivity, filterAndDedupeActivities } from '../../lib/activity-filter.mjs';
 import { readCsvRecords } from '../../lib/csv.mjs';
 import { openPool, upsertCandidate } from '../../lib/pool-db.mjs';
 import { formatAlert, updateRegistry } from '../../lib/source-health.mjs';
@@ -104,10 +104,13 @@ export async function runIngestion(sources) {
   // in its own table, so this write can never undo a ruling. New candidates
   // land with no decision row, which is what "pending in the back office" is.
   const pool = openPool(fileURLToPath(POOL));
+  // Every pooled candidate carries its reason/signal codes, not just the ones
+  // the crawl-time filter routed to review/excluded. Without this, a `keep`
+  // decision's positive signals (e.g. signal:theater) never reached the pool,
+  // leaving lib/gate-evidence.mjs unable to ever judge whether that signal is
+  // a reliable one — the whole point of recording it in the first place.
   const codesFor = new Map();
-  for (const entry of [...fetchedTriage.review, ...fetchedTriage.excluded]) {
-    codesFor.set(entry.activity.id, { reasons: entry.reasons || [], signals: entry.signals || [] });
-  }
+  for (const activity of rawFetched) codesFor.set(activity.id, classifyActivity(activity));
   for (const activity of tradeOnly) codesFor.set(activity.id, { reasons: ['review:trade_only_admission'], signals: [] });
   let stored = 0;
   for (const activity of [...rawFetched, ...(await readJson(MANUAL, { events: [] })).events]) {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T15:07:13+09:00",
+  "updatedAt": "2026-08-28T15:35:00+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -66,6 +66,12 @@
       "ok": true,
       "count": 2,
       "pages": 1
+    },
+    {
+      "name": "CoRich舞台芸術！",
+      "ok": true,
+      "count": 386,
+      "pages": 36
     }
   ],
   "events": [
@@ -4965,33 +4971,6 @@
     },
     {
       "activity": {
-        "id": "2df4eba9a1e6",
-        "startDate": "2026-09-20",
-        "title": "ネクスト・クリエイション・プログラム チームアップ！オペラ『アマールと夜の訪問者』【狛江公演】",
-        "titleZh": "ネクスト・クリエイション・プログラム チームアップ！オペラ『アマールと夜の訪問者』【狛江公演】",
-        "place": "その他",
-        "time": "2026/09/20",
-        "price": "详见活动页",
-        "vibe": "小众音乐",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.t-bunka.jp/stage/31893/",
-        "source": "東京都歴史文化財団 · 体験100",
-        "attribution": "その他",
-        "category": "パフォーマンス"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "66d4afe1968e",
         "startDate": "2026-09-21",
         "title": "集まれ！池袋みんなの大道芸 2026",
@@ -5088,33 +5067,6 @@
         "source": "東京都歴史文化財団 · 体験100",
         "attribution": "トーキョーアーツアンドスペース本郷",
         "category": "トーク・講座"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "5e11173994a9",
-        "startDate": "2026-10-04",
-        "title": "ネクスト・クリエイション・プログラムチームアップ！オペラ『アマールと夜の訪問者』【立川公演】",
-        "titleZh": "ネクスト・クリエイション・プログラムチームアップ！オペラ『アマールと夜の訪問者』【立川公演】",
-        "place": "その他",
-        "time": "2026/10/04",
-        "price": "详见活动页",
-        "vibe": "小众音乐",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.t-bunka.jp/stage/31894/",
-        "source": "東京都歴史文化財団 · 体験100",
-        "attribution": "その他",
-        "category": "パフォーマンス"
       },
       "eligible": true,
       "decision": "review",

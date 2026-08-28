@@ -7,6 +7,7 @@ import { parseGeidaiMuseum } from './geidai-museum.mjs';
 import { parseWasedaEvents, WASEDA_EVENTS_URL } from './waseda-events.mjs';
 import { parseShibuyaParcoEvents, SHIBUYA_PARCO_EVENTS_URL } from './shibuya-parco-events.mjs';
 import { mapRecord as mapRekibun, parseRekibunHandsOn, REKIBUN_BENEFITS_URL, REKIBUN_HANDS_ON_URLS } from './rekibun.mjs';
+import { CORICH_URLS, parseCorich } from './corich.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -110,6 +111,16 @@ export const SOURCES = [
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-27', ownerOrContact: '涩谷 PARCO',
     parse: parseShibuyaParcoEvents,
+  },
+  {
+    // Nationwide theatre/musical listing, filtered to Tokyo client-side —
+    // no genre gate, deliberately: 落語, 2.5次元舞台, 一人芝居 alongside the
+    // mainstream is the point (plan §3.2「小型文化与亚文化」).
+    name: 'CoRich舞台芸術！', sourceFamily: 'local_media', trustTier: 'S2',
+    url: CORICH_URLS[0], urls: CORICH_URLS, origin: 'https://stage.corich.jp',
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '株式会社CoRich',
+    parse: parseCorich,
   },
 ];
 
