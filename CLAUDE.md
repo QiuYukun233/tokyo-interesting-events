@@ -74,6 +74,12 @@ npm run export-site   → data/events.json（只含 published）+ data/backstage
 没有判决行的候选就是 pending，所以重抓永远不会撤销任何人的决定，
 也没有任何抓取代码路径能让东西上前台。见 `docs/决策记录/0003-候选池与后台.md`。
 
+**推论（0004）：任何采集脚本的唯一写入口是 `upsertCandidate()`。**
+不写 `data/events.json`、不写 `data/review-events.json`、不自行判决发布。
+手动触发的 `collect-*.mjs` 也一样，手动不是绕开规矩的理由。
+开闭店链路曾经违反这条并因此白跑了很久，见
+`docs/决策记录/0004-采集脚本一律写池子.md`。
+
 详细说明见 `docs/架构.md`。事件记录的字段契约见 `docs/数据契约.md`，
 来源逐个的状态见 `docs/来源清单.md`。
 
