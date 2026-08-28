@@ -2,19 +2,22 @@ import { fileURLToPath } from 'node:url';
 import { classifyActivity } from '../lib/activity-filter.mjs';
 import { openPool, upsertCandidate } from '../lib/pool-db.mjs';
 import { assertRobotsAllowed } from './lib/run-ingestion.mjs';
-import { HANDMADE_MARCHE_ORIGIN, discoverExhibitorIds, fetchCreator } from './sources/handmade-marche.mjs';
+import { HANDMADE_MARCHE_SITES, discoverExhibitorIds, fetchCreator } from './sources/handmade-marche.mjs';
 
 /**
- * Manual/occasional collector for 東京ハンドメイドマルシェ — see the doc
- * comment in scripts/sources/handmade-marche.mjs for why this fair's
- * exhibitor directory is not in scripts/sources/index.mjs's daily SOURCES.
+ * Manual/occasional collector for ハンドメイドマルシェ — see the doc comment in
+ * scripts/sources/handmade-marche.mjs for why this fair's exhibitor directory
+ * is not in scripts/sources/index.mjs's daily SOURCES.
  *
- * Run near a fair edition (spring/autumn), once its directory is populated:
- *   node scripts/collect-handmade-marche.mjs --year 2026 --venue "東京ドームシティ プリズムホール"
+ * Run near a fair edition, once its directory is populated:
+ *   node scripts/collect-handmade-marche.mjs --site tokyo --year 2026
  *
- * One run costs roughly (genre count) + (exhibitor count) requests — around
- * 700 for a full edition — which is why this stays a manual trigger rather
- * than joining the daily cron.
+ * `--site` picks one of the operator's city sites (see HANDMADE_MARCHE_SITES).
+ * Only Tokyo is in scope by default; collecting another city is a deliberate
+ * call about how far outside Tokyo this site reaches, so it must be asked for.
+ *
+ * One run costs (list pages) + (exhibitor count) requests — about 760 for a
+ * full Tokyo edition — which is why this stays a manual trigger.
  */
 const USER_AGENT = 'TokyoInterestingEvents/0.6 (+contact via repository)';
 const POOL = new URL('../data/pool.db', import.meta.url);
@@ -24,17 +27,29 @@ function readArg(name, fallback) {
   return index === -1 ? fallback : process.argv[index + 1];
 }
 
+const siteKey = readArg('site', 'tokyo');
+const site = HANDMADE_MARCHE_SITES.find((entry) => entry.key === siteKey);
+if (!site) {
+  console.error(`unknown --site ${siteKey}; known: ${HANDMADE_MARCHE_SITES.map((entry) => entry.key).join(', ')}`);
+  process.exit(1);
+}
+
 const year = Number(readArg('year', new Date().getFullYear()));
-const venue = readArg('venue', '東京ドームシティ プリズムホール');
-const edition = readArg('name', `東京ハンドメイドマルシェ${year}`);
-const source = { name: edition, year, venue, origin: HANDMADE_MARCHE_ORIGIN, url: HANDMADE_MARCHE_ORIGIN };
+const venue = readArg('venue', site.venue);
+const edition = readArg('name', `${siteKey === 'tokyo' ? '東京' : site.key}ハンドメイドマルシェ${year}`);
+const source = { name: edition, year, venue, origin: site.origin, url: site.origin };
 
 await assertRobotsAllowed(source, fetch);
 const fetchWithUa = (url) => fetch(url, { headers: { 'user-agent': USER_AGENT } });
 
-console.log('Discovering exhibitor ids across genres...');
-const exhibitorIds = await discoverExhibitorIds(fetchWithUa);
-console.log(`Found ${exhibitorIds.length} exhibitors. Fetching each creator page...`);
+console.log(`Discovering exhibitors on ${site.origin} ...`);
+const { ids: exhibitorIds, total } = await discoverExhibitorIds(fetchWithUa, { origin: site.origin });
+// The site publishes its own total; a walk that collected fewer than that is a
+// silently truncated run, which is exactly how the genre-filter bug hid.
+if (total !== null && exhibitorIds.length !== total) {
+  console.warn(`WARNING: collected ${exhibitorIds.length} exhibitor ids but the site reports ${total}.`);
+}
+console.log(`Found ${exhibitorIds.length} exhibitors${total === null ? '' : ` (site total: ${total})`}. Fetching each creator page...`);
 
 const pool = openPool(fileURLToPath(POOL));
 const now = new Date();
@@ -45,7 +60,7 @@ for (const [index, exhibitorId] of exhibitorIds.entries()) {
   if (!event) { skipped += 1; continue; }
   upsertCandidate(pool, event, { now, ...classifyActivity(event) });
   stored += 1;
-  if ((index + 1) % 50 === 0) console.log(`  ...${index + 1}/${exhibitorIds.length}`);
+  if ((index + 1) % 100 === 0) console.log(`  ...${index + 1}/${exhibitorIds.length}`);
 }
 pool.close();
 

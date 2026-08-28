@@ -2,7 +2,7 @@ import * as cheerio from 'cheerio';
 import { createEventCandidate } from '../lib/event-utils.mjs';
 
 /**
- * 東京ハンドメイドマルシェ — exhibitor directory for a twice-yearly craft fair.
+ * ハンドメイドマルシェ — exhibitor directory for a craft-fair series.
  *
  * This validates a broader idea than "scrape antique markets": niche shops and
  * independent creators generally rely on fairs/expos for customer acquisition,
@@ -14,41 +14,61 @@ import { createEventCandidate } from '../lib/event-utils.mjs';
  * intentionally welcome — "AEO方針...個別にブロックしないこと" — the opposite
  * stance from fmfm.jp, which explicitly blocks the same crawlers. Verified 2026-08-28.
  *
- * Structurally this is NOT a daily-source: the exhibitor directory only exists
- * for the ~1 week around each fair (spring/autumn), and one run costs roughly
- * (genre count) + (creator count) requests — around 700 for a full autumn
- * edition. That is proportionate for an occasional, near-date run, not for the
- * daily cron every other source here rides on. See scripts/collect-handmade-marche.mjs,
- * which is deliberately NOT wired into scripts/sources/index.mjs.
+ * One operator runs the whole series, one site per city on its own subdomain,
+ * all sharing this markup — so one parser covers every edition. Which cities to
+ * actually collect is a scope decision for the caller, not this module's.
+ *
+ * Structurally this is NOT a daily source: the exhibitor directory only exists
+ * for the weeks around each fair, and one run costs (list pages) + (exhibitor
+ * count) requests — around 760 for a full Tokyo edition. See
+ * scripts/collect-handmade-marche.mjs, deliberately NOT wired into
+ * scripts/sources/index.mjs.
+ *
+ * ## The genre trap (fixed 2026-08-28, was a real 93% data loss)
+ *
+ * `/creators/list_creators/?genre=N` looks like a per-genre listing and returns
+ * a plausible ~49 rows, so the first implementation walked the genre list and
+ * unioned the results. **The `genre` parameter is silently ignored unless the
+ * form's `s` marker is also present**: every genre returned the identical 49
+ * rows, and the union of all of them was those same 49 — against a real 722
+ * exhibitors. Same shape as the CoRich `category_id` trap in docs/来源清单.md:
+ * a filter parameter that is accepted, changes nothing, and returns enough rows
+ * to look like it worked.
+ *
+ * With `?s=` present the search actually runs and paginates 20 at a time, so
+ * discovery now walks `?s=&page=N` with no genre filter at all — fewer requests
+ * than the broken genre loop, and it gets everything. A page past the end
+ * returns zero ids, which is the termination signal.
  */
 export const HANDMADE_MARCHE_ORIGIN = 'https://tokyo.handmade-marche.jp';
-const LIST_URL = `${HANDMADE_MARCHE_ORIGIN}/creators/list_creators/`;
-const CREATOR_URL = `${HANDMADE_MARCHE_ORIGIN}/creators/`;
 
 /**
- * The site's own genre taxonomy — there is no "all genres" query, only
- * per-genre lists. The real `<select name="genre">` also carries 90
- * (公式ブース) and 91 (PRブース): those are the organiser's own booths, not
- * independent creators, so they are deliberately left out here. 92
- * (キルト出店エリア) is a real creator genre and is included.
+ * The series' city sites. `handmade-marche.jp` itself is the Yokohama edition;
+ * every other city is a subdomain. Sizes are the operator's own published
+ * booth counts (handmade-marche.jp/list/), for judging what a run will cost.
  */
-export const HANDMADE_MARCHE_GENRES = [
-  { id: '1', label: 'アクセサリー' },
-  { id: '2', label: 'ファッション' },
-  { id: '3', label: 'インテリア・雑貨' },
-  { id: '4', label: '陶芸・食器' },
-  { id: '5', label: 'アート・写真' },
-  { id: '6', label: 'ステーショナリー' },
-  { id: '7', label: 'キッズ・ベビー' },
-  { id: '8', label: 'ペット' },
-  { id: '92', label: 'キルト出店エリア' },
-  { id: '98', label: 'フード' },
-  { id: '99', label: 'その他' },
+export const HANDMADE_MARCHE_SITES = [
+  { key: 'tokyo', origin: 'https://tokyo.handmade-marche.jp', venue: '東京ドームシティ プリズムホール', booths: 700 },
+  { key: 'yokohama', origin: 'https://handmade-marche.jp', venue: 'パシフィコ横浜', booths: 2500 },
+  { key: 'kokura', origin: 'https://kkr.handmade-marche.jp', venue: '北九州メッセ', booths: 1100 },
+  { key: 'kanazawa', origin: 'https://knz.handmade-marche.jp', venue: '石川県産業展示館', booths: 1100 },
+  { key: 'shizuoka', origin: 'https://szo.handmade-marche.jp', venue: 'ツインメッセ静岡', booths: 1000 },
+  { key: 'hamamatsu', origin: 'https://hma.handmade-marche.jp', venue: 'アクトシティ浜松', booths: 800 },
+  { key: 'nagoya', origin: 'https://ngy.handmade-marche.jp', venue: '吹上ホール', booths: 1100 },
+  { key: 'sapporo', origin: 'https://spr.handmade-marche.jp', venue: 'つどーむ', booths: 1200 },
+  { key: 'hakata', origin: 'https://hkt.handmade-marche.jp', venue: '福岡国際センター', booths: 800 },
+  { key: 'kobe', origin: 'https://kobe.handmade-marche.jp', venue: '神戸国際展示場', booths: 800 },
 ];
+
+/** Rows per list page, fixed by the site. */
+export const PAGE_SIZE = 20;
+
+const listUrl = (origin, page) => `${origin}/creators/list_creators/?s=&page=${page}`;
+const creatorUrl = (origin, exhibitorId) => `${origin}/creators/?exhibitor_id=${exhibitorId}`;
 
 const compact = (value = '') => String(value).replace(/\s+/g, ' ').trim();
 
-/** Extract the unique exhibitor ids listed for one genre's page. */
+/** Extract the unique exhibitor ids on one list page. */
 export function parseExhibitorIds(html) {
   const $ = cheerio.load(html);
   const ids = new Set();
@@ -60,8 +80,17 @@ export function parseExhibitorIds(html) {
 }
 
 /**
+ * The list page's own total ("全 722 件"). Used to check that a walk collected
+ * everything the site says exists, rather than trusting the loop.
+ */
+export function parseTotalCount(html) {
+  const match = cheerio.load(html).root().text().match(/全\s*([\d,]+)\s*件/);
+  return match ? Number(match[1].replace(/,/g, '')) : null;
+}
+
+/**
  * `9/6(日)` has no year; the fair's own edition year is supplied by the caller
- * (`source.year`) since the same markup is reused across spring/autumn editions.
+ * (`source.year`) since the same markup is reused across editions.
  */
 export function parseAttendanceDate(value = '', year) {
   const match = compact(value).match(/(\d{1,2})\/(\d{1,2})/);
@@ -72,7 +101,7 @@ export function parseAttendanceDate(value = '', year) {
  * Parse one creator's profile page.
  * @param {string} html
  * @param {string} exhibitorId
- * @param {{name: string, year: number, venue: string}} source
+ * @param {{name: string, year: number, venue: string, origin?: string}} source
  */
 export function parseCreatorPage(html, exhibitorId, source) {
   const $ = cheerio.load(html);
@@ -87,7 +116,7 @@ export function parseCreatorPage(html, exhibitorId, source) {
   const sns = $('td.sns a[href^="http"]').first().attr('href');
   const candidate = createEventCandidate({
     sourceName: source.name,
-    sourceUrl: `${CREATOR_URL}?exhibitor_id=${exhibitorId}`,
+    sourceUrl: creatorUrl(source.origin || HANDMADE_MARCHE_ORIGIN, exhibitorId),
     title,
     startDate: attendanceDate,
     place: booth ? `${source.venue} · ブース${booth}` : source.venue,
@@ -103,22 +132,31 @@ export function parseCreatorPage(html, exhibitorId, source) {
 }
 
 /**
- * Discover every exhibitor id across the fixed genre list, deduped — a creator
- * can appear under more than one genre tag.
+ * Walk the full exhibitor list, page by page, until a page yields nothing.
+ *
+ * Deliberately does not filter by genre — see "The genre trap" above.
+ *
+ * @returns {Promise<{ids: string[], total: number|null}>} `total` is the site's
+ *   own count, for the caller to compare against `ids.length`.
  */
-export async function discoverExhibitorIds(fetchImpl = fetch) {
+export async function discoverExhibitorIds(fetchImpl = fetch, { origin = HANDMADE_MARCHE_ORIGIN, maxPages = 500 } = {}) {
   const ids = new Set();
-  for (const genre of HANDMADE_MARCHE_GENRES) {
-    const response = await fetchImpl(`${LIST_URL}?genre=${genre.id}`);
-    if (!response.ok) continue;
-    for (const id of parseExhibitorIds(await response.text())) ids.add(id);
+  let total = null;
+  for (let page = 1; page <= maxPages; page += 1) {
+    const response = await fetchImpl(listUrl(origin, page));
+    if (!response.ok) break;
+    const html = await response.text();
+    total ??= parseTotalCount(html);
+    const pageIds = parseExhibitorIds(html);
+    if (!pageIds.length) break;
+    for (const id of pageIds) ids.add(id);
   }
-  return [...ids];
+  return { ids: [...ids], total };
 }
 
 /** One id → one candidate (or null if the page is missing required fields). */
 export async function fetchCreator(exhibitorId, source, fetchImpl = fetch) {
-  const response = await fetchImpl(`${CREATOR_URL}?exhibitor_id=${exhibitorId}`);
+  const response = await fetchImpl(creatorUrl(source.origin || HANDMADE_MARCHE_ORIGIN, exhibitorId));
   if (!response.ok) return null;
   return parseCreatorPage(await response.text(), exhibitorId, source);
 }
