@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-28T22:01:59+09:00",
+  "updatedAt": "2026-08-28T22:31:35+09:00",
   "summary": {
-    "total": 2696,
-    "pending": 2399,
+    "total": 2704,
+    "pending": 2407,
     "published": 101,
     "rejected": 196,
     "byType": [
@@ -20,6 +20,11 @@
         "objectType": "activity",
         "state": "rejected",
         "n": 15
+      },
+      {
+        "objectType": "closing",
+        "state": "pending",
+        "n": 1
       },
       {
         "objectType": "closing",
@@ -68,13 +73,18 @@
       },
       {
         "objectType": "opening",
+        "state": "pending",
+        "n": 6
+      },
+      {
+        "objectType": "opening",
         "state": "published",
         "n": 2
       },
       {
         "objectType": "place",
         "state": "pending",
-        "n": 112
+        "n": 113
       },
       {
         "objectType": "place",
@@ -234,6 +244,11 @@
         "n": 4
       },
       {
+        "source": "シブヤ経済新聞",
+        "state": "pending",
+        "n": 3
+      },
+      {
         "source": null,
         "state": "published",
         "n": 2
@@ -254,8 +269,23 @@
         "n": 2
       },
       {
+        "source": "下北沢経済新聞",
+        "state": "pending",
+        "n": 1
+      },
+      {
+        "source": "八王子経済新聞",
+        "state": "pending",
+        "n": 1
+      },
+      {
         "source": "吉祥寺経済新聞",
         "state": "rejected",
+        "n": 1
+      },
+      {
+        "source": "品川経済新聞",
+        "state": "pending",
         "n": 1
       },
       {
@@ -269,6 +299,11 @@
         "n": 1
       },
       {
+        "source": "立川経済新聞",
+        "state": "pending",
+        "n": 1
+      },
+      {
         "source": "銀座経済新聞",
         "state": "published",
         "n": 1
@@ -276,6 +311,11 @@
       {
         "source": "銀座経済新聞",
         "state": "rejected",
+        "n": 1
+      },
+      {
+        "source": "高円寺経済新聞",
+        "state": "pending",
         "n": 1
       }
     ]
@@ -61649,31 +61689,6 @@
       "label": "值得专程去的场所",
       "items": [
         {
-          "id": "a2c84436439c",
-          "startDate": "2026-07-24",
-          "endDate": "2026-08-28",
-          "title": "エルベシャプリエ吉祥寺、移転から1周年 通りから店内がよく見える場所に",
-          "titleZh": "エルベシャプリエ吉祥寺、移転から1周年 通りから店内がよく見える場所に",
-          "place": "武蔵野市吉祥寺本町2",
-          "time": "报道所述变动日",
-          "price": "不适用",
-          "vibe": "奇妙体验",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://kichijoji.keizai.biz/headline/3479/",
-          "source": "吉祥寺経済新聞",
-          "category": "見る・遊ぶ",
-          "why": "老地方正在变成新玩法，具有明确的限时发现感",
-          "changeType": "discovery",
-          "attribution": "吉祥寺経済新聞",
-          "objectType": "place",
-          "state": "rejected",
-          "decidedBy": "ai:claude",
-          "reasons": [],
-          "signals": [],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
-        },
-        {
           "id": "a373d78732bb",
           "startDate": "2026-08-21",
           "endDate": "2026-09-25",
@@ -61691,31 +61706,6 @@
           "why": "老地方正在变成新玩法，具有明确的限时发现感",
           "changeType": "discovery",
           "attribution": "シブヤ経済新聞",
-          "objectType": "place",
-          "state": "published",
-          "decidedBy": "ai:claude",
-          "reasons": [],
-          "signals": [],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
-        },
-        {
-          "id": "23f5071bab63",
-          "startDate": "2026-08-26",
-          "endDate": "2026-09-30",
-          "title": "銀座三越で「Floyd」ポップアップ 独ミュンヘン発のトラベルブランド",
-          "titleZh": "銀座三越で「Floyd」ポップアップ 独ミュンヘン発のトラベルブランド",
-          "place": "中央区銀座4",
-          "time": "报道所述变动日",
-          "price": "不适用",
-          "vibe": "奇妙体验",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://ginza.keizai.biz/headline/4513/",
-          "source": "銀座経済新聞",
-          "category": "買う",
-          "why": "老地方正在变成新玩法，具有明确的限时发现感",
-          "changeType": "discovery",
-          "attribution": "銀座経済新聞",
           "objectType": "place",
           "state": "published",
           "decidedBy": "ai:claude",
@@ -64752,7 +64742,6 @@
         {
           "id": "7e06c2e6b140",
           "startDate": "2026-09-01",
-          "endDate": "2026-10-06",
           "title": "パルコの映画館「シネクイント」、映像カルチャー発信拠点にリニューアル",
           "titleZh": "パルコの映画館「シネクイント」、映像カルチャー発信拠点にリニューアル",
           "place": "渋谷区宇田川町",
@@ -64770,14 +64759,41 @@
           "objectType": "place",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
+          "id": "6a575f10daa4",
+          "startDate": "2026-09-16",
+          "title": "渋谷に「フライング タイガー」初のシーズナル限定店 季節に合わせ商品展開",
+          "titleZh": "渋谷に「フライング タイガー」初のシーズナル限定店 季節に合わせ商品展開",
+          "place": "渋谷区渋谷2",
+          "time": "报道所述变动日",
+          "price": "不适用",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.shibukei.com/headline/20111/",
+          "source": "シブヤ経済新聞",
+          "category": "買う",
+          "why": "老地方正在变成新玩法，具有明确的限时发现感",
+          "changeType": "discovery",
+          "attribution": "シブヤ経済新聞",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T13:31:27.929Z"
+        },
+        {
           "id": "b280317a905b",
           "startDate": "2026-10-01",
-          "endDate": "2026-11-05",
           "title": "ホテルグレイスリー銀座、上層階客室をリニューアルへ",
           "titleZh": "ホテルグレイスリー銀座、上層階客室をリニューアルへ",
           "place": "中央区銀座7",
@@ -64795,7 +64811,9 @@
           "objectType": "place",
           "state": "rejected",
           "decidedBy": "ai:claude",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         }
@@ -64806,34 +64824,8 @@
       "label": "新开・重开",
       "items": [
         {
-          "id": "5de53b82fe99",
-          "startDate": "2026-08-26",
-          "endDate": "2026-09-30",
-          "title": "ディスクユニオン池袋店が移転オープン 約5万枚の在庫を展開",
-          "titleZh": "ディスクユニオン池袋店が移転オープン 約5万枚の在庫を展開",
-          "place": "豊島区南池袋2",
-          "time": "报道所述变动日",
-          "price": "不适用",
-          "vibe": "奇妙体验",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://ikebukuro.keizai.biz/headline/3971/",
-          "source": "池袋経済新聞",
-          "category": "買う",
-          "why": "东京新出现的店铺形态，适合和朋友一起尝鲜",
-          "changeType": "opening",
-          "attribution": "池袋経済新聞",
-          "objectType": "opening",
-          "state": "published",
-          "decidedBy": "legacy",
-          "reasons": [],
-          "signals": [],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
-        },
-        {
           "id": "0c6b5a7223f4",
           "startDate": "2026-08-28",
-          "endDate": "2026-10-02",
           "title": "京都発ラーメン店「セアブラノ神」、渋谷に府外初出店 おむすび店併設",
           "titleZh": "京都発ラーメン店「セアブラノ神」、渋谷に府外初出店 おむすび店併設",
           "place": "渋谷区宇田川町",
@@ -64851,9 +64843,37 @@
           "objectType": "opening",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
+        },
+        {
+          "id": "a52917172d45",
+          "startDate": "2026-09-07",
+          "title": "「イオン八王子滝山」に「アトリエうかい」 9月出店へ",
+          "titleZh": "「イオン八王子滝山」に「アトリエうかい」 9月出店へ",
+          "place": "八王子市南浅川町",
+          "time": "报道所述变动日",
+          "price": "不适用",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://hachioji.keizai.biz/headline/4290/",
+          "source": "八王子経済新聞",
+          "category": "買う",
+          "why": "东京新出现的店铺形态，适合和朋友一起尝鲜",
+          "changeType": "opening",
+          "attribution": "八王子経済新聞",
+          "objectType": "opening",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T13:31:27.929Z"
         }
       ]
     },
@@ -64861,6 +64881,32 @@
       "objectType": "closing",
       "label": "即将消失",
       "items": [
+        {
+          "id": "609045d4bb2b",
+          "startDate": "2026-08-29",
+          "title": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
+          "titleZh": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
+          "place": "渋谷区渋谷3",
+          "time": "报道所述变动日",
+          "price": "不适用",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.shibukei.com/headline/20109/",
+          "source": "シブヤ経済新聞",
+          "category": "食べる",
+          "why": "即将消失的城市记忆，适合在关门前专程去一次",
+          "changeType": "closing",
+          "attribution": "シブヤ経済新聞",
+          "objectType": "closing",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T13:31:27.929Z"
+        },
         {
           "id": "7109156a3bfd",
           "startDate": "2026-09-30",
@@ -64881,7 +64927,9 @@
           "objectType": "closing",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         }

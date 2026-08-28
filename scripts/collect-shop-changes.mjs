@@ -1,69 +1,57 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { classifyActivity } from '../lib/activity-filter.mjs';
+import { openPool, upsertCandidate } from '../lib/pool-db.mjs';
+import { shopWhy } from '../lib/shop-publication-policy.mjs';
 import { minkeiSources } from './sources/minkei.mjs';
-import { shopPublicationDecision, shopWhy } from '../lib/shop-publication-policy.mjs';
 
 /**
- * Shop-lifecycle collector. Runs outside the main ingestion because it is a
- * two-stage crawl (one homepage, then only the matching articles) at a much
- * lower frequency than the venue sources.
+ * Shop-lifecycle collector — みんなの経済新聞 15 地域版.
+ *
+ * Runs outside the main ingestion because it is a two-stage crawl (one
+ * homepage, then only the matching articles) at a much lower frequency than
+ * the venue sources.
+ *
+ * ## Why this was rewritten (2026-08-28)
+ *
+ * It used to read `data/events.json`, merge its own picks into it and write it
+ * back — i.e. a crawl path that published straight to the front page, deciding
+ * for itself with a `DISTINCTIVE` keyword regex. That is precisely the路径
+ * 决策记录/0003 says must not exist: 「没有任何抓取代码路径能让东西上前台」.
+ *
+ * In practice it was worse than a rule violation, because `npm run export-site`
+ * regenerates `data/events.json` from the pool in full. Everything this script
+ * published was silently erased by the next export, so fifteen editions were
+ * being crawled, judged and thrown away. That is why the pool held only a
+ * handful of 経済新聞 candidates.
+ *
+ * Now it writes candidates like every other source and rules on nothing. The
+ * old `DISTINCTIVE` regex is gone rather than promoted to lib/gate.mjs: 初出店 /
+ * 専門店 / ユニーク / コンセプト is a judgement about whether a shop sounds
+ * interesting, which 决策记录/0002 reserves for a person. `lib/object-type.mjs`
+ * already sorts these into opening / closing / place from `changeType`, which
+ * is the part that is factual.
  */
-const OUTPUT = new URL('../data/events.json', import.meta.url);
-const REVIEW_OUTPUT = new URL('../data/review-events.json', import.meta.url);
-
-/**
- * A shop change being real is not enough to publish it — most openings are an
- * ordinary chain branch. Publication needs something that makes the place worth
- * a trip.
- */
-const DISTINCTIVE = /初出店|都内初|日本初|旗艦|専門店|複合|体験|限定|ユニーク|コンセプト|復活|老舗|長年|ディスクユニオン|ホビー|ピックルボール|独立|book|古書|銭湯|レコード|模型|ライブハウス/i;
-
-function publicationDecision(event) {
-  // Shibuya keeps its own longer-standing policy; the rest of the network
-  // shares one rule until there is evidence to split them.
-  if (event.source === 'シブヤ経済新聞') return shopPublicationDecision(event);
-  if (event.changeType === 'discovery' || DISTINCTIVE.test(`${event.title || ''} ${event.category || ''}`)) return { publish: true, reason: null };
-  return { publish: false, reason: 'Shop change: real but not distinctive enough for automatic publication' };
-}
-
-const addDays = (date, days) => {
-  const value = new Date(`${date}T12:00:00+09:00`);
-  value.setUTCDate(value.getUTCDate() + days);
-  return value.toISOString().slice(0, 10);
-};
+const POOL = new URL('../data/pool.db', import.meta.url);
 
 const sources = minkeiSources();
 const settled = await Promise.allSettled(sources.map(({ collect, ...source }) => collect({ source })));
 for (const [index, result] of settled.entries()) {
   if (result.status === 'rejected') console.error(`Edition failed: ${sources[index].name} — ${result.reason?.message || result.reason}`);
 }
-const collected = settled.filter((result) => result.status === 'fulfilled').flatMap((result) => result.value);
+const succeeded = settled.filter((result) => result.status === 'fulfilled');
+const collected = succeeded.flatMap((result) => result.value);
 
-const publicEvents = [];
-const reviewEntries = [];
+const pool = openPool(fileURLToPath(POOL));
+const now = new Date();
+let stored = 0;
 for (const event of collected) {
-  const decision = publicationDecision(event);
-  if (!decision.publish) {
-    reviewEntries.push({ activity: event, decision: 'review', reasons: [decision.reason], signals: [] });
-    continue;
-  }
-  const safe = Object.fromEntries(Object.entries(event).filter(([key]) => key !== 'description'));
-  publicEvents.push({
-    ...safe,
-    // A closing is a deadline; an opening stays interesting for a while.
-    ...(event.changeType === 'closing' ? {} : { endDate: addDays(event.startDate, 35) }),
-    attribution: event.attribution || event.source,
-    why: shopWhy(event),
-  });
+  if (!event?.id || !event?.startDate) continue;
+  upsertCandidate(pool, { ...event, why: shopWhy(event) }, { now, ...classifyActivity(event) });
+  stored += 1;
 }
+pool.close();
 
-const published = JSON.parse(await readFile(OUTPUT, 'utf8'));
-const reviewData = JSON.parse(await readFile(REVIEW_OUTPUT, 'utf8'));
-const events = [...new Map([...published.events, ...publicEvents].map((event) => [`${event.sourceUrl}:${event.title}`, event])).values()]
-  .sort((a, b) => a.startDate.localeCompare(b.startDate));
-const review = [...new Map([...reviewData.events, ...reviewEntries].map((entry) => [`${entry.activity?.sourceUrl}:${entry.activity?.title}`, entry])).values()];
-
-await Promise.all([
-  writeFile(OUTPUT, `${JSON.stringify({ ...published, events }, null, 2)}\n`),
-  writeFile(REVIEW_OUTPUT, `${JSON.stringify({ ...reviewData, events: review }, null, 2)}\n`),
-]);
-console.log(`Shop changes from ${settled.filter((r) => r.status === 'fulfilled').length}/${sources.length} editions: collected ${collected.length}; published ${publicEvents.length}; review ${reviewEntries.length}.`);
+const byType = collected.reduce((counts, event) => ({ ...counts, [event.changeType || 'other']: (counts[event.changeType || 'other'] || 0) + 1 }), {});
+console.log(`Pooled ${stored} shop candidates from ${succeeded.length}/${sources.length} editions.`);
+console.log(`By change type: ${Object.entries(byType).map(([type, count]) => `${type} ${count}`).join(' · ') || 'none'}`);
+console.log('All land pending; run `npm run review` to judge them, then `npm run export-site`.');
