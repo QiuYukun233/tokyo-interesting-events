@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T00:53:47+09:00",
+  "updatedAt": "2026-08-29T01:19:29+09:00",
   "summary": {
     "total": 2902,
     "pending": 2605,
@@ -1835,7 +1835,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -1938,7 +1940,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -2046,7 +2049,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -2222,7 +2226,10 @@
           "reasons": [
             "hard:recruiting"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -2322,7 +2329,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -2349,7 +2357,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -2397,7 +2407,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -2548,7 +2560,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -2574,7 +2588,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -2676,7 +2691,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -2908,7 +2924,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -3540,7 +3557,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -3789,7 +3807,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -3814,7 +3834,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -3940,7 +3962,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -4044,7 +4068,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -4115,7 +4141,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -4417,7 +4445,8 @@
             "signal:nature"
           ],
           "signals": [
-            "signal:nature"
+            "signal:nature",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -4461,7 +4490,9 @@
           "objectType": "event",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -5397,7 +5428,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -5606,7 +5637,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -5761,9 +5792,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -5966,7 +5999,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -6096,7 +6129,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -6178,7 +6211,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -6697,7 +6731,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -6776,7 +6811,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -6881,7 +6919,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -6908,7 +6947,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -6934,7 +6975,9 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:off_street",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -7220,7 +7263,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -8124,7 +8169,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -8337,7 +8383,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -10146,7 +10193,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -10539,7 +10587,9 @@
           "reasons": [
             "hard:recruiting"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -12124,7 +12174,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -12986,7 +13038,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -18775,7 +18829,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -27154,7 +27210,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -28873,7 +28931,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -29285,7 +29344,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -29836,7 +29896,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -30298,7 +30359,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -31189,7 +31251,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -31395,7 +31458,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -31908,7 +31973,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -32133,7 +32200,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -33269,7 +33338,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -33428,9 +33497,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:tech"
           ],
-          "signals": [],
+          "signals": [
+            "signal:tech"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -34179,7 +34250,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -34205,7 +34278,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -34282,7 +34356,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -34437,7 +34512,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -34723,7 +34799,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -34850,7 +34927,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -34981,7 +35060,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -35006,7 +35087,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -35082,7 +35165,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -35212,7 +35296,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -35237,7 +35323,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
@@ -35291,7 +35378,8 @@
             "signal:tech"
           ],
           "signals": [
-            "signal:tech"
+            "signal:tech",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -35317,7 +35405,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -36182,7 +36272,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -37599,7 +37690,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -37624,7 +37717,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -37751,7 +37846,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -37981,7 +38077,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -38547,7 +38645,9 @@
           "reasons": [
             "hard:recruiting"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -38904,7 +39004,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -39060,7 +39162,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -39111,7 +39214,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -39443,7 +39547,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -40107,7 +40212,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -40211,7 +40317,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -40238,7 +40345,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -40289,7 +40398,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -40516,7 +40626,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -41850,7 +41962,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -42023,7 +42135,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -42651,7 +42763,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -44410,7 +44524,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44459,7 +44573,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44483,7 +44597,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44532,7 +44646,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44631,7 +44745,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44655,7 +44769,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44704,7 +44818,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44728,7 +44842,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44752,9 +44866,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -44801,9 +44917,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:hands_on"
           ],
-          "signals": [],
+          "signals": [
+            "signal:hands_on"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -44825,7 +44943,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44849,7 +44967,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44923,9 +45041,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:tech"
           ],
-          "signals": [],
+          "signals": [
+            "signal:tech"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -44947,7 +45067,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -44971,7 +45091,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -45020,7 +45140,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -45044,7 +45164,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -45068,7 +45188,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -45798,7 +45918,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -45898,7 +46020,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -46324,7 +46448,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -47552,7 +47678,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -47680,7 +47806,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -48280,7 +48408,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -50605,7 +50735,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -51535,7 +51667,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -51557,7 +51691,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51581,7 +51715,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51655,7 +51789,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51679,7 +51813,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51703,7 +51837,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51727,7 +51861,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51751,7 +51885,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51775,7 +51909,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51799,7 +51933,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51849,7 +51983,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -51895,7 +52031,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51919,7 +52055,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51943,7 +52079,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51967,7 +52103,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -51991,7 +52127,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -52015,7 +52151,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -52039,7 +52175,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -52063,7 +52199,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -52087,7 +52223,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -52159,7 +52295,7 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "review:no_public_experience_signal"
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
@@ -52238,7 +52374,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -52265,7 +52402,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -52314,7 +52453,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -52388,7 +52529,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -52413,7 +52556,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -52438,7 +52583,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -52463,7 +52610,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
@@ -52489,7 +52638,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         }
       ]
@@ -52739,7 +52890,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -52790,7 +52943,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -52866,7 +53021,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -52916,7 +53073,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -53017,7 +53176,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
@@ -53095,7 +53255,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
@@ -53147,7 +53308,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -53172,7 +53335,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -53198,7 +53362,9 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -53414,7 +53580,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -53900,7 +54067,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -53977,7 +54145,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -54055,7 +54225,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -54271,7 +54443,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -54908,7 +55081,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -59149,9 +59324,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59173,9 +59350,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59228,7 +59407,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -59256,7 +59436,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -59279,9 +59460,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59307,7 +59490,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -59330,9 +59514,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59546,7 +59732,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -59573,7 +59760,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -59708,7 +59896,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -59785,9 +59974,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59809,9 +60000,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59833,9 +60026,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59884,9 +60079,13 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:tech",
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:tech",
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59935,9 +60134,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59959,9 +60160,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -59983,9 +60186,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60007,9 +60212,13 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art",
+            "signal:comedy"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art",
+            "signal:comedy"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60035,7 +60244,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -60085,9 +60295,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60109,9 +60321,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60133,9 +60347,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60157,9 +60373,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60207,9 +60425,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60231,9 +60451,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60255,9 +60477,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -60338,7 +60562,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -60500,7 +60725,8 @@
             "signal:theater"
           ],
           "signals": [
-            "signal:theater"
+            "signal:theater",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
@@ -60904,7 +61130,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -61147,7 +61374,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -61170,9 +61398,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "hard:trade_sales"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61194,9 +61424,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61222,7 +61454,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -61245,9 +61478,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61269,9 +61504,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61293,9 +61530,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61317,9 +61556,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61367,9 +61608,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61391,9 +61634,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61415,9 +61660,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61439,9 +61686,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61463,9 +61712,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61487,9 +61738,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61511,9 +61764,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61535,9 +61790,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61559,9 +61816,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61583,9 +61842,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61638,7 +61899,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -61665,7 +61927,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -61693,7 +61956,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
@@ -61716,9 +61980,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61740,9 +62006,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61764,9 +62032,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61788,9 +62058,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "hard:trade_sales"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61864,9 +62136,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61888,9 +62162,13 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:tech",
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:tech",
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61912,9 +62190,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61936,9 +62216,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61960,9 +62242,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -61984,9 +62268,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62008,9 +62294,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62032,9 +62320,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62056,9 +62346,13 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:tech",
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:tech",
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62132,9 +62426,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62156,9 +62452,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62180,9 +62478,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62204,9 +62504,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62228,9 +62530,13 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art",
+            "signal:nature"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art",
+            "signal:nature"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62278,9 +62584,11 @@
           "state": "rejected",
           "decidedBy": "rule:trade_only_admission",
           "reasons": [
-            "review:trade_only_admission"
+            "signal:art"
           ],
-          "signals": [],
+          "signals": [
+            "signal:art"
+          ],
           "firstSeenAt": "2026-08-27T18:27:27.984Z"
         },
         {
@@ -62306,7 +62614,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         }
@@ -62337,7 +62646,9 @@
           "objectType": "place",
           "state": "published",
           "decidedBy": "ai:claude",
-          "reasons": [],
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -62390,7 +62701,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62416,7 +62729,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62442,7 +62757,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62494,7 +62811,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -62546,7 +62865,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -62572,7 +62893,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -62626,7 +62950,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -62678,7 +63004,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62730,7 +63058,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62782,7 +63112,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62860,7 +63192,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -62964,7 +63298,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -62990,7 +63327,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63016,7 +63355,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63042,7 +63383,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -63148,7 +63491,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63174,7 +63519,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63226,7 +63573,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63358,7 +63707,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63462,7 +63813,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63514,7 +63867,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63594,7 +63949,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63646,7 +64003,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63672,7 +64031,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -63750,7 +64111,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -63830,7 +64193,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -63883,7 +64248,9 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:off_street",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -63988,7 +64355,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -64042,7 +64411,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -64148,7 +64519,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -64177,7 +64550,9 @@
           ],
           "signals": [
             "signal:tech",
-            "signal:art"
+            "signal:art",
+            "signal:off_street",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -64204,7 +64579,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -64334,7 +64711,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -64438,7 +64817,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -64492,7 +64874,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -64519,7 +64903,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -64574,7 +64959,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -64629,7 +65016,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -64683,7 +65071,8 @@
             "signal:nature"
           ],
           "signals": [
-            "signal:nature"
+            "signal:nature",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -64736,7 +65125,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -64894,7 +65285,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -64920,7 +65313,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65026,7 +65421,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65104,7 +65501,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -65208,7 +65607,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65315,7 +65716,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -65368,7 +65770,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65420,7 +65824,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65604,7 +66010,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -65683,7 +66092,8 @@
             "signal:tech"
           ],
           "signals": [
-            "signal:tech"
+            "signal:tech",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -65790,7 +66200,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -65817,7 +66229,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -65844,7 +66257,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65870,7 +66285,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65896,7 +66313,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -65974,7 +66393,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66054,7 +66475,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66080,7 +66503,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -66107,7 +66533,8 @@
             "signal:nature"
           ],
           "signals": [
-            "signal:nature"
+            "signal:nature",
+            "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -66214,7 +66641,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66240,7 +66669,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66348,7 +66779,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66400,7 +66833,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66505,7 +66940,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -66532,7 +66968,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -66558,7 +66997,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66612,7 +67053,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -66638,7 +67081,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66744,7 +67189,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -66770,7 +67217,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -66796,7 +67245,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -66929,7 +67380,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -66956,7 +67408,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67008,7 +67462,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67060,7 +67516,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67114,7 +67572,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67218,7 +67678,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67244,7 +67706,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67374,7 +67838,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67530,7 +67996,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67556,7 +68024,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67608,7 +68078,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67634,7 +68106,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67660,7 +68135,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67712,7 +68189,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67764,7 +68243,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -67791,7 +68272,9 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:off_street",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
@@ -67818,7 +68301,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67948,7 +68433,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -67974,7 +68461,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -68078,7 +68568,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -68158,7 +68650,10 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -68184,7 +68679,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -68316,7 +68813,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
@@ -68448,7 +68947,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
@@ -68605,7 +69106,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:residential_room"
           ],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
@@ -68714,7 +69216,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
@@ -68981,7 +69485,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
@@ -69008,7 +69513,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
@@ -69164,7 +69671,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
@@ -69270,7 +69779,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
@@ -69567,7 +70078,8 @@
             "signal:tech"
           ],
           "signals": [
-            "signal:tech"
+            "signal:tech",
+            "signal:residential_room"
           ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
@@ -69674,7 +70186,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
@@ -69886,7 +70400,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
@@ -70046,7 +70562,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
@@ -70176,7 +70694,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
@@ -70308,7 +70828,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
@@ -70362,7 +70884,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:off_street"
+          ],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
@@ -70440,7 +70964,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:residential_room"
+          ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
@@ -70743,7 +71269,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -70768,7 +71295,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -71516,7 +72045,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -71626,7 +72157,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
@@ -71651,7 +72184,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -71677,7 +72211,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -71755,7 +72290,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -71805,7 +72341,8 @@
             "signal:hands_on"
           ],
           "signals": [
-            "signal:hands_on"
+            "signal:hands_on",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -72166,7 +72703,8 @@
             "signal:art"
           ],
           "signals": [
-            "signal:art"
+            "signal:art",
+            "signal:in_building"
           ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
@@ -72243,7 +72781,9 @@
           "reasons": [
             "review:no_public_experience_signal"
           ],
-          "signals": [],
+          "signals": [
+            "signal:in_building"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         }
       ]
@@ -72270,8 +72810,12 @@
           "objectType": "open_facility",
           "state": "published",
           "decidedBy": "legacy",
-          "reasons": [],
-          "signals": [],
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
