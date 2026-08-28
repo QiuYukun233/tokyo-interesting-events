@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-28T23:43:56+09:00",
+  "updatedAt": "2026-08-28T23:57:30+09:00",
   "summary": {
-    "total": 2704,
-    "pending": 2407,
+    "total": 2829,
+    "pending": 2532,
     "published": 101,
     "rejected": 196,
     "byType": [
@@ -84,7 +84,7 @@
       {
         "objectType": "place",
         "state": "pending",
-        "n": 113
+        "n": 238
       },
       {
         "objectType": "place",
@@ -132,6 +132,11 @@
         "source": "YOSHIMOTO ROPPONGI THEATER",
         "state": "pending",
         "n": 160
+      },
+      {
+        "source": "モノマチ2026",
+        "state": "pending",
+        "n": 125
       },
       {
         "source": "Tokyo Big Sight",
@@ -62322,6 +62327,32 @@
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
+          "id": "00091799e1f9",
+          "startDate": "2026-08-28",
+          "title": "タマ美容化学",
+          "titleZh": "タマ美容化学",
+          "place": "東京都台東区小島2-18-14",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.tamabiyoukagaku.com/",
+          "source": "モノマチ2026",
+          "category": "ヘアケア化粧品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "00a8dd9d472d",
           "startDate": "2026-08-28",
           "title": "虹龍",
@@ -62400,6 +62431,58 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "022bbf3627d2",
+          "startDate": "2026-08-28",
+          "title": "あとう仏壇",
+          "titleZh": "あとう仏壇",
+          "place": "東京都台東区台東3-27-11",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://atou.co.jp/",
+          "source": "モノマチ2026",
+          "category": "仏壇仏具販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "03def3018dff",
+          "startDate": "2026-08-28",
+          "title": "辨天湯",
+          "titleZh": "辨天湯",
+          "place": "東京都台東区浅草橋1-33-6 シティハイツ１階奥",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#134",
+          "source": "モノマチ2026",
+          "category": "♨️銭湯",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "051e5108a645",
           "startDate": "2026-08-28",
           "title": "Tomato Crystal",
@@ -62424,6 +62507,112 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "053cde4b2f46",
+          "startDate": "2026-08-28",
+          "title": "タカシマボタン",
+          "titleZh": "タカシマボタン",
+          "place": "東京都台東区浅草橋4-1-4 MTCビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.bb-takashima.net/",
+          "source": "モノマチ2026",
+          "category": "ボタン専門店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "05c970a537a4",
+          "startDate": "2026-08-28",
+          "title": "やさしいガーゼ・オブラブ",
+          "titleZh": "やさしいガーゼ・オブラブ",
+          "place": "東京都台東区蔵前1-7-10 マツリビル 2F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.ovlov.jp",
+          "source": "モノマチ2026",
+          "category": "ガーゼ専門店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "05e742455882",
+          "startDate": "2026-08-28",
+          "title": "お仏壇お仏具の専門店 佛法堂",
+          "titleZh": "お仏壇お仏具の専門店 佛法堂",
+          "place": "東京都台東区寿2-7-13",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.oihaiya.com/hpgen/HPB/entries/7.html",
+          "source": "モノマチ2026",
+          "category": "仏壇仏具店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:nature"
+          ],
+          "signals": [
+            "signal:nature"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "05f1b02ea6ca",
+          "startDate": "2026-08-28",
+          "title": "AOYAMA DARUMA",
+          "titleZh": "AOYAMA DARUMA",
+          "place": "東京都台東区寿4-16-5 佐野ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.aoyamadaruma.com",
+          "source": "モノマチ2026",
+          "category": "服飾・雑貨",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "0733ee0ac78b",
@@ -62530,6 +62719,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "0aa888394b6f",
+          "startDate": "2026-08-28",
+          "title": "加藤製作所",
+          "titleZh": "加藤製作所",
+          "place": "東京都台東区浅草橋2-27-14",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "http://kato-seisakusho.net",
+          "source": "モノマチ2026",
+          "category": "缶製品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "0b038103667c",
           "startDate": "2026-08-28",
           "title": "沈強 篆刻",
@@ -62554,6 +62769,58 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "0c365acce928",
+          "startDate": "2026-08-28",
+          "title": "ヤマダ",
+          "titleZh": "ヤマダ",
+          "place": "東京都台東区柳橋1-29-1",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#127",
+          "source": "モノマチ2026",
+          "category": "革小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "0ca05bde2bec",
+          "startDate": "2026-08-28",
+          "title": "花火の若松屋",
+          "titleZh": "花火の若松屋",
+          "place": "東京都台東区柳橋1-5-6",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.hanabi-wakamatsuya.co.jp/",
+          "source": "モノマチ2026",
+          "category": "花火メーカー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "0e5614ab5d01",
@@ -62660,6 +62927,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "1218e63b51e7",
+          "startDate": "2026-08-28",
+          "title": "ノア精密 MAGショップ",
+          "titleZh": "ノア精密 MAGショップ",
+          "place": "東京都台東区寿1-6-7 ユーハイツ伸光 3F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.mag-clock.co.jp",
+          "source": "モノマチ2026",
+          "category": "時計メーカー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "1227fa3dadd8",
           "startDate": "2026-08-28",
           "title": "YUKI",
@@ -62710,6 +63003,112 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "14bc86adb6a1",
+          "startDate": "2026-08-28",
+          "title": "hibi 10MINUTES AROMA STORE TOKYO",
+          "titleZh": "hibi 10MINUTES AROMA STORE TOKYO",
+          "place": "東京都台東区蔵前4-4-8 田中ビル 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://hibi-jp.com/shop.php",
+          "source": "モノマチ2026",
+          "category": "お香",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "152b2b48e2a8",
+          "startDate": "2026-08-28",
+          "title": "革財布の山藤",
+          "titleZh": "革財布の山藤",
+          "place": "東京都台東区元浅草1-7-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://shop-yamatou.com/",
+          "source": "モノマチ2026",
+          "category": "革小物販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "165965e051e3",
+          "startDate": "2026-08-28",
+          "title": "伊勢宇本店",
+          "titleZh": "伊勢宇本店",
+          "place": "東京都台東区鳥越1-29-5",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.facebook.com/iseuhonten/",
+          "source": "モノマチ2026",
+          "category": "お酒販売店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "173eef88b5cb",
+          "startDate": "2026-08-28",
+          "title": "野村製作所『のむのもの。』",
+          "titleZh": "野村製作所『のむのもの。』",
+          "place": "東京都台東区東上野1-28-10 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.nomura-leathercraft.com/",
+          "source": "モノマチ2026",
+          "category": "革小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "1946f32dec20",
@@ -62816,6 +63215,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "1e719cbd274f",
+          "startDate": "2026-08-28",
+          "title": "atelier＆shop IMAIZUMI",
+          "titleZh": "atelier＆shop IMAIZUMI",
+          "place": "東京都台東区元浅草3-9-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#557",
+          "source": "モノマチ2026",
+          "category": "ステンレス雑貨",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "1e7d37939758",
+          "startDate": "2026-08-28",
+          "title": "studio Kucch",
+          "titleZh": "studio Kucch",
+          "place": "東京都台東区柳橋1-18-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#371",
+          "source": "モノマチ2026",
+          "category": "キャラクター雑貨",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "1ec6fd226f90",
           "startDate": "2026-08-28",
           "title": "金森貿易",
@@ -62840,6 +63293,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "1ff95f88d9d9",
+          "startDate": "2026-08-28",
+          "title": "田中箔押所",
+          "titleZh": "田中箔押所",
+          "place": "東京都台東区小島2-6-1",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#303",
+          "source": "モノマチ2026",
+          "category": "箔押",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "202e4de59201",
@@ -62892,6 +63371,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "20dd2c7d123f",
+          "startDate": "2026-08-28",
+          "title": "BRASS",
+          "titleZh": "BRASS",
+          "place": "東京都台東区小島2-7-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.brass-crp.co.jp",
+          "source": "モノマチ2026",
+          "category": "生活雑貨・文具",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "22351839e6fd",
@@ -62998,6 +63503,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "23fea8d01ad8",
+          "startDate": "2026-08-28",
+          "title": "帽子のサトー",
+          "titleZh": "帽子のサトー",
+          "place": "東京都台東区浅草橋5-1-25",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#243",
+          "source": "モノマチ2026",
+          "category": "帽子",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "252bdb41e369",
+          "startDate": "2026-08-28",
+          "title": "ヤマト屋",
+          "titleZh": "ヤマト屋",
+          "place": "東京都台東区蔵前3-14-5",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.shop-yamatoya.com/",
+          "source": "モノマチ2026",
+          "category": "バッグ屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "2795eb4a57f9",
           "startDate": "2026-08-28",
           "title": "㈱Ceylon Gems Japan",
@@ -63100,6 +63659,218 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "2a1b38029685",
+          "startDate": "2026-08-28",
+          "title": "花楽堂＝hanarakudo=",
+          "titleZh": "花楽堂＝hanarakudo=",
+          "place": "東京都台東区浅草橋1-34-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.hanarakudo.com/",
+          "source": "モノマチ2026",
+          "category": "花・花瓶・ドライ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "2ad4bad4272a",
+          "startDate": "2026-08-28",
+          "title": "IRIS BUTTON",
+          "titleZh": "IRIS BUTTON",
+          "place": "東京都台東区寿1-9-3",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.iris.co.jp",
+          "source": "モノマチ2026",
+          "category": "手芸・服飾ほか",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "2d07b37adbd9",
+          "startDate": "2026-08-28",
+          "title": "RAGTIME UMBRELLA FACTORY",
+          "titleZh": "RAGTIME UMBRELLA FACTORY",
+          "place": "東京都台東区寿1-16-1 寿セントラルマンション1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.rag-t.com/",
+          "source": "モノマチ2026",
+          "category": "傘屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "2da335d09e6e",
+          "startDate": "2026-08-28",
+          "title": "NOHGA HOTEL UENO TOKYO",
+          "titleZh": "NOHGA HOTEL UENO TOKYO",
+          "place": "東京都台東区東上野2-21-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.nohgahotel.com/ueno/",
+          "source": "モノマチ2026",
+          "category": "フード・ドリンク",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "2e08b565bfed",
+          "startDate": "2026-08-28",
+          "title": "carmine design factory!",
+          "titleZh": "carmine design factory!",
+          "place": "東京都台東区三筋1-15-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://carmine.co.jp",
+          "source": "モノマチ2026",
+          "category": "財布、革小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "2e0db9b5cfec",
+          "startDate": "2026-08-28",
+          "title": "マザーハウス 最後の一品店。",
+          "titleZh": "マザーハウス 最後の一品店。",
+          "place": "東京都台東区台東1-10-6 サワビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.motherhouse.co.jp/blogs/shop-list/saigono-ippin-ten",
+          "source": "モノマチ2026",
+          "category": "レザー、アパレル",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "3070a23c8c2e",
+          "startDate": "2026-08-28",
+          "title": "antique & vintage CLICHÉ",
+          "titleZh": "antique & vintage CLICHÉ",
+          "place": "東京都台東区柳橋1-11-4",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#125",
+          "source": "モノマチ2026",
+          "category": "アンティーク店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "33aa69c895bb",
+          "startDate": "2026-08-28",
+          "title": "JOLI ALL LEATHER ITEMS 蔵前",
+          "titleZh": "JOLI ALL LEATHER ITEMS 蔵前",
+          "place": "東京都台東区蔵前4-21-2 蔵前MORIビル 4F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://joli-qube.jp/",
+          "source": "モノマチ2026",
+          "category": "革製品販売店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "363cb846f4bc",
@@ -63206,6 +63977,86 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "3bb9f0cad85d",
+          "startDate": "2026-08-28",
+          "title": "クサガヤレジンクラフト",
+          "titleZh": "クサガヤレジンクラフト",
+          "place": "東京都台東区元浅草3-15-1",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#565",
+          "source": "モノマチ2026",
+          "category": "レジンアート",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "3e61fb730726",
+          "startDate": "2026-08-28",
+          "title": "小林（とじ郎倶楽部）",
+          "titleZh": "小林（とじ郎倶楽部）",
+          "place": "東京都台東区鳥越2-10-4 小林ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.tojiroshop.com/",
+          "source": "モノマチ2026",
+          "category": "紙製品、雑貨",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "3fb370383bdd",
+          "startDate": "2026-08-28",
+          "title": "プラスヴォーチェ",
+          "titleZh": "プラスヴォーチェ",
+          "place": "東京都台東区元浅草1-3-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.plus-voce.com/",
+          "source": "モノマチ2026",
+          "category": "インテリア小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "3fca8396cae7",
           "startDate": "2026-08-28",
           "title": "㈱ミユキ",
@@ -63232,6 +64083,34 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "42cb67244d86",
+          "startDate": "2026-08-28",
+          "title": "WINS FACTORY",
+          "titleZh": "WINS FACTORY",
+          "place": "東京都台東区柳橋1-30-5",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.winsfactory.com/",
+          "source": "モノマチ2026",
+          "category": "皮革・ベルト",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "hard:recruiting"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "4439ed5fcbbb",
           "startDate": "2026-08-28",
           "title": "㈱ビーセブン",
@@ -63256,6 +64135,88 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "4821cc08c1f1",
+          "startDate": "2026-08-28",
+          "title": "SOL style (Place #001) / Artisav Jaipul",
+          "titleZh": "SOL style (Place #001) / Artisav Jaipul",
+          "place": "東京都台東区台東1-1-10 台東NSビル 4F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "艺术现场",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.sol-style.info/",
+          "source": "モノマチ2026",
+          "category": "植物家具洋服貴石",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech",
+            "signal:art"
+          ],
+          "signals": [
+            "signal:tech",
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "49fdc194b038",
+          "startDate": "2026-08-28",
+          "title": "翠雲堂本店",
+          "titleZh": "翠雲堂本店",
+          "place": "東京都台東区元浅草4-9-14 3階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://suiundo-honten.co.jp/",
+          "source": "モノマチ2026",
+          "category": "仏壇仏具",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "4a88aa7cc069",
+          "startDate": "2026-08-28",
+          "title": "田口糸店",
+          "titleZh": "田口糸店",
+          "place": "東京都台東区鳥越2-7-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.itoten.com",
+          "source": "モノマチ2026",
+          "category": "繊維資材販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "4b6b01314311",
@@ -63308,6 +64269,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "4f142261827e",
+          "startDate": "2026-08-28",
+          "title": "革小物、財布のお店 mic 御徒町店",
+          "titleZh": "革小物、財布のお店 mic 御徒町店",
+          "place": "東京都台東区上野5-9 2k540",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.mic1978.com/f/shop_okachimachi/",
+          "source": "モノマチ2026",
+          "category": "革小物、財布",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "50a16be3fad3",
@@ -63388,6 +64375,58 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "530c3dba7e51",
+          "startDate": "2026-08-28",
+          "title": "+BASE",
+          "titleZh": "+BASE",
+          "place": "東京都台東区浅草橋3-12-6",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.plusbase.space/about",
+          "source": "モノマチ2026",
+          "category": "ものづくり",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "549dc3c7ced3",
+          "startDate": "2026-08-28",
+          "title": "レンタルスペース＆カフェ パズル浅草橋",
+          "titleZh": "レンタルスペース＆カフェ パズル浅草橋",
+          "place": "東京都台東区浅草橋5-2-3 鈴和ビル 2階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://puzzle-scs.jp/akb/monomachi",
+          "source": "モノマチ2026",
+          "category": "ハンドメイド",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "55f6e4be226a",
           "startDate": "2026-08-28",
           "title": "Secret Base/Daisy Ring/河原宝飾",
@@ -63416,6 +64455,88 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "577c636e1f10",
+          "startDate": "2026-08-28",
+          "title": "ルーズリーフ専門店 ステッチリーフ",
+          "titleZh": "ルーズリーフ専門店 ステッチリーフ",
+          "place": "東京都台東区浅草橋1-32-2 中野ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.stitch-leaf.net/",
+          "source": "モノマチ2026",
+          "category": "文房具店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "58471af882e6",
+          "startDate": "2026-08-28",
+          "title": "ものづくり館 by YKK",
+          "titleZh": "ものづくり館 by YKK",
+          "place": "東京都千代田区神田和泉町1-1 YKK和泉ビル",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://monozukuri.ykkfastening.com/",
+          "source": "モノマチ2026",
+          "category": "ファスナー製造",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "5a7c3f15844d",
+          "startDate": "2026-08-28",
+          "title": "まめでんきゅう画廊",
+          "titleZh": "まめでんきゅう画廊",
+          "place": "東京都台東区台東4-2-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://sites.google.com/view/mamedenkyu-gallery/home",
+          "source": "モノマチ2026",
+          "category": "アートギャラリー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "5d42fef300d2",
           "startDate": "2026-08-28",
           "title": "宙雲 Sorakumo",
@@ -63440,6 +64561,62 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "5d9ec0043609",
+          "startDate": "2026-08-28",
+          "title": "Haruka Shinji ILLUSTRATION",
+          "titleZh": "Haruka Shinji ILLUSTRATION",
+          "place": "東京都台東区浅草橋2-25-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.harukashinji.com",
+          "source": "モノマチ2026",
+          "category": "イラストレーター",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "5fd56c104480",
+          "startDate": "2026-08-28",
+          "title": "和紙ラボTOKYO",
+          "titleZh": "和紙ラボTOKYO",
+          "place": "東京都台東区台東3-30-2 市川ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://shop.thewashi.tokyo/",
+          "source": "モノマチ2026",
+          "category": "手すき和紙屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "60a7ef655a46",
@@ -63468,6 +64645,34 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "60dc158ca7de",
+          "startDate": "2026-08-28",
+          "title": "OZIO TOKYO 蔵前店",
+          "titleZh": "OZIO TOKYO 蔵前店",
+          "place": "東京都台東区蔵前4-13-2 上田ビル 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://oziodesign.com",
+          "source": "モノマチ2026",
+          "category": "革バッグ、革小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:nature"
+          ],
+          "signals": [
+            "signal:nature"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "62822d180afa",
           "startDate": "2026-08-28",
           "title": "ニルヴァーナ ストーン",
@@ -63492,6 +64697,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "6319e564cd2f",
+          "startDate": "2026-08-28",
+          "title": "YUKIZNA",
+          "titleZh": "YUKIZNA",
+          "place": "東京都台東区蔵前3-7-9 永沼ビル 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.yukizna-shop.com/",
+          "source": "モノマチ2026",
+          "category": "レザークラフト",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "63d67a2e3185",
@@ -63520,6 +64751,34 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "64ae19e37c5e",
+          "startDate": "2026-08-28",
+          "title": "HARATA DESIGN Lab.",
+          "titleZh": "HARATA DESIGN Lab.",
+          "place": "東京都台東区浅草橋4-11-4",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://haratadesign.com/monomachi2026/",
+          "source": "モノマチ2026",
+          "category": "デザイン事務所",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "667ee7f71c59",
           "startDate": "2026-08-28",
           "title": "㈱DG GEMS",
@@ -63544,6 +64803,58 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "67dc08333e12",
+          "startDate": "2026-08-28",
+          "title": "天麩羅 蔵前いせや",
+          "titleZh": "天麩羅 蔵前いせや",
+          "place": "東京都台東区蔵前4-37-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#252",
+          "source": "モノマチ2026",
+          "category": "天麩羅屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "68ab7845fcda",
+          "startDate": "2026-08-28",
+          "title": "ゆう工芸",
+          "titleZh": "ゆう工芸",
+          "place": "東京都台東区台東3-31-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#554",
+          "source": "モノマチ2026",
+          "category": "ジュエリー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "68b20233595a",
@@ -63624,6 +64935,34 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "69d84c8da73a",
+          "startDate": "2026-08-28",
+          "title": "TISTOU",
+          "titleZh": "TISTOU",
+          "place": "東京都台東区蔵前3-7-3",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.tistou.jp/",
+          "source": "モノマチ2026",
+          "category": "インテリア",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "6a3399d4446b",
           "startDate": "2026-08-28",
           "title": "KACHIN GRACE GEMS MYANMAR 合同会社",
@@ -63702,6 +65041,110 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "6c0f52aba0b0",
+          "startDate": "2026-08-28",
+          "title": "PARACOのパラコード",
+          "titleZh": "PARACOのパラコード",
+          "place": "東京都台東区蔵前4-12-5 アトリエにっと",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://paraco-no-paracord.shop/",
+          "source": "モノマチ2026",
+          "category": "パラコード",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "6d4979439e0e",
+          "startDate": "2026-08-28",
+          "title": "NISHIGUCHI KUTSUSHITA STORE TOKYO",
+          "titleZh": "NISHIGUCHI KUTSUSHITA STORE TOKYO",
+          "place": "東京都台東区浅草橋3-2-10 トムワンビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#267",
+          "source": "モノマチ2026",
+          "category": "靴下店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "714674762a72",
+          "startDate": "2026-08-28",
+          "title": "デザビレ卒業生マーケット",
+          "titleZh": "デザビレ卒業生マーケット",
+          "place": "東京都台東区小島2-9-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "http://designers-village.com/",
+          "source": "モノマチ2026",
+          "category": "クリエイター商品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "73233ba2c80f",
+          "startDate": "2026-08-28",
+          "title": "COOP DESIGN STORE",
+          "titleZh": "COOP DESIGN STORE",
+          "place": "東京都台東区元浅草3-3-3",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#573",
+          "source": "モノマチ2026",
+          "category": "ジーンズショップ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "74eae7708dda",
           "startDate": "2026-08-28",
           "title": "㈱HIKARI COMPANY",
@@ -63754,6 +65197,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "793fa250b21c",
+          "startDate": "2026-08-28",
+          "title": "シモジマ浅草橋本店",
+          "titleZh": "シモジマ浅草橋本店",
+          "place": "東京都台東区浅草橋1-30-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://shimojima.jp/shop/store/storedetail.aspx?store=164746&msockid=06d2083e464f6c0601731e8b47356d12",
+          "source": "モノマチ2026",
+          "category": "包装用品文具販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "79814488ef2a",
           "startDate": "2026-08-28",
           "title": "(有)スーパージェムスジャパン",
@@ -63778,6 +65247,62 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "79df6b9e4543",
+          "startDate": "2026-08-28",
+          "title": "KONCENT 駒形本店",
+          "titleZh": "KONCENT 駒形本店",
+          "place": "東京都台東区駒形2-6-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://koncent.jp/",
+          "source": "モノマチ2026",
+          "category": "デザインギフト",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "7bacc4ee5298",
+          "startDate": "2026-08-28",
+          "title": "宗達アートクラフト",
+          "titleZh": "宗達アートクラフト",
+          "place": "東京都台東区寿1-6-6 山岸ビル 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.soutatsukamikawa.com/",
+          "source": "モノマチ2026",
+          "category": "純銀アクセサリー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "7bcda934f839",
@@ -63832,6 +65357,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "7d207f6aa1f2",
+          "startDate": "2026-08-28",
+          "title": "蔵前街歩きリュックの店メッセージ",
+          "titleZh": "蔵前街歩きリュックの店メッセージ",
+          "place": "東京都台東区蔵前4-24-2",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://message-bag.com/",
+          "source": "モノマチ2026",
+          "category": "バッグ革小物販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "807f14213ca7",
           "startDate": "2026-08-28",
           "title": "洋灯舎 オパール館",
@@ -63884,6 +65435,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "8245f0e20977",
+          "startDate": "2026-08-28",
+          "title": "YAZZIE TAISE",
+          "titleZh": "YAZZIE TAISE",
+          "place": "東京都台東区台東1-23-11 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.yazzietaise.co.jp/",
+          "source": "モノマチ2026",
+          "category": "鞄工房",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "866ce0a80b14",
+          "startDate": "2026-08-28",
+          "title": "紙のYamari",
+          "titleZh": "紙のYamari",
+          "place": "東京都台東区元浅草1-7-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "http://www.yamari.net",
+          "source": "モノマチ2026",
+          "category": "紙・紙製品販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "867d21e09c0f",
           "startDate": "2026-08-28",
           "title": "㈱シュリーシャムジェムス",
@@ -63908,6 +65513,298 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "86f2bcbda1db",
+          "startDate": "2026-08-28",
+          "title": "Collemoコレモ By テージー",
+          "titleZh": "Collemoコレモ By テージー",
+          "place": "東京都台東区浅草橋2-25-6 テージー本社 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.teji.co.jp/",
+          "source": "モノマチ2026",
+          "category": "文具・雑貨",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "86f67955bd8d",
+          "startDate": "2026-08-28",
+          "title": "THOROUGH BRACE TOKYO",
+          "titleZh": "THOROUGH BRACE TOKYO",
+          "place": "東京都台東区蔵前4-21-10 シャルム蔵前 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.thoroughbrace.com/",
+          "source": "モノマチ2026",
+          "category": "革製品店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8b080626037a",
+          "startDate": "2026-08-28",
+          "title": "ITORICOT",
+          "titleZh": "ITORICOT",
+          "place": "東京都台東区浅草橋1-9-12 浅草橋駅前ビル 3F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://itoricot.com",
+          "source": "モノマチ2026",
+          "category": "糸屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8bad270eee5f",
+          "startDate": "2026-08-28",
+          "title": "きなりがらす 浅草橋店",
+          "titleZh": "きなりがらす 浅草橋店",
+          "place": "東京都台東区柳橋2-14-3",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://kinariglass.com",
+          "source": "モノマチ2026",
+          "category": "とんぼ玉・ガラス",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8c92c39ca181",
+          "startDate": "2026-08-28",
+          "title": "『かみのみ』 イフ",
+          "titleZh": "『かみのみ』 イフ",
+          "place": "東京都台東区元浅草4-5-17",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://kaminomi.handcrafted.jp/",
+          "source": "モノマチ2026",
+          "category": "印刷・製本所",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8cedb40121d5",
+          "startDate": "2026-08-28",
+          "title": "ariai",
+          "titleZh": "ariai",
+          "place": "東京都台東区台東1-18-7 つげビル 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://ariai.net/",
+          "source": "モノマチ2026",
+          "category": "作家もののうつわ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8df05e426664",
+          "startDate": "2026-08-28",
+          "title": "江戸指物 茂上工芸",
+          "titleZh": "江戸指物 茂上工芸",
+          "place": "東京都台東区蔵前4-37-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://sasimono.ciao.jp/",
+          "source": "モノマチ2026",
+          "category": "伝統工芸",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8f30934524fe",
+          "startDate": "2026-08-28",
+          "title": "マルコ帽子店",
+          "titleZh": "マルコ帽子店",
+          "place": "東京都台東区蔵前4-37-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#262",
+          "source": "モノマチ2026",
+          "category": "帽子店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8f8fe7a2e609",
+          "startDate": "2026-08-28",
+          "title": "カキモリ",
+          "titleZh": "カキモリ",
+          "place": "東京都台東区三筋1-6-2 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://kakimori.com/",
+          "source": "モノマチ2026",
+          "category": "文具店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "8fe49f0b8972",
+          "startDate": "2026-08-28",
+          "title": "THINGS 'N' THANKS",
+          "titleZh": "THINGS 'N' THANKS",
+          "place": "東京都台東区駒形2-2-10 ファインライフ 3F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.things-and-thanks.com/",
+          "source": "モノマチ2026",
+          "category": "ヴィンテージ文具",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "916cb65cb11c",
+          "startDate": "2026-08-28",
+          "title": "CROWN SHOWROOM",
+          "titleZh": "CROWN SHOWROOM",
+          "place": "東京都台東区蔵前4-25-1 石川ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "艺术现场",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.hisanaga-ss.co.jp",
+          "source": "モノマチ2026",
+          "category": "ホック製品販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "93f619ebca5c",
@@ -64014,6 +65911,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "97828e2b1e6c",
+          "startDate": "2026-08-28",
+          "title": "nano-coffeeroaster",
+          "titleZh": "nano-coffeeroaster",
+          "place": "東京都台東区浅草橋1-17-4",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://nanoroaster.handcrafted.jp/",
+          "source": "モノマチ2026",
+          "category": "自家焙煎珈琲店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "97e55a3593cb",
           "startDate": "2026-08-28",
           "title": "ロイヤルカラー㈱",
@@ -64040,6 +65963,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "9899b40dc548",
+          "startDate": "2026-08-28",
+          "title": "Bougainvillea",
+          "titleZh": "Bougainvillea",
+          "place": "東京都台東区浅草橋3-30-5 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://bougainvilea.thebase.in",
+          "source": "モノマチ2026",
+          "category": "革パーツ販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "9a7c25f1dd5d",
+          "startDate": "2026-08-28",
+          "title": "Studio門出｜もんdeマルシェ",
+          "titleZh": "Studio門出｜もんdeマルシェ",
+          "place": "東京都台東区浅草橋4-20-2 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://monde.camera",
+          "source": "モノマチ2026",
+          "category": "写真・手作り品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "9c0d95144bdb",
           "startDate": "2026-08-28",
           "title": "Crystals by Purely/ネイチャーワールド㈱",
@@ -64064,6 +66041,88 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "9c12720caa6f",
+          "startDate": "2026-08-28",
+          "title": "atelier Woody Bell",
+          "titleZh": "atelier Woody Bell",
+          "place": "東京都台東区東上野1-1-8 竹内ビル 2F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://woodybell-j.com/kb/",
+          "source": "モノマチ2026",
+          "category": "アクセサリー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "9dbfe046c5a7",
+          "startDate": "2026-08-28",
+          "title": "gallery kissa",
+          "titleZh": "gallery kissa",
+          "place": "東京都台東区浅草橋3-25-7 3F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://gallerykissa.jp",
+          "source": "モノマチ2026",
+          "category": "ギャラリー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:nature"
+          ],
+          "signals": [
+            "signal:nature"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "9e8ea6392ef5",
+          "startDate": "2026-08-28",
+          "title": "『居皮屋』浅原皮漉所",
+          "titleZh": "『居皮屋』浅原皮漉所",
+          "place": "東京都台東区三筋1-3-19",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#322",
+          "source": "モノマチ2026",
+          "category": "革職人仕事体験",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "a33f91e0c5c5",
@@ -64170,6 +66229,34 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "a8cc1a1e13bc",
+          "startDate": "2026-08-28",
+          "title": "金井畳店",
+          "titleZh": "金井畳店",
+          "place": "東京都台東区浅草橋2-13-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.tatamiya-kanai.com/",
+          "source": "モノマチ2026",
+          "category": "畳販売店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:nature"
+          ],
+          "signals": [
+            "signal:nature"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "ab045fe3ddcb",
           "startDate": "2026-08-28",
           "title": "合同会社 ベア・ストーン",
@@ -64196,6 +66283,34 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "ab8c53b54cf1",
+          "startDate": "2026-08-28",
+          "title": "革小物、財布のお店 mic 上野店",
+          "titleZh": "革小物、財布のお店 mic 上野店",
+          "place": "東京都台東区東上野1-3-3",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.mic1978.com/f/shop_ueno/",
+          "source": "モノマチ2026",
+          "category": "革財布・革小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "ac6d183b0b0b",
           "startDate": "2026-08-28",
           "title": "こむろミネラルズ",
@@ -64220,6 +66335,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "ac9b444ecd72",
+          "startDate": "2026-08-28",
+          "title": "クロップオザキ",
+          "titleZh": "クロップオザキ",
+          "place": "東京都台東区鳥越1-6-6",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.cropozaki.com/",
+          "source": "モノマチ2026",
+          "category": "アパレル資材屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "ad0e1094df2e",
@@ -64300,6 +66441,86 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "b286ad24e5cc",
+          "startDate": "2026-08-28",
+          "title": "Playacolores",
+          "titleZh": "Playacolores",
+          "place": "東京都台東区台東1-33-12 201",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.playacolores.jp",
+          "source": "モノマチ2026",
+          "category": "海の宝石アクセ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "b2a1d7521911",
+          "startDate": "2026-08-28",
+          "title": "浅草橋工房",
+          "titleZh": "浅草橋工房",
+          "place": "東京都台東区浅草橋1-34-3 宏和浅草橋ビル",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.craft-studios.com",
+          "source": "モノマチ2026",
+          "category": "工作スペース",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "b4724fd98cf8",
+          "startDate": "2026-08-28",
+          "title": "イーエックス上野",
+          "titleZh": "イーエックス上野",
+          "place": "東京都台東区台東4-8-7 仲御徒町フロントビル 8F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://jewelry-shuri.com/",
+          "source": "モノマチ2026",
+          "category": "ジュエリー関連",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "b47ecfeb45ab",
           "startDate": "2026-08-28",
           "title": "テゾーロ ケイ",
@@ -64326,6 +66547,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "b56118fa6f0e",
+          "startDate": "2026-08-28",
+          "title": "TheContainerShop",
+          "titleZh": "TheContainerShop",
+          "place": "東京都台東区寿1-14-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://thecontainer.shop/",
+          "source": "モノマチ2026",
+          "category": "トートバッグ店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "b56a69535c51",
+          "startDate": "2026-08-28",
+          "title": "真鍮のKSJ",
+          "titleZh": "真鍮のKSJ",
+          "place": "東京都台東区浅草橋5-24-1 石井ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#240",
+          "source": "モノマチ2026",
+          "category": "金属加工",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "b69768478645",
           "startDate": "2026-08-28",
           "title": "ヌフ・ヌフ",
@@ -64350,6 +66625,138 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "b9481cf39fe4",
+          "startDate": "2026-08-28",
+          "title": "木本硝子",
+          "titleZh": "木本硝子",
+          "place": "東京都台東区小島2-18-17",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://kimotoglass.tokyo/",
+          "source": "モノマチ2026",
+          "category": "江戸切子等販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "ba41d65edcf9",
+          "startDate": "2026-08-28",
+          "title": "east side tokyo",
+          "titleZh": "east side tokyo",
+          "place": "東京都台東区蔵前1-5-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://shimojima.jp/shop/store/storedetail.aspx?store=154519",
+          "source": "モノマチ2026",
+          "category": "クラフト、造花",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "ba5dfd23b364",
+          "startDate": "2026-08-28",
+          "title": "フジ製作所",
+          "titleZh": "フジ製作所",
+          "place": "東京都台東区小島1-6-11",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://fujiseisakusho.co.jp/",
+          "source": "モノマチ2026",
+          "category": "ビニール小物文具",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "ba628b4b4afa",
+          "startDate": "2026-08-28",
+          "title": "Arukan（アルカン）",
+          "titleZh": "Arukan（アルカン）",
+          "place": "東京都台東区蔵前3-1-3 やないビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "http://www.taka-ya.co.jp/",
+          "source": "モノマチ2026",
+          "category": "バッグ財布小物",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "bb917f0f3ab6",
+          "startDate": "2026-08-28",
+          "title": "日伸貴金属",
+          "titleZh": "日伸貴金属",
+          "place": "東京都台東区三筋1-3-13 伊藤ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.nisshin-kikinzoku.com/",
+          "source": "モノマチ2026",
+          "category": "伝統工芸 銀細工",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "bbb9f8cffebb",
@@ -64404,6 +66811,114 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "bd258cee8beb",
+          "startDate": "2026-08-28",
+          "title": "リアライズ",
+          "titleZh": "リアライズ",
+          "place": "東京都台東区三筋2-6-2",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://realize-net.com/",
+          "source": "モノマチ2026",
+          "category": "缶バッジ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "c09118cc0dc2",
+          "startDate": "2026-08-28",
+          "title": "LIBERTAS TOKYO",
+          "titleZh": "LIBERTAS TOKYO",
+          "place": "東京都台東区柳橋1-26-6 STUDIO BULLET",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.libertas-tokyo.com/",
+          "source": "モノマチ2026",
+          "category": "アクセサリー店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "c1093ed8dd4f",
+          "startDate": "2026-08-28",
+          "title": "PRO-MENER",
+          "titleZh": "PRO-MENER",
+          "place": "東京都台東区蔵前3-10-8 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://pro-mener.com/",
+          "source": "モノマチ2026",
+          "category": "革小物販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "c14f9c295a18",
+          "startDate": "2026-08-28",
+          "title": "REGARO PAPIRO",
+          "titleZh": "REGARO PAPIRO",
+          "place": "東京都台東区鳥越2-2-7 スギモトビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.regaro-papiro.com",
+          "source": "モノマチ2026",
+          "category": "包装紙・紙もの",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "c201294e21f4",
           "startDate": "2026-08-28",
           "title": "クリスタルステージ",
@@ -64428,6 +66943,58 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "c29baccaa1e6",
+          "startDate": "2026-08-28",
+          "title": "トーカ",
+          "titleZh": "トーカ",
+          "place": "東京都台東区柳橋2-16-6",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://kktoka.jp/",
+          "source": "モノマチ2026",
+          "category": "和装髪飾り製造卸",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "c29e6917f06a",
+          "startDate": "2026-08-28",
+          "title": "薫物屋香楽",
+          "titleZh": "薫物屋香楽",
+          "place": "東京都台東区鳥越2-12-11 2F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.m-karaku.com/",
+          "source": "モノマチ2026",
+          "category": "お香製造・販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "c677425a1ab4",
@@ -64456,6 +67023,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "c81cf475865d",
+          "startDate": "2026-08-28",
+          "title": "葵会 つまみ細工",
+          "titleZh": "葵会 つまみ細工",
+          "place": "東京都台東区浅草橋1-33-3 2F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://aoi-kai.tokyo/",
+          "source": "モノマチ2026",
+          "category": "つまみ細工",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "c9e3fea58f43",
+          "startDate": "2026-08-28",
+          "title": "ワカオ (紙マップとは違う開催住所へ訂正されました)",
+          "titleZh": "ワカオ (紙マップとは違う開催住所へ訂正されました)",
+          "place": "東京都台東区台東3-17-3",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.wakao-kasaya.com/",
+          "source": "モノマチ2026",
+          "category": "傘販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "ca424bb0d72e",
           "startDate": "2026-08-28",
           "title": "LAGYAWM FAMILY GEMS合同会社",
@@ -64480,6 +67101,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "cbed07d22c9d",
+          "startDate": "2026-08-28",
+          "title": "くるみボタン工房MiSuZuYa",
+          "titleZh": "くるみボタン工房MiSuZuYa",
+          "place": "東京都台東区鳥越1-28-5",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://kurumibutton.tokyo/event/monomachi2026",
+          "source": "モノマチ2026",
+          "category": "くるみボタン販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "ccfd7ca2fac5",
@@ -64534,6 +67181,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "ce134fc7f569",
+          "startDate": "2026-08-28",
+          "title": "SORA TO CHI",
+          "titleZh": "SORA TO CHI",
+          "place": "東京都台東区蔵前4-20-12 精華ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://sora-to-chi.com/",
+          "source": "モノマチ2026",
+          "category": "生活雑貨販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "ce281c89a7b5",
           "startDate": "2026-08-28",
           "title": "㈱グローバルジェムスジャパン",
@@ -64560,6 +67233,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "ce529b3e85a8",
+          "startDate": "2026-08-28",
+          "title": "toREACH WORKS",
+          "titleZh": "toREACH WORKS",
+          "place": "東京都台東区鳥越1-20-4",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://toreachworks.myshopify.com/",
+          "source": "モノマチ2026",
+          "category": "革工房",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "d2397599b43c",
           "startDate": "2026-08-28",
           "title": "クリスタリーナ",
@@ -64584,6 +67283,58 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "d31d8ed7293e",
+          "startDate": "2026-08-28",
+          "title": "水戸屋紙工",
+          "titleZh": "水戸屋紙工",
+          "place": "東京都台東区鳥越1-31-10",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#367",
+          "source": "モノマチ2026",
+          "category": "紙製品製造販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "d344f763204f",
+          "startDate": "2026-08-28",
+          "title": "シーウェル",
+          "titleZh": "シーウェル",
+          "place": "東京都台東区元浅草1-4-1",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://c-well.net/",
+          "source": "モノマチ2026",
+          "category": "アクセサリー材料",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "d34976fd944d",
@@ -64664,6 +67415,84 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "d49a514cf0a8",
+          "startDate": "2026-08-28",
+          "title": "DOWN TOWN GEAR",
+          "titleZh": "DOWN TOWN GEAR",
+          "place": "東京都台東区小島1-7-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://downtowngear.theshop.jp/",
+          "source": "モノマチ2026",
+          "category": "真鍮製インテリア",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "d57268368d13",
+          "startDate": "2026-08-28",
+          "title": "KAYOこども室",
+          "titleZh": "KAYOこども室",
+          "place": "東京都台東区鳥越1-20-7",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://kdmst.jp/",
+          "source": "モノマチ2026",
+          "category": "保育所",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "d5b3b77ee9e8",
+          "startDate": "2026-08-28",
+          "title": "アトリエギャラリー七軒町",
+          "titleZh": "アトリエギャラリー七軒町",
+          "place": "東京都台東区元浅草1-7-2",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#553",
+          "source": "モノマチ2026",
+          "category": "ギャラリー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "d6167df82c6b",
           "startDate": "2026-08-28",
           "title": "Jacale(ジョカーレ)",
@@ -64742,6 +67571,110 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "d75c49be531d",
+          "startDate": "2026-08-28",
+          "title": "ｍ+",
+          "titleZh": "ｍ+",
+          "place": "東京都台東区蔵前3-4-5 中尾ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://m-piu.com/",
+          "source": "モノマチ2026",
+          "category": "革製品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "da2fab7db683",
+          "startDate": "2026-08-28",
+          "title": "Atelier K.I.",
+          "titleZh": "Atelier K.I.",
+          "place": "東京都台東区蔵前4-20-12 精華ビル 3F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://atelier-ki.com/",
+          "source": "モノマチ2026",
+          "category": "革小物製作",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "daef7e2bf5bd",
+          "startDate": "2026-08-28",
+          "title": "コンポ",
+          "titleZh": "コンポ",
+          "place": "東京都台東区浅草橋1-36-5 小林ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.compo-tokyo.com/",
+          "source": "モノマチ2026",
+          "category": "服飾副資材販売",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "dc06350eb455",
+          "startDate": "2026-08-28",
+          "title": "エイ革専門店 BAHARI",
+          "titleZh": "エイ革専門店 BAHARI",
+          "place": "東京都台東区元浅草1-3-8 1階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.bahari.jp/",
+          "source": "モノマチ2026",
+          "category": "革小物、バッグ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "dc38473f5106",
           "startDate": "2026-08-28",
           "title": "TOMOFIN",
@@ -64766,6 +67699,86 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "dcb97f304763",
+          "startDate": "2026-08-28",
+          "title": "Triangle",
+          "titleZh": "Triangle",
+          "place": "東京都台東区蔵前3-15-1",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#217",
+          "source": "モノマチ2026",
+          "category": "ソフトクリーム店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "dcdded66b6c0",
+          "startDate": "2026-08-28",
+          "title": "DELIFE",
+          "titleZh": "DELIFE",
+          "place": "東京都台東区台東1-14-14 東光ビル 403",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://2026.monomachi.com/shop.html#570",
+          "source": "モノマチ2026",
+          "category": "革製品販売店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "dd2ab49c1bb6",
+          "startDate": "2026-08-28",
+          "title": "[&B]｜あなたとつくる革文具",
+          "titleZh": "[&B]｜あなたとつくる革文具",
+          "place": "東京都台東区東上野1-1-8 竹内ビル 3階B号室",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://and-bungu.com/",
+          "source": "モノマチ2026",
+          "category": "レザーアトリエ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "dde37f330c42",
@@ -64846,6 +67859,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "e1bee97fcd6c",
+          "startDate": "2026-08-28",
+          "title": "Narue",
+          "titleZh": "Narue",
+          "place": "東京都台東区浅草橋2-25-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://narue.com",
+          "source": "モノマチ2026",
+          "category": "ルームウェア",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "e52167ca1425",
           "startDate": "2026-08-28",
           "title": "㈱ヒマラヤジェムス",
@@ -64898,6 +67937,110 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "e79244d1ec8b",
+          "startDate": "2026-08-28",
+          "title": "photof",
+          "titleZh": "photof",
+          "place": "東京都台東区東上野1-1-8 竹内ビル 3階A号室",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://photof.jp/",
+          "source": "モノマチ2026",
+          "category": "写真スタジオ",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "e9e0d7bf15d8",
+          "startDate": "2026-08-28",
+          "title": "KANEJIN",
+          "titleZh": "KANEJIN",
+          "place": "東京都台東区寿3-7-9",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://kanejin-jp.com",
+          "source": "モノマチ2026",
+          "category": "飲食店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "eb13ea9d71e3",
+          "startDate": "2026-08-28",
+          "title": "ホワイトローズ工房",
+          "titleZh": "ホワイトローズ工房",
+          "place": "東京都台東区寿2-4-8",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://whiterose.jp",
+          "source": "モノマチ2026",
+          "category": "洋傘メーカー",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "ed4b91219196",
+          "startDate": "2026-08-28",
+          "title": "チキュウグリーティングス",
+          "titleZh": "チキュウグリーティングス",
+          "place": "東京都台東区鳥越1-30-10 Torikoe Turris 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://store.chikyu-brand.co.jp",
+          "source": "モノマチ2026",
+          "category": "カード・紙製品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "ee414a70e762",
           "startDate": "2026-08-28",
           "title": "Ganpanda Stone（ガンパンダストーン）",
@@ -64948,6 +68091,60 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "eec4e40eb094",
+          "startDate": "2026-08-28",
+          "title": "真糸 / maito",
+          "titleZh": "真糸 / maito",
+          "place": "東京都台東区蔵前4-14-12 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://maitokomuro.com/",
+          "source": "モノマチ2026",
+          "category": "草木染め製品",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "f061aae9d7dc",
+          "startDate": "2026-08-28",
+          "title": "VISION GLASS JP",
+          "titleZh": "VISION GLASS JP",
+          "place": "東京都台東区三筋2-14-1 小市ビル 2階",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://kodashoten.co.jp/",
+          "source": "モノマチ2026",
+          "category": "インド耐熱ガラス",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "f08a2cb13728",
@@ -65026,6 +68223,34 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "f3805885528c",
+          "startDate": "2026-08-28",
+          "title": "ツバメノート",
+          "titleZh": "ツバメノート",
+          "place": "東京都台東区浅草橋5-4-1",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.tsubamenote.co.jp/",
+          "source": "モノマチ2026",
+          "category": "ノート屋",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "f3cdca1a5b45",
@@ -65158,6 +68383,60 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "f908d5ca4d5a",
+          "startDate": "2026-08-28",
+          "title": "ワールデザイン",
+          "titleZh": "ワールデザイン",
+          "place": "東京都台東区浅草橋3-34-3 102",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://worldesign.co.jp/",
+          "source": "モノマチ2026",
+          "category": "インド刺繍リボン",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
+          "id": "f9fe8317f7ed",
+          "startDate": "2026-08-28",
+          "title": "atelier ANNAK",
+          "titleZh": "atelier ANNAK",
+          "place": "東京都台東区元浅草3-21-4 麻生ビル 1F",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.mitakesangyo.co.jp/",
+          "source": "モノマチ2026",
+          "category": "革製品販売店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "fa3a7d6c4d1b",
           "startDate": "2026-08-28",
           "title": "ミネラルマーケット",
@@ -65210,6 +68489,32 @@
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
         },
         {
+          "id": "fa9da2185607",
+          "startDate": "2026-08-28",
+          "title": "メガネ・コンタクト369+",
+          "titleZh": "メガネ・コンタクト369+",
+          "place": "東京都台東区東上野1-12-13 サクセスゲイトウェイ 1Ｆ",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.369plus.com",
+          "source": "モノマチ2026",
+          "category": "メガネ 補聴器",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
+        },
+        {
           "id": "fc75d33333f3",
           "startDate": "2026-08-28",
           "title": "寿屋 (アトリエ コトブキヤ)",
@@ -65234,6 +68539,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T13:01:42.402Z"
+        },
+        {
+          "id": "fdc7539e74dc",
+          "startDate": "2026-08-28",
+          "title": "SyuRo",
+          "titleZh": "SyuRo",
+          "place": "東京都台東区鳥越1-16-5",
+          "time": "详见店铺",
+          "price": "详见店铺",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://syuro.co.jp",
+          "source": "モノマチ2026",
+          "category": "生活日用品店",
+          "why": "モノマチ2026で工房を開いた台東区の作り手。展示会の会期が終わっても店はそこにある。",
+          "changeType": "discovery",
+          "attribution": "モノマチ2026 参加店",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
           "id": "7e06c2e6b140",
