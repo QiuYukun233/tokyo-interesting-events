@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-28T20:19:49+09:00",
-  "updatedAtLabel": "今日 20:19",
+  "updatedAt": "2026-08-28T20:27:24+09:00",
+  "updatedAtLabel": "今日 20:27",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -14,8 +14,9 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -75,7 +76,7 @@
     {
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "ok": true,
-      "count": 165
+      "count": 166
     },
     {
       "name": "渋谷よしもと漫才劇場",
@@ -96,6 +97,16 @@
       "name": "CoRich舞台芸術！",
       "ok": true,
       "count": 386
+    },
+    {
+      "name": "東京都立産業貿易センター 台東館",
+      "ok": true,
+      "count": 155
+    },
+    {
+      "name": "東京都立産業貿易センター 浜松町館",
+      "ok": true,
+      "count": 174
     }
   ],
   "events": [

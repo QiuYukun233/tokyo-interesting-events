@@ -10,6 +10,7 @@ import { mapRecord as mapRekibun, parseRekibunHandsOn, REKIBUN_BENEFITS_URL, REK
 import { CORICH_URLS, parseCorich } from './corich.mjs';
 import { parseScrap } from './scrap.mjs';
 import { mapRecord as mapYoshimoto, yoshimotoUrl } from './yoshimoto.mjs';
+import { SANBO_HALLS, SANBO_ORIGIN, parseSanbo, sanboUrls } from './sanbo.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -191,6 +192,19 @@ export const SOURCES = [
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '株式会社CoRich',
     parse: parseCorich,
   },
+  // The two halls where most of Tokyo's small 即売会 actually happen. Unlike
+  // every other source here this is a venue calendar — "whatever anybody
+  // booked this room for" — so it reaches hundreds of one-off organisers too
+  // small to be worth their own adapter. 区分 and 公開区分 come from the
+  // venue's own booking record; the latter drives rule:not_open_to_public.
+  ...SANBO_HALLS.map((hall) => ({
+    name: hall.name, sourceFamily: 'exhibition_hall', trustTier: 'S0',
+    url: sanboUrls(hall.key)[0], urls: sanboUrls(hall.key), origin: SANBO_ORIGIN,
+    venue: hall.venue,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 14,
+    robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '东京都立产业贸易中心',
+    parse: parseSanbo,
+  })),
 ];
 
 export { parseMyTokyo, parseRss, parseUTokyoEvents, parseTokyoMetropolitanArtMuseum, parseGeidaiMuseum, parseWasedaEvents, parseShibuyaParcoEvents };

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T16:27:01+09:00",
+  "updatedAt": "2026-08-28T20:25:55+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -15,9 +15,10 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6,
-      "pages": 1
+      "ok": false,
+      "count": 0,
+      "pages": 1,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -88,7 +89,7 @@
     {
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "ok": true,
-      "count": 165,
+      "count": 166,
       "pages": 1
     },
     {
@@ -114,6 +115,18 @@
       "ok": true,
       "count": 386,
       "pages": 36
+    },
+    {
+      "name": "東京都立産業貿易センター 台東館",
+      "ok": true,
+      "count": 155,
+      "pages": 12
+    },
+    {
+      "name": "東京都立産業貿易センター 浜松町館",
+      "ok": true,
+      "count": 174,
+      "pages": 12
     }
   ],
   "events": [
@@ -4011,142 +4024,6 @@
     },
     {
       "activity": {
-        "id": "e6beb0eae18f",
-        "startDate": "2026-09-25",
-        "title": "令和8年度 研究倫理セミナー",
-        "titleZh": "令和8年度 研究倫理セミナー",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0705_00006.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "d7214d9452ec",
-        "startDate": "2026-09-22",
-        "title": "RCAST セキュリティセミナー／比較政治トーク",
-        "titleZh": "RCAST セキュリティセミナー／比較政治トーク",
-        "place": "駒場地区",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0211_00116.html",
-        "source": "東京大学",
-        "audience": "駒場地区",
-        "description": "駒場地区"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "da4053cec19a",
-        "startDate": "2026-10-23",
-        "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-        "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "好好聊天",
-        "color": "#d6a72d",
-        "symbol": "●",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "472936376dc6",
-        "startDate": "2026-08-03",
-        "endDate": "2026-09-02",
-        "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-        "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-        "place": "オンライン",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#6c59c8",
-        "symbol": "♪",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
-        "source": "東京大学",
-        "audience": "オンライン",
-        "description": "オンライン"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "id": "83400d097257",
-        "startDate": "2026-09-07",
-        "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-        "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-        "place": "本郷地区",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
-        "source": "東京大学",
-        "audience": "本郷地区",
-        "description": "本郷地区"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
         "id": "4d996b1dd606",
         "startDate": "2027-04-24",
         "endDate": "2027-08-22",
@@ -5420,6 +5297,5265 @@
     },
     {
       "activity": {
+        "id": "2d104314ce57",
+        "startDate": "2026-08-01",
+        "title": "ローデンツ",
+        "titleZh": "ローデンツ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40455",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｌｉｒ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7ddac5090921",
+        "startDate": "2026-08-08",
+        "endDate": "2026-08-09",
+        "title": "BOOK MARKET 2026",
+        "titleZh": "BOOK MARKET 2026",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39741",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "中央出版アノニマ・スタジオ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "433a0d0929ae",
+        "startDate": "2026-08-08",
+        "title": "Coco marche",
+        "titleZh": "Coco marche",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40869",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "attribution": "株式会社Ｅｉｇｈｔ ａｒｃｓ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f0d40dd6491f",
+        "startDate": "2026-08-09",
+        "title": "東京第78回心と体が喜ぶ癒しフェスティバル",
+        "titleZh": "東京第78回心と体が喜ぶ癒しフェスティバル",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40332",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "合同会社ハッピーライフデザイン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "a6e8004fe7d0",
+        "startDate": "2026-08-22",
+        "title": "東京民医連 ケアフェスタin浅草",
+        "titleZh": "東京民医連 ケアフェスタin浅草",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/41712",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "東京民主医療機関連合会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3beab58f183b",
+        "startDate": "2026-08-22",
+        "title": "ロルハッピーグランドチャンピオンシップ Lorhapp...",
+        "titleZh": "ロルハッピーグランドチャンピオンシップ Lorhapp...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社ハッピー商店"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3beab58f183b",
+        "startDate": "2026-08-23",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "37ad739cd66a",
+        "startDate": "2026-08-30",
+        "title": "第39回 ジャパンスティールチャレンジ",
+        "titleZh": "第39回 ジャパンスティールチャレンジ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40388",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ジャパンスティールチャレンジ実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3beab58f183b",
+        "startDate": "2026-08-30",
+        "title": "CFA Japan Dancing Cat Club...",
+        "titleZh": "CFA Japan Dancing Cat Club...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "Ｔｈｅ Ｊａｐａｎ Ｄａｎｃｉｎｇ Ｃａｔ Ｃ..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "24c55ef58fc7",
+        "startDate": "2026-09-04",
+        "endDate": "2026-09-06",
+        "title": "紙博 in 東京 vol.13",
+        "titleZh": "紙博 in 東京 vol.13",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39737",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社手紙社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-09",
+        "title": "令和8年度「第2回ビジネスマッチングin東京」",
+        "titleZh": "令和8年度「第2回ビジネスマッチングin東京」",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "公益財団法人東京都中小企業振興公社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "79c100486856",
+        "startDate": "2026-09-13",
+        "title": "Gecko Market 2026",
+        "titleZh": "Gecko Market 2026",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39714",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社クリア"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-13",
+        "title": "EXOTIC REP ＆AQUA EXPO （エキゾチ...",
+        "titleZh": "EXOTIC REP ＆AQUA EXPO （エキゾチ...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社Ｉ－ＤＲＥＡＭ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-17",
+        "title": "第42回チェーン店開発担当者＆デベロッパー・不動産・関...",
+        "titleZh": "第42回チェーン店開発担当者＆デベロッパー・不動産・関...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "会議・研修・セミナー",
+        "audience": "招待",
+        "attribution": "一般社団法人店舗開発者協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-18",
+        "endDate": "2026-09-19",
+        "title": "花咲ファミリーセール",
+        "titleZh": "花咲ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社レーヴアイ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f51823f59c87",
+        "startDate": "2026-09-19",
+        "title": "MGCON2026（Miniature Game Co...",
+        "titleZh": "MGCON2026（Miniature Game Co...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40429",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社ジャイアントホビー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8d01a078e96e",
+        "startDate": "2026-09-19",
+        "title": "ゲーミングバザー2026秋",
+        "titleZh": "ゲーミングバザー2026秋",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40389",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ゲーミングバザー実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d54b1ac1fc2c",
+        "startDate": "2026-09-19",
+        "title": "第6回ぶち癒しフェスタin東京",
+        "titleZh": "第6回ぶち癒しフェスタin東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40480",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "アーキエンジェルハピネス協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-20",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-22",
+        "title": "NEXT MODELERS EXPO",
+        "titleZh": "NEXT MODELERS EXPO",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ＴＲＩＮＩＴＹ ＳＰＡＣＥ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-22",
+        "title": "ボードゲームガレージセール",
+        "titleZh": "ボードゲームガレージセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "有限会社メビウス"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "65e53531a85c",
+        "startDate": "2026-09-23",
+        "title": "第1回 TOKYO ひきこもりステーション",
+        "titleZh": "第1回 TOKYO ひきこもりステーション",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/41823",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "東京都ひきこもりサポートネット"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f49e3c91d5f9",
+        "startDate": "2026-09-26",
+        "title": "ミャンマージョブフェア",
+        "titleZh": "ミャンマージョブフェア",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/40448",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社アルバイトタイムス"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-26",
+        "title": "ZINEフェス東京",
+        "titleZh": "ZINEフェス東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "attribution": "ＢＯＯＫ ＣＵＬＴＵＲＥ ＣＬＵＢ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5acdc9027f57",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "title": "第34回APSカップ東京本大会",
+        "titleZh": "第34回APSカップ東京本大会",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "有限会社マルゼン 特定非営利活動法人日本エアス..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-03",
+        "title": "ダンロップファミリーセール",
+        "titleZh": "ダンロップファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社ダンロップスポーツマーケティング"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "58b8eb2002b0",
+        "startDate": "2026-10-10",
+        "title": "『モデラーズダンジョン』『Finisher Conne...",
+        "titleZh": "『モデラーズダンジョン』『Finisher Conne...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39811",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｍｏｄｅｌｉｎｋ Ｊａｐａｎ合同会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-10",
+        "title": "とりっぷ",
+        "titleZh": "とりっぷ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社Ｃｈｒｏｎｏｓ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-11",
+        "title": "ニャンフェス24 / アニマーレ",
+        "titleZh": "ニャンフェス24 / アニマーレ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "昭和堂株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-11",
+        "title": "TICA ＆ MCC 5th～6th キャットショー",
+        "titleZh": "TICA ＆ MCC 5th～6th キャットショー",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "マイキャットクラブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-12",
+        "title": "みんなの癒しフェスティバル",
+        "titleZh": "みんなの癒しフェスティバル",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "attribution": "美しい心マーケット"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0281221d6fc0",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-16",
+        "title": "インターモード川辺 ファミリーセール",
+        "titleZh": "インターモード川辺 ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39724",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "川辺株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3e791f60aa70",
+        "startDate": "2026-10-17",
+        "title": "オープンソースカンファレンス2026 Tokyo/Fa...",
+        "titleZh": "オープンソースカンファレンス2026 Tokyo/Fa...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39837",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "オープンソースカンファレンス実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "title": "東京第79回心と体が喜ぶ癒しフェスティバル",
+        "titleZh": "東京第79回心と体が喜ぶ癒しフェスティバル",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "合同会社ハッピーライフデザイン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-26",
+        "title": "すずのき 絹絵屋 たまゆう ユキベルファム きもの紀行...",
+        "titleZh": "すずのき 絹絵屋 たまゆう ユキベルファム きもの紀行...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社すずのき"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdfc4ae53eb1",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "title": "JAPAN TEA EXPO 2026",
+        "titleZh": "JAPAN TEA EXPO 2026",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39729",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社Ｈｉｔａｍｕｋｉ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-30",
+        "endDate": "2026-10-31",
+        "title": "ファミリーセール",
+        "titleZh": "ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "attribution": "大賀株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-30",
+        "endDate": "2026-11-01",
+        "title": "第61回全国切手展JAPEX2026",
+        "titleZh": "第61回全国切手展JAPEX2026",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側、６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "公益財団法人日本郵趣協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-10-30",
+        "endDate": "2026-11-01",
+        "title": "第61回全国切手展JAPEX2026",
+        "titleZh": "第61回全国切手展JAPEX2026",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側、６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "公益財団法人日本郵趣協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-03",
+        "title": "REPTILES CIRCLE",
+        "titleZh": "REPTILES CIRCLE",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｐｉｃｃｏｌｏ Ｚｏｏ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-05",
+        "title": "外国人材向け合同企業説明",
+        "titleZh": "外国人材向け合同企業説明",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社学情"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-15",
+        "title": "ローデンツ",
+        "titleZh": "ローデンツ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｌｉｒ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-15",
+        "title": "Leopard Gecko Festival",
+        "titleZh": "Leopard Gecko Festival",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社Ｆｉｎｅ Ｓｃｉｅｎｃｅ Ｌａｂｏｒａ..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-22",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-23",
+        "endDate": "2026-11-24",
+        "title": "花咲ファミリーセール",
+        "titleZh": "花咲ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社レーヴアイ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-27",
+        "endDate": "2026-11-28",
+        "title": "エースファミリーセール",
+        "titleZh": "エースファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "エースサービス株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-29",
+        "title": "とんぶり市2026",
+        "titleZh": "とんぶり市2026",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社ぶりくら"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7dfa939ec34",
+        "startDate": "2026-12-05",
+        "endDate": "2026-12-06",
+        "title": "博物クリスマス2025",
+        "titleZh": "博物クリスマス2025",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 台東館",
+        "audience": "公開",
+        "attribution": "株式会社マッチスティック"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7dfa939ec34",
+        "startDate": "2026-12-05",
+        "title": "ZINEフェス東京",
+        "titleZh": "ZINEフェス東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "attribution": "ＢＯＯＫ ＣＵＬＴＵＲＥ ＣＬＵＢ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7dfa939ec34",
+        "startDate": "2026-12-06",
+        "title": "EXOTIC REP ＆AQUA EXPO （エキゾチ...",
+        "titleZh": "EXOTIC REP ＆AQUA EXPO （エキゾチ...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社Ｉ－ＤＲＥＡＭ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "151b8bc4e82d",
+        "startDate": "2026-12-11",
+        "endDate": "2026-12-12",
+        "title": "インターモード川辺 ファミリーセール",
+        "titleZh": "インターモード川辺 ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39726",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "attribution": "川辺株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7dfa939ec34",
+        "startDate": "2026-12-13",
+        "title": "RAMPAGE",
+        "titleZh": "RAMPAGE",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "招待",
+        "attribution": "合同会社山櫻"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7dfa939ec34",
+        "startDate": "2026-12-18",
+        "endDate": "2026-12-19",
+        "title": "株式会社クイーポ ファミリーセール",
+        "titleZh": "株式会社クイーポ ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社クイーポ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "d7dfa939ec34",
+        "startDate": "2026-12-19",
+        "title": "Yokohama Bay Cat Fanciers W...",
+        "titleZh": "Yokohama Bay Cat Fanciers W...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "Ｙｏｋｏｈａｍａ Ｂａｙ Ｃａｔ Ｆａｎｃｉｅ..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "132e901bd59f",
+        "startDate": "2027-01-10",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "132e901bd59f",
+        "startDate": "2027-01-16",
+        "endDate": "2027-01-17",
+        "title": "鳥フェス浅草2027",
+        "titleZh": "鳥フェス浅草2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ことりカフェ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "132e901bd59f",
+        "startDate": "2027-01-23",
+        "endDate": "2027-01-24",
+        "title": "ねこのきもちマルシェ",
+        "titleZh": "ねこのきもちマルシェ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社ベネッセコーポレーション"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "132e901bd59f",
+        "startDate": "2027-01-23",
+        "title": "ぶち癒しフェスタin東京",
+        "titleZh": "ぶち癒しフェスタin東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階南",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "アーキエンジェルハピネス協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "132e901bd59f",
+        "startDate": "2027-01-23",
+        "title": "CFA JAPAN REGIONAL CAT SHOW",
+        "titleZh": "CFA JAPAN REGIONAL CAT SHOW",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "ＣＦＡジャパン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-06",
+        "title": "ミャンマージョブフェア",
+        "titleZh": "ミャンマージョブフェア",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社アルバイトタイムス"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-06",
+        "title": "ZINEフェス東京",
+        "titleZh": "ZINEフェス東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "attribution": "ＢＯＯＫ ＣＵＬＴＵＲＥ ＣＬＵＢ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-07",
+        "title": "World Animal Festival",
+        "titleZh": "World Animal Festival",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社ＡｔｏＺ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-07",
+        "title": "東京第89回心と体が喜ぶ癒しフェスティバル",
+        "titleZh": "東京第89回心と体が喜ぶ癒しフェスティバル",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "合同会社ハッピーライフデザイン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-10",
+        "title": "建築CAREER MEETUPカンファレンス",
+        "titleZh": "建築CAREER MEETUPカンファレンス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "招待",
+        "attribution": "株式会社キャリア・ナビゲーション"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-10",
+        "title": "第9回 日本ICT教育アワード 全国ICT教育首長サミ...",
+        "titleZh": "第9回 日本ICT教育アワード 全国ICT教育首長サミ...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "会議・研修・セミナー",
+        "audience": "招待",
+        "attribution": "全国ICT教育首長協議会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-11",
+        "title": "REPTILES CIRCLE",
+        "titleZh": "REPTILES CIRCLE",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｐｉｃｃｏｌｏ Ｚｏｏ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-12",
+        "endDate": "2027-02-14",
+        "title": "フライフィッシング ハンドクラフト展",
+        "titleZh": "フライフィッシング ハンドクラフト展",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "有限会社つるや釣具店"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-13",
+        "title": "ローデンツ",
+        "titleZh": "ローデンツ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｌｉｒ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-26",
+        "title": "らでぃっしゅぼーや直売会",
+        "titleZh": "らでぃっしゅぼーや直売会",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "オイシックス・ラ・大地株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "title": "モノガタル商店街（仮称 後日変更の可能性あり）",
+        "titleZh": "モノガタル商店街（仮称 後日変更の可能性あり）",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＢＯＵＫＥＮ ＷＯＲＫＳ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-28",
+        "title": "EXOTIC REP ＆ AQUA EXPO （エキゾ...",
+        "titleZh": "EXOTIC REP ＆ AQUA EXPO （エキゾ...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社Ｉ－ＤＲＥＡＭ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b847e507d5f4",
+        "startDate": "2027-03-02",
+        "title": "令和8年度「第4回ビジネスマッチングin東京」",
+        "titleZh": "令和8年度「第4回ビジネスマッチングin東京」",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "公益財団法人東京都中小企業振興公社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "110f7bf3736a",
+        "startDate": "2027-03-04",
+        "endDate": "2027-03-05",
+        "title": "インターモード川辺 ファミリーセール",
+        "titleZh": "インターモード川辺 ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/39727",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "川辺株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b847e507d5f4",
+        "startDate": "2027-03-05",
+        "endDate": "2027-03-06",
+        "title": "株式会社クイーポ ファミリーセール",
+        "titleZh": "株式会社クイーポ ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社クイーポ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b847e507d5f4",
+        "startDate": "2027-03-06",
+        "title": "オープンソースカンファレンス2027 Tokyo/Sp...",
+        "titleZh": "オープンソースカンファレンス2027 Tokyo/Sp...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社びぎねっと"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b847e507d5f4",
+        "startDate": "2027-03-19",
+        "endDate": "2027-03-20",
+        "title": "エースファミリーセール",
+        "titleZh": "エースファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "エースサービス株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b847e507d5f4",
+        "startDate": "2027-03-28",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6db0ce562dfc",
+        "startDate": "2027-04-02",
+        "endDate": "2027-04-03",
+        "title": "ファミリーセール",
+        "titleZh": "ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=4",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "招待",
+        "attribution": "大賀株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6db0ce562dfc",
+        "startDate": "2027-04-04",
+        "title": "エキゾチックレプ＆アクアエキスポ",
+        "titleZh": "エキゾチックレプ＆アクアエキスポ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=4",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社Ｉ－ＤＲＥＡＭ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6db0ce562dfc",
+        "startDate": "2027-04-09",
+        "endDate": "2027-04-11",
+        "title": "文具＆手紙マルシェ2027",
+        "titleZh": "文具＆手紙マルシェ2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=4",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "公益財団法人日本郵趣協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6db0ce562dfc",
+        "startDate": "2027-04-09",
+        "endDate": "2027-04-11",
+        "title": "世界切手まつり STAMP-SHOW2027",
+        "titleZh": "世界切手まつり STAMP-SHOW2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=4",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "公益財団法人日本郵趣協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6db0ce562dfc",
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11",
+        "title": "にゃん具博 VOL.4",
+        "titleZh": "にゃん具博 VOL.4",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=4",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社イースト・ライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6db0ce562dfc",
+        "startDate": "2027-04-23",
+        "endDate": "2027-04-24",
+        "title": "花咲ファミリーセール",
+        "titleZh": "花咲ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=4",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社レーヴアイ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-01",
+        "title": "マラママーケット",
+        "titleZh": "マラママーケット",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "コリーフＬＬＣ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-02",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-03",
+        "title": "ニャンフェス25／アニマーレ3",
+        "titleZh": "ニャンフェス25／アニマーレ3",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "昭和堂株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-21",
+        "endDate": "2027-05-22",
+        "title": "株式会社クイーポ ファミリーセール",
+        "titleZh": "株式会社クイーポ ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社クイーポ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-22",
+        "title": "ローデンツ",
+        "titleZh": "ローデンツ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "Ｌｉｒ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-29",
+        "title": "ぶち癒しフェスタin東京",
+        "titleZh": "ぶち癒しフェスタin東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "attribution": "アーキエンジェルハピネス協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4f6d90399658",
+        "startDate": "2027-05-30",
+        "title": "東京第81回心と体が喜ぶ癒しフェスティバル",
+        "titleZh": "東京第81回心と体が喜ぶ癒しフェスティバル",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=5",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "合同会社ハッピーライフデザイン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06",
+        "title": "スタンプフェスティバル＆タイポグラフィフェスティバル（...",
+        "titleZh": "スタンプフェスティバル＆タイポグラフィフェスティバル（...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社手紙社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-06",
+        "title": "怪獣ワールドフェスティバル11 2027",
+        "titleZh": "怪獣ワールドフェスティバル11 2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "有限会社石橋電設"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-06",
+        "title": "東京癒しフェス・みんなの癒しフェスティバル",
+        "titleZh": "東京癒しフェス・みんなの癒しフェスティバル",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "美しい心マーケット"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-13",
+        "title": "アメイジング商店街14",
+        "titleZh": "アメイジング商店街14",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社マクラウド"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-18",
+        "endDate": "2027-06-19",
+        "title": "オーロラ株式会社ファミリーセール",
+        "titleZh": "オーロラ株式会社ファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "オーロラ株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-20",
+        "title": "アニマルEXPO2027",
+        "titleZh": "アニマルEXPO2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社エヌ・シー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-25",
+        "endDate": "2027-06-26",
+        "title": "エースファミリーセール",
+        "titleZh": "エースファミリーセール",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "エースサービス株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-03",
+        "title": "台東区中学生進路フェア",
+        "titleZh": "台東区中学生進路フェア",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "招待",
+        "attribution": "台東区教育委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-04",
+        "title": "エキゾチックレプ＆アクアエキスポ",
+        "titleZh": "エキゾチックレプ＆アクアエキスポ",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社Ｉ－ＤＲＥＡＭ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-17",
+        "endDate": "2027-07-18",
+        "title": "BOOK MARKET 2027",
+        "titleZh": "BOOK MARKET 2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "アノニマ・スタジオ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-18",
+        "endDate": "2027-07-19",
+        "title": "全日本レコード＆CDディスク・カーニバル in 浅草",
+        "titleZh": "全日本レコード＆CDディスク・カーニバル in 浅草",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社北沢レコード"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-19",
+        "title": "オールジャパン麻雀チャンピオンシップ2027",
+        "titleZh": "オールジャパン麻雀チャンピオンシップ2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "招待",
+        "attribution": "東京都麻雀業協同組合"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-25",
+        "title": "アクアリウムバス",
+        "titleZh": "アクアリウムバス",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社Ｆｅｅｄ ｏｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-01",
+        "title": "LiLi EXPO for women",
+        "titleZh": "LiLi EXPO for women",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階北",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ＬｉＬｉ株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-02",
+        "title": "ZINEフェス",
+        "titleZh": "ZINEフェス",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "Ｂｏｏｋ Ｃｕｌｔｕｒｅ Ｃｌｕｂ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-03",
+        "title": "第16回全国高校生そば打ち選手権大会",
+        "titleZh": "第16回全国高校生そば打ち選手権大会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "一般社団法人日本麺類業団体連合会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "05a75a76fc36",
+        "startDate": "2026-08-03",
+        "endDate": "2026-08-04",
+        "title": "内定獲得フェア IN 東京",
+        "titleZh": "内定獲得フェア IN 東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階 北",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40419",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社アクセスネクステージ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "0c2572a0a14d",
+        "startDate": "2026-08-04",
+        "endDate": "2026-08-06",
+        "title": "ファミリーセール",
+        "titleZh": "ファミリーセール",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40277",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社ナルミヤ・インターナショナル"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "3ec169f7ace1",
+        "startDate": "2026-08-06",
+        "title": "自由研究フェスタ2026 in 東京",
+        "titleZh": "自由研究フェスタ2026 in 東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40518",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "招待",
+        "attribution": "夏休み自由研究フェスタ実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6ec85da51032",
+        "startDate": "2026-08-09",
+        "title": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "titleZh": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40080",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＯＺ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-15",
+        "endDate": "2026-08-16",
+        "title": "BALLROOM LIGHTS 2026-ボールルーム...",
+        "titleZh": "BALLROOM LIGHTS 2026-ボールルーム...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＳＩＩＳ（エスアイエス）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-21",
+        "title": "金融ISAC 共同演習 FIRE2026",
+        "titleZh": "金融ISAC 共同演習 FIRE2026",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "会議・研修・セミナー",
+        "audience": "関係者のみ",
+        "attribution": "一般社団法人金融ＩＳＡＣ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "ae656de5dfa6",
+        "startDate": "2026-08-22",
+        "endDate": "2026-08-23",
+        "title": "BIG MAGIC OPEN vol.15",
+        "titleZh": "BIG MAGIC OPEN vol.15",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40581",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社ホビーズファクトリー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-22",
+        "endDate": "2026-08-23",
+        "title": "WRO 2026 Japan 決勝大会",
+        "titleZh": "WRO 2026 Japan 決勝大会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "ＮＰＯ法人ＷＲＯ Ｊａｐａｎ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7ad230e5c828",
+        "startDate": "2026-08-28",
+        "endDate": "2026-08-29",
+        "title": "ワールドアトリエセール×エースファミリーセール",
+        "titleZh": "ワールドアトリエセール×エースファミリーセール",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階、３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/39928",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "エースサービス株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "58880cf2f39b",
+        "startDate": "2026-08-30",
+        "title": "The5th World Open Dance Ch...",
+        "titleZh": "The5th World Open Dance Ch...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40655",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "一般社団法人ジャパン・ダンス・オーガナイゼーシ..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-30",
+        "title": "JATD杯全関東ダンス選手権大会",
+        "titleZh": "JATD杯全関東ダンス選手権大会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "日本プロフェッショナルダンス競技連盟東部総局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "aadd003d0c3e",
+        "startDate": "2026-09-04",
+        "title": "＼不動産デベロッパー業界研究フェア／街づくりフォーラム",
+        "titleZh": "＼不動産デベロッパー業界研究フェア／街づくりフォーラム",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40569",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "株式会社学情"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "6d27b9ef93ab",
+        "startDate": "2026-09-05",
+        "title": "原子力産業セミナー in TOKYO",
+        "titleZh": "原子力産業セミナー in TOKYO",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40570",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "株式会社学情"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-05",
+        "title": "NPO法人I LOVE DANCEフェスティバル",
+        "titleZh": "NPO法人I LOVE DANCEフェスティバル",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "特定非営利活動法人Ｉ ＬＯＶＥ ＤＡＮＣＥ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7798c3c4cc22",
+        "startDate": "2026-09-05",
+        "title": "フレッシュジョブフェスタ東京＋たべジョブ合同企業説明会",
+        "titleZh": "フレッシュジョブフェスタ東京＋たべジョブ合同企業説明会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40617",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ＴＹＬ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-06",
+        "title": "Megalomania Tokyo 9",
+        "titleZh": "Megalomania Tokyo 9",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "招待",
+        "attribution": "Ｍｅｇａｌｏｍａｎｉａ Ｔｏｋｙｏ実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "e1ba3f97bf03",
+        "startDate": "2026-09-06",
+        "title": "B級ダンス競技会/C級ダンス競技会",
+        "titleZh": "B級ダンス競技会/C級ダンス競技会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/41013",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "一般社団法人東部日本ボールルームダンス連盟"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "7385d7fb9329",
+        "startDate": "2026-09-12",
+        "title": "プラチナ企業 秋冬インターンフェア",
+        "titleZh": "プラチナ企業 秋冬インターンフェア",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40669",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社文化放送キャリアパートナーズ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-12",
+        "title": "せい祭",
+        "titleZh": "せい祭",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "せい杯イベント運営チーム"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "2a01cd9b27cb",
+        "startDate": "2026-09-18",
+        "endDate": "2026-09-20",
+        "title": "アクセス就活LIVE IN 東京",
+        "titleZh": "アクセス就活LIVE IN 東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階 北",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40420",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社アクセスネクステージ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "992a028e98f4",
+        "startDate": "2026-09-19",
+        "title": "ブンノイチ10",
+        "titleZh": "ブンノイチ10",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40858",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "ブンノイチ実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-20",
+        "endDate": "2026-09-21",
+        "title": "ウメブラSP13",
+        "titleZh": "ウメブラSP13",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "一般社団法人 令和トーナメント"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-20",
+        "endDate": "2026-09-21",
+        "title": "Splash Go！♯14",
+        "titleZh": "Splash Go！♯14",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "招待",
+        "attribution": "ＳｐｌａｓｈＧｏ！運営"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-22",
+        "title": "ドールショウ79秋",
+        "titleZh": "ドールショウ79秋",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階、３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "ドールショウ事務局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "155fe40d4509",
+        "startDate": "2026-09-23",
+        "title": "第63回東京スピフェス in 浜松町",
+        "titleZh": "第63回東京スピフェス in 浜松町",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40633",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "直氣堂"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "11ba5662d868",
+        "startDate": "2026-09-23",
+        "title": "ラブフェス202609",
+        "titleZh": "ラブフェス202609",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40638",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "ラブフェス事務局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-23",
+        "title": "プリズムレコード17",
+        "titleZh": "プリズムレコード17",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "プリズムレコード"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b86362060db5",
+        "startDate": "2026-09-24",
+        "title": "キャンリクフォーラム「大学と企業の大相談会」",
+        "titleZh": "キャンリクフォーラム「大学と企業の大相談会」",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40543",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "招待",
+        "attribution": "ＰｒｏＦｕｔｕｒｅ株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-24",
+        "title": "在宅酸素療法における酸素供給装置の保守点検業務サービス...",
+        "titleZh": "在宅酸素療法における酸素供給装置の保守点検業務サービス...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "会議・研修・セミナー",
+        "audience": "公開",
+        "attribution": "一般社団法人日本産業・医療ガス協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-25",
+        "title": "在宅酸素療法における酸素供給装置の保守点検業務サービス...",
+        "titleZh": "在宅酸素療法における酸素供給装置の保守点検業務サービス...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "会議・研修・セミナー",
+        "audience": "公開",
+        "attribution": "一般社団法人日本産業・医療ガス協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b52ac2dbca94",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "title": "第10回愛鳥祭2026",
+        "titleZh": "第10回愛鳥祭2026",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40417",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "認定ＮＰＯ法人ＴＳＵＢＡＳＡ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-27",
+        "title": "第112回 ビクトリーショー",
+        "titleZh": "第112回 ビクトリーショー",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階、３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "有限会社ミリタリ屋"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "11ad1df811b5",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-03",
+        "title": "2026年秋冬物婦人服ファミリーセール",
+        "titleZh": "2026年秋冬物婦人服ファミリーセール",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/41652",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ジャパンスコープ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "551c7b99ccd6",
+        "startDate": "2026-10-03",
+        "title": "umisola marche 2026 TOKYO 秋",
+        "titleZh": "umisola marche 2026 TOKYO 秋",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "ｕｎｉｓｏｌａ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "28df5a51646a",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "title": "手帳の市2026秋",
+        "titleZh": "手帳の市2026秋",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40022",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "一般社団法人日本手帳クリエイター協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "53b9b02b806a",
+        "startDate": "2026-10-11",
+        "title": "B級ダンス競技会/C級ダンス競技会",
+        "titleZh": "B級ダンス競技会/C級ダンス競技会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/41014",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "一般社団法人東部日本ボールルームダンス連盟"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "21e56d00138c",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "title": "ちょっと先のおもしろい未来2026",
+        "titleZh": "ちょっと先のおもしろい未来2026",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階、３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ちょっと先のおもしろい未来実行委員会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "21e56d00138c",
+        "startDate": "2026-11-15",
+        "title": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "titleZh": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＯＺ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "21e56d00138c",
+        "startDate": "2026-11-16",
+        "endDate": "2026-11-17",
+        "title": "第２回浜松町懐かし着物市",
+        "titleZh": "第２回浜松町懐かし着物市",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社骨董市"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "21e56d00138c",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "title": "第22回 地球にやさしい中国茶交流会",
+        "titleZh": "第22回 地球にやさしい中国茶交流会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階南側、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "合同会社ティーメディアコーポレーション"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "21e56d00138c",
+        "startDate": "2026-11-23",
+        "title": "東京スピフェス in 浜松町",
+        "titleZh": "東京スピフェス in 浜松町",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "直氣堂"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "21e56d00138c",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "title": "大沢商会ファミリーセール",
+        "titleZh": "大沢商会ファミリーセール",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階、３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社大沢商会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-04",
+        "endDate": "2026-12-05",
+        "title": "ワールドアトリエセール・エースファミリーセール共同開催",
+        "titleZh": "ワールドアトリエセール・エースファミリーセール共同開催",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階、３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "attribution": "エースサービス株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-06",
+        "title": "ドールアニマルウィンターフェスティバル2026",
+        "titleZh": "ドールアニマルウィンターフェスティバル2026",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階南側、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "有限会社みくにビスクドール内 ドールワールドＮ..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-13",
+        "title": "アメイジング商店街 13",
+        "titleZh": "アメイジング商店街 13",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "合同会社マクラウド"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-13",
+        "title": "開運スピリチュアル祭り",
+        "titleZh": "開運スピリチュアル祭り",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "匠プロモーション株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-15",
+        "title": "令和8年度 [第3回ビジネスマッチングin東京]",
+        "titleZh": "令和8年度 [第3回ビジネスマッチングin東京]",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "公益財団法人東京都中小企業振興公社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-16",
+        "endDate": "2026-12-17",
+        "title": "ジャパンスコープファミリーセール",
+        "titleZh": "ジャパンスコープファミリーセール",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ジャパンスコープ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-20",
+        "title": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "titleZh": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＯＺ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-10",
+        "title": "東京スピフェス in 浜松町",
+        "titleZh": "東京スピフェス in 浜松町",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "直氣堂"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-10",
+        "title": "光り輝く開運フェスティバル",
+        "titleZh": "光り輝く開運フェスティバル",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社ｌｕｃｅ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-10",
+        "title": "NPO法人I LOVE DANCEフェスティバル",
+        "titleZh": "NPO法人I LOVE DANCEフェスティバル",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "特定非営利活動法人Ｉ ＬＯＶＥ ＤＡＮＣＥ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-16",
+        "endDate": "2027-01-17",
+        "title": "第113回 ビクトリーショー",
+        "titleZh": "第113回 ビクトリーショー",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階南側、４階、３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "有限会社ミリタリ屋"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-16",
+        "endDate": "2027-01-17",
+        "title": "TOKYOハンドメイド祭vol.15",
+        "titleZh": "TOKYOハンドメイド祭vol.15",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "一般社団法人日本アートクラフト連盟"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-23",
+        "endDate": "2027-01-24",
+        "title": "きものmeets you フェスティバル",
+        "titleZh": "きものmeets you フェスティバル",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "きもの meets you フェスティバル実行..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-13",
+        "endDate": "2027-02-14",
+        "title": "サンフェア ウインターセール（仮名称）",
+        "titleZh": "サンフェア ウインターセール（仮名称）",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "招待",
+        "attribution": "株式会社サンフェア"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-13",
+        "title": "CFA ジャパンシェーデッドキャットショー",
+        "titleZh": "CFA ジャパンシェーデッドキャットショー",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ジャパンシェーデッドファンシャース"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-19",
+        "title": "シニアのおしごとフェア",
+        "titleZh": "シニアのおしごとフェア",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "招待",
+        "attribution": "アデコ株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-21",
+        "title": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "titleZh": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＯＺ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-21",
+        "title": "SHOPPERS & BREEDERS",
+        "titleZh": "SHOPPERS & BREEDERS",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "有限会社ランバージャック"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-23",
+        "title": "マイナビ RESIDENT FESTIVAL",
+        "titleZh": "マイナビ RESIDENT FESTIVAL",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社マイナビ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-25",
+        "title": "（仮）GBRC建築技術展",
+        "titleZh": "（仮）GBRC建築技術展",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "会議・研修・セミナー",
+        "audience": "公開",
+        "attribution": "一般財団法人日本建築総合試験所"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "title": "第7回 日本ドールハウス協会 フェスタ",
+        "titleZh": "第7回 日本ドールハウス協会 フェスタ",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "日本ドールハウス協会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-07",
+        "title": "東京スピフェス in 浜松町",
+        "titleZh": "東京スピフェス in 浜松町",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "直氣堂"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-09",
+        "endDate": "2027-03-10",
+        "title": "第3回浜松町懐かし着物市",
+        "titleZh": "第3回浜松町懐かし着物市",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社骨董市"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-10",
+        "title": "第7回インフラマネジメントテクノロジーコンテスト 交流...",
+        "titleZh": "第7回インフラマネジメントテクノロジーコンテスト 交流...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "インフラマネジメントテクノロジーコンテスト実行..."
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-12",
+        "endDate": "2027-03-13",
+        "title": "ジャパンスコープファミリーセール",
+        "titleZh": "ジャパンスコープファミリーセール",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ジャパンスコープ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14",
+        "title": "TOKYOハンドメイド祭vol.16",
+        "titleZh": "TOKYOハンドメイド祭vol.16",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "一般社団法人日本アートクラフト連盟"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-19",
+        "title": "（仮称）けんせつ専⾨フェスタfor 専⾨学校⽣ 202...",
+        "titleZh": "（仮称）けんせつ専⾨フェスタfor 専⾨学校⽣ 202...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "日本マルチメディア・イクイップメント株式会社"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21",
+        "title": "スマ納め",
+        "titleZh": "スマ納め",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "ＤＥＬＴＡ運営事務局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-20",
+        "title": "大型爬虫類フェス（仮）",
+        "titleZh": "大型爬虫類フェス（仮）",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "丁野 大河"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-21",
+        "title": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "titleZh": "爬虫・奇蟲・珍獣フェア!!≪BLACK OUT!≫",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階、３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＯＺ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-21",
+        "title": "ダンス競技会",
+        "titleZh": "ダンス競技会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "audience": "公開",
+        "attribution": "一般社団法人東部日本ボールルームダンス連盟"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-22",
+        "title": "ラブフェス 2027.3",
+        "titleZh": "ラブフェス 2027.3",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "attribution": "ラブフェス事務局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-22",
+        "title": "ヒロインMIX（オンリーライブ）",
+        "titleZh": "ヒロインMIX（オンリーライブ）",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社ユウメディア"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-26",
+        "endDate": "2027-03-27",
+        "title": "BALLROOM LIGHTS 2027 - ボールル...",
+        "titleZh": "BALLROOM LIGHTS 2027 - ボールル...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "株式会社ＳＩＩＳ（エスアイエス）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-26",
+        "title": "就活選考対策まるわかりSUMMER FES",
+        "titleZh": "就活選考対策まるわかりSUMMER FES",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "関係者のみ",
+        "attribution": "株式会社文化放送キャリアパートナーズ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-27",
+        "title": "キーボードマーケット トーキョー2027",
+        "titleZh": "キーボードマーケット トーキョー2027",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "キーボードマーケット運営事務局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-27",
+        "title": "関東プロ・アマダンス選手権大会",
+        "titleZh": "関東プロ・アマダンス選手権大会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "試験・審査・競技",
+        "attribution": "株式会社ジャパンボールルームダンスカンパニー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-28",
+        "title": "ドールショウ80春",
+        "titleZh": "ドールショウ80春",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階、３階、２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "即売会",
+        "audience": "公開",
+        "attribution": "ドールショウ事務局"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
         "id": "5c909bf1609a",
         "startDate": "2026-08-28",
         "title": "大学1・2年生から考える未来のシゴト「都庁×理系キャリア発見フォーラム」を開催します！",
@@ -5588,6 +10724,887 @@
         "source": "Tokyo Big Sight",
         "audience": "一般",
         "description": "27卒・28卒・第二新卒向け「大規模採用イベント」"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "269262c6cb56",
+        "startDate": "2026-09-24",
+        "endDate": "2026-09-25",
+        "title": "国立大学キャリア支援担当者情報交換会",
+        "titleZh": "国立大学キャリア支援担当者情報交換会",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event/41284",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "株式会社レグルス"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-01",
+        "title": "外国人留学生を採用する中小企業と教育機関の情報交流会（...",
+        "titleZh": "外国人留学生を採用する中小企業と教育機関の情報交流会（...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社学情"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "9589136ce7bf",
+        "startDate": "2026-10-28",
+        "endDate": "2026-10-29",
+        "title": "2027年度 盆提灯商談会",
+        "titleZh": "2027年度 盆提灯商談会",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "展示会・見本市",
+        "audience": "関係者のみ",
+        "attribution": "株式会社フジキ工芸産業"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": true,
+      "reasons": [
+        "hard:trade_sales"
+      ],
+      "signals": [
+        "signal:art"
+      ]
+    },
+    {
+      "activity": {
+        "id": "8066be1bdad4",
+        "startDate": "2026-11-03",
+        "title": "クローバー就職フォーラム",
+        "titleZh": "クローバー就職フォーラム",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジェイ・ブロード"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "132e901bd59f",
+        "startDate": "2027-01-20",
+        "endDate": "2027-01-21",
+        "title": "春のおもちゃ商談会2027",
+        "titleZh": "春のおもちゃ商談会2027",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "展示会・見本市",
+        "attribution": "東京玩具人形協同組合"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": true,
+      "reasons": [
+        "hard:trade_sales"
+      ],
+      "signals": [
+        "signal:art"
+      ]
+    },
+    {
+      "activity": {
+        "id": "2452c9a6dba7",
+        "startDate": "2027-02-18",
+        "title": "富山県ものづくり商談会 in 東京",
+        "titleZh": "富山県ものづくり商談会 in 東京",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "関係者のみ",
+        "attribution": "公益財団法人富山県新世紀産業機構"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:trade_sales"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "b847e507d5f4",
+        "startDate": "2027-03-01",
+        "title": "JATA就職フェア",
+        "titleZh": "JATA就職フェア",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ７階、６階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジャタ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "831a5bb5ef8c",
+        "startDate": "2027-06-16",
+        "title": "2027年6月 日販✕中三共同商談会【Discover...",
+        "titleZh": "2027年6月 日販✕中三共同商談会【Discover...",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階南側、５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=6",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "展示会・見本市",
+        "audience": "招待",
+        "attribution": "中三エス・ティ株式会社"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": true,
+      "reasons": [
+        "hard:trade_sales"
+      ],
+      "signals": [
+        "signal:art"
+      ]
+    },
+    {
+      "activity": {
+        "id": "0b754f4fe78a",
+        "startDate": "2027-07-30",
+        "title": "帰国生のための学校説明会・相談会",
+        "titleZh": "帰国生のための学校説明会・相談会",
+        "place": "东京都立产业贸易中心 台东馆（浅草） · ６階、５階、４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2027&month=7",
+        "source": "東京都立産業貿易センター 台東館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "公益財団法人海外子女教育振興財団"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:admissions"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "717d46404e6c",
+        "startDate": "2026-08-01",
+        "title": "文化放送ナースナビ 病院合同就職説明会",
+        "titleZh": "文化放送ナースナビ 病院合同就職説明会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=8",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "audience": "公開",
+        "attribution": "株式会社文化放送キャリアパートナーズ 病院マー..."
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f0b062dc3367",
+        "startDate": "2026-08-01",
+        "title": "障がい者のための合同就職面接会【クローバー就職フォーラ...",
+        "titleZh": "障がい者のための合同就職面接会【クローバー就職フォーラ...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40587",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジェイ・ブロード"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "5c739950d6ca",
+        "startDate": "2026-09-01",
+        "title": "関東5県ビジネスマッチング商談会2026",
+        "titleZh": "関東5県ビジネスマッチング商談会2026",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=9",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "展示会・見本市",
+        "audience": "関係者のみ",
+        "attribution": "公益財団法人 埼玉県産業振興公社"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": true,
+      "reasons": [
+        "hard:trade_sales"
+      ],
+      "signals": [
+        "signal:art"
+      ]
+    },
+    {
+      "activity": {
+        "id": "437a81121b82",
+        "startDate": "2026-09-05",
+        "title": "障がい者のための合同就職面接会【クローバー就職フォーラ...",
+        "titleZh": "障がい者のための合同就職面接会【クローバー就職フォーラ...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/40588",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジェイ・ブロード"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "551c7b99ccd6",
+        "startDate": "2026-10-03",
+        "title": "サ～ナ就職フェスタ in 東京",
+        "titleZh": "サ～ナ就職フェスタ in 東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社イフ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "551c7b99ccd6",
+        "startDate": "2026-10-10",
+        "title": "やまなし移住・就職促進フェア（仮称）",
+        "titleZh": "やまなし移住・就職促進フェア（仮称）",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=10",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "イベント",
+        "audience": "公開",
+        "attribution": "株式会社山梨日日新聞社"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "fdca1ce3ea5d",
+        "startDate": "2026-12-13",
+        "title": "外国人留学生向け就職フェア",
+        "titleZh": "外国人留学生向け就職フェア",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階南側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=12",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "招待",
+        "attribution": "株式会社ベイングローバル"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-09",
+        "title": "サ～ナ就職フェスタ in 東京",
+        "titleZh": "サ～ナ就職フェスタ in 東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社イフ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-11",
+        "title": "クローバー就職フォーラム",
+        "titleZh": "クローバー就職フォーラム",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジェイ・ブロード"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "c5237c23dbe8",
+        "startDate": "2027-01-15",
+        "title": "物流業界合同説明会",
+        "titleZh": "物流業界合同説明会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ３階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=1",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "一般社団法人日本物流団体連合会"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-03",
+        "title": "TOKYOイイシナ展示商談会（都内産の加工食品及び農林...",
+        "titleZh": "TOKYOイイシナ展示商談会（都内産の加工食品及び農林...",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "展示会・見本市",
+        "audience": "招待",
+        "attribution": "東京都産業労働局商工部経営支援課"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": true,
+      "reasons": [
+        "hard:trade_sales"
+      ],
+      "signals": [
+        "signal:art"
+      ]
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-11",
+        "title": "文化放送ナースナビ 病院合同就職説明会",
+        "titleZh": "文化放送ナースナビ 病院合同就職説明会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社文化放送キャリアパートナーズ 病院マー..."
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-11",
+        "title": "クローバー就職フォーラム",
+        "titleZh": "クローバー就職フォーラム",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジェイ・ブロード"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-12",
+        "title": "外国人留学生向け就職フェア",
+        "titleZh": "外国人留学生向け就職フェア",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階北側",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "招待",
+        "attribution": "株式会社ベイングローバル"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-19",
+        "endDate": "2027-02-20",
+        "title": "新卒向け福祉就職フェアFUKUSHI meets!",
+        "titleZh": "新卒向け福祉就職フェアFUKUSHI meets!",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "一般社団法人ＦＡＣＥ ｔｏ ＦＵＫＵＳＨＩ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-19",
+        "title": "Ｊ-VIG映像関連事業 総合就職セミナー 2027東京",
+        "titleZh": "Ｊ-VIG映像関連事業 総合就職セミナー 2027東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "協同組合日本映像事業協会"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "4a9a6b30042a",
+        "startDate": "2027-02-22",
+        "title": "たべジョブ合同就職企業説明会",
+        "titleZh": "たべジョブ合同就職企業説明会",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=2",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ＴＹＬ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-01",
+        "endDate": "2027-03-02",
+        "title": "サ～ナ就職フェスタ in 東京",
+        "titleZh": "サ～ナ就職フェスタ in 東京",
+        "place": "东京都立产业贸易中心 滨松町馆 · ２階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社イフ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-09",
+        "title": "マイナビ 就職EXPOグローバル",
+        "titleZh": "マイナビ 就職EXPOグローバル",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社マイナビ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-11",
+        "title": "マイナビ 就職セミナーグローバル",
+        "titleZh": "マイナビ 就職セミナーグローバル",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社マイナビ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-13",
+        "title": "障がいのある方のための「サーナ就職フェスタ」",
+        "titleZh": "障がいのある方のための「サーナ就職フェスタ」",
+        "place": "东京都立产业贸易中心 滨松町馆 · ４階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社イフ"
+      },
+      "eligible": false,
+      "decision": "exclude",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "hard:recruiting"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "id": "f374bbaed01c",
+        "startDate": "2027-03-27",
+        "title": "クローバー就職フォーラム",
+        "titleZh": "クローバー就職フォーラム",
+        "place": "东京都立产业贸易中心 滨松町馆 · ５階",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2027&month=3",
+        "source": "東京都立産業貿易センター 浜松町館",
+        "category": "就活関連",
+        "audience": "公開",
+        "attribution": "株式会社ジェイ・ブロード"
       },
       "eligible": false,
       "decision": "exclude",
