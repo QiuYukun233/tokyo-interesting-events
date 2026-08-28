@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-29T00:46:23+09:00",
+  "updatedAt": "2026-08-29T00:53:47+09:00",
   "summary": {
-    "total": 2893,
-    "pending": 2596,
+    "total": 2902,
+    "pending": 2605,
     "published": 101,
     "rejected": 196,
     "byType": [
@@ -84,7 +84,7 @@
       {
         "objectType": "place",
         "state": "pending",
-        "n": 302
+        "n": 311
       },
       {
         "objectType": "place",
@@ -211,6 +211,11 @@
       {
         "source": "My TOKYO",
         "state": "rejected",
+        "n": 9
+      },
+      {
+        "source": "東京の伝統工芸品",
+        "state": "pending",
         "n": 9
       },
       {
@@ -68793,6 +68798,32 @@
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
+          "id": "13a27146474d",
+          "startDate": "2026-08-29",
+          "title": "石神井公園ふるさと文化館",
+          "titleZh": "石神井公園ふるさと文化館",
+          "place": "東京都練馬区石神井町5-12-16",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E6%96%87%E5%8C%96%E9%A4%A8",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
+        },
+        {
           "id": "13e05b3763bf",
           "startDate": "2026-08-29",
           "title": "北嶋絞製作所",
@@ -68843,6 +68874,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "189d2ccd82fb",
+          "startDate": "2026-08-29",
+          "title": "篠崎文化プラザ 伝統工芸カフェ・アルティザン",
+          "titleZh": "篠崎文化プラザ 伝統工芸カフェ・アルティザン",
+          "place": "東京都江戸川区篠崎町7-20-19",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E7%AF%A0%E5%B4%8E%E6%96%87%E5%8C%96%E3%83%97%E3%83%A9%E3%82%B6%20%E4%BC%9D%E7%B5%B1%E5%B7%A5%E8%8A%B8%E3%82%AB%E3%83%95%E3%82%A7%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%86%E3%82%A3%E3%82%B6%E3%83%B3",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
           "id": "1e658b1d80f0",
@@ -68927,6 +68984,32 @@
             "signal:hands_on"
           ],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "31c6a8e77b97",
+          "startDate": "2026-08-29",
+          "title": "伝統工芸 青山スクエア",
+          "titleZh": "伝統工芸 青山スクエア",
+          "place": "東京都港区赤坂8-1-22 赤坂王子ビル1階",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E4%BC%9D%E7%B5%B1%E5%B7%A5%E8%8A%B8%20%E9%9D%92%E5%B1%B1%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
           "id": "36cbd7a06a54",
@@ -69085,6 +69168,32 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "46c0ccdee7d8",
+          "startDate": "2026-08-29",
+          "title": "すみだ郷土文化資料館",
+          "titleZh": "すみだ郷土文化資料館",
+          "place": "東京都墨田区向島2-3-5",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E3%81%99%E3%81%BF%E3%81%A0%E9%83%B7%E5%9C%9F%E6%96%87%E5%8C%96%E8%B3%87%E6%96%99%E9%A4%A8",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
+        },
+        {
           "id": "48836f5cd6f7",
           "startDate": "2026-08-29",
           "title": "新妻精機",
@@ -69109,6 +69218,34 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "4ac298e27b2e",
+          "startDate": "2026-08-29",
+          "title": "江戸東京博物館",
+          "titleZh": "江戸東京博物館",
+          "place": "東京都墨田区横網1-4-1",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E6%B1%9F%E6%88%B8%E6%9D%B1%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%A4%A8",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art"
+          ],
+          "signals": [
+            "signal:art"
+          ],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
           "id": "4afb2c04dfe7",
@@ -69779,6 +69916,32 @@
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
+          "id": "abde59c05e18",
+          "startDate": "2026-08-29",
+          "title": "台東区立江戸下町伝統工芸館",
+          "titleZh": "台東区立江戸下町伝統工芸館",
+          "place": "東京都台東区浅草2-22-13",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E5%8F%B0%E6%9D%B1%E5%8C%BA%E7%AB%8B%E6%B1%9F%E6%88%B8%E4%B8%8B%E7%94%BA%E4%BC%9D%E7%B5%B1%E5%B7%A5%E8%8A%B8%E9%A4%A8",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
+        },
+        {
           "id": "ae19b22281bf",
           "startDate": "2026-08-29",
           "title": "株式会社サムライTシャツ",
@@ -69965,6 +70128,32 @@
           "firstSeenAt": "2026-08-28T15:27:48.714Z"
         },
         {
+          "id": "c853f24b2708",
+          "startDate": "2026-08-29",
+          "title": "荒川区立荒川ふるさと文化館",
+          "titleZh": "荒川区立荒川ふるさと文化館",
+          "place": "東京都荒川区南千住6-63-1",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E8%8D%92%E5%B7%9D%E5%8C%BA%E7%AB%8B%E8%8D%92%E5%B7%9D%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E6%96%87%E5%8C%96%E9%A4%A8",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
+        },
+        {
           "id": "c9d3d88a3cee",
           "startDate": "2026-08-29",
           "title": "ホットマン株式会社",
@@ -69989,6 +70178,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "ccdd35770e7a",
+          "startDate": "2026-08-29",
+          "title": "グリーンパレス内 ベーカリーカフェ「フォレスト」",
+          "titleZh": "グリーンパレス内 ベーカリーカフェ「フォレスト」",
+          "place": "東京都江戸川区松島1-38-1",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%91%E3%83%AC%E3%82%B9%E5%86%85%20%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%95%E3%82%A7%E3%80%8C%E3%83%95%E3%82%A9%E3%83%AC%E3%82%B9%E3%83%88%E3%80%8D",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
           "id": "d1b218535711",
@@ -70069,6 +70284,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "d6e8e4078945",
+          "startDate": "2026-08-29",
+          "title": "工匠壱番館・弐番館",
+          "titleZh": "工匠壱番館・弐番館",
+          "place": "東京都江東区森下3-12-7（森下文化センター2階）",
+          "time": "详见施设",
+          "price": "详见施设",
+          "vibe": "艺术现场",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.dento-tokyo.metro.tokyo.lg.jp/shops/info.html#%E5%B7%A5%E5%8C%A0%E5%A3%B1%E7%95%AA%E9%A4%A8%E3%83%BB%E5%BC%90%E7%95%AA%E9%A4%A8",
+          "source": "東京の伝統工芸品",
+          "category": "伝統工芸にふれる公共施設",
+          "why": "区や都が運営する伝統工芸の展示・体験施設。常設なので、思い立った日に行ける。",
+          "changeType": "discovery",
+          "attribution": "東京都産業労働局「東京の伝統工芸品」",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:53:46.878Z"
         },
         {
           "id": "e01f0d1a0e52",
