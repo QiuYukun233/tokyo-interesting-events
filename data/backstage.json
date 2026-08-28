@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-29T00:28:25+09:00",
+  "updatedAt": "2026-08-29T00:46:23+09:00",
   "summary": {
-    "total": 2858,
-    "pending": 2561,
+    "total": 2893,
+    "pending": 2596,
     "published": 101,
     "rejected": 196,
     "byType": [
@@ -84,7 +84,7 @@
       {
         "objectType": "place",
         "state": "pending",
-        "n": 267
+        "n": 302
       },
       {
         "objectType": "place",
@@ -152,6 +152,11 @@
         "source": "東京都歴史文化財団 · 体験100",
         "state": "rejected",
         "n": 42
+      },
+      {
+        "source": "おうめオープンファクトリー2025",
+        "state": "pending",
+        "n": 35
       },
       {
         "source": "東京都立産業貿易センター 浜松町館",
@@ -68572,6 +68577,62 @@
           "firstSeenAt": "2026-08-28T14:57:01.527Z"
         },
         {
+          "id": "0030a50bdeea",
+          "startDate": "2026-08-29",
+          "title": "藍染工房 壺草苑",
+          "titleZh": "藍染工房 壺草苑",
+          "place": "東京都青梅市長淵8-200",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.kosoen.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "027fb2a003fb",
+          "startDate": "2026-08-29",
+          "title": "有限会社三ツ原工芸社",
+          "titleZh": "有限会社三ツ原工芸社",
+          "place": "東京都青梅市今井3-5-24",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "http://mitsuhara.co.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "057dddf98de6",
           "startDate": "2026-08-29",
           "title": "杉山化学工業所",
@@ -68596,6 +68657,34 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "0c9fb8d2ba5f",
+          "startDate": "2026-08-29",
+          "title": "野村DS株式会社",
+          "titleZh": "野村DS株式会社",
+          "place": "東京都青梅市今井3-1-12",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.nomurads.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "0cad2d30751e",
@@ -68624,6 +68713,34 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "0dbc4065beec",
+          "startDate": "2026-08-29",
+          "title": "有限会社菅谷食品",
+          "titleZh": "有限会社菅谷食品",
+          "place": "東京都青梅市友田町1-1010-1",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.sugaya.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "10cc103fe92b",
           "startDate": "2026-08-29",
           "title": "LEAF FACTORY TOKYO",
@@ -68650,6 +68767,32 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "11dd39795bd5",
+          "startDate": "2026-08-29",
+          "title": "株式会社アサップシステム",
+          "titleZh": "株式会社アサップシステム",
+          "place": "東京都青梅市東青梅2-18-5 セトル東青梅109",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "http://www.asap-sys.co.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "13e05b3763bf",
           "startDate": "2026-08-29",
           "title": "北嶋絞製作所",
@@ -68674,6 +68817,60 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "140d91db8fc1",
+          "startDate": "2026-08-29",
+          "title": "青梅トーヨー住器株式会社",
+          "titleZh": "青梅トーヨー住器株式会社",
+          "place": "東京都青梅市今寺5-16-15",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://ometfc.co.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "1e658b1d80f0",
+          "startDate": "2026-08-29",
+          "title": "株式会社イシダ技研",
+          "titleZh": "株式会社イシダ技研",
+          "place": "東京都青梅市新町5-50-1",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://i-giken.jimdofree.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:tech"
+          ],
+          "signals": [
+            "signal:tech"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "238d384ceb3a",
@@ -68836,6 +69033,32 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "42456c7ba3bd",
+          "startDate": "2026-08-29",
+          "title": "株式会社指田製作所",
+          "titleZh": "株式会社指田製作所",
+          "place": "東京都青梅市今井3-4-25",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://sashida.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "450d7d4a9f39",
           "startDate": "2026-08-29",
           "title": "里中精機",
@@ -68888,6 +69111,60 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "4afb2c04dfe7",
+          "startDate": "2026-08-29",
+          "title": "株式会社丸芝製作所",
+          "titleZh": "株式会社丸芝製作所",
+          "place": "東京都青梅市友田町2-746",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://marushiba-ss.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "4c973e7cdd5b",
+          "startDate": "2026-08-29",
+          "title": "株式会社鬼塚硝子",
+          "titleZh": "株式会社鬼塚硝子",
+          "place": "東京都青梅市今井3-9-18",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "http://onizca.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "509ae41140b1",
           "startDate": "2026-08-29",
           "title": "タンケンシールセーコウ",
@@ -68912,6 +69189,116 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "5230befce60a",
+          "startDate": "2026-08-29",
+          "title": "大和製函株式会社",
+          "titleZh": "大和製函株式会社",
+          "place": "東京都青梅市末広町1-4-3",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://yamato-seikan.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "53b3ff911053",
+          "startDate": "2026-08-29",
+          "title": "株式会社有明電装",
+          "titleZh": "株式会社有明電装",
+          "place": "東京都青梅市今井3-7-26",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.ariake-d.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "5457df7d9c4e",
+          "startDate": "2026-08-29",
+          "title": "五十鈴中央株式会社青梅サービスセンター",
+          "titleZh": "五十鈴中央株式会社青梅サービスセンター",
+          "place": "東京都青梅市今井3-5-11",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.isz.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "5ba1df8fc448",
+          "startDate": "2026-08-29",
+          "title": "井戸鉄建株式会社",
+          "titleZh": "井戸鉄建株式会社",
+          "place": "東京都青梅市今井3-6-17",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "http://www.idotekken.com",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "5ed463946fd6",
@@ -68964,6 +69351,60 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "5f52aa08512f",
+          "startDate": "2026-08-29",
+          "title": "株式会社クボプラ",
+          "titleZh": "株式会社クボプラ",
+          "place": "東京都青梅市長渕4-239-2",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.kubopura.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "6341ee6c67f0",
+          "startDate": "2026-08-29",
+          "title": "有限会社プラム",
+          "titleZh": "有限会社プラム",
+          "place": "東京都青梅市千ヶ瀬町5-672-12",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://plum-roll.com",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "6719e4e97a11",
@@ -69020,6 +69461,86 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "6ac6204c9ed4",
+          "startDate": "2026-08-29",
+          "title": "東京都自動車整備振興会 大多摩支部",
+          "titleZh": "東京都自動車整備振興会 大多摩支部",
+          "place": "東京都青梅市上町373-1(会場)",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.omecci.jp/chokotto_zemi/open_factory#factory13",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "6cc25ac8852c",
+          "startDate": "2026-08-29",
+          "title": "太陽誘電モバイルテクノロジー株式会社",
+          "titleZh": "太陽誘電モバイルテクノロジー株式会社",
+          "place": "東京都青梅市新町6-16-3",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.tymt.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "7b1443a24152",
+          "startDate": "2026-08-29",
+          "title": "小澤酒造株式会社",
+          "titleZh": "小澤酒造株式会社",
+          "place": "東京都青梅市沢井2-770",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.sawanoi-sake.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "81115a7ac044",
           "startDate": "2026-08-29",
           "title": "栄商金属",
@@ -69044,6 +69565,88 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "86efa7f0400a",
+          "startDate": "2026-08-29",
+          "title": "株式会社せきづか",
+          "titleZh": "株式会社せきづか",
+          "place": "東京都青梅市今井3-6-11",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.sekizuka.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "8b6645f091b8",
+          "startDate": "2026-08-29",
+          "title": "住友金属鉱山株式会社 青梅事業所",
+          "titleZh": "住友金属鉱山株式会社 青梅事業所",
+          "place": "東京都青梅市末広町1-6-1",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.smm.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "8d32a8f1ee5e",
+          "startDate": "2026-08-29",
+          "title": "南デザイン株式会社",
+          "titleZh": "南デザイン株式会社",
+          "place": "東京都青梅市末広町1-7-10",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "http://www.minamidesign.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:art",
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:art",
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "8ef45cf3c1f0",
@@ -69072,6 +69675,58 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "96037423a5b5",
+          "startDate": "2026-08-29",
+          "title": "株式会社MOPTOP",
+          "titleZh": "株式会社MOPTOP",
+          "place": "東京都青梅市梅郷6-1438-1(作業場)",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://moptop.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "966df199fe46",
+          "startDate": "2026-08-29",
+          "title": "株式会社池田製作所",
+          "titleZh": "株式会社池田製作所",
+          "place": "東京都青梅市長渕8-178-2",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://ikedaseisakusho.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "9fe6c7eefdb1",
           "startDate": "2026-08-29",
           "title": "GALLERY futari",
@@ -69098,6 +69753,88 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "a86cf5872ff3",
+          "startDate": "2026-08-29",
+          "title": "株式会社エイム",
+          "titleZh": "株式会社エイム",
+          "place": "東京都青梅市今井3-5-14",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "http://www.aimcorp.co.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "ae19b22281bf",
+          "startDate": "2026-08-29",
+          "title": "株式会社サムライTシャツ",
+          "titleZh": "株式会社サムライTシャツ",
+          "place": "東京都青梅市野上町4-5-5",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://samurai-tshirts.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "b1009bdc4f59",
+          "startDate": "2026-08-29",
+          "title": "原島製畳",
+          "titleZh": "原島製畳",
+          "place": "東京都青梅市和田町2-581-1",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.instagram.com/harashimatatami/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "b2164817ac0c",
           "startDate": "2026-08-29",
           "title": "ホワイトハウス矢口（ホワイトテクニカ）",
@@ -69122,6 +69859,58 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "c1316583b1a9",
+          "startDate": "2026-08-29",
+          "title": "株式会社昭和石材工業所 青梅事業所",
+          "titleZh": "株式会社昭和石材工業所 青梅事業所",
+          "place": "東京都青梅市新町9-1998",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://showseki.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "c430e99717e2",
+          "startDate": "2026-08-29",
+          "title": "株式会社立川あん工房",
+          "titleZh": "株式会社立川あん工房",
+          "place": "東京都青梅市新町9-2182-1",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.an-koubou.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "c5c4b07d68e8",
@@ -69176,6 +69965,60 @@
           "firstSeenAt": "2026-08-28T15:27:48.714Z"
         },
         {
+          "id": "c9d3d88a3cee",
+          "startDate": "2026-08-29",
+          "title": "ホットマン株式会社",
+          "titleZh": "ホットマン株式会社",
+          "place": "東京都青梅市長淵5-251",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://hotman.co.jp",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
+          "id": "d1b218535711",
+          "startDate": "2026-08-29",
+          "title": "株式会社ボーダーライン",
+          "titleZh": "株式会社ボーダーライン",
+          "place": "東京都青梅市今井2-694-8",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://borderline-co.com/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "d205aa4f5444",
           "startDate": "2026-08-29",
           "title": "進和精機",
@@ -69200,6 +70043,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "d3068dcf84fa",
+          "startDate": "2026-08-29",
+          "title": "Studio fu-mine Copper Works",
+          "titleZh": "Studio fu-mine Copper Works",
+          "place": "東京都青梅市畑中1-311-1",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.instagram.com/fumitomochida.works/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "e01f0d1a0e52",
@@ -69230,6 +70099,32 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "e1f47dbc9965",
+          "startDate": "2026-08-29",
+          "title": "アドフォクス株式会社",
+          "titleZh": "アドフォクス株式会社",
+          "place": "東京都青梅市河辺町10-6-1 トミタワー7F",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://adphox.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "e31bd7352425",
           "startDate": "2026-08-29",
           "title": "赤塚刻印製作所",
@@ -69256,6 +70151,32 @@
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
         },
         {
+          "id": "e5d2cad0cafb",
+          "startDate": "2026-08-29",
+          "title": "美光印刷株式会社",
+          "titleZh": "美光印刷株式会社",
+          "place": "東京都青梅市新町9-2183-5",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://bikoh.tokyo/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
+        },
+        {
           "id": "ec672a3b2c48",
           "startDate": "2026-08-29",
           "title": "大成工業",
@@ -69280,6 +70201,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-28T15:26:28.735Z"
+        },
+        {
+          "id": "eeccbccfeade",
+          "startDate": "2026-08-29",
+          "title": "武州工業株式会社",
+          "titleZh": "武州工業株式会社",
+          "place": "東京都青梅市末広町1-2-3",
+          "time": "详见工房",
+          "price": "详见工房",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.busyu.co.jp/",
+          "source": "おうめオープンファクトリー2025",
+          "category": "町工場・工房",
+          "why": "おうめオープンファクトリー2025で見学を受け入れた青梅の作り手。イベントが終わっても工房はそこにある。",
+          "changeType": "discovery",
+          "attribution": "おうめオープンファクトリー2025 参加ファクトリー",
+          "objectType": "place",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-28T15:46:16.602Z"
         },
         {
           "id": "f05d27164b45",
