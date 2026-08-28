@@ -19,6 +19,7 @@ import { REASON_LABELS } from '../lib/activity-filter.mjs';
 import { OBJECT_TYPES, OBJECT_TYPE_LABELS } from '../lib/object-type.mjs';
 import { agreementByObjectType, agreementByReason, agreementBySource, coverage, gateProjection } from '../lib/gate-evidence.mjs';
 import { decide, listCandidates, openPool, poolSummary, undecide } from '../lib/pool-db.mjs';
+import { rankCandidates, weightsFromEvidence } from '../lib/ranking.mjs';
 
 const POOL = new URL('../data/pool.db', import.meta.url);
 const PORT = Number(process.env.REVIEW_PORT || 4321);
@@ -26,7 +27,13 @@ const PORT = Number(process.env.REVIEW_PORT || 4321);
 const pool = openPool(fileURLToPath(POOL));
 
 const state = () => {
-  const candidates = listCandidates(pool, { horizonDays: 180 });
+  const raw = listCandidates(pool, { horizonDays: 180 });
+  const byReason = agreementByReason(raw);
+  // Order for judging, not by date: weights come from what has actually been
+  // published so far, and one candidate per venue is shown before the second of
+  // any venue. Without that, 708 stalls of one craft fair fill the screen and
+  // the rest of the pool is never reached. See lib/ranking.mjs.
+  const candidates = rankCandidates(raw, { weights: weightsFromEvidence(byReason) });
   return {
     objectTypes: OBJECT_TYPES.map((type) => ({ type, label: OBJECT_TYPE_LABELS[type] })),
     reasonLabels: REASON_LABELS,
@@ -34,7 +41,7 @@ const state = () => {
     candidates,
     evidence: {
       coverage: coverage(candidates),
-      byReason: agreementByReason(candidates),
+      byReason,
       bySource: agreementBySource(candidates),
       byObjectType: agreementByObjectType(candidates),
       projection: gateProjection(candidates),
