@@ -115,7 +115,14 @@ export async function runIngestion(sources) {
   // a reliable one — the whole point of recording it in the first place.
   const codesFor = new Map();
   for (const activity of rawFetched) codesFor.set(activity.id, classifyActivity(activity));
-  for (const activity of tradeOnly) codesFor.set(activity.id, { reasons: ['review:trade_only_admission'], signals: [] });
+  // Mark trade-only admission without discarding what the classifier already
+  // found. Overwriting `signals` with [] here made every crawl wipe the codes
+  // and every backfill restore them — ~100 rows oscillating, invisibly, and
+  // skewing lib/gate-evidence.mjs for those rows in between.
+  for (const activity of tradeOnly) {
+    const codes = codesFor.get(activity.id) ?? { reasons: [], signals: [] };
+    codesFor.set(activity.id, { ...codes, reasons: ['review:trade_only_admission'] });
+  }
   let stored = 0;
   for (const activity of [...rawFetched, ...(await readJson(MANUAL, { events: [] })).events]) {
     if (!activity?.id || !activity?.startDate) continue;

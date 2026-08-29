@@ -25,10 +25,24 @@ const write = process.argv.includes('--write');
 const pool = openPool(fileURLToPath(POOL));
 const update = pool.prepare('UPDATE candidates SET reasons = ?, signals = ? WHERE id = ?');
 
+/**
+ * Codes the pipeline attaches from evidence `classifyActivity` cannot see.
+ *
+ * `review:trade_only_admission` comes from the row's 来場対象者, decided in
+ * run-ingestion; recomputing the classifier alone does not know about it and
+ * would strip it. Backfilling must not quietly delete what another stage
+ * established — that turned ~100 rows into a crawl/backfill oscillation.
+ */
+const PIPELINE_CODES = new Set(['review:trade_only_admission']);
+
 let changed = 0;
 const added = new Map();
 for (const candidate of listCandidates(pool)) {
-  const { reasons, signals } = classifyActivity(candidate);
+  const fresh = classifyActivity(candidate);
+  const kept = (candidate.reasons ?? []).filter((code) => PIPELINE_CODES.has(code));
+  // A pipeline code replaces the filter's own verdict, as it does at ingest.
+  const reasons = kept.length ? kept : fresh.reasons;
+  const { signals } = fresh;
   const before = JSON.stringify([candidate.reasons, candidate.signals]);
   const after = JSON.stringify([reasons, signals]);
   if (before === after) continue;

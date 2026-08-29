@@ -21,13 +21,31 @@ import { createEventCandidate } from '../lib/event-utils.mjs';
  * Discovery is the 東京都 CKAN catalogue, which the pipeline already polls for
  * exactly this purpose (方案 §4.3 of docs/信息获取管道设计.md).
  *
- * ## What is kept
+ * ## What is kept, and why the first attempt was wrong
  *
- * Only facilities offering at least one discipline from NICHE_SPORTS. A ward
- * gym with a swimming pool and table tennis is a real facility and a bad
- * candidate: nobody makes a trip across Tokyo for the nearest ping-pong table.
- * 「弓道場がある」 or 「なぎなたができる」 is a reason to go somewhere specific,
- * which is the whole test. Of 1,071 facilities across 62 datasets, 139 pass.
+ * The first version kept any facility offering a rare competitive discipline —
+ * 弓道, なぎなた, フェンシング. **Human review rejected 9 of the 11 it judged**,
+ * including a building literally named 「弓道場」, and the reason is worth
+ * recording: *a ward gym having an archery range is not a destination.* To
+ * shoot there you must join, book, and bring your own equipment. The room
+ * exists; the outing does not.
+ *
+ * What survives review is a different property: **can you turn up and enjoy
+ * it**. A pool, a skate park, a canoe course — walk-in leisure. So the filter
+ * is now LEISURE_FACILITIES matched against the facility's *name*, which is
+ * where that property is actually stated, and the sport columns are used only
+ * to describe what is there.
+ *
+ * School facilities are excluded even when they hold a pool: 「五本木小学校屋内
+ * プール」 and 「品川学園温水プール」 open to residents on limited terms, not to
+ * a visitor deciding where to go on Saturday.
+ *
+ * Of 1,042 facilities across 62 datasets, about 70 pass — down from 139, and a
+ * different 70.
+ *
+ * **Known gap:** the datasets carry no "open to the public" field. Opening days
+ * and hours are there, but nothing states whether outsiders may use the place,
+ * so the school-name exclusion is a proxy, not a guarantee.
  *
  * ## Two traps, both measured
  *
@@ -40,15 +58,36 @@ import { createEventCandidate } from '../lib/event-utils.mjs';
  */
 
 /**
- * Disciplines worth crossing town for. Deliberately excludes the ordinary
- * furniture of a municipal gym — pool, tennis, table tennis, baseball, futsal —
- * which is where almost every facility would otherwise qualify.
+ * Facilities you can turn up at and enjoy, recognised by name.
+ *
+ * Not a list of sports: 「弓道場」 names a rare sport and is still not a
+ * destination, while 「プール」 names an ordinary one and is. The distinction
+ * that survived review is walk-in leisure, and the name is where it is stated.
  */
-export const NICHE_SPORTS = [
-  '弓道', 'アーチェリー', 'フェンシング', 'なぎなた', '銃剣道', '相撲',
-  '山岳・スポーツクライミング', 'ライフル射撃', 'クレー射撃', '馬術',
-  'カヌー', 'ボート', 'セーリング', 'アイスホッケー', 'スケート',
-  'ホッケー', 'レスリング', 'ボクシング', '近代五種', '空手道', '柔道', '剣道',
+export const LEISURE_FACILITIES = /プール|水泳場|水上|スケート|アイスリンク|ボルダリング|クライミング|カヌー|ボート|サイクリング|アスレチック|レジャー/;
+
+/**
+ * School facilities, excluded. They open to residents on limited terms — not
+ * to someone deciding where to go on Saturday.
+ */
+export const SCHOOL_FACILITY = /小学校|中学校|高等学校|学園|学校/;
+
+/**
+ * Facilities the ward has taken out of service, excluded — a shut pool is not
+ * somewhere to go. 「あきる野市民プール（屋外）（令和8年まで閉場）」 says so in
+ * its own name.
+ *
+ * Matched against the **name only**, deliberately. The opening-hours field is
+ * full of ordinary closures — 「第２・４火曜日休館日」 is a weekly rest day, not
+ * a closed facility — and reading that as "out of service" would drop a working
+ * pool. A ward writing the closure into the facility's name means it.
+ */
+export const OUT_OF_SERVICE = /閉場|閉鎖|休止|廃止|工事中|改修中|準備中/;
+
+/** Sport columns, used to describe a kept facility rather than to select it. */
+export const SPORT_COLUMNS = [
+  '水泳', 'スケート', 'カヌー', 'ボート', 'セーリング', '山岳・スポーツクライミング',
+  'アイスホッケー', '弓道', 'アーチェリー', 'フェンシング', 'なぎなた', '相撲',
 ];
 
 /** The catalogue query that finds these datasets. */
@@ -85,8 +124,9 @@ export function selectDatasets(payload) {
 export function mapFacility(row, source, index = 0) {
   const title = compact(row?.['名称']);
   const address = compact(row?.['所在地_連結表記']) || compact(`${row?.['所在地_市区町村'] ?? ''}${row?.['所在地_町字'] ?? ''}`);
-  const sports = NICHE_SPORTS.filter((sport) => isAvailable(row?.[sport]));
-  if (!title || !address || !sports.length || !source?.startDate) return null;
+  if (!title || !address || !source?.startDate) return null;
+  if (!LEISURE_FACILITIES.test(title) || SCHOOL_FACILITY.test(title) || OUT_OF_SERVICE.test(title)) return null;
+  const sports = SPORT_COLUMNS.filter((sport) => isAvailable(row?.[sport]));
 
   const hours = [compact(row?.['利用可能曜日']), compact(row?.['開始時間'])].filter(Boolean).join(' ');
   const candidate = createEventCandidate({
@@ -99,17 +139,17 @@ export function mapFacility(row, source, index = 0) {
     place: address.startsWith('東京都') ? address : `東京都${address}`,
     time: hours || '详见设施',
     price: '详见设施',
-    text: `${title} ${sports.join(' ')} スポーツ施設 ${source.org ?? ''}`,
+    text: `${title} ${sports.join(' ')} プール スケート 水遊び ${source.org ?? ''}`,
     visualIndex: index,
   });
   return candidate && {
     ...candidate,
     ongoing: true,
     changeType: 'discovery',
-    category: sports[0],
-    description: `${sports.join('・')}ができる公共施設。`,
+    category: sports[0] ?? '水遊び・レジャー',
+    description: sports.length ? `${sports.join('・')}ができる公共施設。` : '公共のレジャー施設。',
     attribution: `${source.org ?? source.name}（CC BY）`,
-    why: `都内で${sports[0]}ができる場所は多くない。区の公開データで設備が確認できている。`,
+    why: '思い立った日にふらっと行って遊べる公共施設。区の公開データで設備が確認できている。',
   };
 }
 

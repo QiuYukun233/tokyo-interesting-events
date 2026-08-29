@@ -52,7 +52,7 @@ for (const dataset of datasets) {
   events.push(...mapped);
 }
 
-console.log(`\n${events.length} facilities offer a niche discipline (${unreadable} datasets unreadable).`);
+console.log(`\n${events.length} walk-in leisure facilities kept (${unreadable} datasets unreadable).`);
 if (!events.length) {
   console.error('Nothing collected.');
   process.exit(1);
@@ -63,5 +63,5 @@ const now = new Date();
 for (const event of events) upsertCandidate(pool, event, { now, ...classifyActivity(event) });
 pool.close();
 
-console.log(`Pooled ${events.length} sports facilities as place candidates.`);
+console.log(`Pooled ${events.length} leisure facilities as place candidates.`);
 console.log('Run `npm run export-site` to refresh what the site shows.');

@@ -81,3 +81,12 @@ test('an aggregate that returns nothing means no candidate, not a failure', asyn
   const { events } = await fetchSourcePages(empty, stubFetch({ status: 404 }));
   assert.deepEqual(events, []);
 });
+
+test('marking trade-only admission does not discard the classifier’s signals', async () => {
+  // Overwriting `signals` with [] made every crawl wipe those codes and every
+  // backfill restore them: ~100 rows oscillating invisibly, and skewing the
+  // gate evidence for them in between.
+  const { classifyActivity } = await import('../../lib/activity-filter.mjs');
+  const tradeShow = { title: '国際物流総合展', description: '展示会', audience: '商談' };
+  assert.ok(classifyActivity(tradeShow).signals.length, 'the fixture must carry a signal to be meaningful');
+});
