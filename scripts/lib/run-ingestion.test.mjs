@@ -58,3 +58,26 @@ test('an allowing robots.txt lets the crawl through unflagged', async () => {
   const result = await assertRobotsAllowed(source, stubFetch({ status: 200, body: 'User-agent: *\nDisallow: /admin' }));
   assert.equal(result.robotsUnavailable, false);
 });
+
+test('a source may fold its rows into fewer candidates', async () => {
+  // 方案 §4.3: 220 comedy bills at one theatre are one answer to "where should
+  // we go", not 220. The rows are still parsed; `aggregate` decides what a
+  // candidate is.
+  const folding = {
+    ...source,
+    aggregate: (events, src) => [{ title: src.name, rows: events.length }],
+  };
+  const { events } = await fetchSourcePages(folding, stubFetch({ status: 404 }));
+  assert.deepEqual(events, [{ title: 'Paged source', rows: 2 }]);
+});
+
+test('a source with no aggregate hook is untouched', async () => {
+  const { events } = await fetchSourcePages(source, stubFetch({ status: 404 }));
+  assert.equal(events.length, 2);
+});
+
+test('an aggregate that returns nothing means no candidate, not a failure', async () => {
+  const empty = { ...source, aggregate: () => [] };
+  const { events } = await fetchSourcePages(empty, stubFetch({ status: 404 }));
+  assert.deepEqual(events, []);
+});

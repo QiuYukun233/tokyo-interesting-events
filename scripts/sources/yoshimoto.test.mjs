@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { YOSHIMOTO_FEED_URL, YOSHIMOTO_VENUES, mapYoshimotoRow, yoshimotoUrl } from './yoshimoto.mjs';
+import { aggregateTheatre, YOSHIMOTO_FEED_URL, YOSHIMOTO_VENUES, mapYoshimotoRow, yoshimotoUrl } from './yoshimoto.mjs';
 
 const source = { name: '渋谷よしもと漫才劇場', place: '渋谷', origin: 'https://shibuya-manzaigekijyo.yoshimoto.co.jp' };
 
@@ -81,4 +81,56 @@ test('four Tokyo venues are registered, each with a distinct theater id', () => 
   assert.equal(YOSHIMOTO_VENUES.length, 4);
   assert.equal(new Set(YOSHIMOTO_VENUES.map((venue) => venue.theater)).size, 4);
   assert.ok(YOSHIMOTO_FEED_URL.startsWith('https://feed-api.yoshimoto.co.jp/'));
+});
+
+test('a theatre folds into one candidate, not one per performance', () => {
+  // 220 bills at one venue are not 220 questions: nobody decides 220 times
+  // whether ルミネtheよしもと is worth going to. 方案 §4.3, on the time axis.
+  const bills = [
+    { id: '1', title: 'よしもと漫才劇場 1部', startDate: '2026-09-01', description: 'ロングコートダディ、ダンビラムーチョ' },
+    { id: '2', title: 'よしもと漫才劇場 2部', startDate: '2026-09-01', description: 'GAG、ニッポンの社長' },
+    { id: '3', title: 'お笑いライブ', startDate: '2026-09-02', description: 'ロングコートダディ' },
+  ];
+  const [venue] = aggregateTheatre(bills, { name: 'ルミネtheよしもと', place: '新宿' });
+  assert.equal(venue.title, 'ルミネtheよしもと');
+  assert.equal(venue.place, '新宿 · ルミネtheよしもと');
+  assert.equal(venue.startDate, '2026-09-01', 'the run starts on its earliest bill');
+  assert.equal(venue.ongoing, true, 'a standing theatre has no end date');
+  assert.equal(venue.changeType, 'discovery');
+  assert.match(venue.description, /2日間で3公演/);
+});
+
+test('the performers are deduped into the card', () => {
+  const bills = [
+    { id: '1', title: 'a', startDate: '2026-09-01', description: 'GAG、ニッポンの社長' },
+    { id: '2', title: 'b', startDate: '2026-09-01', description: 'GAG' },
+  ];
+  const [venue] = aggregateTheatre(bills, { name: 'x' });
+  const listed = venue.description.match(/出演：(.*)ほか/)[1];
+  assert.equal(listed.split('、').filter((name) => name === 'GAG').length, 1);
+});
+
+test('an empty feed yields no candidate rather than an empty theatre', () => {
+  // Between seasons the feed can come back empty; that is "nothing on", not a
+  // theatre with zero performances.
+  assert.deepEqual(aggregateTheatre([], { name: 'x' }), []);
+});
+
+test('the aggregate never emits the individual bills', () => {
+  const bills = Array.from({ length: 50 }, (_, index) => ({ id: `${index}`, title: `bill ${index}`, startDate: '2026-09-01' }));
+  assert.equal(aggregateTheatre(bills, { name: 'x' }).length, 1);
+});
+
+test('bill labels are stripped so the card lists performers, not markup', () => {
+  // The feed writes 「[企画ライブ]ケビンス」 and 「もう中学生／ゲスト：蛙亭」.
+  // Left as-is, the card advertises 「[企画ライブ]ケビンス」 as a performer.
+  const bills = [
+    { id: '1', title: 'a', startDate: '2026-09-01', description: '[企画ライブ]ケビンス、ほか' },
+    { id: '2', title: 'b', startDate: '2026-09-01', description: 'もう中学生／ゲスト：蛙亭' },
+  ];
+  const [venue] = aggregateTheatre(bills, { name: 'x' });
+  assert.ok(!/[[\]]|ゲスト：/.test(venue.description), venue.description);
+  assert.match(venue.description, /ケビンス/);
+  assert.match(venue.description, /蛙亭/);
+  assert.ok(!/、ほか。?出演/.test(venue.description));
 });

@@ -80,3 +80,56 @@ export function mapYoshimotoRow(row, source, index = 0) {
 
 /** Adapter entry point: the pipeline hands over the already-parsed JSON array. */
 export const mapRecord = (row, source, index = 0) => mapYoshimotoRow(row, source, index);
+
+/**
+ * Fold one theatre's whole run into a single candidate.
+ *
+ * A comedy theatre puts on three or four bills a day, so 60 days of feed is
+ * ~220 rows per venue and 832 across the four. Judged as candidates they are
+ * unanswerable: nobody decides 220 times whether ルミネtheよしもと is worth
+ * going to. **The theatre is the destination; the bills are its schedule** —
+ * the same shape as 中野ブロードウェイ's tenants, on the time axis rather than
+ * the floor plan (方案 §4.3).
+ *
+ * What the card needs is therefore the shape of the run, not one night of it:
+ * how many performances, over how many days, and who is on. Individual bills
+ * are deliberately not pooled — "what is on tonight" is a schedule lookup, and
+ * a candidate that expires tomorrow is the wrong unit for a standing theatre.
+ *
+ * `ongoing: true` because a theatre has no end date; `changeType: 'discovery'`
+ * makes lib/object-type.mjs read it as a `place`.
+ */
+export function aggregateTheatre(events = [], source = {}) {
+  if (!events.length) return [];
+  const days = [...new Set(events.map((event) => event.startDate).filter(Boolean))].sort();
+  const performers = [...new Set(events
+    .flatMap((event) => String(event.description ?? '')
+      // The feed writes bills as 「[企画ライブ]名前」 and 「A／ゲスト：B」; strip
+      // the labels or the card lists 「[企画ライブ]ケビンス」 as a performer.
+      .replace(/\[[^\]]*\]/g, '')
+      .replace(/(ゲスト|出演)[:：]/g, '')
+      .split(/[、,／/]/))
+    .map((name) => name.trim())
+    .filter((name) => name && name.length <= 12 && !/^(ほか|他)$/.test(name)))];
+
+  const candidate = createEventCandidate({
+    sourceName: source.name,
+    sourceUrl: source.venueUrl ?? YOSHIMOTO_FEED_URL,
+    title: source.name,
+    startDate: days[0],
+    place: source.place ? `${source.place} · ${source.name}` : source.name,
+    time: '公演スケジュールは公式サイト',
+    price: '详见活动页',
+    text: `${source.name} お笑い 漫才 コント 寄席 ${performers.slice(0, 40).join(' ')}`,
+  });
+  if (!candidate) return [];
+  return [{
+    ...candidate,
+    ongoing: true,
+    changeType: 'discovery',
+    category: 'お笑い・演芸',
+    description: `${days.length}日間で${events.length}公演。出演：${performers.slice(0, 12).join('、')}ほか。`,
+    attribution: source.name,
+    why: '毎日いくつも公演が入れ替わる常設の劇場。行くと決めてから日程を選べばいい。',
+  }];
+}

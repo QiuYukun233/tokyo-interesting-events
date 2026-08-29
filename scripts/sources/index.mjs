@@ -9,7 +9,7 @@ import { parseShibuyaParcoEvents, SHIBUYA_PARCO_EVENTS_URL } from './shibuya-par
 import { mapRecord as mapRekibun, parseRekibunHandsOn, REKIBUN_BENEFITS_URL, REKIBUN_HANDS_ON_URLS } from './rekibun.mjs';
 import { CORICH_URLS, parseCorich } from './corich.mjs';
 import { parseScrap } from './scrap.mjs';
-import { mapRecord as mapYoshimoto, yoshimotoUrl } from './yoshimoto.mjs';
+import { aggregateTheatre, mapRecord as mapYoshimoto, yoshimotoUrl } from './yoshimoto.mjs';
 import { SANBO_HALLS, SANBO_ORIGIN, parseSanbo, sanboUrls } from './sanbo.mjs';
 
 /**
@@ -150,7 +150,7 @@ export const SOURCES = [
     place: '六本木',
     accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
-    map: mapYoshimoto,
+    map: mapYoshimoto, aggregate: aggregateTheatre,
   },
   {
     // 渋谷よしもと漫才劇場 — the venue page's own async schedule feed, called at the same
@@ -160,7 +160,7 @@ export const SOURCES = [
     place: '渋谷',
     accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
-    map: mapYoshimoto,
+    map: mapYoshimoto, aggregate: aggregateTheatre,
   },
   {
     // 神保町よしもと漫才劇場 — the venue page's own async schedule feed, called at the same
@@ -170,7 +170,7 @@ export const SOURCES = [
     place: '神保町',
     accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
-    map: mapYoshimoto,
+    map: mapYoshimoto, aggregate: aggregateTheatre,
   },
   {
     // ルミネtheよしもと — the venue page's own async schedule feed, called at the same
@@ -180,7 +180,7 @@ export const SOURCES = [
     place: '新宿',
     accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '吉本興業株式会社',
-    map: mapYoshimoto,
+    map: mapYoshimoto, aggregate: aggregateTheatre,
   },
   {
     // Nationwide theatre/musical listing, filtered to Tokyo client-side —

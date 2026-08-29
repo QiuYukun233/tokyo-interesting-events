@@ -73,7 +73,11 @@ export async function fetchSourcePages(source, fetchImpl = fetch) {
     if (!response.ok) throw new Error(`${source.name} returned ${response.status} for ${url}`);
     events.push(...await readPage(response, source, pageSource));
   }
-  return { events, robotsUnavailable };
+  // Optional: a source may fold its rows into fewer candidates. 方案 §4.3 —
+  // 220 comedy bills at one theatre are one answer to "where should we go",
+  // not 220. The rows are still parsed; `aggregate` decides what a candidate
+  // is. Returning nothing from it means "no candidate", not "crawl failed".
+  return { events: source.aggregate ? source.aggregate(events, source) : events, robotsUnavailable };
 }
 
 const isPubliclyAccessible = (event) => event.source !== 'Tokyo Big Sight' || /一般/.test(event.audience || '');
