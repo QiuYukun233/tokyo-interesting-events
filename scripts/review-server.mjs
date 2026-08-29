@@ -17,7 +17,7 @@ import { createServer } from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { REASON_LABELS } from '../lib/activity-filter.mjs';
 import { OBJECT_TYPES, OBJECT_TYPE_LABELS } from '../lib/object-type.mjs';
-import { agreementByObjectType, agreementByReason, agreementBySource, coverage, gateProjection } from '../lib/gate-evidence.mjs';
+import { agreementByObjectType, agreementByReason, agreementBySource, coverage, gateProjection, humanCoverage } from '../lib/gate-evidence.mjs';
 import { decide, listCandidates, openPool, poolSummary, undecide } from '../lib/pool-db.mjs';
 import { rankByLearningValue } from '../lib/learning-value.mjs';
 import { rankCandidates, weightsFromEvidence } from '../lib/ranking.mjs';
@@ -50,6 +50,7 @@ const state = () => {
     learningQueue: learning.slice(0, 200),
     evidence: {
       coverage: coverage(candidates),
+      humanCoverage: humanCoverage(candidates),
       byReason,
       bySource: agreementBySource(candidates),
       byObjectType: agreementByObjectType(candidates),
@@ -344,7 +345,9 @@ function renderPanels() {
         + '<tr><td>召回率</td><td class="num">' + pct(p.recall) + '</td></tr>'
         + '<tr><td><b>误拦掉的好东西</b></td><td class="num"><b>' + p.missedGood + '</b></td></tr>'
         + '<tr><td>拦对的</td><td class="num">' + p.correctlyWithheld + '</td></tr></tbody></table>') + '</div>'
-    + '<div class="panel"><h3>各理由码</h3>' + rateTable(e.byReason, '理由码', (r) => r.code) + '<div class="hint2">「想去率」高＝这条规则拦的多是人想去的东西，作为闸门是错的。</div></div>'
+    + '<div class="panel"><h3>各理由码</h3>' + rateTable(e.byReason, '理由码', (r) => r.code)
+      + '<div class="hint2">只统计 <b>人</b> 判的 ' + e.humanCoverage.judgedByHuman + ' 条（另有 ' + e.humanCoverage.settledByMachine + ' 条由规则判定，不计入）。'
+      + '把规则自己的判决算进来，规则就会自证——2026-08-30 曾因此把一条 0% 放行率读成最强判据，实际人工判过 0 条。</div></div>'
     + '<div class="panel"><h3>各来源</h3>' + rateTable(e.bySource, '来源', (r) => r.source) + '</div>'
     + '<div class="panel"><h3>各对象类型</h3>' + rateTable(e.byObjectType, '类型', (r) => r.objectType) + '</div>';
 }
