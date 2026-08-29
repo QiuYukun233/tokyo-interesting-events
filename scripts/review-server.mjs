@@ -19,6 +19,7 @@ import { REASON_LABELS } from '../lib/activity-filter.mjs';
 import { OBJECT_TYPES, OBJECT_TYPE_LABELS } from '../lib/object-type.mjs';
 import { agreementByObjectType, agreementByReason, agreementBySource, coverage, gateProjection } from '../lib/gate-evidence.mjs';
 import { decide, listCandidates, openPool, poolSummary, undecide } from '../lib/pool-db.mjs';
+import { rankByLearningValue } from '../lib/learning-value.mjs';
 import { rankCandidates, weightsFromEvidence } from '../lib/ranking.mjs';
 
 const POOL = new URL('../data/pool.db', import.meta.url);
@@ -34,11 +35,19 @@ const state = () => {
   // any venue. Without that, 708 stalls of one craft fair fill the screen and
   // the rest of the pool is never reached. See lib/ranking.mjs.
   const candidates = rankCandidates(raw, { weights: weightsFromEvidence(byReason) });
+  // A second queue, ordered by what a decision teaches rather than by what is
+  // likely to be good. The reviewer is the bottleneck, so this is where a
+  // session should usually start — see lib/learning-value.mjs.
+  const score = new Map(candidates.map((candidate) => [candidate.id, candidate.score]));
+  const learning = rankByLearningValue(candidates, {
+    tiebreak: (a, b) => (score.get(b.id) ?? 0) - (score.get(a.id) ?? 0) || String(a.id).localeCompare(String(b.id)),
+  });
   return {
     objectTypes: OBJECT_TYPES.map((type) => ({ type, label: OBJECT_TYPE_LABELS[type] })),
     reasonLabels: REASON_LABELS,
     summary: poolSummary(pool),
     candidates,
+    learningQueue: learning.slice(0, 200),
     evidence: {
       coverage: coverage(candidates),
       byReason,
