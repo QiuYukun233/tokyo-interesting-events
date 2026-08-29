@@ -18,6 +18,13 @@ import { createEventCandidate } from '../lib/event-utils.mjs';
  * (their own category tags, a description, a booth) — kept in the pool like
  * everything else and left for the back office to judge, not filtered here.
  *
+ * ## One fair, one candidate
+ *
+ * The 287 exhibitors are **not** 287 candidates: one venue, one weekend, one
+ * answer to "where should we go" — 方案 §4.3. The roster becomes the card
+ * instead, because 「出展者287組。エレクトロニクス44・Young Makers43・
+ * ロボティクス41…」 is exactly what tells someone whether to go.
+ *
  * Structurally this is the same kind of occasional/manual source as the
  * marché: see scripts/collect-maker-faire-tokyo.mjs, deliberately NOT wired
  * into scripts/sources/index.mjs's daily SOURCES.
@@ -93,4 +100,41 @@ export async function fetchMaker(slug, source, fetchImpl = fetch) {
   const response = await fetchImpl(`${MAKER_FAIRE_ORIGIN}/event/makers-mft2026/${slug}/`);
   if (!response.ok) return null;
   return parseMakerDetail(await response.text(), slug, source);
+}
+
+/** Count values, most frequent first. */
+const ranked = (values) => [...values.reduce((counts, value) => {
+  if (value) counts.set(value, (counts.get(value) ?? 0) + 1);
+  return counts;
+}, new Map())].sort((a, b) => b[1] - a[1]);
+
+/**
+ * All exhibitors → **one** candidate for the fair.
+ *
+ * @param {Array} exhibitors  candidates from `parseMakerDetail`
+ * @param {{name: string, startDate: string, endDate?: string, venue: string}} source
+ */
+export function mapFair(exhibitors = [], source) {
+  if (!exhibitors.length || !source?.startDate) return null;
+  const genres = ranked(exhibitors.flatMap((exhibitor) => String(exhibitor.category ?? '').split('・')));
+  const breakdown = genres.slice(0, 5).map(([genre, count]) => `${genre}${count}`).join('・');
+
+  const candidate = createEventCandidate({
+    sourceName: source.name,
+    sourceUrl: `${MAKER_FAIRE_ORIGIN}/event/mft2026/`,
+    title: source.name,
+    startDate: source.startDate,
+    endDate: source.endDate,
+    place: source.venue,
+    time: '详见活动页',
+    price: '详见活动页',
+    text: `${source.name} ものづくり ${genres.map(([genre]) => genre).join(' ')} ${exhibitors.map((exhibitor) => exhibitor.title).join(' ')}`,
+  });
+  return candidate && {
+    ...candidate,
+    category: genres[0]?.[0] ?? 'ものづくり',
+    description: `出展者${exhibitors.length}組。${breakdown}。`,
+    attribution: `${source.name} 出展者一覧`,
+    why: '個人の作り手と学生チームが数百組。会場ひとつで全部見て回れる二日間。',
+  };
 }

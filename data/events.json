@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-29T07:12:15+09:00",
-  "updatedAtLabel": "今日 07:12",
+  "updatedAt": "2026-08-30T01:41:52+09:00",
+  "updatedAtLabel": "今日 01:41",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -444,40 +444,6 @@
       "objectType": "open_facility"
     },
     {
-      "id": "summer-night-museum-2026",
-      "startDate": "2026-08-27",
-      "endDate": "2026-08-28",
-      "title": "サマーナイトミュージアム 2026",
-      "titleZh": "夏夜博物馆：下班后再去看展",
-      "place": "东京都立文化设施",
-      "time": "夜间开放 · 至 8月28日",
-      "price": "依场馆而定",
-      "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.english.metro.tokyo.lg.jp/events",
-      "objectType": "event"
-    },
-    {
-      "id": "0c6b5a7223f4",
-      "startDate": "2026-08-28",
-      "title": "京都発ラーメン店「セアブラノ神」、渋谷に府外初出店 おむすび店併設",
-      "titleZh": "京都発ラーメン店「セアブラノ神」、渋谷に府外初出店 おむすび店併設",
-      "place": "渋谷区宇田川町",
-      "time": "报道所述变动日",
-      "price": "不适用",
-      "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.shibukei.com/headline/20110/",
-      "source": "シブヤ経済新聞",
-      "category": "食べる",
-      "why": "东京新出现的店铺形态，适合和朋友一起尝鲜",
-      "changeType": "opening",
-      "attribution": "シブヤ経済新聞",
-      "objectType": "opening"
-    },
-    {
       "id": "295ad8ca57b1",
       "startDate": "2026-08-28",
       "endDate": "2026-09-06",
@@ -514,21 +480,6 @@
       "objectType": "event"
     },
     {
-      "id": "63b71f763e3f",
-      "startDate": "2026-08-28",
-      "title": "令和８年度多摩川水系上下流交流会の参加者を募集します ～いつも飲んでいる水道水の“はじまり”を知りたくないですか？～",
-      "titleZh": "令和８年度多摩川水系上下流交流会の参加者を募集します ～いつも飲んでいる水道水の“はじまり”を知りたくないですか？～",
-      "place": "西多摩郡奥多摩町",
-      "time": "2026年08月28日",
-      "price": "详见活动页",
-      "vibe": "好好聊天",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260727-262861147",
-      "source": "My TOKYO",
-      "objectType": "event"
-    },
-    {
       "id": "86ad024fee77",
       "startDate": "2026-08-28",
       "endDate": "2026-08-29",
@@ -543,21 +494,6 @@
       "sourceUrl": "https://ps.nikkei.com/irfair/",
       "source": "Tokyo Big Sight",
       "audience": "一般",
-      "objectType": "event"
-    },
-    {
-      "id": "9abbeeb5d39f",
-      "startDate": "2026-08-28",
-      "title": "多摩川水系上下流交流会の参加者を募集中です",
-      "titleZh": "多摩川水系上下流交流会の参加者を募集中です",
-      "place": "東京都西多摩郡奥多摩町",
-      "time": "2026年08月28日",
-      "price": "详见活动页",
-      "vibe": "好好聊天",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/081-20260728-263036315",
-      "source": "My TOKYO",
       "objectType": "event"
     },
     {
@@ -577,23 +513,6 @@
       "category": "舞台・演劇",
       "attribution": "第四集会室",
       "objectType": "event"
-    },
-    {
-      "id": "d7101fc594ab",
-      "startDate": "2026-08-28",
-      "title": "サマーナイトマルシェ",
-      "titleZh": "サマーナイトマルシェ",
-      "place": "東京都庭園美術館",
-      "time": "2026/08/28",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://www.teien-art-museum.ne.jp/event/marche202608/",
-      "source": "東京都歴史文化財団 · 体験100",
-      "category": "ワークショップ",
-      "attribution": "東京都庭園美術館",
-      "objectType": "activity"
     },
     {
       "id": "2981d2c992b4",

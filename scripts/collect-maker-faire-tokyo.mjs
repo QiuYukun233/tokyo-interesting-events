@@ -2,7 +2,7 @@ import { fileURLToPath } from 'node:url';
 import { classifyActivity } from '../lib/activity-filter.mjs';
 import { openPool, upsertCandidate } from '../lib/pool-db.mjs';
 import { assertRobotsAllowed } from './lib/run-ingestion.mjs';
-import { MAKER_FAIRE_ORIGIN, discoverMakerSlugs, fetchMaker } from './sources/maker-faire-tokyo.mjs';
+import { MAKER_FAIRE_ORIGIN, discoverMakerSlugs, fetchMaker, mapFair } from './sources/maker-faire-tokyo.mjs';
 
 /**
  * Manual/occasional collector for Maker Faire Tokyo — see the doc comment in
@@ -38,18 +38,27 @@ console.log('Discovering exhibitor slugs across the kana index...');
 const slugs = await discoverMakerSlugs(fetchWithUa);
 console.log(`Found ${slugs.length} exhibitors. Fetching each detail page...`);
 
-const pool = openPool(fileURLToPath(POOL));
-const now = new Date();
-let stored = 0;
+const exhibitors = [];
 let skipped = 0;
 for (const [index, slug] of slugs.entries()) {
-  const event = await fetchMaker(slug, source, fetchWithUa);
-  if (!event) { skipped += 1; continue; }
-  upsertCandidate(pool, event, { now, ...classifyActivity(event) });
-  stored += 1;
+  const exhibitor = await fetchMaker(slug, source, fetchWithUa);
+  if (!exhibitor) { skipped += 1; continue; }
+  exhibitors.push(exhibitor);
   if ((index + 1) % 50 === 0) console.log(`  ...${index + 1}/${slugs.length}`);
 }
+
+// One fair, one candidate — 方案 §4.3.
+const fair = mapFair(exhibitors, source);
+if (!fair) {
+  console.error(`No exhibitor pages parsed (${skipped} skipped). Nothing collected.`);
+  process.exit(1);
+}
+
+const pool = openPool(fileURLToPath(POOL));
+const now = new Date();
+upsertCandidate(pool, fair, { now, ...classifyActivity(fair) });
 pool.close();
 
-console.log(`Pooled ${stored} candidates from ${edition} (${skipped} exhibitor pages skipped: missing name).`);
+console.log(`${exhibitors.length} exhibitors (${skipped} pages skipped) → ${fair.description}`);
+console.log(`Pooled ${edition} as one candidate.`);
 console.log('Run `npm run export-site` to refresh what the site shows.');

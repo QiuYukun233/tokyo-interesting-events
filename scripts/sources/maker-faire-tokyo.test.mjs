@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { MAKER_FAIRE_KANA_INDEXES, discoverMakerSlugs, fetchMaker, parseMakerDetail, parseMakerSlugs } from './maker-faire-tokyo.mjs';
+import { MAKER_FAIRE_KANA_INDEXES, discoverMakerSlugs, fetchMaker, parseMakerDetail, parseMakerSlugs, mapFair } from './maker-faire-tokyo.mjs';
 
 const source = { name: 'Maker Faire Tokyo 2026', startDate: '2026-09-05', endDate: '2026-09-06', venue: '有明GYM-EX（ジメックス）' };
 
@@ -80,4 +80,24 @@ test('a failed index page is skipped rather than aborting discovery', async () =
 test('fetchMaker wraps a failed request as null rather than throwing', async () => {
   const event = await fetchMaker('x', source, async () => ({ ok: false, status: 404, text: async () => '' }));
   assert.equal(event, null);
+});
+
+test('the whole fair is ONE candidate, however many exhibitors', () => {
+  // 287 exhibitors at one venue on one weekend — 方案 §4.3.
+  const fair = mapFair([
+    { title: 'AIT鉄人プロジェクト', category: 'Young Makers・ロボティクス' },
+    { title: '3DMart Japan', category: 'デジタルファブリケーションのツール・クラフト' },
+    { title: 'D-The-Star', category: 'ロボティクス' },
+  ], { name: 'Maker Faire Tokyo 2026', startDate: '2026-09-05', endDate: '2026-09-06', venue: '有明GYM-EX' });
+  assert.equal(fair.title, 'Maker Faire Tokyo 2026');
+  assert.equal(fair.place, '有明GYM-EX');
+  assert.equal(fair.startDate, '2026-09-05');
+  assert.equal(fair.endDate, '2026-09-06');
+  assert.match(fair.description, /出展者3組/);
+  assert.match(fair.description, /ロボティクス2/, 'a multi-tag exhibitor counts under each tag');
+});
+
+test('no exhibitors means no candidate rather than an empty fair', () => {
+  assert.equal(mapFair([], { name: 'x', startDate: '2026-09-05', venue: 'y' }), null);
+  assert.equal(mapFair([{ title: 'a' }], { name: 'x', venue: 'y' }), null);
 });

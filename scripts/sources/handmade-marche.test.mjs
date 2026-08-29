@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { HANDMADE_MARCHE_SITES, discoverExhibitorIds, fetchCreator, parseAttendanceDate, parseCreatorPage, parseExhibitorIds, parseTotalCount } from './handmade-marche.mjs';
+import { HANDMADE_MARCHE_SITES, discoverExhibitorIds, fetchCreator, parseAttendanceDate, parseCreatorPage, parseExhibitorIds, parseTotalCount, mapFair } from './handmade-marche.mjs';
 
 const source = { name: '東京ハンドメイドマルシェ2026秋', year: 2026, venue: '東京ドームシティ プリズムホール', origin: 'https://tokyo.handmade-marche.jp' };
 
@@ -127,4 +127,45 @@ test('every registered city site has a distinct origin', () => {
   const origins = HANDMADE_MARCHE_SITES.map((site) => site.origin);
   assert.equal(new Set(origins).size, origins.length);
   assert.ok(HANDMADE_MARCHE_SITES.every((site) => site.origin.startsWith('https://')));
+});
+
+const creator = (overrides = {}) => ({ title: 'ボタニカルライフ', startDate: '2026-09-05', category: 'アクセサリー', ...overrides });
+
+test('the whole fair is ONE candidate, however many creators exhibit', () => {
+  // 708 stalls at one hall on one weekend are one answer to "where should we
+  // go" — 方案 §4.3, the same rule 中野ブロードウェイ established.
+  const fair = mapFair([
+    creator(),
+    creator({ title: 'おはぎともなかと', startDate: '2026-09-06', category: 'フード・お菓子' }),
+    creator({ title: 'すけ', category: 'アクセサリー' }),
+  ], { name: '東京ハンドメイドマルシェ2026', venue: '東京ドームシティ プリズムホール' });
+  assert.equal(fair.title, '東京ハンドメイドマルシェ2026');
+  assert.equal(fair.place, '東京ドームシティ プリズムホール');
+  assert.match(fair.description, /出展者3組/);
+  assert.match(fair.description, /アクセサリー2/);
+});
+
+test('the fair spans every day its creators attend', () => {
+  // A creator list parsed in any order must still yield 5th–6th, not whichever
+  // day happened to come first.
+  const fair = mapFair([creator({ startDate: '2026-09-06' }), creator({ startDate: '2026-09-05' })],
+    { name: 'x', venue: 'y' });
+  assert.equal(fair.startDate, '2026-09-05');
+  assert.equal(fair.endDate, '2026-09-06');
+});
+
+test('a single-day fair reports no end date', () => {
+  const fair = mapFair([creator()], { name: 'x', venue: 'y' });
+  assert.equal(fair.endDate, undefined);
+});
+
+test('creator names ride along so a search for one still finds the fair', () => {
+  const fair = mapFair([creator({ title: 'ボタニカルライフ' })], { name: 'x', venue: 'y' });
+  assert.ok(fair, 'the fair maps');
+  assert.equal(fair.title, 'x', 'the card is the fair, not the creator');
+});
+
+test('no creators means no candidate rather than an empty fair', () => {
+  assert.equal(mapFair([], { name: 'x', venue: 'y' }), null);
+  assert.equal(mapFair([creator({ startDate: null })], { name: 'x', venue: 'y' }), null);
 });

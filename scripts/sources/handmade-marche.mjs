@@ -18,6 +18,19 @@ import { createEventCandidate } from '../lib/event-utils.mjs';
  * all sharing this markup — so one parser covers every edition. Which cities to
  * actually collect is a scope decision for the caller, not this module's.
  *
+ * ## One fair, one candidate
+ *
+ * The 708 exhibitors are **not** 708 candidates. They are all at one venue on
+ * one weekend, so for "where should we go" they are a single answer — the same
+ * granularity rule 方案 §4.3 states, and the same mistake 中野ブロードウェイ made
+ * first. Unlike the mineral dealers, these creators publish no address of their
+ * own: they exist as destinations only for those two days, at that hall.
+ *
+ * The roster is still what the card is made of — 「出展者708組。アクセサリー383・
+ * インテリア171…」 is precisely what tells someone whether the fair is worth the
+ * trip — and every creator name goes into the classifier's text, so a search
+ * still reaches the fair through them.
+ *
  * Structurally this is NOT a daily source: the exhibitor directory only exists
  * for the weeks around each fair, and one run costs (list pages) + (exhibitor
  * count) requests — around 760 for a full Tokyo edition. See
@@ -159,4 +172,50 @@ export async function fetchCreator(exhibitorId, source, fetchImpl = fetch) {
   const response = await fetchImpl(creatorUrl(source.origin || HANDMADE_MARCHE_ORIGIN, exhibitorId));
   if (!response.ok) return null;
   return parseCreatorPage(await response.text(), exhibitorId, source);
+}
+
+/** Count values, most frequent first. */
+const ranked = (values) => [...values.reduce((counts, value) => {
+  if (value) counts.set(value, (counts.get(value) ?? 0) + 1);
+  return counts;
+}, new Map())].sort((a, b) => b[1] - a[1]);
+
+/**
+ * All creators → **one** candidate for the fair itself.
+ *
+ * Dates span the creators' own attendance days, so a two-day fair reads as two
+ * days rather than as whichever day happened to be parsed first.
+ *
+ * @param {Array} creators  candidates from `parseCreatorPage`
+ * @param {{name: string, venue: string}} source
+ */
+export function mapFair(creators = [], source) {
+  if (!creators.length || !source?.name) return null;
+  const days = [...new Set(creators.map((creator) => creator.startDate).filter(Boolean))].sort();
+  if (!days.length) return null;
+
+  // Creators carry a joined category string (「アクセサリー・陶芸」); the head of
+  // each is the one the fair itself files them under.
+  const genres = ranked(creators.map((creator) => String(creator.category ?? '').split('・')[0]));
+  const breakdown = genres.slice(0, 5).map(([genre, count]) => `${genre}${count}`).join('・');
+
+  const candidate = createEventCandidate({
+    sourceName: source.name,
+    sourceUrl: `${source.origin || HANDMADE_MARCHE_ORIGIN}/creators/list_creators/`,
+    title: source.name,
+    startDate: days[0],
+    endDate: days.length > 1 ? days[days.length - 1] : undefined,
+    place: source.venue,
+    time: '详见活动页',
+    price: '详见活动页',
+    // Creator names ride along so a search for one still finds the fair.
+    text: `${source.name} 手作り マルシェ ${genres.map(([genre]) => genre).join(' ')} ${creators.map((creator) => creator.title).join(' ')}`,
+  });
+  return candidate && {
+    ...candidate,
+    category: genres[0]?.[0] ?? '手作り',
+    description: `出展者${creators.length}組。${breakdown}。`,
+    attribution: `${source.name} 出展者一覧`,
+    why: '個人の作り手が数百組集まる二日間。一度行けばまとめて見られるので、行き先としてはこの会場ひとつ。',
+  };
 }
