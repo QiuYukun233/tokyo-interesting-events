@@ -136,6 +136,9 @@ h1{font-size:clamp(32px,4.5vw,58px);letter-spacing:-.07em;margin:12px 0 8px;font
 .stat.pending{background:var(--acid)}
 .controls{padding:34px 32px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 button,select,input{font:inherit}
+.sortsep{align-self:center;font-size:11px;font-weight:700;opacity:.5;margin-left:10px}
+.lv{display:inline-block;border:1px solid var(--ink);border-radius:4px;padding:1px 6px;font-size:11px;font-weight:700;margin-right:6px}
+.lv b{font-weight:800}
 .chip{border:1.5px solid var(--ink);padding:7px 14px;background:transparent;border-radius:100px;cursor:pointer;font-size:12.5px;font-weight:700}
 .chip:hover,.chip[aria-pressed=true]{background:var(--ink);color:#fff}
 select{border:1.5px solid var(--ink);background:transparent;padding:7px 12px;border-radius:100px;font-size:12.5px;font-weight:700}
@@ -194,6 +197,9 @@ footer b{color:var(--ink)}
   <button class="chip" data-f="state" data-v="published" aria-pressed="false">已发布</button>
   <button class="chip" data-f="state" data-v="rejected" aria-pressed="false">已排除</button>
   <button class="chip" data-f="state" data-v="" aria-pressed="false">全部</button>
+  <span class="sortsep">排序</span>
+  <button class="chip" data-f="sort" data-v="learning" aria-pressed="true" title="按「判了能学到多少」排：优先没判过的类型，一轮里每种问题只出一条">学习价值</button>
+  <button class="chip" data-f="sort" data-v="likely" aria-pressed="false" title="按可能被放行的程度排">可能性</button>
   <select id="f-source"><option value="">全部来源</option></select>
   <select id="f-type"><option value="">全部类型</option></select>
   <input id="f-text" placeholder="搜索标题" style="border:1.5px solid var(--ink);background:transparent;padding:7px 12px;border-radius:100px;font-size:12.5px">
@@ -210,7 +216,7 @@ footer b{color:var(--ink)}
 <script>
 const $ = (id) => document.getElementById(id);
 let data = null;
-const filters = { state: 'pending', source: '', type: '', text: '' };
+const filters = { state: 'pending', source: '', type: '', text: '', sort: 'learning' };
 
 const esc = (v) => String(v ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const pct = (v) => v === null || v === undefined ? '—' : (v * 100).toFixed(0) + '%';
@@ -231,8 +237,26 @@ function decidedBy(by) {
   return by.startsWith('rule:') ? '规则 ' + by.slice(5) : by;
 }
 
+/**
+ * The list the reviewer works from.
+ *
+ * The learning queue is the default because the reviewer is the bottleneck: it
+ * orders by what a decision teaches (lib/learning-value.mjs) rather than by
+ * what is likely to be good. It only ever holds pending candidates, so any
+ * other state filter falls back to the full list.
+ *
+ * NOTE: this block lives inside a template literal (the browser script is
+ * embedded in the served page), so backticks are not allowed in it.
+ */
+function ordered() {
+  if (filters.sort !== 'learning') return data.candidates;
+  if (filters.state && filters.state !== 'pending') return data.candidates;
+  const rest = data.candidates.filter((c) => !data.learningQueue.some((l) => l.id === c.id));
+  return [...data.learningQueue, ...rest];
+}
+
 function visible() {
-  return data.candidates.filter((c) =>
+  return ordered().filter((c) =>
     (!filters.state || c.state === filters.state)
     && (!filters.source || c.source === filters.source)
     && (!filters.type || c.objectType === filters.type)
@@ -249,14 +273,20 @@ function renderStats() {
 function renderList() {
   const rows = visible();
   $('count').textContent = rows.length + ' 条';
+  // Grouping by object type would scatter the learning order, which is the
+  // whole point of that mode: one candidate per kind-of-question, best first.
+  const flat = filters.sort === 'learning' && (!filters.state || filters.state === 'pending');
   const byType = new Map();
-  for (const c of rows) { if (!byType.has(c.objectType)) byType.set(c.objectType, []); byType.get(c.objectType).push(c); }
-  const order = data.objectTypes.filter((t) => byType.has(t.type));
-  $('list').innerHTML = order.length === 0
+  if (flat) byType.set('__queue', rows);
+  else for (const c of rows) { if (!byType.has(c.objectType)) byType.set(c.objectType, []); byType.get(c.objectType).push(c); }
+  const order = flat
+    ? [{ type: '__queue', label: '按学习价值排序', hint: '优先没判过的类型；一轮里每种问题只出一条' }]
+    : data.objectTypes.filter((t) => byType.has(t.type));
+  $('list').innerHTML = order.length === 0 || rows.length === 0
     ? '<section><div class="empty">没有符合条件的候选。</div></section>'
     : order.map((t) => {
       const items = byType.get(t.type);
-      return '<section><div class="sechead"><h2>' + esc(t.label) + '</h2><em>' + t.type.toUpperCase() + '</em><span>' + items.length + ' 条</span></div><div class="rows">'
+      return '<section><div class="sechead"><h2>' + esc(t.label) + '</h2><em>' + esc(t.hint || t.type.toUpperCase()) + '</em><span>' + items.length + ' 条</span></div><div class="rows">'
         + items.map((c) => {
           const [main, sub] = when(c);
           const codes = [
@@ -264,10 +294,17 @@ function renderList() {
             ...c.signals.filter((code) => !c.reasons.includes(code)).map((code) => '<span class="code signal">' + esc(code) + '</span>'),
           ].join('');
           const act = (s, label) => '<button data-id="' + esc(c.id) + '" data-s="' + s + '" aria-pressed="' + (c.state === s) + '">' + label + '</button>';
+          // In learning mode, say what judging this one buys: how many pending
+          // candidates share its signature and how many have ever been judged.
+          const lv = (flat && c.learningValue !== undefined)
+            ? '<span class="lv" title="同类候选 ' + c.groupPending + ' 条待判，已判 ' + c.groupDecided + ' 条
+签名 ' + esc(c.signature) + '">代表 <b>' + c.groupPending + '</b> 条'
+              + (c.groupDecided === 0 ? ' · 未判过' : ' · 已判 ' + c.groupDecided) + '</span>'
+            : '';
           return '<article class="row ' + c.state + '">'
             + '<div class="when">' + main + '<small>' + sub + '</small></div>'
             + '<div class="what"><h3>' + (c.sourceUrl ? '<a href="' + esc(c.sourceUrl) + '" target="_blank" rel="noreferrer">' + esc(c.titleZh || c.title) + '</a>' : esc(c.titleZh || c.title)) + '</h3>'
-            + '<div class="meta"><span><b>' + esc(c.source || '编辑精选') + '</b></span>'
+            + '<div class="meta">' + lv + '<span><b>' + esc(c.source || '编辑精选') + '</b></span>'
             + (c.place ? '<span>' + esc(c.place) + '</span>' : '')
             + (c.category ? '<span>' + esc(c.category) + '</span>' : '')
             + (c.audience ? '<span>来场对象 ' + esc(c.audience) + '</span>' : '')
@@ -323,6 +360,12 @@ function fillOptions() {
 function renderAll() { renderStats(); renderList(); renderPanels(); }
 
 document.addEventListener('click', async (event) => {
+  const sortChip = event.target.closest('.chip[data-f=sort]');
+  if (sortChip) {
+    filters.sort = sortChip.dataset.v;
+    document.querySelectorAll('.chip[data-f=sort]').forEach((b) => b.setAttribute('aria-pressed', String(b === sortChip)));
+    return renderList();
+  }
   const chip = event.target.closest('.chip[data-f=state]');
   if (chip) {
     filters.state = chip.dataset.v;
