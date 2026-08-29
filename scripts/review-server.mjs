@@ -297,8 +297,7 @@ function renderList() {
           // In learning mode, say what judging this one buys: how many pending
           // candidates share its signature and how many have ever been judged.
           const lv = (flat && c.learningValue !== undefined)
-            ? '<span class="lv" title="同类候选 ' + c.groupPending + ' 条待判，已判 ' + c.groupDecided + ' 条
-签名 ' + esc(c.signature) + '">代表 <b>' + c.groupPending + '</b> 条'
+            ? '<span class="lv" title="同类候选 ' + c.groupPending + ' 条待判，已判 ' + c.groupDecided + ' 条 · 签名 ' + esc(c.signature) + '">代表 <b>' + c.groupPending + '</b> 条'
               + (c.groupDecided === 0 ? ' · 未判过' : ' · 已判 ' + c.groupDecided) + '</span>'
             : '';
           return '<article class="row ' + c.state + '">'
