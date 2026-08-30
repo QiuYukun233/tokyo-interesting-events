@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-30T03:51:29+09:00",
-  "updatedAtLabel": "今日 03:51",
+  "updatedAt": "2026-08-30T15:18:14+09:00",
+  "updatedAtLabel": "今日 15:18",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -619,23 +619,6 @@
       "objectType": "event"
     },
     {
-      "id": "86ad024fee77",
-      "startDate": "2026-08-28",
-      "endDate": "2026-08-29",
-      "title": "日経・東証IRフェア2026",
-      "titleZh": "日経・東証IRフェア2026",
-      "place": "东京Big Sight · 南3・4ホール",
-      "time": "10:00-17:00",
-      "price": "無料 (要登録)",
-      "vibe": "奇妙体验",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://ps.nikkei.com/irfair/",
-      "source": "Tokyo Big Sight",
-      "audience": "一般",
-      "objectType": "event"
-    },
-    {
       "id": "a5d8a014459d",
       "startDate": "2026-08-28",
       "endDate": "2026-08-30",
@@ -711,21 +694,6 @@
       "objectType": "place"
     },
     {
-      "id": "2981d2c992b4",
-      "startDate": "2026-08-29",
-      "title": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
-      "titleZh": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
-      "place": "江東区 猿江恩賜公園",
-      "time": "2026年08月29日～2026年08月30日",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260724-262721694",
-      "source": "My TOKYO",
-      "objectType": "event"
-    },
-    {
       "id": "2c2474f3419c",
       "startDate": "2026-08-29",
       "title": "大三建商",
@@ -762,57 +730,6 @@
       "changeType": "discovery",
       "attribution": "おおたオープンファクトリー2025 オープン工場",
       "objectType": "place"
-    },
-    {
-      "id": "46e41a8066ad",
-      "startDate": "2026-08-29",
-      "title": "真夏の夜を彩る、期間限定の特別演出！東京アクアシンフォニー × ドローンショーのコラボレーション",
-      "titleZh": "真夏の夜を彩る、期間限定の特別演出！東京アクアシンフォニー × ドローンショーのコラボレーション",
-      "place": "東京アクアシンフォニー",
-      "time": "2026年08月29日～2026年08月30日",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/019-20260817-264756875",
-      "source": "My TOKYO",
-      "objectType": "event"
-    },
-    {
-      "id": "4dc736ea1d0f",
-      "startDate": "2026-08-29",
-      "title": "名探偵プリキュア！ドリームステージ♪",
-      "titleZh": "名探偵プリキュア！ドリームステージ♪",
-      "place": "府中の森芸術劇場",
-      "time": "详见活动页",
-      "price": "4,000円 ～ 4,500円",
-      "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://stage.corich.jp/stage/479168",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "プリキュアドリームステージ♪上演委員会",
-      "objectType": "event"
-    },
-    {
-      "id": "609045d4bb2b",
-      "startDate": "2026-08-29",
-      "title": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-      "titleZh": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-      "place": "渋谷区渋谷3",
-      "time": "报道所述变动日",
-      "price": "不适用",
-      "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.shibukei.com/headline/20109/",
-      "source": "シブヤ経済新聞",
-      "category": "食べる",
-      "why": "即将消失的城市记忆，适合在关门前专程去一次",
-      "changeType": "closing",
-      "attribution": "シブヤ経済新聞",
-      "objectType": "closing"
     },
     {
       "id": "c0372350b4c3",

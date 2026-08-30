@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-30T03:51:29+09:00",
+  "updatedAt": "2026-08-30T15:18:14+09:00",
   "summary": {
-    "total": 1159,
-    "pending": 808,
+    "total": 1176,
+    "pending": 825,
     "published": 138,
     "rejected": 213,
     "byType": [
@@ -24,7 +24,7 @@
       {
         "objectType": "event",
         "state": "pending",
-        "n": 320
+        "n": 337
       },
       {
         "objectType": "event",
@@ -151,6 +151,11 @@
       {
         "source": "Tokyo Big Sight",
         "state": "published",
+        "n": 17
+      },
+      {
+        "source": "マダミスマニア",
+        "state": "pending",
         "n": 17
       },
       {
@@ -1615,33 +1620,6 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
-          "id": "109a32088b5e",
-          "startDate": "2026-08-27",
-          "endDate": "2026-08-29",
-          "title": "ボイル",
-          "titleZh": "ボイル",
-          "place": "インディペンデントシアターOji",
-          "time": "详见场次",
-          "price": "500円 ～ 10,000円",
-          "vibe": "艺术现场",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://stage.corich.jp/stage/476450",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "ケ式",
-          "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
           "id": "1e5e430b9895",
           "startDate": "2026-08-27",
           "endDate": "2026-08-30",
@@ -2185,34 +2163,6 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
-          "id": "7ad230e5c828",
-          "startDate": "2026-08-28",
-          "endDate": "2026-08-29",
-          "title": "ワールドアトリエセール×エースファミリーセール",
-          "titleZh": "ワールドアトリエセール×エースファミリーセール",
-          "place": "东京都立产业贸易中心 滨松町馆 · ５階、４階、３階、２階",
-          "time": "详见活动页",
-          "price": "详见活动页",
-          "vibe": "奇妙体验",
-          "color": "#ef5b3f",
-          "symbol": "✦",
-          "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/39928",
-          "source": "東京都立産業貿易センター 浜松町館",
-          "category": "即売会",
-          "audience": "招待",
-          "attribution": "エースサービス株式会社",
-          "objectType": "event",
-          "state": "rejected",
-          "decidedBy": "rule:not_open_to_public",
-          "reasons": [
-            "review:no_public_experience_signal"
-          ],
-          "signals": [
-            "signal:off_street"
-          ],
-          "firstSeenAt": "2026-08-28T11:25:55.297Z"
-        },
-        {
           "id": "7b254c7f569b",
           "startDate": "2026-08-28",
           "endDate": "2026-08-30",
@@ -2238,30 +2188,6 @@
             "signal:theater"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "86ad024fee77",
-          "startDate": "2026-08-28",
-          "endDate": "2026-08-29",
-          "title": "日経・東証IRフェア2026",
-          "titleZh": "日経・東証IRフェア2026",
-          "place": "东京Big Sight · 南3・4ホール",
-          "time": "10:00-17:00",
-          "price": "無料 (要登録)",
-          "vibe": "奇妙体验",
-          "color": "#6c59c8",
-          "symbol": "♪",
-          "sourceUrl": "https://ps.nikkei.com/irfair/",
-          "source": "Tokyo Big Sight",
-          "audience": "一般",
-          "objectType": "event",
-          "state": "published",
-          "decidedBy": "legacy",
-          "reasons": [
-            "review:no_public_experience_signal"
-          ],
-          "signals": [],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
           "id": "a1db783434c6",
@@ -2456,104 +2382,6 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
-          "id": "2981d2c992b4",
-          "startDate": "2026-08-29",
-          "title": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
-          "titleZh": "【猿江恩賜公園】Let’sさるえde生きもの観察！Vol.2開催します！",
-          "place": "江東区 猿江恩賜公園",
-          "time": "2026年08月29日～2026年08月30日",
-          "price": "详见活动页",
-          "vibe": "奇妙体验",
-          "color": "#ef5b3f",
-          "symbol": "✦",
-          "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/000-20260724-262721694",
-          "source": "My TOKYO",
-          "objectType": "event",
-          "state": "published",
-          "decidedBy": "legacy",
-          "reasons": [
-            "review:no_public_experience_signal"
-          ],
-          "signals": [],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
-        },
-        {
-          "id": "46e41a8066ad",
-          "startDate": "2026-08-29",
-          "title": "真夏の夜を彩る、期間限定の特別演出！東京アクアシンフォニー × ドローンショーのコラボレーション",
-          "titleZh": "真夏の夜を彩る、期間限定の特別演出！東京アクアシンフォニー × ドローンショーのコラボレーション",
-          "place": "東京アクアシンフォニー",
-          "time": "2026年08月29日～2026年08月30日",
-          "price": "详见活动页",
-          "vibe": "奇妙体验",
-          "color": "#6c59c8",
-          "symbol": "♪",
-          "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/019-20260817-264756875",
-          "source": "My TOKYO",
-          "objectType": "event",
-          "state": "published",
-          "decidedBy": "legacy",
-          "reasons": [
-            "signal:tech"
-          ],
-          "signals": [
-            "signal:tech"
-          ],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
-        },
-        {
-          "id": "4dc736ea1d0f",
-          "startDate": "2026-08-29",
-          "title": "名探偵プリキュア！ドリームステージ♪",
-          "titleZh": "名探偵プリキュア！ドリームステージ♪",
-          "place": "府中の森芸術劇場",
-          "time": "详见活动页",
-          "price": "4,000円 ～ 4,500円",
-          "vibe": "艺术现场",
-          "color": "#6c59c8",
-          "symbol": "♪",
-          "sourceUrl": "https://stage.corich.jp/stage/479168",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "プリキュアドリームステージ♪上演委員会",
-          "objectType": "event",
-          "state": "published",
-          "decidedBy": "human",
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "56a8aa5543b9",
-          "startDate": "2026-08-29",
-          "title": "調布 晩夏の能・狂言",
-          "titleZh": "調布 晩夏の能・狂言",
-          "place": "調布市グリーンホール大ホール",
-          "time": "详见活动页",
-          "price": "1,000円 ～ 4,000円",
-          "vibe": "艺术现场",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://stage.corich.jp/stage/462161",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "公益財団法人調布市文化・コミュニティ振興財団",
-          "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
           "id": "5cf3754d3700",
           "startDate": "2026-08-29",
           "endDate": "2026-08-30",
@@ -2569,110 +2397,6 @@
           "source": "CoRich舞台芸術！",
           "category": "舞台・演劇",
           "attribution": "NPO法人 東京高円寺阿波おどり振興協会",
-          "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "62ac3294a42d",
-          "startDate": "2026-08-29",
-          "title": "フェアリーテイルシアター ファンイベント2026年8月号",
-          "titleZh": "フェアリーテイルシアター ファンイベント2026年8月号",
-          "place": "赤坂CHANCEシアター",
-          "time": "详见活动页",
-          "price": "4,500円 ～ 4,500円",
-          "vibe": "艺术现场",
-          "color": "#ef5b3f",
-          "symbol": "✦",
-          "sourceUrl": "https://stage.corich.jp/stage/481271",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "フェアリーテイルシアター",
-          "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "63700ff49602",
-          "startDate": "2026-08-29",
-          "title": "村松洸希が喋りたい",
-          "titleZh": "村松洸希が喋りたい",
-          "place": "秋葉原Lounge 2nd",
-          "time": "详见活动页",
-          "price": "5,000円 ～ 5,000円",
-          "vibe": "艺术现场",
-          "color": "#6c59c8",
-          "symbol": "♪",
-          "sourceUrl": "https://stage.corich.jp/stage/486185",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "Uzume",
-          "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "7608e53dba52",
-          "startDate": "2026-08-29",
-          "title": "だだもれ",
-          "titleZh": "だだもれ",
-          "place": "イズモギャラリー",
-          "time": "详见活动页",
-          "price": "2,500円 ～ 3,000円",
-          "vibe": "艺术现场",
-          "color": "#6c59c8",
-          "symbol": "♪",
-          "sourceUrl": "https://stage.corich.jp/stage/471566",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "maars inc.",
-          "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "ceb854614bb6",
-          "startDate": "2026-08-29",
-          "title": "柳家しろ八 二ツ目 昇進いの会",
-          "titleZh": "柳家しろ八 二ツ目 昇進いの会",
-          "place": "なかの芸能小劇場",
-          "time": "详见活动页",
-          "price": "3,000円 ～ 3,000円",
-          "vibe": "艺术现场",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://stage.corich.jp/stage/489751",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "オフィス10",
           "objectType": "event",
           "state": "pending",
           "decidedBy": null,
@@ -2712,31 +2436,108 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
-          "id": "f422702967ec",
-          "startDate": "2026-08-29",
-          "title": "東京都美術館開館100周年記念 この場所の風景―上野・大牟田・ブエノスアイレストーク・シリーズ ①江上茂雄を語る",
-          "titleZh": "東京都美術館開館100周年記念 この場所の風景―上野・大牟田・ブエノスアイレストーク・シリーズ ①江上茂雄を語る",
-          "place": "東京都美術館",
-          "time": "2026/08/29",
+          "id": "0a159fdc2b1f",
+          "startDate": "2026-08-30",
+          "title": "マーダーミステリー専門店 ジョイマダ",
+          "titleZh": "マーダーミステリー専門店 ジョイマダ",
+          "place": "東京都新宿区舟町5-6 佐野ビル2階",
+          "time": "平日：13:00-23:00土日：9:00-23:00",
           "price": "详见活动页",
-          "vibe": "艺术现场",
-          "color": "#6c59c8",
-          "symbol": "♪",
-          "sourceUrl": "https://www.tobikan.jp/viewsofthisplace/event_talk01.html",
-          "source": "東京都歴史文化財団 · 体験100",
-          "category": "トーク・講座",
-          "attribution": "東京都美術館",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://mdms.jp/shops/joymada",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
           "objectType": "event",
-          "state": "rejected",
-          "decidedBy": "human",
+          "state": "pending",
+          "decidedBy": null,
           "reasons": [
-            "signal:art"
+            "review:no_public_experience_signal"
           ],
           "signals": [
-            "signal:art",
+            "signal:off_street",
             "signal:in_building"
           ],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "0c01301af587",
+          "startDate": "2026-08-30",
+          "title": "Rabbithole(ラビットホール) 水道橋店",
+          "titleZh": "Rabbithole(ラビットホール) 水道橋店",
+          "place": "東京都千代田区神田三崎町2-21-10 渡辺ビル3F",
+          "time": "9:00-23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://rabbithole.jp/access/suidobashi",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "16fd47794ca5",
+          "startDate": "2026-08-30",
+          "title": "ロストプロダクト ヨヨギジンチ",
+          "titleZh": "ロストプロダクト ヨヨギジンチ",
+          "place": "東京都渋谷区代々木1-42-2 藤ビル402号室",
+          "time": "详见活动页",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://www.lostproduct.jp/yoyogi/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:residential_room",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "1aefe91ef5ab",
+          "startDate": "2026-08-30",
+          "title": "ロストプロダクト シンジュクジンチ",
+          "titleZh": "ロストプロダクト シンジュクジンチ",
+          "place": "東京都新宿区新宿５丁目11-13 博雅ビル４階",
+          "time": "平日：13:00-22:00土日：9:00-22:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.lostproduct.jp/shinjyuku/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
         },
         {
           "id": "2ef79c3725ad",
@@ -2759,6 +2560,31 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
+        },
+        {
+          "id": "2fbf8696430b",
+          "startDate": "2026-08-30",
+          "title": "DEAR SPIELE(ディアシュピール)",
+          "titleZh": "DEAR SPIELE(ディアシュピール)",
+          "place": "東京都中野区東中野4-9-1 第一元太ビル4-A",
+          "time": "13:00-23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.dear-spiele.com/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
         },
         {
           "id": "308b8f98407d",
@@ -2839,6 +2665,55 @@
             "signal:off_street"
           ],
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
+        },
+        {
+          "id": "441b6b8c369e",
+          "startDate": "2026-08-30",
+          "title": "mystery mansion dots",
+          "titleZh": "mystery mansion dots",
+          "place": "東京都三鷹市下連雀3-23-7 エトワール三鷹第一 B2号室",
+          "time": "详见活动页",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://mysterydots.jp/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "47307e922f19",
+          "startDate": "2026-08-30",
+          "title": "Rabbithole(ラビットホール) 池袋店",
+          "titleZh": "Rabbithole(ラビットホール) 池袋店",
+          "place": "東京都豊島区西池袋1-32-8 青木ビル8F",
+          "time": "9:00-23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://rabbithole.jp/access/ikebukuro",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
         },
         {
           "id": "527492d298af",
@@ -3000,6 +2875,109 @@
           "firstSeenAt": "2026-08-28T11:25:55.297Z"
         },
         {
+          "id": "74610fc1a4f0",
+          "startDate": "2026-08-30",
+          "title": "TRPGカフェ モノドラコ",
+          "titleZh": "TRPGカフェ モノドラコ",
+          "place": "東京都台東区東上野2-15-11 ニュー佐藤ビル2F",
+          "time": "11:00-23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.monodraco.com/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "825f022b57de",
+          "startDate": "2026-08-30",
+          "title": "ロストプロダクト ギョエンジンチ",
+          "titleZh": "ロストプロダクト ギョエンジンチ",
+          "place": "東京都東京新宿1丁目15 柳生ビル2階/4階",
+          "time": "平日：18:00-23:00土日：10:00-23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.lostproduct.jp/gekiteki/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "87ee3239c45f",
+          "startDate": "2026-08-30",
+          "title": "マダミスHOUSE",
+          "titleZh": "マダミスHOUSE",
+          "place": "東京都渋谷区桜丘町16-8アトラス桜丘4F",
+          "time": "13:00～22:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://werewolf-house.com/murder-mystery/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "8dc530d77a80",
+          "startDate": "2026-08-30",
+          "title": "探偵キャンプ",
+          "titleZh": "探偵キャンプ",
+          "place": "東京都中央区銀座1丁目14-14 銀座中公ビル4階",
+          "time": "土日祝 13:30〜23:00 / 水木金 19:00〜23:00※最終入店時間は21時となります",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://tanteicamp.experiful.jp",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
           "id": "93660f0b1656",
           "startDate": "2026-08-30",
           "endDate": "2026-08-30",
@@ -3024,6 +3002,84 @@
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
         },
         {
+          "id": "99ea073e768b",
+          "startDate": "2026-08-30",
+          "title": "Cafe&Bar KMC(歌舞伎ミステリーカフェ)",
+          "titleZh": "Cafe&Bar KMC(歌舞伎ミステリーカフェ)",
+          "place": "東京都 新宿区大久保1-11-1 オオモリビル5F",
+          "time": "19:00 ～ 23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://r.goope.jp/kmc1215/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:theater"
+          ],
+          "signals": [
+            "signal:theater",
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "a7919c7f5cc3",
+          "startDate": "2026-08-30",
+          "title": "これからミステリー 中野店",
+          "titleZh": "これからミステリー 中野店",
+          "place": "東京都中野区中野3-34-19 エンタメビル2.3階",
+          "time": "12:00-5:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#ef5b3f",
+          "symbol": "✦",
+          "sourceUrl": "https://fno-mystery.co.jp/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "adf3e1bac87d",
+          "startDate": "2026-08-30",
+          "title": "ふくぶくろ",
+          "titleZh": "ふくぶくろ",
+          "place": "東京都豊島区南池袋3-18-40 SHIMAビル 1-B",
+          "time": "详见活动页",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "http://gold-grace.jp/index.html",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
           "id": "b3ccf44afe4a",
           "startDate": "2026-08-30",
           "title": "【尾久の原公園】8/30(日) 自然観察会「草地のバッタ」を開催します！",
@@ -3044,6 +3100,32 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-08-27T18:20:11.801Z"
+        },
+        {
+          "id": "bbd889cca95d",
+          "startDate": "2026-08-30",
+          "title": "トリックスター",
+          "titleZh": "トリックスター",
+          "place": "東京都豊島区北大塚2-6-10 壁田ビル4階6号室",
+          "time": "平日13:00〜23:00 / 土日・祝日10:00〜23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://d-mystery.jp/trickster",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
         },
         {
           "id": "c38a6a287ba1",
@@ -3072,6 +3154,58 @@
             "signal:theater"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
+        },
+        {
+          "id": "d19f35de236c",
+          "startDate": "2026-08-30",
+          "title": "Queen’ｓWaltz(クインズワルツ) 大塚店",
+          "titleZh": "Queen’ｓWaltz(クインズワルツ) 大塚店",
+          "place": "東京都豊島区北大塚2-9-8吉田ビル2F",
+          "time": "平日 / 10:00~23:00土日祝日 / 10:00~23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://queenswaltz.jp/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
+        },
+        {
+          "id": "e1b81aa72246",
+          "startDate": "2026-08-30",
+          "title": "花花世界",
+          "titleZh": "花花世界",
+          "place": "東京都台東区東上野5-7 上原ビル4階",
+          "time": "9:00～23:00",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://hanahana-sekai.hp.peraichi.com/home/",
+          "source": "マダミスマニア",
+          "category": "マーダーミステリー",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street",
+            "signal:in_building"
+          ],
+          "firstSeenAt": "2026-08-30T06:16:10.175Z"
         },
         {
           "id": "f1be873ad66d",
@@ -28573,32 +28707,6 @@
       "objectType": "closing",
       "label": "即将消失",
       "items": [
-        {
-          "id": "609045d4bb2b",
-          "startDate": "2026-08-29",
-          "title": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-          "titleZh": "「カフェ・ベローチェ」渋谷駅新南口店が閉店へ 25年の営業に幕",
-          "place": "渋谷区渋谷3",
-          "time": "报道所述变动日",
-          "price": "不适用",
-          "vibe": "奇妙体验",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://www.shibukei.com/headline/20109/",
-          "source": "シブヤ経済新聞",
-          "category": "食べる",
-          "why": "即将消失的城市记忆，适合在关门前专程去一次",
-          "changeType": "closing",
-          "attribution": "シブヤ経済新聞",
-          "objectType": "closing",
-          "state": "published",
-          "decidedBy": "human",
-          "reasons": [
-            "review:no_public_experience_signal"
-          ],
-          "signals": [],
-          "firstSeenAt": "2026-08-28T13:31:27.929Z"
-        },
         {
           "id": "7109156a3bfd",
           "startDate": "2026-09-30",
