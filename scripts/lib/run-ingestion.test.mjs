@@ -76,6 +76,18 @@ test('a source with no aggregate hook is untouched', async () => {
   assert.equal(events.length, 2);
 });
 
+test('the registry family is stamped onto every candidate', async () => {
+  // The explore queue's diversity round-robin groups by sourceFamily; parsers
+  // don't know the registry, so the pipeline stamps it. A parser that sets its
+  // own value wins over the stamp.
+  const familied = { ...source, sourceFamily: 'theatre', parse: (html) => [{ title: html }] };
+  const { events } = await fetchSourcePages(familied, stubFetch({ status: 404 }));
+  assert.deepEqual(events.map((event) => event.sourceFamily), ['theatre', 'theatre']);
+  const opinionated = { ...familied, parse: (html) => [{ title: html, sourceFamily: 'own' }] };
+  const { events: kept } = await fetchSourcePages(opinionated, stubFetch({ status: 404 }));
+  assert.equal(kept[0].sourceFamily, 'own');
+});
+
 test('an aggregate that returns nothing means no candidate, not a failure', async () => {
   const empty = { ...source, aggregate: () => [] };
   const { events } = await fetchSourcePages(empty, stubFetch({ status: 404 }));

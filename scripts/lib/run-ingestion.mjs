@@ -77,7 +77,13 @@ export async function fetchSourcePages(source, fetchImpl = fetch) {
   // 220 comedy bills at one theatre are one answer to "where should we go",
   // not 220. The rows are still parsed; `aggregate` decides what a candidate
   // is. Returning nothing from it means "no candidate", not "crawl failed".
-  return { events: source.aggregate ? source.aggregate(events, source) : events, robotsUnavailable };
+  const folded = source.aggregate ? source.aggregate(events, source) : events;
+  // Stamp the registry's family onto every candidate: the explore queue's
+  // diversity round-robin groups by it, and parsers don't know the registry.
+  const stamped = source.sourceFamily
+    ? folded.map((event) => ({ sourceFamily: source.sourceFamily, ...event }))
+    : folded;
+  return { events: stamped, robotsUnavailable };
 }
 
 const isPubliclyAccessible = (event) => event.source !== 'Tokyo Big Sight' || /一般/.test(event.audience || '');

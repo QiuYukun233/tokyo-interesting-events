@@ -68,12 +68,13 @@ npm run update-events
   → data/review-events.json          诊断队列
   → data/source-registry.json        来源健康
 
-npm run apply-gate    → lib/gate.mjs 对 pending 应用规则，写 decisions（decidedBy: rule:…）
-npm run review        → 本地后台，人工写 decisions（decidedBy: human）
-npm run export-site   → data/events.json（只含 published）+ data/backstage.json（整池，分类）
+npm run apply-gate     → lib/gate.mjs 对 pending 应用规则，写 decisions（decidedBy: rule:…）
+npm run review         → 本地后台，人工写 decisions（decidedBy: human）
+npm run tag-candidates → 廉价模型打 tag，只写 tags 表（taggedBy: ai:…）
+npm run export-site    → data/events.json（只含 published）+ data/backstage.json（整池，分类）
 ```
 
-**最要紧的一条规矩：抓取只写 `candidates`，判决只写 `decisions`。**
+**最要紧的一条规矩：抓取只写 `candidates`，判决只写 `decisions`，打 tag 只写 `tags`。**
 没有判决行的候选就是 pending，所以重抓永远不会撤销任何人的决定，
 也没有任何抓取代码路径能让东西上前台。见 `docs/决策记录/0003-候选池与后台.md`。
 

@@ -21,7 +21,6 @@
     "tag-candidates": "node scripts/tag-candidates.mjs"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.122.0",
     "cheerio": "^1.2.0",
     "chrono-node": "^2.10.1",
     "fast-xml-parser": "^5.11.1",
@@ -33,6 +32,7 @@
     "robots-parser": "^3.0.1"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.122.0",
     "@cloudflare/vite-plugin": "1.37.1",
     "@cloudflare/workers-types": "4.20260515.1",
     "@openai/sites-vite-plugin": "^0.1.0 || ^0.2.0",
