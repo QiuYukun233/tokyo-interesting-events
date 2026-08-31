@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { openPool, listCandidates, setTags, clearTagsBy } from '../lib/pool-db.mjs';
 import { TAG_VOCABULARY } from '../lib/tag-vocabulary.mjs';
 import { tagPrompt, parseTagResponse } from '../lib/tagging.mjs';
@@ -22,10 +23,13 @@ const BATCH = 20;
 const dryRun = process.argv.includes('--dry-run');
 const retag = process.argv.includes('--retag');
 
-const pool = openPool('data/pool.db');
+const pool = openPool(fileURLToPath(new URL('../data/pool.db', import.meta.url)));
 if (retag && !dryRun) clearTagsBy(pool, TAGGED_BY);
 
-const todo = listCandidates(pool).filter((c) => c.state !== 'rejected' && c.tags.length === 0);
+// taggedBy (not tags.length): "宁缺毋滥" means the model legitimately returns []
+// for some candidates, and a tagged-with-zero-tags row must not be re-sent to
+// the API on every run.
+const todo = listCandidates(pool).filter((c) => c.state !== 'rejected' && c.taggedBy === null);
 console.log(`${todo.length} candidates to tag (batch of ${BATCH}, model ${MODEL})`);
 if (dryRun) {
   console.log(tagPrompt(todo.slice(0, BATCH), TAG_VOCABULARY));
