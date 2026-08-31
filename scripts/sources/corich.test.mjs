@@ -4,7 +4,7 @@ import { CORICH_URLS, parseCorich, parsePeriod } from './corich.mjs';
 
 const source = { name: 'CoRich舞台芸術！' };
 
-const listItem = ({ id = '481697', pref = '東京都', stage = '力！伊藤蘭、魔を断つ', group = '劇団森', theater = '早稲田大学学生会館', period = '2026/08/28 (金) ～ 2026/08/30 (日)', price = '1,500円 ～ 5,000円' }) => `
+const listItem = ({ id = '481697', pref = '東京都', stage = '力！伊藤蘭、魔を断つ', group = '劇団森', theater = '早稲田大学学生会館', period = '2026/08/28 (金) ～ 2026/08/30 (日)', price = '1,500円 ～ 5,000円', mitai = '0', mitekita = '0' }) => `
 <a href="/stage/${id}" class="list-group-item box ">
   <div class="pict"><img alt="${stage}" src="https://stage-image.corich.jp/img_stage/m/x.gif" /></div>
   <div class="name">
@@ -12,8 +12,8 @@ const listItem = ({ id = '481697', pref = '東京都', stage = '力！伊藤蘭�
     <p class="group">${group}</p>
     <p class="theater">${theater}<span class="pref">（${pref}）</span></p>
     <div class="data">
-      <div class="mouth mitai"><span class="count">0<span>人</span></span></div>
-      <div class="mouth mitekita"><span class="count">0<span>人</span></span></div>
+      <div class="mouth mitai"><span class="count">${mitai}<span>人</span></span></div>
+      <div class="mouth mitekita"><span class="count">${mitekita}<span>人</span></span></div>
     </div>
     <p class="period"><i class="fa fa-calendar"></i>${period}<span class="icon icon NOW">上演中</span></p>
     <p class="price"><i class="fa fa-jpy"></i>${price}</p>
@@ -58,6 +58,23 @@ test('genre is not filtered — rakugo, kabuki-flavoured and mainstream titles a
 
 test('a listing with no parseable date is dropped rather than guessed', () => {
   assert.deepEqual(parseCorich(page(listItem({ period: '日程未定' })), source), []);
+});
+
+test('観たい/観てきた counts are summed into popularity', () => {
+  // 想看数+看过数：唯一的口碑信号，用于把有人气的公演顶到判决队列前面。
+  const [event] = parseCorich(page(listItem({ mitai: '19', mitekita: '3' })), source);
+  assert.equal(event.popularity, 22);
+});
+
+test('a zero count is recorded as 0, not dropped — observed-zero is information', () => {
+  const [event] = parseCorich(page(listItem({ mitai: '0', mitekita: '0' })), source);
+  assert.equal(event.popularity, 0);
+});
+
+test('a listing without the count block leaves popularity undefined', () => {
+  const bare = listItem({ id: '9' }).replace(/<div class="data">[\s\S]*?<\/div>\s*<\/div>/, '');
+  const [event] = parseCorich(page(bare), source);
+  assert.equal(event.popularity, undefined);
 });
 
 test('a missing price falls back to the site default text', () => {

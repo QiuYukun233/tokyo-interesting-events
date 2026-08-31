@@ -59,6 +59,15 @@ export function parseCorich(html, source) {
     const group = compact(item.find('p.group').first().text());
     const theater = compact(item.find('.theater').clone().children('.pref').remove().end().text());
     const price = compact(item.find('p.price').text()) || '详见活动页';
+    // 観たい (want-to-see) + 観てきた (have-seen), the only word-of-mouth signal
+    // the listing carries. ~85% of shows sit at 0, so this is a bucket signal
+    // ("a dozen people care" vs "no data"), not a ranking score. Absent block →
+    // undefined, distinct from an observed 0.
+    const counts = ['mitai', 'mitekita'].map((kind) => {
+      const node = item.find(`.mouth.${kind} .count`);
+      return node.length ? Number.parseInt(compact(node.text()), 10) || 0 : null;
+    });
+    const popularity = counts.some((n) => n !== null) ? counts.reduce((sum, n) => sum + (n ?? 0), 0) : undefined;
 
     const candidate = createEventCandidate({
       sourceName: source.name,
@@ -74,7 +83,7 @@ export function parseCorich(html, source) {
     });
     // Most titles ("商人", "EGG") carry no genre word at all; without a category
     // tag, lib/activity-filter.mjs's signal detection has nothing to match on.
-    if (candidate) events.push({ ...candidate, category: '舞台・演劇', ...(group ? { attribution: group } : {}) });
+    if (candidate) events.push({ ...candidate, category: '舞台・演劇', ...(group ? { attribution: group } : {}), ...(popularity !== undefined ? { popularity } : {}) });
   });
   return events;
 }
