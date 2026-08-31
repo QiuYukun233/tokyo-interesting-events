@@ -4,8 +4,10 @@
 从大量候选中持续生成有限、解释充分、值得逐个判断的队列，再用朋友间的共同兴趣把
 "发现"推进到"成行"。完整产品方案见 `docs/信息雷达与探索队列方案.md`。
 
-**当前进度：阶段 1（信息雷达）。** 抓取管线能出数据，来源健康监测与候选诊断台已就位；
-发布闸门和探索队列还不存在。
+**当前进度：阶段 1.5（探索队列本地基础已落地）。** 抓取管线能出数据，来源健康监测与
+候选诊断台已就位；tag 词表、tags 表、打 tag 脚本、队列引擎纯函数（`lib/queue.mjs`）已建。
+云端半边（Turso、votes、队列 API、前台两页）见 `docs/探索队列设计.md`，尚未实现。
+闸门已按 0006 降级为纯事实闸门：品味不再是判决问题。
 
 ## 常用命令
 
@@ -18,6 +20,7 @@ npm run review               # 本地后台 http://127.0.0.1:4321，人工放行
 npm run export-site          # 池子 → data/events.json（已发布）+ backstage.json
 npm run check-sources        # 读注册表报来源健康；有严重告警则退出码非 0
 npm run collect-shop-changes # 单独跑开闭店采集
+npm run tag-candidates       # 廉价模型批量打 tag（--dry-run 预览 / --retag 整批重打）
 npm run dev                  # 本地站点
 npm run build                # 构建
 ```
@@ -85,21 +88,19 @@ npm run export-site   → data/events.json（只含 published）+ data/backstage
 
 ## 已知问题
 
-0. **判不动的那部分，方向已定但还没做：交给廉价模型定期初判**，
-   `decidedBy: ai:<模型>`。约束（尤其是"必须可整批撤销"和"必须持续测一致率"）
-   见 `docs/决策记录/0005-廉价模型定期判决.md`。
-   `scripts/undecide-batch.mjs` 已经能整批撤回某个 `decidedBy` 的判决。
-   **先决条件是人先判够一批干净样本**，否则没有东西可以衡量模型准不准。
-1. **候选积压在后台等人判是常态，出路是从判决里长出更多规则。** 这是 0002
-   警告过的问题（人工队列会淹没审批者）。本地后台底部的判据面板就是为此存在的。
-   目前两条规则：`rule:trade_only_admission`（主办方声明的入场对象）、
-   `rule:not_a_destination`（内容类型不是可去处，2026-08-28 从第一轮判决拆出，
-   见 `决策记录/0003-候选池与后台.md` 附录）。taste 类判断仍然留给人。
-2. **前台只有 30 条**，因为只有扩源前既有的那批被追认为已发布。
-   池子里还有 126 条待定。
-3. **前台一次渲染整个已发布集合。** `app/page.tsx` 与 `app/pool/page.tsx`
-   都全量铺开。方案 §7 的探索队列（每轮 12–20 项）本来就是解决这个的，
-   但它还不存在。
+0. **闸门已按 0006 降级为纯事实闸门，积压不再逐条人判。** `decisions` 只回答
+   「能不能收录」；品味交给探索队列的云端 votes（`docs/探索队列设计.md`）。
+   0005 的廉价模型初判范围随之变窄：只初判事实合格性。
+   `scripts/undecide-batch.mjs` 能整批撤回某个 `decidedBy` 的判决；
+   `scripts/tag-candidates.mjs --retag` 能整批重打 tag。
+1. **事实规则继续从判决里长**（0002）：目前 `rule:trade_only_admission`、
+   `rule:not_a_destination`、`rule:not_open_to_public`。判据面板只统计人的判决。
+2. **探索队列只差云端半边。** 本地基础（tag 词表、tags 表、打 tag 脚本、
+   `lib/queue.mjs` 出题引擎）已落地；Turso、votes、队列 API、前台两页
+   见 `docs/探索队列设计.md` 与计划二（未写）。落地前，前台仍是全量铺开的旧形态
+   （`app/page.tsx` / `app/pool/page.tsx`），「published」语义暂未动。
+3. **打 tag 还没真实跑过**：机器上无 ANTHROPIC_API_KEY，`npm run tag-candidates`
+   等凭据到位后跑一次（约 976 条、50 次 haiku 调用），跑完提交 data/pool.db。
 6. **候选的粒度还只做到「一个地址一个候选」。** 更模糊的边界——同一片区的
    一批店、同一天开放的一批工厂——现在没有合并，因为"多近算一趟"是产品判断。
    见方案 §4.3；做探索队列时大概需要在"地点"之上再有一个"行程"层。
