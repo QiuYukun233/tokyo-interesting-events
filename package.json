@@ -17,9 +17,11 @@
     "review": "node scripts/review-server.mjs",
     "export-site": "node scripts/export-site-data.mjs",
     "seed-pool": "node scripts/seed-pool.mjs",
-    "apply-gate": "node scripts/apply-gate.mjs"
+    "apply-gate": "node scripts/apply-gate.mjs",
+    "tag-candidates": "node scripts/tag-candidates.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.122.0",
     "cheerio": "^1.2.0",
     "chrono-node": "^2.10.1",
     "fast-xml-parser": "^5.11.1",
