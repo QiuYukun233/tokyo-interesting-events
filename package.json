@@ -18,7 +18,8 @@
     "export-site": "node scripts/export-site-data.mjs",
     "seed-pool": "node scripts/seed-pool.mjs",
     "apply-gate": "node scripts/apply-gate.mjs",
-    "tag-candidates": "node scripts/tag-candidates.mjs"
+    "tag-candidates": "node scripts/tag-candidates.mjs",
+    "push-cloud": "node scripts/push-cloud.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
