@@ -6,11 +6,11 @@
     "node": ">=24.0.0"
   },
   "scripts": {
-    "dev": "vinext dev",
+    "dev": "next dev",
     "test": "node --test \"lib/**/*.test.mjs\" \"scripts/**/*.test.mjs\"",
     "update-events": "node scripts/update-events.mjs",
-    "build": "vinext build",
-    "start": "vinext start",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "collect-shop-changes": "node scripts/collect-shop-changes.mjs",
     "check-sources": "node scripts/check-sources.mjs",

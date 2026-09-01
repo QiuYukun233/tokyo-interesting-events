@@ -39,3 +39,4 @@ next-env.d.ts
 
 # openai sites 打包产物
 .openai/site-version.tar.gz
+tsconfig.tsbuildinfo
