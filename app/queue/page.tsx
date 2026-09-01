@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
+import { TAG_VOCABULARY } from '../../lib/tag-vocabulary.mjs';
 
 type Item = {
   id: string; title: string; titleZh: string | null; place: string | null;
@@ -8,10 +9,14 @@ type Item = {
   sourceUrl: string | null; changeType: string | null; popularity: number | null;
   tags: string[]; pickedFor: string; score: number;
 };
-type Round = { roundId: string | null; tag: string | null; items: Item[]; likedTags: string[] };
+type Round = {
+  roundId: string | null; tag: string | null; items: Item[];
+  likedTags: string[]; subscribedTags: string[];
+};
 
 const PICKED_LABEL: Record<string, string> = {
-  nowness: '为什么是现在', score: '综合高分', diversity: '换换口味', exploration: '探索位',
+  nowness: '为什么是现在', score: '综合高分', diversity: '换换口味',
+  exploration: '探索位', subscribed: '你订阅的',
 };
 
 function setToken(token: string) {
@@ -28,6 +33,8 @@ export default function QueuePage() {
   const [tag, setTag] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [subs, setSubs] = useState<string[]>([]);
+  const [showSubs, setShowSubs] = useState(false);
 
   const load = useCallback(async (tagFilter: string, { fromSubmit = false } = {}) => {
     setLoading(true);
@@ -47,7 +54,9 @@ export default function QueuePage() {
         return;
       }
       if (!response.ok) throw new Error(String(response.status));
-      setRound(await response.json());
+      const data: Round = await response.json();
+      setRound(data);
+      setSubs(data.subscribedTags ?? []);
       setIndex(0);
       setVotes({});
       setNeedToken(false);
@@ -70,6 +79,15 @@ export default function QueuePage() {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ candidateId: item.id, vote: choice, roundId: round?.roundId }),
     }).catch(() => console.error('vote failed'));
+  }
+
+  function toggleSub(t: string) {
+    const next = subs.includes(t) ? subs.filter((s) => s !== t) : [...subs, t];
+    setSubs(next); // optimistic — the server echo is not re-read
+    void fetch('/api/subscriptions', {
+      method: 'PUT', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ tags: next }),
+    }).catch(() => console.error('subscription save failed'));
   }
 
   if (needToken) {
@@ -109,9 +127,25 @@ export default function QueuePage() {
           <input className="w-24 rounded border p-1 text-sm" value={tag} placeholder="按 tag 开轮"
             onChange={(e) => setTag(e.target.value)} />
           <button className="rounded border px-2 text-sm" onClick={() => void load(tag)}>开专题轮</button>
+          <button className={`rounded border px-2 text-sm ${subs.length ? 'border-black font-bold' : ''}`}
+            onClick={() => setShowSubs((v) => !v)}>订阅{subs.length ? `(${subs.length})` : ''}</button>
           <a className="rounded border px-2 py-1 text-sm" href="/wantlist">想去清单</a>
         </div>
       </header>
+
+      {showSubs ? (
+        <section className="mb-4 rounded-lg border p-4">
+          <p className="text-sm font-bold">订阅的 tag 会占每轮的大头，其余名额留给探索。改动从下一轮生效。</p>
+          <p className="mt-3 flex flex-wrap gap-1.5">
+            {TAG_VOCABULARY.map((t) => (
+              <button key={t} onClick={() => toggleSub(t)}
+                className={`rounded-full border px-2.5 py-1 text-sm ${subs.includes(t) ? 'bg-black text-white!' : 'text-gray-600'}`}>
+                {t}
+              </button>
+            ))}
+          </p>
+        </section>
+      ) : null}
 
       {done ? (
         <section className="rounded-lg border p-6">
