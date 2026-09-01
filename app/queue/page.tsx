@@ -65,10 +65,14 @@ export default function QueuePage() {
     return (
       <main className="mx-auto max-w-md p-8">
         <h1 className="text-xl font-bold">这里需要口令</h1>
-        <input className="mt-4 w-full rounded border p-2" type="password" value={tokenInput}
-          onChange={(e) => setTokenInput(e.target.value)} placeholder="QUEUE_TOKEN" />
-        <button className="mt-2 rounded bg-black px-4 py-2 text-white"
-          onClick={() => { setToken(tokenInput); void load(tag); }}>进入</button>
+        {/* A real <form> so the mobile keyboard's go/enter key submits. */}
+        <form onSubmit={(e) => { e.preventDefault(); setToken(tokenInput); void load(tag); }}>
+          <input className="mt-4 w-full rounded border p-2" type="password" value={tokenInput}
+            onChange={(e) => setTokenInput(e.target.value)} placeholder="QUEUE_TOKEN" />
+          {/* text-white! (important): globals.css's unlayered `button { color:inherit }`
+              beats layered Tailwind utilities, turning this black-on-black. */}
+          <button type="submit" className="mt-2 rounded bg-black px-4 py-2 text-white!">进入</button>
+        </form>
       </main>
     );
   }
@@ -105,7 +109,7 @@ export default function QueuePage() {
             可以 {Object.values(votes).filter((v) => v === 'ok').length} ·
             不想去 {Object.values(votes).filter((v) => v === 'no').length}
           </p>
-          <button className="mt-4 rounded bg-black px-4 py-2 text-white" onClick={() => void load(tag)}>
+          <button className="mt-4 rounded bg-black px-4 py-2 text-white!" onClick={() => void load(tag)}>
             开下一轮
           </button>
         </section>
@@ -137,7 +141,7 @@ export default function QueuePage() {
           <div className="mt-6 grid grid-cols-3 gap-2">
             <button className="rounded border py-3" onClick={() => void vote(item, 'no')}>不想去</button>
             <button className="rounded border py-3" onClick={() => void vote(item, 'ok')}>可以</button>
-            <button className="rounded bg-black py-3 text-white" onClick={() => void vote(item, 'want')}>想去！</button>
+            <button className="rounded bg-black py-3 text-white!" onClick={() => void vote(item, 'want')}>想去！</button>
           </div>
         </section>
       )}
