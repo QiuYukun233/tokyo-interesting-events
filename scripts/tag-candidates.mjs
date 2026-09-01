@@ -14,10 +14,17 @@ import Anthropic from '@anthropic-ai/sdk';
  *   node scripts/tag-candidates.mjs --retag     # clear ai:* tags first, then re-tag all
  *
  * The model may only pick from lib/tag-vocabulary.mjs; parse drops the rest.
- * Cost bound: ~1000 candidates / 20 per call = ~50 haiku calls.
+ * Cost bound: ~1000 candidates / 20 per call = ~50 model calls.
+ *
+ * Runs against DeepSeek's Anthropic-compatible endpoint (payment access; a
+ * prepaid balance is already sitting there). Requires:
+ *   ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+ *   ANTHROPIC_API_KEY=<DeepSeek key>
+ * To switch back to haiku: restore MODEL/TAGGED_BY, unset the base URL,
+ * then --retag (tags are batch-replaceable by design, 0005).
  */
-const MODEL = 'claude-haiku-4-5';
-const TAGGED_BY = 'ai:haiku-4.5';
+const MODEL = 'deepseek-chat';
+const TAGGED_BY = 'ai:deepseek-chat';
 const BATCH = 20;
 
 const dryRun = process.argv.includes('--dry-run');

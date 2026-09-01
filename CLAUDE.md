@@ -100,8 +100,9 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    `lib/queue.mjs` 出题引擎）已落地；Turso、votes、队列 API、前台两页
    见 `docs/探索队列设计.md` 与计划二（未写）。落地前，前台仍是全量铺开的旧形态
    （`app/page.tsx` / `app/pool/page.tsx`），「published」语义暂未动。
-3. **打 tag 还没真实跑过**：机器上无 ANTHROPIC_API_KEY，`npm run tag-candidates`
-   等凭据到位后跑一次（约 976 条、50 次 haiku 调用），跑完提交 data/pool.db。
+3. **打 tag 还没真实跑过**：走 DeepSeek 的 Anthropic 兼容端点（付款可达，余额已有），
+   需设 `ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic` + DeepSeek key，
+   `npm run tag-candidates` 跑一次（约 850 条、43 次调用），跑完提交 data/pool.db。
 6. **候选的粒度还只做到「一个地址一个候选」。** 更模糊的边界——同一片区的
    一批店、同一天开放的一批工厂——现在没有合并，因为"多近算一趟"是产品判断。
    见方案 §4.3；做探索队列时大概需要在"地点"之上再有一个"行程"层。
