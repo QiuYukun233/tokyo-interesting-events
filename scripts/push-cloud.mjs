@@ -11,19 +11,24 @@ import { ensureCloudSchema, upsertCloudCandidates, deleteCloudCandidates } from 
  *
  *   node scripts/push-cloud.mjs             # push
  *   node scripts/push-cloud.mjs --dry-run   # report counts, touch nothing
+ *
+ * The mirror is never swept: only ids present in pool.db as rejected get
+ * deleted, so a row removed from pool.db outright would linger in the cloud.
+ * That cannot happen today — the pool is upsert-only.
  */
 const dryRun = process.argv.includes('--dry-run');
+
+const pool = openPool(fileURLToPath(new URL('../data/pool.db', import.meta.url)));
+const { pushRows, deleteIds } = splitForCloud(listCandidates(pool));
+console.log(`${pushRows.length} candidates to push, ${deleteIds.length} hard-excluded to delete`);
+if (dryRun) process.exit(0);
+
 const url = process.env.TURSO_DATABASE_URL;
 const authToken = process.env.TURSO_AUTH_TOKEN;
 if (!url || !authToken) {
   console.error('TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are required');
   process.exit(1);
 }
-
-const pool = openPool(fileURLToPath(new URL('../data/pool.db', import.meta.url)));
-const { pushRows, deleteIds } = splitForCloud(listCandidates(pool));
-console.log(`${pushRows.length} candidates to push, ${deleteIds.length} hard-excluded to delete`);
-if (dryRun) process.exit(0);
 
 const client = createClient({ url, authToken });
 await ensureCloudSchema(client);
