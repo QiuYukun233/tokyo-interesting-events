@@ -21,6 +21,7 @@
     "tag-candidates": "node scripts/tag-candidates.mjs"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.4",
     "cheerio": "^1.2.0",
     "chrono-node": "^2.10.1",
     "fast-xml-parser": "^5.11.1",
