@@ -26,17 +26,25 @@ export default function QueuePage() {
   const [tokenInput, setTokenInput] = useState('');
   const [tag, setTag] = useState('');
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   const load = useCallback(async (tagFilter: string) => {
     setLoading(true);
-    const query = tagFilter ? `?tag=${encodeURIComponent(tagFilter)}` : '';
-    const response = await fetch(`/api/queue${query}`);
-    if (response.status === 401) { setNeedToken(true); setLoading(false); return; }
-    setRound(await response.json());
-    setIndex(0);
-    setVotes({});
-    setNeedToken(false);
-    setLoading(false);
+    setError(null);
+    try {
+      const query = tagFilter ? `?tag=${encodeURIComponent(tagFilter)}` : '';
+      const response = await fetch(`/api/queue${query}`);
+      if (response.status === 401) { setNeedToken(true); setLoading(false); return; }
+      if (!response.ok) throw new Error(String(response.status));
+      setRound(await response.json());
+      setIndex(0);
+      setVotes({});
+      setNeedToken(false);
+      setLoading(false);
+    } catch {
+      setError('加载失败，稍后再试');
+      setLoading(false);
+    }
   }, []);
 
   // Initial fetch on mount; `load` flips a loading flag synchronously, which the
@@ -50,7 +58,7 @@ export default function QueuePage() {
     await fetch('/api/vote', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ candidateId: item.id, vote: choice, roundId: round?.roundId }),
-    });
+    }).catch(() => console.error('vote failed'));
   }
 
   if (needToken) {
@@ -61,6 +69,14 @@ export default function QueuePage() {
           onChange={(e) => setTokenInput(e.target.value)} placeholder="QUEUE_TOKEN" />
         <button className="mt-2 rounded bg-black px-4 py-2 text-white"
           onClick={() => { setToken(tokenInput); void load(tag); }}>进入</button>
+      </main>
+    );
+  }
+  if (error) {
+    return (
+      <main className="mx-auto max-w-md p-8">
+        <p>{error}</p>
+        <button className="mt-4 rounded border px-4 py-2" onClick={() => void load(tag)}>重试</button>
       </main>
     );
   }
