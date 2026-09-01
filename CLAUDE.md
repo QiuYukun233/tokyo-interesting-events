@@ -99,11 +99,11 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    `scripts/tag-candidates.mjs --retag` 能整批重打 tag。
 1. **事实规则继续从判决里长**（0002）：目前 `rule:trade_only_admission`、
    `rule:not_a_destination`、`rule:not_open_to_public`。判据面板只统计人的判决。
-2. **探索队列云端半边已落地**（Turso 镜像、votes/rounds、队列 API 三条路由、
-   `/queue` 与 `/wantlist` 两页，token 保护），本地 dev 全链路可用；**部署还没做**——
-   仓库是 vinext + Cloudflare Workers 家底，部署去向（现平台/自有 CF/迁 Vercel）待定，
-   见计划二 Task 8 决策点。旧前台两页（`app/page.tsx` / `app/pool/page.tsx`）未替换，
-   等部署定了再动。
+2. **探索队列已部署 Vercel**（2026-09-01）：https://tokyo-interesting-events.vercel.app
+   ，GitHub push 到 main 即自动部署，函数跑东京 hnd1（vercel.json）。构建已从 vinext
+   迁回标准 `next build`；vite.config.ts 与 vinext 相关 devDependencies 暂留未清。
+   三个 secrets（TURSO_×2、QUEUE_TOKEN）在 Vercel 项目环境变量里。
+   旧前台两页（`app/page.tsx` / `app/pool/page.tsx`）未替换，仍是全量铺开旧形态。
 3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点，
    需 `ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic`）：874 条全部入 tags 表。
    新抓的候选再跑 `npm run tag-candidates` 即可增量补打。
