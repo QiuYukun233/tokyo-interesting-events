@@ -24,17 +24,28 @@ export default function QueuePage() {
   const [votes, setVotes] = useState<Record<string, string>>({});
   const [needToken, setNeedToken] = useState(false);
   const [tokenInput, setTokenInput] = useState('');
+  const [tokenMsg, setTokenMsg] = useState<string | null>(null);
   const [tag, setTag] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const load = useCallback(async (tagFilter: string) => {
+  const load = useCallback(async (tagFilter: string, { fromSubmit = false } = {}) => {
     setLoading(true);
     setError(null);
+    setTokenMsg(null);
     try {
       const query = tagFilter ? `?tag=${encodeURIComponent(tagFilter)}` : '';
       const response = await fetch(`/api/queue${query}`);
-      if (response.status === 401) { setNeedToken(true); setLoading(false); return; }
+      if (response.status === 401) {
+        // Silent 401 was undiagnosable on a phone: a wrong token just re-rendered
+        // the same form. Say so when a token was actually submitted. (Passed as an
+        // argument, not read from state — load is a deps-[] useCallback and would
+        // only ever see the mount-time value.)
+        if (fromSubmit) setTokenMsg('口令不对——检查有没有多复制空格或少了字符');
+        setNeedToken(true);
+        setLoading(false);
+        return;
+      }
       if (!response.ok) throw new Error(String(response.status));
       setRound(await response.json());
       setIndex(0);
@@ -66,9 +77,10 @@ export default function QueuePage() {
       <main className="mx-auto max-w-md p-8">
         <h1 className="text-xl font-bold">这里需要口令</h1>
         {/* A real <form> so the mobile keyboard's go/enter key submits. */}
-        <form onSubmit={(e) => { e.preventDefault(); setToken(tokenInput); void load(tag); }}>
+        <form onSubmit={(e) => { e.preventDefault(); setToken(tokenInput.trim()); void load(tag, { fromSubmit: true }); }}>
           <input className="mt-4 w-full rounded border p-2" type="password" value={tokenInput}
             onChange={(e) => setTokenInput(e.target.value)} placeholder="QUEUE_TOKEN" />
+          {tokenMsg ? <p className="mt-2 text-sm text-red-600">{tokenMsg}</p> : null}
           {/* text-white! (important): globals.css's unlayered `button { color:inherit }`
               beats layered Tailwind utilities, turning this black-on-black. */}
           <button type="submit" className="mt-2 rounded bg-black px-4 py-2 text-white!">进入</button>
