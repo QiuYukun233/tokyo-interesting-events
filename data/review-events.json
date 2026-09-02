@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T21:01:01+09:00",
+  "updatedAt": "2026-09-02T21:27:46+09:00",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -118,8 +118,32 @@
     {
       "name": "スポーツエントリー",
       "ok": true,
-      "count": 388,
+      "count": 386,
       "pages": 40
+    },
+    {
+      "name": "新宿ロフトプラスワン",
+      "ok": true,
+      "count": 49,
+      "pages": 2
+    },
+    {
+      "name": "阿佐ヶ谷ロフトA",
+      "ok": true,
+      "count": 50,
+      "pages": 2
+    },
+    {
+      "name": "LOFT9 Shibuya",
+      "ok": true,
+      "count": 48,
+      "pages": 2
+    },
+    {
+      "name": "Rock Cafe Loft",
+      "ok": true,
+      "count": 39,
+      "pages": 2
     },
     {
       "name": "東京都立産業貿易センター 台東館",
@@ -14405,65 +14429,6 @@
     {
       "activity": {
         "sourceFamily": "sports_entry",
-        "id": "8c042054e994",
-        "startDate": "2026-04-01",
-        "endDate": "2027-03-31",
-        "title": "2026年度公益社団法人日本スカッシュ協会【個人会員登録】",
-        "titleZh": "2026年度公益社団法人日本スカッシュ協会【個人会員登録】",
-        "place": "东京都内 · 详见主办方",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#3d66f5",
-        "symbol": "◒",
-        "mates": 0,
-        "sourceUrl": "https://www.sportsentry.ne.jp/event/t/103677",
-        "source": "スポーツエントリー",
-        "category": "協会連盟登録",
-        "description": "报名期 2026-02-02 〜 2027-03-31",
-        "popularity": 15
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "sourceFamily": "sports_entry",
-        "id": "37e43936dced",
-        "startDate": "2026-04-01",
-        "endDate": "2027-03-31",
-        "title": "2026年度公益社団法人日本スカッシュ協会【団体会員登録】",
-        "titleZh": "2026年度公益社団法人日本スカッシュ協会【団体会員登録】",
-        "place": "东京都内 · 详见主办方",
-        "time": "详见活动页",
-        "price": "详见活动页",
-        "vibe": "奇妙体验",
-        "color": "#ef5b3f",
-        "symbol": "✦",
-        "mates": 0,
-        "sourceUrl": "https://www.sportsentry.ne.jp/event/t/103676",
-        "source": "スポーツエントリー",
-        "category": "協会連盟登録",
-        "description": "报名期 2026-01-26 〜 2027-03-31"
-      },
-      "eligible": true,
-      "decision": "review",
-      "publishable": false,
-      "publicExperience": false,
-      "reasons": [
-        "review:no_public_experience_signal"
-      ],
-      "signals": []
-    },
-    {
-      "activity": {
-        "sourceFamily": "sports_entry",
         "id": "a119753ecb53",
         "startDate": "2026-08-01",
         "title": "第73回 UPRUN赤羽荒川ハーフマラソン",
@@ -16513,6 +16478,4867 @@
         "source": "スポーツエントリー",
         "category": "マラソン・ランニング",
         "description": "报名期 2025-12-09 〜 2026-06-18｜10Km · ハーフマラソン・20Km · 記録会、トラック · 近くに温泉有り · アクセス良し · 近くに温泉あり · 観光名所有り · 子供参加ＯＫ！ · 観光名所あり · 駅伝・リレーマラソン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "adc09139ef52",
+        "startDate": "2026-09-01",
+        "title": "改造人間祭vol.40",
+        "titleZh": "改造人間祭vol.40",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/360511",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "予約締切（当日券は会場へ）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f3252fb5a35e",
+        "startDate": "2026-09-02",
+        "title": "オタクによる反戦NIGHT Act.2 ―僕らはなぜ、戦うヒーローから「戦わないこと」を学んだのか？―",
+        "titleZh": "オタクによる反戦NIGHT Act.2 ―僕らはなぜ、戦うヒーローから「戦わないこと」を学んだのか？―",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362700",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：高橋裕行、古怒田健志、大倉崇裕｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e2b77f3db769",
+        "startDate": "2026-09-03",
+        "title": "“吉田豪大生誕祭2026”",
+        "titleZh": "“吉田豪大生誕祭2026”",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361255",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：吉田豪、松本ともこ、掟ポルシェ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f44a6a2f43f2",
+        "startDate": "2026-09-04",
+        "title": "ぱらちょの幸せ研究所vol.2",
+        "titleZh": "ぱらちょの幸せ研究所vol.2",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 17:20 / START 18:20",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362790",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：池ぱら陽音、輝ちょ未來唯"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "3eafc5614652",
+        "startDate": "2026-09-05",
+        "title": "「高橋名人とMCU〜アノ時のアレは？〜」",
+        "titleZh": "「高橋名人とMCU〜アノ時のアレは？〜」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361459",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：高橋名人、MCU、辻野芳輝/辻野寅次郎"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "6912acc6c8c7",
+        "startDate": "2026-09-05",
+        "title": "第４回いけりな超会議",
+        "titleZh": "第４回いけりな超会議",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361274",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：いけちゃん、どこにでも行くドスコイ、わたあめりな（たまゆら学園）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "947ebe123000",
+        "startDate": "2026-09-06",
+        "title": "AVメーカー社員の昼飲み女子会（幹事：SOD守屋よしの）",
+        "titleZh": "AVメーカー社員の昼飲み女子会（幹事：SOD守屋よしの）",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/364032",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "001ab490bde4",
+        "startDate": "2026-09-06",
+        "title": "「ぽこみゃざわ女子会vol.2」",
+        "titleZh": "「ぽこみゃざわ女子会vol.2」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362424",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：歩サラ、逢真井もこ、小沢悠"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4d32ecfe3522",
+        "startDate": "2026-09-07",
+        "title": "「京梨」",
+        "titleZh": "「京梨」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361437",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：しずる・純、兄弟・体制、ナユタ・おのはら"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "fadc5f7ccec3",
+        "startDate": "2026-09-08",
+        "title": "山田将司（THE BACK HORN)と金光裕史（音楽と人）の「有刺鉄線を越え」",
+        "titleZh": "山田将司（THE BACK HORN)と金光裕史（音楽と人）の「有刺鉄線を越え」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:15 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362230",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：山田将司、THE BACK HORN、金光裕史"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e16ec8746534",
+        "startDate": "2026-09-09",
+        "title": "『スピリチュアリズムとナショナリズム』出版記念イベント 「スピ」と「ウヨ」が接続する日本社会",
+        "titleZh": "『スピリチュアリズムとナショナリズム』出版記念イベント 「スピ」と「ウヨ」が接続する日本社会",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/364010",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：藤倉善郎、塚田穂高、中森聖奈｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "6da9d8444b05",
+        "startDate": "2026-09-10",
+        "title": "LLRトークライブ「フタリノハナシ」",
+        "titleZh": "LLRトークライブ「フタリノハナシ」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363586",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "7cb6ba6877a9",
+        "startDate": "2026-09-12",
+        "title": "ばびゅかわ脳内覗いちゃえ♡ねんがらねんじゅー☆マキシマムトークフェスティバビュ！☆ Vol.4(ぼりゅ〜むよ〜ん)",
+        "titleZh": "ばびゅかわ脳内覗いちゃえ♡ねんがらねんじゅー☆マキシマムトークフェスティバビュ！☆ Vol.4(ぼりゅ〜むよ〜ん)",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:30 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/360687",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：成瀬瑛美、夢眠ねむ｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e33cc0916f16",
+        "startDate": "2026-09-12",
+        "title": "『アニソンを考える1』～昭和～平成初期のアニメソングをみんなで思い返そう～",
+        "titleZh": "『アニソンを考える1』～昭和～平成初期のアニメソングをみんなで思い返そう～",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362346",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：かわせこうへい、浅見春那、澄川龍一"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "c93d7ed6023c",
+        "startDate": "2026-09-13",
+        "title": "「少年マンガの記憶を失った男に、やり方を思い出させよう」",
+        "titleZh": "「少年マンガの記憶を失った男に、やり方を思い出させよう」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:15 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362277",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：畑健二郎、若木民喜、渡辺明夫"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4a3382938059",
+        "startDate": "2026-09-13",
+        "title": "340 PRESENTS SPECIAL「913祭15」",
+        "titleZh": "340 PRESENTS SPECIAL「913祭15」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/359905",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "34703db8155e",
+        "startDate": "2026-09-14",
+        "title": "第261回アニメスタイルイベント 沓名健一 『SEKIRO: NO DEFEAT』を語る",
+        "titleZh": "第261回アニメスタイルイベント 沓名健一 『SEKIRO: NO DEFEAT』を語る",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363565",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：沓名健一、北久保弘之、今石洋之"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "893c55df496d",
+        "startDate": "2026-09-15",
+        "title": "元妻が語る植松聖死刑囚の素顔と離婚の真相、そして「やまゆり園事件」10年",
+        "titleZh": "元妻が語る植松聖死刑囚の素顔と離婚の真相、そして「やまゆり園事件」10年",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362617",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ae3470f4e9b1",
+        "startDate": "2026-09-17",
+        "title": "「#コイワラ 定例報告会 in 新宿LOFT/PLUS ONE」",
+        "titleZh": "「#コイワラ 定例報告会 in 新宿LOFT/PLUS ONE」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 20:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362099",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：相席スタート山﨑ケイ、CRAZYCOCO、ゆにばーすはら"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "016d71766c2f",
+        "startDate": "2026-09-18",
+        "title": "女の国",
+        "titleZh": "女の国",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362880",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：脳乃あメ、藤園いさら、バーバラ鬼頭"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a68891fa3ff8",
+        "startDate": "2026-09-19",
+        "title": "FRENZ 2026（１日目昼の部）",
+        "titleZh": "FRENZ 2026（１日目昼の部）",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:00 / START 11:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363288",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "de3012ee596c",
+        "startDate": "2026-09-19",
+        "title": "FRENZ 2026（１日目夜の部）",
+        "titleZh": "FRENZ 2026（１日目夜の部）",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 17:00 / START 17:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363290",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ddc2774ea4ee",
+        "startDate": "2026-09-20",
+        "title": "FRENZ 2026（２日目夜の部）",
+        "titleZh": "FRENZ 2026（２日目夜の部）",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 17:00 / START 17:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363293",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "cbe1ad6f5d72",
+        "startDate": "2026-09-20",
+        "title": "FRENZ 2026（２日目深夜の部）",
+        "titleZh": "FRENZ 2026（２日目深夜の部）",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 23:00 / START 23:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363295",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "bc46826f8f3e",
+        "startDate": "2026-09-22",
+        "title": "はるこの秘密Vol.32『30周年ってすごくない！？』（昼・夜開催）",
+        "titleZh": "はるこの秘密Vol.32『30周年ってすごくない！？』（昼・夜開催）",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363505",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：桃井はるこ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "3eb79747c7e7",
+        "startDate": "2026-09-23",
+        "title": "「ホッピーを呑もう。～でアニメを語ろう。で健康になろう。～2026」",
+        "titleZh": "「ホッピーを呑もう。～でアニメを語ろう。で健康になろう。～2026」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363541",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：緒方恵美、儀武ゆう子、佐藤順一"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2068b2de2eba",
+        "startDate": "2026-09-23",
+        "title": "ひみちゃんねらーの裏会 vol.11",
+        "titleZh": "ひみちゃんねらーの裏会 vol.11",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 20:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363841",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "fe176f32de5b",
+        "startDate": "2026-09-24",
+        "title": "西田どらやきの怪研部 Podcast 〜秋季ゼミ〜",
+        "titleZh": "西田どらやきの怪研部 Podcast 〜秋季ゼミ〜",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/358059",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：西田どらやき"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "48e51bd2926f",
+        "startDate": "2026-09-25",
+        "title": "ローイベVOL.22〜ニャンニャンSP~",
+        "titleZh": "ローイベVOL.22〜ニャンニャンSP~",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362528",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2510be55e077",
+        "startDate": "2026-09-26",
+        "title": "340Presents「イインダヨグリーンダヨズ祭4with竹縄」",
+        "titleZh": "340Presents「イインダヨグリーンダヨズ祭4with竹縄」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362028",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：イインダヨグリーンダヨズ、植村喜八郎、武智健二"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a9ae1819cc73",
+        "startDate": "2026-09-27",
+        "title": "VANDREAD 25周年イベント＠ロフトプラスワン",
+        "titleZh": "VANDREAD 25周年イベント＠ロフトプラスワン",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:30 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/358687",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：もりたけし、冨岡淳広、河野達也"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "8bdaa90743b2",
+        "startDate": "2026-09-30",
+        "title": "『大森靖子の続・実験室 vol.112』",
+        "titleZh": "『大森靖子の続・実験室 vol.112』",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 20:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363532",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：大森靖子"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "93157ac720b8",
+        "startDate": "2026-10-01",
+        "title": "韓国の“怖い場所”だけ見てきた！ ～呪物・心霊スポット・事故現場～ 【『チープコリア』発売記念】",
+        "titleZh": "韓国の“怖い場所”だけ見てきた！ ～呪物・心霊スポット・事故現場～ 【『チープコリア』発売記念】",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361037",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：田中俊行、村田らむ、日野健志郎"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "55e6647b8d5c",
+        "startDate": "2026-10-03",
+        "title": "SHINJUKU LOFT 50th CIRCUIT 2026",
+        "titleZh": "SHINJUKU LOFT 50th CIRCUIT 2026",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/364104",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "af04e67eaaa2",
+        "startDate": "2026-10-05",
+        "title": "『WHAT’S GOING ON 吉田豪ミュージシャンインタビューVol.1 & Vol.2』発売記念トークイベント（+サイン会）-ゲスト 會田茂一 & LOW IQ 01-",
+        "titleZh": "『WHAT’S GOING ON 吉田豪ミュージシャンインタビューVol.1 & Vol.2』発売記念トークイベント（+サイン会）-ゲスト 會田茂一 & LOW IQ 01-",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/364089",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：吉田豪、會田茂一、LOW IQ 01"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "1fa92671f028",
+        "startDate": "2026-10-06",
+        "title": "『TORII HOUSE』",
+        "titleZh": "『TORII HOUSE』",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363310",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：鳥居真道、シマダボーイ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "5234b05b73cf",
+        "startDate": "2026-10-09",
+        "title": "オメ☆コボシ84",
+        "titleZh": "オメ☆コボシ84",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/364495",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：岩井志麻子、徳光正行、平山夢明"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2f0488f5272a",
+        "startDate": "2026-10-10",
+        "title": "大島薫とゲイストを見ようの会2026神無月",
+        "titleZh": "大島薫とゲイストを見ようの会2026神無月",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361384",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "8b43abe71350",
+        "startDate": "2026-10-11",
+        "title": "こわれ者の祭典 ［東京公演］",
+        "titleZh": "こわれ者の祭典 ［東京公演］",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/358672",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "0e55997b55e8",
+        "startDate": "2026-10-17",
+        "title": "吉川きっちょむが特等席でマンガのウラ側「聞いちゃいます！」vol.1 ゲスト：ほしつ先生『ホイホ・ホイホイホ』",
+        "titleZh": "吉川きっちょむが特等席でマンガのウラ側「聞いちゃいます！」vol.1 ゲスト：ほしつ先生『ホイホ・ホイホイホ』",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 11:30 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363750",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：吉川きっちょむ、ほしつ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "7894be3eb5bf",
+        "startDate": "2026-10-17",
+        "title": "歩サラと天津飯大郎のしこ生『生ファンミ』",
+        "titleZh": "歩サラと天津飯大郎のしこ生『生ファンミ』",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362433",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：天津飯大郎、歩サラ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "642aea1b2351",
+        "startDate": "2026-10-18",
+        "title": "創業80周年！俺たちの『宇ち多゛』を語る会",
+        "titleZh": "創業80周年！俺たちの『宇ち多゛』を語る会",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/361215",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：武井志門、マロ、宇ち多゛"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b77c8f933ca7",
+        "startDate": "2026-10-18",
+        "title": "Negiccoフリートークイベント with 南波一海",
+        "titleZh": "Negiccoフリートークイベント with 南波一海",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/359654",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：Negicco、南波一海"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2f84837b28c0",
+        "startDate": "2026-10-21",
+        "title": "ラブレターズトークライブ「ラブレターズ増刊号」",
+        "titleZh": "ラブレターズトークライブ「ラブレターズ増刊号」",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362665",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：ラブレターズ、塚本直毅、溜口佑太朗"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "c4be65bafb08",
+        "startDate": "2026-10-23",
+        "title": "純音楽家 遠藤賢司を語ろう【第九回】塀の上にて",
+        "titleZh": "純音楽家 遠藤賢司を語ろう【第九回】塀の上にて",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/362119",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：鈴木慶一、湯浅学、サミー前田"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "fcd16ac07565",
+        "startDate": "2026-10-28",
+        "title": "吉川きっちょむが特等席でマンガのウラ側「聞いちゃいます！」vol.2 ゲスト：遠野人夏先生『やちるさんはほめるとのびる』",
+        "titleZh": "吉川きっちょむが特等席でマンガのウラ側「聞いちゃいます！」vol.2 ゲスト：遠野人夏先生『やちるさんはほめるとのびる』",
+        "place": "新宿ロフトプラスワン（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/plusone/363859",
+        "source": "新宿ロフトプラスワン",
+        "category": "トークライブ",
+        "description": "出演：吉川きっちょむ、遠野人夏｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a2663e3ef23a",
+        "startDate": "2026-09-01",
+        "title": "＃あかたま 海釣り",
+        "titleZh": "＃あかたま 海釣り",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/360999",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：小明、姫乃たま"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "871101919343",
+        "startDate": "2026-09-02",
+        "title": "『Beautiful』",
+        "titleZh": "『Beautiful』",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362787",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：承子クラーケン、ふとっちょ☆カウボーイ、歩子"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9d9632612f32",
+        "startDate": "2026-09-03",
+        "title": "ファン＝フリークス",
+        "titleZh": "ファン＝フリークス",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/361815",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：おちゃ、野澤輸出、マユリカ 中谷"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "376d020ae18f",
+        "startDate": "2026-09-04",
+        "title": "音楽と喜利",
+        "titleZh": "音楽と喜利",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364183",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：谷口つばさ、めっちゃ最高ズ おばた最高、冬の鬼"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a24c1249a176",
+        "startDate": "2026-09-05",
+        "title": "寺田克也のライブラクガキ16",
+        "titleZh": "寺田克也のライブラクガキ16",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362498",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e52c7bee3429",
+        "startDate": "2026-09-05",
+        "title": "Isla･la♩『アイラランド』Vol.11☆ ～ひつじちゃんと秋の前夜祭～",
+        "titleZh": "Isla･la♩『アイラランド』Vol.11☆ ～ひつじちゃんと秋の前夜祭～",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364437",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：Isla･la"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "5fe5a466ecdd",
+        "startDate": "2026-09-06",
+        "title": "第15回うんこ映画祭",
+        "titleZh": "第15回うんこ映画祭",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 11:30 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/357838",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "23b011ca429d",
+        "startDate": "2026-09-06",
+        "title": "中村公彦を称える会",
+        "titleZh": "中村公彦を称える会",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/360881",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ca619279f277",
+        "startDate": "2026-09-07",
+        "title": "かみーゆデビュー9周年 最後の周年ぶちアゲ会！",
+        "titleZh": "かみーゆデビュー9周年 最後の周年ぶちアゲ会！",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/360805",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：上福ゆき、まなせゆうな"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "8ab14f1b0462",
+        "startDate": "2026-09-08",
+        "title": "山粧いの地熱ナパーム倶楽部",
+        "titleZh": "山粧いの地熱ナパーム倶楽部",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363479",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "86275679d7ea",
+        "startDate": "2026-09-09",
+        "title": "「室井ゆうのぐっとーく」",
+        "titleZh": "「室井ゆうのぐっとーく」",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364390",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：室井ゆう、へそ、ランルウ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "50b6abd848c9",
+        "startDate": "2026-09-10",
+        "title": "「ひと口」と「BARスペースが使えないならホールでやればいいじゃないBAR」",
+        "titleZh": "「ひと口」と「BARスペースが使えないならホールでやればいいじゃないBAR」",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364587",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "0880ae6f34a3",
+        "startDate": "2026-09-11",
+        "title": "GAOU ACG TALK LIVE Vol.3",
+        "titleZh": "GAOU ACG TALK LIVE Vol.3",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363064",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：がおー、川村竜 / ミートたけし"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2cb59b543974",
+        "startDate": "2026-09-11",
+        "title": "「初老は朝まで飲むのがしんどい56軒目」",
+        "titleZh": "「初老は朝まで飲むのがしんどい56軒目」",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 23:30 / START 24:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363452",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：はかせ、quim、どいちゅー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "acdb89345a63",
+        "startDate": "2026-09-12",
+        "title": "SILK LABO presents 長月 FES ～in Asagaya LOFT A～",
+        "titleZh": "SILK LABO presents 長月 FES ～in Asagaya LOFT A～",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 11:30 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/361832",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：保志健斗、東雲怜弥、天道一然"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "cc6d39d78a1e",
+        "startDate": "2026-09-12",
+        "title": "第二回愛しのボカン大作戦会議『爆発前夜』vol.前",
+        "titleZh": "第二回愛しのボカン大作戦会議『爆発前夜』vol.前",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:15 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363470",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：山崎彬、佐藤新太、堀春菜"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b271fb1e823c",
+        "startDate": "2026-09-13",
+        "title": "『ロックの激情 延長戦～ロックな夫婦のトーク・イヴェント』",
+        "titleZh": "『ロックの激情 延長戦～ロックな夫婦のトーク・イヴェント』",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 12:00 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/357591",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：Yuki Kuroyanagi、大谷英之、赤尾美香"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9f8a435a3d3c",
+        "startDate": "2026-09-13",
+        "title": "あべみかこ異業種勉強会",
+        "titleZh": "あべみかこ異業種勉強会",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362310",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：あべみかこ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "28104ed4d590",
+        "startDate": "2026-09-14",
+        "title": "十九人 単独『MOON（ムーンヌ）』打ち上げライブ",
+        "titleZh": "十九人 単独『MOON（ムーンヌ）』打ち上げライブ",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363209",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "bbccf6745bb1",
+        "startDate": "2026-09-15",
+        "title": "#沖縄ナンデス 2026",
+        "titleZh": "#沖縄ナンデス 2026",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363871",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：ダースレイダー、プチ鹿島、畠山理仁"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ffcc295ca928",
+        "startDate": "2026-09-16",
+        "title": "『温泉シャーク２超特大ヒット（希望的観測）！特撮と九州を愛でる会！』",
+        "titleZh": "『温泉シャーク２超特大ヒット（希望的観測）！特撮と九州を愛でる会！』",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362958",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9ce3ae14e33c",
+        "startDate": "2026-09-17",
+        "title": "撮る女、語る女。",
+        "titleZh": "撮る女、語る女。",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363120",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：ペヤンヌマキ、三輪記子"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "8bdbba4bc59d",
+        "startDate": "2026-09-18",
+        "title": "生カミキ東西ナイトツアー2026 / DAY1-TOKYO",
+        "titleZh": "生カミキ東西ナイトツアー2026 / DAY1-TOKYO",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362780",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：神木健児"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a854e0fc64ce",
+        "startDate": "2026-09-18",
+        "title": "オールナイトスーパーキッズ",
+        "titleZh": "オールナイトスーパーキッズ",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 24:00 / START 24:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362032",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：大石、ナユタ ホリコシ、テツロー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e39ae456d033",
+        "startDate": "2026-09-19",
+        "title": "ここまで調べた『つるばみ色のなぎ子たち』20 片渕須直アニメーション業45周年その２",
+        "titleZh": "ここまで調べた『つるばみ色のなぎ子たち』20 片渕須直アニメーション業45周年その２",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 12:30 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364044",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f81f15d8fe7d",
+        "startDate": "2026-09-19",
+        "title": "「ティモンディ前田の、イカすイカラジオ」",
+        "titleZh": "「ティモンディ前田の、イカすイカラジオ」",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/359244",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：前田裕太、ツンツクツン万博"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "6f716fa35059",
+        "startDate": "2026-09-20",
+        "title": "出張！りくうたピースラジオ9",
+        "titleZh": "出張！りくうたピースラジオ9",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/359583",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：りくやとおる、うた子"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "056a43fa2bbe",
+        "startDate": "2026-09-20",
+        "title": "猟奇エロチカ！赤城文と悠歌の㊙︎・ド・サド鬼畜外伝 写真集「平成非行少女幻影図録発売記念イベント",
+        "titleZh": "猟奇エロチカ！赤城文と悠歌の㊙︎・ド・サド鬼畜外伝 写真集「平成非行少女幻影図録発売記念イベント",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:30 / START 20:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363475",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：赤城文、悠歌"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2958c73ff8e7",
+        "startDate": "2026-09-21",
+        "title": "名盤ラジオオフ会#06 再会そして何かが動き出す夜",
+        "titleZh": "名盤ラジオオフ会#06 再会そして何かが動き出す夜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:30 / START 18:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/360985",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：名盤ラジオ、タクヤ、エヌゾー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "3fbae7516a45",
+        "startDate": "2026-09-22",
+        "title": "置鮎龍太郎のゆるとーく！（都合65回目）〜連休の途中に失礼します",
+        "titleZh": "置鮎龍太郎のゆるとーく！（都合65回目）〜連休の途中に失礼します",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 11:45 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363875",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：置鮎龍太郎"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "189d6d7504a0",
+        "startDate": "2026-09-22",
+        "title": "「田澤茉純のますます魅力が伝わるラジオ」 ますます“ひみつ”の納涼祭",
+        "titleZh": "「田澤茉純のますます魅力が伝わるラジオ」 ますます“ひみつ”の納涼祭",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363794",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "80b76b0ec3e9",
+        "startDate": "2026-09-23",
+        "title": "るなゲーオンライン！ vol.4",
+        "titleZh": "るなゲーオンライン！ vol.4",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362810",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：るなっち☆ほし、松山あおい、せんす"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4e5cf3562375",
+        "startDate": "2026-09-23",
+        "title": "研そうげんトークライブ+サイン会",
+        "titleZh": "研そうげんトークライブ+サイン会",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363707",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：研そうげん、宮戸フィルム、三井恵介"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "5daff09d00d9",
+        "startDate": "2026-09-24",
+        "title": "読書家芸人の集い〜誰だって人間失格〜",
+        "titleZh": "読書家芸人の集い〜誰だって人間失格〜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363988",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "0b286d0f49d1",
+        "startDate": "2026-09-25",
+        "title": "ユビッジャ・ポーポレーション新メンバー加入発表会〜入りまちゅ〜",
+        "titleZh": "ユビッジャ・ポーポレーション新メンバー加入発表会〜入りまちゅ〜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 19:30 / START 20:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/361790",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "60d7e5ccf0ca",
+        "startDate": "2026-09-26",
+        "title": "沖田遊戯トークライブ 「じゃきじゃけ」",
+        "titleZh": "沖田遊戯トークライブ 「じゃきじゃけ」",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364352",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：沖田遊戯"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "fe491bbd3725",
+        "startDate": "2026-09-27",
+        "title": "ふくおラボ2026 3ヶ月連続で好きな人を呼ぶ！その2",
+        "titleZh": "ふくおラボ2026 3ヶ月連続で好きな人を呼ぶ！その2",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 11:30 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/361826",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：福緒唯、真野美月"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ee3eb6786be3",
+        "startDate": "2026-09-27",
+        "title": "バンドマンしか知らないセカイ TALK LIVE vol.2〜YouTubeだと聞けない話〜",
+        "titleZh": "バンドマンしか知らないセカイ TALK LIVE vol.2〜YouTubeだと聞けない話〜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/360640",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：平井拓郎"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a49897117f42",
+        "startDate": "2026-09-30",
+        "title": "虹の黄昏のブリバリサミット VOL.046",
+        "titleZh": "虹の黄昏のブリバリサミット VOL.046",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364363",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2200803e698e",
+        "startDate": "2026-10-03",
+        "title": "関とくまいのお誕生日会!!",
+        "titleZh": "関とくまいのお誕生日会!!",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:45 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363473",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：関智一、くまいもとこ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "42a730ad63fc",
+        "startDate": "2026-10-09",
+        "title": "THE とーや関係者～スタッフが語るとーやのリアル～東京",
+        "titleZh": "THE とーや関係者～スタッフが語るとーやのリアル～東京",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:30 / START 18:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364289",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：とーや、つかさ、いく"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "858264d553b9",
+        "startDate": "2026-10-10",
+        "title": "回遊記 〜めちゃ早忘年会 本音で乾杯編〜",
+        "titleZh": "回遊記 〜めちゃ早忘年会 本音で乾杯編〜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/361749",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f19d33747b71",
+        "startDate": "2026-10-11",
+        "title": "新谷かおるの世界～ジェントル萬(マン) 大英帝国の誇り高きレッドファイブ～ 80’s、90’s F-1GRAND PRIX回顧録",
+        "titleZh": "新谷かおるの世界～ジェントル萬(マン) 大英帝国の誇り高きレッドファイブ～ 80’s、90’s F-1GRAND PRIX回顧録",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364567",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "325f2c02711e",
+        "startDate": "2026-10-11",
+        "title": "TVアニメ「大正オトメ御伽話」放送5周年記念 トークショー 〜久闊を叙する〜",
+        "titleZh": "TVアニメ「大正オトメ御伽話」放送5周年記念 トークショー 〜久闊を叙する〜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/361978",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：羽鳥潤、福田裕子、小林裕介"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "c6a1d206a90b",
+        "startDate": "2026-10-17",
+        "title": "『レトゲノミカタIV レトミカファミリーのクエスト・オブ・アサガヤー』",
+        "titleZh": "『レトゲノミカタIV レトミカファミリーのクエスト・オブ・アサガヤー』",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/363913",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：保志総一朗、岡島俊治、鈴木（D4エンタープライズ代表）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b41657f1d00e",
+        "startDate": "2026-10-18",
+        "title": "美山薫子先生とハロウィンホラーナイト! 〜トーク＆怪談会〜",
+        "titleZh": "美山薫子先生とハロウィンホラーナイト! 〜トーク＆怪談会〜",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/364125",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：美山薫子、響洋平"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f07d000f2e5b",
+        "startDate": "2026-10-24",
+        "title": "夕野ヨシミ20周年＆RoughSketch20周年 〜手作り醤油と手作りガバキックの会〜 in 阿佐ヶ谷ロフトA",
+        "titleZh": "夕野ヨシミ20周年＆RoughSketch20周年 〜手作り醤油と手作りガバキックの会〜 in 阿佐ヶ谷ロフトA",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 11:30 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/360920",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：夕野ヨシミ、RoughSketch、MOC"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "cca48e5998fa",
+        "startDate": "2026-10-25",
+        "title": "「Instagram サブスク民限定 佐藤亜美菜 ファンミーティング vol.1」",
+        "titleZh": "「Instagram サブスク民限定 佐藤亜美菜 ファンミーティング vol.1」",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/359821",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：佐藤亜美菜"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "6f2f6fe76d37",
+        "startDate": "2026-10-30",
+        "title": "現代スプラッター豪華二本立て 鮮血映画館",
+        "titleZh": "現代スプラッター豪華二本立て 鮮血映画館",
+        "place": "阿佐ヶ谷ロフトA（杉並区阿佐谷南）",
+        "time": "OPEN 24:00 / START 1:00",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/lofta/362010",
+        "source": "阿佐ヶ谷ロフトA",
+        "category": "トークライブ",
+        "description": "出演：ベーコン、佐藤★サド、玉響桃乃"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "992cdf4609df",
+        "startDate": "2026-09-01",
+        "title": "『ピカソぶっ飛ばせなくて、ごめん』アフター・パーティー！",
+        "titleZh": "『ピカソぶっ飛ばせなくて、ごめん』アフター・パーティー！",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/360815",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：萩田頌豊与、今立進、木乃江祐希"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "c95cb4cbeb1b",
+        "startDate": "2026-09-02",
+        "title": "第五回・ロフト芸人カラオケ大会！",
+        "titleZh": "第五回・ロフト芸人カラオケ大会！",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:15 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/362127",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：松永天馬、マリアンヌ東雲、ゆっきゅん"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "fbdbd9c4b9f2",
+        "startDate": "2026-09-03",
+        "title": "第2回 大森靖子選手権",
+        "titleZh": "第2回 大森靖子選手権",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363581",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：大森靖子、宇城茉世、紫凰ゆすら"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "03b177fbc47a",
+        "startDate": "2026-09-04",
+        "title": "福島泰樹×大槻ケンヂ×月乃光司 三人朗読会「記憶と希望」",
+        "titleZh": "福島泰樹×大槻ケンヂ×月乃光司 三人朗読会「記憶と希望」",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/358162",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "35e2b2c10bbd",
+        "startDate": "2026-09-05",
+        "title": "神奈月トークライブ2026長月「ものまねLOVE～ライブツアー2026最速先行発売SP～」",
+        "titleZh": "神奈月トークライブ2026長月「ものまねLOVE～ライブツアー2026最速先行発売SP～」",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 12:00 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/360673",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：神奈月、タムケン"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "73aa1cc41d9e",
+        "startDate": "2026-09-05",
+        "title": "『左ききのエレン』オフ会2026 in 渋谷",
+        "titleZh": "『左ききのエレン』オフ会2026 in 渋谷",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/361174",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：かっぴー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4a3231b6ed01",
+        "startDate": "2026-09-06",
+        "title": "ババア流星群 〜残暑でババアは寝苦しい～",
+        "titleZh": "ババア流星群 〜残暑でババアは寝苦しい～",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 11:45 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/362473",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e7a4027c17c6",
+        "startDate": "2026-09-06",
+        "title": "今月の宮下雄也vol.106",
+        "titleZh": "今月の宮下雄也vol.106",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363567",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：宮下雄也、細貝圭、玉城裕規"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "d8dedaba3300",
+        "startDate": "2026-09-07",
+        "title": "「クロぶるみつほ」",
+        "titleZh": "「クロぶるみつほ」",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363067",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：クロちゃん、紺野ぶるま、福留光帆"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "375eff33b29c",
+        "startDate": "2026-09-08",
+        "title": "『アメリカの正義・イランの論理 イラン戦争180日』発売記念トークイベント+サイン会 in 東京",
+        "titleZh": "『アメリカの正義・イランの論理 イラン戦争180日』発売記念トークイベント+サイン会 in 東京",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/360954",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：飯山陽"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ab942f0e7145",
+        "startDate": "2026-09-10",
+        "title": "久田将義＆吉田豪のハードコアトーク with エンセン井上さん",
+        "titleZh": "久田将義＆吉田豪のハードコアトーク with エンセン井上さん",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364019",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：久田将義、吉田豪、エンセン井上"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4c57b2b0f62b",
+        "startDate": "2026-09-12",
+        "title": "『さんピンCAMPとその時代』発売記念トークライブ",
+        "titleZh": "『さんピンCAMPとその時代』発売記念トークライブ",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 14:30 / START 15:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364354",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：Zeebra、Kダブシャイン、RINO LATINA II"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "eeca99e52dc4",
+        "startDate": "2026-09-12",
+        "title": "『“9・12 THE MEN” FASHION』",
+        "titleZh": "『“9・12 THE MEN” FASHION』",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364402",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：DJ EMMA、KO KIMURA、Naz Chris"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "c49df9ca1284",
+        "startDate": "2026-09-13",
+        "title": "八木奈々 Birthday Party 2026",
+        "titleZh": "八木奈々 Birthday Party 2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/362963",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ab3d76327440",
+        "startDate": "2026-09-13",
+        "title": "『株式会社GAYエンターテインメント 第一期 株主総会(嘘)』",
+        "titleZh": "『株式会社GAYエンターテインメント 第一期 株主総会(嘘)』",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:15 / START 18:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/362931",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4a4df3aa25d6",
+        "startDate": "2026-09-15",
+        "title": "アイふた vol.78",
+        "titleZh": "アイふた vol.78",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:15 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364067",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：吉橋亜理砂、髙橋麻里、山邊未夢"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "cee80339075f",
+        "startDate": "2026-09-16",
+        "title": "【緊急開催】川島・長野・鈴木の映画道龍虎房 vol.2",
+        "titleZh": "【緊急開催】川島・長野・鈴木の映画道龍虎房 vol.2",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364129",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：川島直人、長野こうへい、鈴木竜也"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "79a66907fafb",
+        "startDate": "2026-09-17",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359366",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、山本譲二（歌手）、増子直純（怒髪天）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "13be8b58fcd2",
+        "startDate": "2026-09-18",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359373",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、大槻ケンヂ（筋肉少女帯／特撮／オケミス）、橘高文彦（筋肉少女帯／X.Y.Z.→A）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "65c6484beb1a",
+        "startDate": "2026-09-19",
+        "title": "PRISMation ATELIER in ABEMAアニメ祭2026",
+        "titleZh": "PRISMation ATELIER in ABEMAアニメ祭2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/362884",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "753176151841",
+        "startDate": "2026-09-19",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359377",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、木暮\"shake\"武彦（RED WARRIORS ギタリスト、ソングライター）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b8a13a4a38d0",
+        "startDate": "2026-09-20",
+        "title": "TVアニメ「てつりょー！ meet with 鉄道むすめ」てつりょー会活動報告イベント〜放送直前SP〜",
+        "titleZh": "TVアニメ「てつりょー！ meet with 鉄道むすめ」てつりょー会活動報告イベント〜放送直前SP〜",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 12:30 / START 13:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363576",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：庄子真央、福嶋晴菜、安齋由香里"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "58eed8f56a9f",
+        "startDate": "2026-09-20",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359380",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、森 俊一郎（元東芝EMI）、杉山尚浩（元東芝EMI）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b70e98a2782a",
+        "startDate": "2026-09-21",
+        "title": "河崎実×原口智生 ウルトラな男達の映画祭",
+        "titleZh": "河崎実×原口智生 ウルトラな男達の映画祭",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 11:30 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363513",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a61d58419a39",
+        "startDate": "2026-09-21",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359383",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、SYU（GALNERYUS）、Masatoshi “SHO” Ono（GALNERYUS）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "324e34462175",
+        "startDate": "2026-09-22",
+        "title": "選挙三昧 沖縄知事選2026",
+        "titleZh": "選挙三昧 沖縄知事選2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 12:00 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363457",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：山本期日前、井上咲楽、高橋弘樹"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "47963ef8ab18",
+        "startDate": "2026-09-22",
+        "title": "『チカーノKEI－米国極悪刑務所を生き抜いた日本人－』連載10周年記念 KEI × 竹内力 スペシャルトークショー",
+        "titleZh": "『チカーノKEI－米国極悪刑務所を生き抜いた日本人－』連載10周年記念 KEI × 竹内力 スペシャルトークショー",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363091",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：KEI、竹内力"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "3b5a1ab2b7f3",
+        "startDate": "2026-09-23",
+        "title": "「みんなで語ろう！フィロソフィーのダンス」",
+        "titleZh": "「みんなで語ろう！フィロソフィーのダンス」",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/362436",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：加茂啓太郎、南波一海、まつもとたくお"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "7c7e7a23018f",
+        "startDate": "2026-09-24",
+        "title": "“タブーなきニュース空間へようこそ” vol.33",
+        "titleZh": "“タブーなきニュース空間へようこそ” vol.33",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363854",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：青木理、久田将義、プチ鹿島"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f3e338ebfc8d",
+        "startDate": "2026-09-26",
+        "title": "楽女FES’26 〜大人のための、ウェルエイジング文化祭〜 Day2",
+        "titleZh": "楽女FES’26 〜大人のための、ウェルエイジング文化祭〜 Day2",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 10:20 / START 10:50",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364324",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：ひうらさとる、芳麗"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "28b444865c9d",
+        "startDate": "2026-09-26",
+        "title": "シロハル 2nd Anniversary LIVE「夜を越えて、君に会いにきた。」",
+        "titleZh": "シロハル 2nd Anniversary LIVE「夜を越えて、君に会いにきた。」",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/356930",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：シロハル"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "1d8bf5a5ed86",
+        "startDate": "2026-09-27",
+        "title": "楽女FES’26 〜大人のための、ウェルエイジング文化祭〜 Day3",
+        "titleZh": "楽女FES’26 〜大人のための、ウェルエイジング文化祭〜 Day3",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 10:20 / START 10:50",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364331",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：ひうらさとる、芳麗"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "c0750dc42bd3",
+        "startDate": "2026-09-28",
+        "title": "平成ノブシコブシ徳井 #敗北からの芸人論 トークイベント vol.16 ゲスト：鬼越トマホーク",
+        "titleZh": "平成ノブシコブシ徳井 #敗北からの芸人論 トークイベント vol.16 ゲスト：鬼越トマホーク",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363931",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：平成ノブシコブシ徳井、鬼越トマホーク"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "7ad1767e84ea",
+        "startDate": "2026-10-01",
+        "title": "『新・マリリが逢いたい』",
+        "titleZh": "『新・マリリが逢いたい』",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364131",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：奥津マリリ、南波一海"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9d6e710751f1",
+        "startDate": "2026-10-03",
+        "title": "夜馬裕バースデー独演会",
+        "titleZh": "夜馬裕バースデー独演会",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364369",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：夜馬裕"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "ac493a96365f",
+        "startDate": "2026-10-04",
+        "title": "『ドロッセルマイヤーズ15周年祭』",
+        "titleZh": "『ドロッセルマイヤーズ15周年祭』",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363788",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：渡辺範明、佐々木隼"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b6b6dec1affe",
+        "startDate": "2026-10-08",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359386",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、今泉圭姫子（ラジオDJ／音楽プロデューサー）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "3d77cf64536c",
+        "startDate": "2026-10-09",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:30 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359389",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、みうらじゅん（イラストレーターなど）、山口隆（サンボマスター）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9324675cb17f",
+        "startDate": "2026-10-10",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359393",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、鈴木研一（人間椅子）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "747aee757f16",
+        "startDate": "2026-10-11",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359396",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、HAGANE"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "7ab674b4d2f0",
+        "startDate": "2026-10-12",
+        "title": "灰田ナナコ先生とハロウィンパーティ! 〜サイン会&ミニトーク〜",
+        "titleZh": "灰田ナナコ先生とハロウィンパーティ! 〜サイン会&ミニトーク〜",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 10:30 / START 11:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/364122",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：灰田ナナコ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "0a7d1283b964",
+        "startDate": "2026-10-12",
+        "title": "政則十番勝負2026",
+        "titleZh": "政則十番勝負2026",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 17:30 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/359400",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：伊藤政則、武田砂鉄（ライター／ラジオパーソナリティ）、杉山頼行（ビクターエンタテインメント）"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "652f1ff44ac5",
+        "startDate": "2026-10-17",
+        "title": "「Michi Yamatoのガチトーク!」宮内洋のヒーロー道 / 第2部 50年目の邂逅 ゲスト斎藤真",
+        "titleZh": "「Michi Yamatoのガチトーク!」宮内洋のヒーロー道 / 第2部 50年目の邂逅 ゲスト斎藤真",
+        "place": "LOFT9 Shibuya（渋谷区円山町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/loft9/363273",
+        "source": "LOFT9 Shibuya",
+        "category": "トークライブ",
+        "description": "出演：Michi Yamato、宮内洋、斎藤真"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b6db7ad4bed7",
+        "startDate": "2026-09-01",
+        "title": "ソロアイドルがソロアイドルになるまでvol.1.5 平野友里の場合",
+        "titleZh": "ソロアイドルがソロアイドルになるまでvol.1.5 平野友里の場合",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362339",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：平野友里、ババショウタ｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "8e42455da6e2",
+        "startDate": "2026-09-02",
+        "title": "❁˚｡⋆ෆ今夜はトークナイト ೀ⋆❁˚ vol.12",
+        "titleZh": "❁˚｡⋆ෆ今夜はトークナイト ೀ⋆❁˚ vol.12",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362343",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：パチモンのプリンセス石村"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "da4eed53621e",
+        "startDate": "2026-09-03",
+        "title": "90年生まれ楽しいトークライブ3",
+        "titleZh": "90年生まれ楽しいトークライブ3",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/359174",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：演芸おんせん矢巻、おべんとばこ、ミネ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b7465eacf288",
+        "startDate": "2026-09-05",
+        "title": "祝フィジカル・リリース記念！ ナイン・インチ・ノイズ特集",
+        "titleZh": "祝フィジカル・リリース記念！ ナイン・インチ・ノイズ特集",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 13:00 / START 13:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362637",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：鈴木喜之"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "43d9b0c8653a",
+        "startDate": "2026-09-05",
+        "title": "芸人が居酒屋でする話をたまたま隣の席で聞こえてきた体のトークライブ19",
+        "titleZh": "芸人が居酒屋でする話をたまたま隣の席で聞こえてきた体のトークライブ19",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363240",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：デッサンズ がまの助、ジャンク小森、めっちゃ最高ズおばた"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "daa112614d75",
+        "startDate": "2026-09-05",
+        "title": "始発待ちアンダーグラウンドの 『始発、待ってみる？ #9』",
+        "titleZh": "始発待ちアンダーグラウンドの 『始発、待ってみる？ #9』",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 24:30 / START 25:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363591",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：始発待ちアンダーグラウンド"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "7c6045bbed68",
+        "startDate": "2026-09-06",
+        "title": "ミネさんとみなさんに浴衣を諦めて欲しくない",
+        "titleZh": "ミネさんとみなさんに浴衣を諦めて欲しくない",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362442",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：ミネ、生田いく、エビカレンダー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "75110a2b3be7",
+        "startDate": "2026-09-08",
+        "title": "ましちゃんとおしゃべり！~祝い、祝われる会~",
+        "titleZh": "ましちゃんとおしゃべり！~祝い、祝われる会~",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:45 / START 19:15",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363919",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：あいうえまし子、uzu"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "6fde672fef3a",
+        "startDate": "2026-09-09",
+        "title": "放課後うた部！",
+        "titleZh": "放課後うた部！",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363281",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：音喜多うた、ゆきだま"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "d1feaf3eb47b",
+        "startDate": "2026-09-11",
+        "title": "#挨拶できひんやつ何やってもダメ",
+        "titleZh": "#挨拶できひんやつ何やってもダメ",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363226",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：キュニコ めっちゃ梨央、グデイ ミ米ミ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "3c9845d54237",
+        "startDate": "2026-09-12",
+        "title": "春日太一の研究活動定例報告会9",
+        "titleZh": "春日太一の研究活動定例報告会9",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362188",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：春日太一｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "cd75b0acc731",
+        "startDate": "2026-09-12",
+        "title": "アニソンディスコ外伝",
+        "titleZh": "アニソンディスコ外伝",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 23:30 / START 23:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364379",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a8f270869cb2",
+        "startDate": "2026-09-13",
+        "title": "newswave night",
+        "titleZh": "newswave night",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 17:00 / START 17:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363741",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "fe4f970fdae1",
+        "startDate": "2026-09-15",
+        "title": "「トナリアタイムズ」",
+        "titleZh": "「トナリアタイムズ」",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:30 / START 20:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364372",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：トナリア"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "d0dc9ffead2e",
+        "startDate": "2026-09-20",
+        "title": "まり子の部屋",
+        "titleZh": "まり子の部屋",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/360728",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：川奈まり子、熊五郎、鳴深弁｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "bca14c796316",
+        "startDate": "2026-09-21",
+        "title": "心の友の会",
+        "titleZh": "心の友の会",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364510",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：はるちろ、るのちー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "f2eedd23c0b4",
+        "startDate": "2026-09-21",
+        "title": "『ミダレにいっぱいお酒飲ませてください‼️』",
+        "titleZh": "『ミダレにいっぱいお酒飲ませてください‼️』",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364172",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：モナ ミダレ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "5e69c359ac0c",
+        "startDate": "2026-09-21",
+        "title": "『白石茉莉奈と栄川乃亜ともちづき千代子がトイズハートのギャラで深夜に飲む会』",
+        "titleZh": "『白石茉莉奈と栄川乃亜ともちづき千代子がトイズハートのギャラで深夜に飲む会』",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 23:20 / START 23:50",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/360600",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：白石茉莉奈、栄川乃亜、もちづき千代子｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "2d5c665be4e1",
+        "startDate": "2026-09-22",
+        "title": "鼎",
+        "titleZh": "鼎",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 12:30 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/361772",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：可児正、タワー"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "851a854ad92a",
+        "startDate": "2026-09-22",
+        "title": "4th ハロジャニ。annex – Hello! Project & Johnny’s Sound Only –",
+        "titleZh": "4th ハロジャニ。annex – Hello! Project & Johnny’s Sound Only –",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 17:30 / START 17:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362505",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "e7b2fb24dceb",
+        "startDate": "2026-09-23",
+        "title": "HAPPY ANGEL CLUB オフ会 #2",
+        "titleZh": "HAPPY ANGEL CLUB オフ会 #2",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 12:00 / START 12:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362332",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：坂口喜咲"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9665fa817039",
+        "startDate": "2026-09-23",
+        "title": "新《カントリー・ロックの逆襲》ナイト",
+        "titleZh": "新《カントリー・ロックの逆襲》ナイト",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 17:30 / START 18:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362740",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：萩原健太、能地祐子、祢屋康"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "dcf23c03530e",
+        "startDate": "2026-09-24",
+        "title": "ソラダチコレクション vol.8",
+        "titleZh": "ソラダチコレクション vol.8",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364139",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：野元空、花澤桃花"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "da230a983354",
+        "startDate": "2026-09-26",
+        "title": "ふじもと会 vol.12",
+        "titleZh": "ふじもと会 vol.12",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364562",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "4d409df638f1",
+        "startDate": "2026-09-26",
+        "title": "山本が五つの赤い風船について右往左往",
+        "titleZh": "山本が五つの赤い風船について右往左往",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364318",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "9f975db2fd71",
+        "startDate": "2026-09-27",
+        "title": "ネペタラクトン 1st ワンマンライブ 「ふにゃりずむ」",
+        "titleZh": "ネペタラクトン 1st ワンマンライブ 「ふにゃりずむ」",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364596",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "0e99015fe936",
+        "startDate": "2026-09-30",
+        "title": "マツモトクラブのひとり語り13",
+        "titleZh": "マツモトクラブのひとり語り13",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363277",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：マツモトクラブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "a799c5ef84a2",
+        "startDate": "2026-10-01",
+        "title": "ソロアイドルがソロアイドルになるまでvol.3",
+        "titleZh": "ソロアイドルがソロアイドルになるまでvol.3",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364097",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：ババショウタ、nem仔｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "1e77a675b5cf",
+        "startDate": "2026-10-02",
+        "title": "小石田Jチャンネルトークライブ",
+        "titleZh": "小石田Jチャンネルトークライブ",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:30 / START 19:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/360264",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "268355f845a7",
+        "startDate": "2026-10-03",
+        "title": "SHINJUKU LOFT 50th CIRCUIT 2026",
+        "titleZh": "SHINJUKU LOFT 50th CIRCUIT 2026",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 11:00 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/354674",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：サーキットイベント"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "db898169707f",
+        "startDate": "2026-10-04",
+        "title": "菅沼久義の深夜に語るシス",
+        "titleZh": "菅沼久義の深夜に語るシス",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/364047",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：菅沼久義、陶山章央｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "b35782119e62",
+        "startDate": "2026-10-06",
+        "title": "邑田『だから私は海を打つ』刊行記念イベント（東京編）",
+        "titleZh": "邑田『だから私は海を打つ』刊行記念イベント（東京編）",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 11:30 / START 12:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363902",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：邑田"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "0884ff705456",
+        "startDate": "2026-10-08",
+        "title": "ジャンクとは9",
+        "titleZh": "ジャンクとは9",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:00 / START 19:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363747",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：ジャンク｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "872a5fdcb370",
+        "startDate": "2026-10-10",
+        "title": "映画のツミナハナシSeason2",
+        "titleZh": "映画のツミナハナシSeason2",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 12:30 / START 13:00",
+        "price": "详见活动页",
+        "vibe": "艺术现场",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/363824",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：カシマエスヒロ、張江浩司、丸山泰弘"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "69d4e08a99f6",
+        "startDate": "2026-10-10",
+        "title": "今ではありえない！昭和のビックリ常識」",
+        "titleZh": "今ではありえない！昭和のビックリ常識」",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#6c59c8",
+        "symbol": "♪",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/361963",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：葛城明彦、本橋信宏、SACHIKO｜配信あり"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "759706c835ca",
+        "startDate": "2026-10-16",
+        "title": "君の好きな歌、僕が好きな君",
+        "titleZh": "君の好きな歌、僕が好きな君",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 19:30 / START 20:00",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/362273",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "出演：それもまた一興 じん、サノライブ"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "talk_live",
+        "id": "087c4d007e21",
+        "startDate": "2026-10-31",
+        "title": "今年もセブンティーン2026",
+        "titleZh": "今年もセブンティーン2026",
+        "place": "Rock Cafe Loft is your room（新宿区歌舞伎町）",
+        "time": "OPEN 18:00 / START 18:30",
+        "price": "详见活动页",
+        "vibe": "小众音乐",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.loft-prj.co.jp/schedule/rockcafe/361716",
+        "source": "Rock Cafe Loft",
+        "category": "トークライブ",
+        "description": "配信あり"
       },
       "eligible": true,
       "decision": "review",

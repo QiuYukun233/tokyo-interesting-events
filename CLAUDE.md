@@ -62,7 +62,7 @@ npm run build                # 构建
 
 ```
 npm run update-events
-  → scripts/sources/index.mjs        来源注册表（12 条 + 开闭店家族 15 版）
+  → scripts/sources/index.mjs        来源注册表（16 条 + 开闭店家族 15 版）
   → scripts/lib/run-ingestion.mjs    robots 校验 → 并发抓取 → 按 accessMethod 解析
       → lib/activity-filter.mjs      算理由码（不再决定发布）
       → lib/pool-db.mjs              upsert 进 candidates 表
@@ -115,7 +115,9 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    每周 1,000 条原始候选。「新运动」家族已由スポーツエントリー补上
    （2026-09-02 接入，386 条，`sourceFamily: sports_entry`，八成是马拉松，靠队列的
    家族上限压着）。方案与实测见 `docs/信息获取管道设计.md`；其末尾「第六轮」
-   （2026-08-31）还列了 11 个已核过 robots/条款、尚未接入的候选源。
+   （2026-08-31）还列了 10 个已核过 robots/条款、尚未接入的候选源。
+   Loft 家族（新宿ロフトプラスワン等 4 个 talk 馆，`talk_live`，186 条）也已于
+   2026-09-02 接入；同站的 live house 刻意没接，见 `scripts/sources/loft.mjs`。
 5. **餐饮、影视、手作三个品类目前仍未覆盖；剧场、剧本杀已接。**
    CoRich舞台芸術！已上线（386 条候选，全部待判），不按类型过滤——演剧、音乐剧、
    落语、能楽、2.5次元舞台混着来，长尾是刻意的。マダミスマニア（mdms-mania.com）

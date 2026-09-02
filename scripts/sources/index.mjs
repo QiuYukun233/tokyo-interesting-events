@@ -12,6 +12,7 @@ import { parseScrap } from './scrap.mjs';
 import { aggregateTheatre, mapRecord as mapYoshimoto, yoshimotoUrl } from './yoshimoto.mjs';
 import { SANBO_HALLS, SANBO_ORIGIN, parseSanbo, sanboUrls } from './sanbo.mjs';
 import { SPORTSENTRY_ORIGIN, SPORTSENTRY_URLS, parseSportsentry } from './sportsentry.mjs';
+import { LOFT_ORIGIN, LOFT_VENUES, loftUrls, parseLoft } from './loft.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -204,6 +205,18 @@ export const SOURCES = [
     robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02', ownerOrContact: '株式会社スポーツエントリー',
     parse: parseSportsentry,
   },
+  // Loft Project's Tokyo talk-live houses: one WordPress schedule theme, four
+  // registrations. The physical hub of late-night / oddball / subculture
+  // events — exactly the "you'd never search for it, but you'd go" tail.
+  // Live-music Loft venues are deliberately left out (see loft.mjs).
+  ...LOFT_VENUES.map((venue) => ({
+    name: venue.name, sourceFamily: 'talk_live', trustTier: 'S0',
+    url: loftUrls(venue.key)[0], urls: loftUrls(venue.key), origin: LOFT_ORIGIN,
+    venue,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
+    robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02', ownerOrContact: '有限会社ロフトプロジェクト',
+    parse: parseLoft,
+  })),
   // The two halls where most of Tokyo's small 即売会 actually happen. Unlike
   // every other source here this is a venue calendar — "whatever anybody
   // booked this room for" — so it reaches hundreds of one-off organisers too
