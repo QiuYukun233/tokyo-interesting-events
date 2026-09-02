@@ -13,6 +13,9 @@ import { aggregateTheatre, mapRecord as mapYoshimoto, yoshimotoUrl } from './yos
 import { SANBO_HALLS, SANBO_ORIGIN, parseSanbo, sanboUrls } from './sanbo.mjs';
 import { SPORTSENTRY_ORIGIN, SPORTSENTRY_URLS, parseSportsentry } from './sportsentry.mjs';
 import { LOFT_ORIGIN, LOFT_VENUES, loftUrls, parseLoft } from './loft.mjs';
+import { ENTABE_URLS, parseEntabe } from './entabe.mjs';
+import { TEDUKURIICHI_ORIGIN, TEDUKURIICHI_URLS, parseTedukuriichi } from './tedukuriichi.mjs';
+import { CINEMATOKYO_ORIGIN, CINEMATOKYO_SHOWTIMES_URL, aggregateRuns, mapRecord as mapCinematokyo } from './cinematokyo.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -217,6 +220,41 @@ export const SOURCES = [
     robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02', ownerOrContact: '有限会社ロフトプロジェクト',
     parse: parseLoft,
   })),
+  {
+    // Gourmet news aggregator (期間限定メニュー). Kept only when the article
+    // names somewhere you can sit down in Tokyo — dine-in chains, カフェ,
+    // ホテル, ファミレス; convenience-store / supermarket / mail-order items
+    // are dropped in the parser. The listing carries no publish date, so
+    // dates come from the title/lead and are mostly month-level.
+    name: 'えん食べ', sourceFamily: 'gourmet_news', trustTier: 'S2',
+    url: ENTABE_URLS[0], urls: ENTABE_URLS, origin: 'https://entabe.jp',
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 2,
+    robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02',
+    ownerOrContact: 'https://entabe.jp/pages/9（著作権・引用方針；商用转载需事前联系）',
+    parse: parseEntabe,
+  },
+  {
+    // Handmade craft markets (手作り市). The only entry point for the craft
+    // category; Tokyo is thin (two recurring markets, expanded month by month
+    // by the site itself). Only the Tokyo schedule page — the nationwide page
+    // cannot be filtered reliably because prefectures are free text.
+    name: 'ものづくり応援団', sourceFamily: 'craft_market', trustTier: 'S2',
+    url: TEDUKURIICHI_URLS[0], urls: TEDUKURIICHI_URLS, origin: TEDUKURIICHI_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
+    robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02',
+    ownerOrContact: 'ものづくり応援団（京都のれん株式会社）', parse: parseTedukuriichi,
+  },
+  {
+    // Mini-theater / 名画座 showtimes aggregated from ~40 Tokyo cinemas' own
+    // pages, one JSON file the site itself offers for download; per-showtime
+    // rows folded into one candidate per (cinema, film). Kanagawa/Saitama/
+    // Chiba cinemas dropped in the adapter.
+    name: '東京ミニシアター上映時間', sourceFamily: 'mini_theater', trustTier: 'S2',
+    url: CINEMATOKYO_SHOWTIMES_URL, origin: CINEMATOKYO_ORIGIN,
+    accessMethod: 'json', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02', ownerOrContact: 'ネルキ・リオ（個人運営）',
+    map: mapCinematokyo, aggregate: aggregateRuns,
+  },
   // The two halls where most of Tokyo's small 即売会 actually happen. Unlike
   // every other source here this is a venue calendar — "whatever anybody
   // booked this room for" — so it reaches hundreds of one-off organisers too
