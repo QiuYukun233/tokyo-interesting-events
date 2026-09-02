@@ -11,6 +11,7 @@ import { CORICH_URLS, parseCorich } from './corich.mjs';
 import { parseScrap } from './scrap.mjs';
 import { aggregateTheatre, mapRecord as mapYoshimoto, yoshimotoUrl } from './yoshimoto.mjs';
 import { SANBO_HALLS, SANBO_ORIGIN, parseSanbo, sanboUrls } from './sanbo.mjs';
+import { SPORTSENTRY_ORIGIN, SPORTSENTRY_URLS, parseSportsentry } from './sportsentry.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -191,6 +192,17 @@ export const SOURCES = [
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
     robotsAndTermsCheckedAt: '2026-08-28', parserVersion: '2026-08-28', ownerOrContact: '株式会社CoRich',
     parse: parseCorich,
+  },
+  {
+    // The sign-up platform behind amateur races and participatory sports:
+    // 29 categories with the long tail (ロゲイニング, SUP, フェンシング…) that
+    // the thin 「新運動」 family lacked. Its own sourceFamily so the queue's
+    // per-family cap keeps a wall of marathons from doing what 舞台劇 did.
+    name: 'スポーツエントリー', sourceFamily: 'sports_entry', trustTier: 'S1',
+    url: SPORTSENTRY_URLS[0], urls: SPORTSENTRY_URLS, origin: SPORTSENTRY_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
+    robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02', ownerOrContact: '株式会社スポーツエントリー',
+    parse: parseSportsentry,
   },
   // The two halls where most of Tokyo's small 即売会 actually happen. Unlike
   // every other source here this is a venue calendar — "whatever anybody

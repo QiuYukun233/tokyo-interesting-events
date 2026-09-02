@@ -62,7 +62,7 @@ npm run build                # 构建
 
 ```
 npm run update-events
-  → scripts/sources/index.mjs        来源注册表（11 条 + 开闭店家族 15 版）
+  → scripts/sources/index.mjs        来源注册表（12 条 + 开闭店家族 15 版）
   → scripts/lib/run-ingestion.mjs    robots 校验 → 并发抓取 → 按 accessMethod 解析
       → lib/activity-filter.mjs      算理由码（不再决定发布）
       → lib/pool-db.mjs              upsert 进 candidates 表
@@ -112,9 +112,10 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    一批店、同一天开放的一批工厂——现在没有合并，因为"多近算一趟"是产品判断。
    见方案 §4.3；做探索队列时大概需要在"地点"之上再有一个"行程"层。
 4. **候选量距漏斗目标仍有差距。** 池子 236 条候选。方案 §10 的目标是
-   每周 1,000 条原始候选。六个来源家族里只剩「新运动」还偏薄。
-   方案与实测见 `docs/信息获取管道设计.md`；其末尾「第六轮」（2026-08-31）列了
-   12 个已核过 robots/条款、尚未接入的候选源，首推 sportsentry（632 条东京活动）。
+   每周 1,000 条原始候选。「新运动」家族已由スポーツエントリー补上
+   （2026-09-02 接入，386 条，`sourceFamily: sports_entry`，八成是马拉松，靠队列的
+   家族上限压着）。方案与实测见 `docs/信息获取管道设计.md`；其末尾「第六轮」
+   （2026-08-31）还列了 11 个已核过 robots/条款、尚未接入的候选源。
 5. **餐饮、影视、手作三个品类目前仍未覆盖；剧场、剧本杀已接。**
    CoRich舞台芸術！已上线（386 条候选，全部待判），不按类型过滤——演剧、音乐剧、
    落语、能楽、2.5次元舞台混着来，长尾是刻意的。マダミスマニア（mdms-mania.com）
