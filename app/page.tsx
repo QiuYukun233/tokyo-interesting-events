@@ -1,6 +1,6 @@
 'use client';
 
-import { FormEvent, useMemo, useState } from 'react';
+import { FormEvent, useEffect, useMemo, useState } from 'react';
 import eventData from '../data/events.json';
 
 type EventItem = (typeof eventData.events)[number];
@@ -15,10 +15,14 @@ const filters = ['全部', '今晚', '本周末', ...vibes];
 // under way — otherwise a room-escape that opened in 2025 tops the page.
 // /pool has everything.
 const HOME_PICKS = 12;
-const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date());
-const upcoming = (event: EventItem) => (event.startDate >= today ? 1 : 0);
-const byHeat = (a: EventItem, b: EventItem) =>
-  (b.popularity ?? 0) - (a.popularity ?? 0) || upcoming(b) - upcoming(a) || a.startDate.localeCompare(b.startDate);
+const tokyoToday = () => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date());
+// `today` is null during prerender and the first client render so both agree
+// (the page is built on one day and viewed on another); the effect below then
+// re-sorts with the real date.
+const byHeat = (today: string | null) => (a: EventItem, b: EventItem) => {
+  const upcoming = (event: EventItem) => (today && event.startDate >= today ? 1 : 0);
+  return (b.popularity ?? 0) - (a.popularity ?? 0) || upcoming(b) - upcoming(a) || a.startDate.localeCompare(b.startDate);
+};
 
 function dayMeta(date: string) {
   const value = new Date(`${date}T12:00:00+09:00`);
@@ -41,9 +45,12 @@ export default function Home() {
   const [saved, setSaved] = useState<string[]>([]);
   const [joining, setJoining] = useState<EventItem | null>(null);
   const [joined, setJoined] = useState<string[]>([]);
+  const [today, setToday] = useState<string | null>(null);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => { setToday(tokyoToday()); }, []);
   const visible = useMemo(
-    () => eventData.events.filter((event) => matchesDate(event, filter)).sort(byHeat).slice(0, HOME_PICKS),
-    [filter]);
+    () => eventData.events.filter((event) => matchesDate(event, filter)).sort(byHeat(today)).slice(0, HOME_PICKS),
+    [filter, today]);
 
   function submitJoin(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
