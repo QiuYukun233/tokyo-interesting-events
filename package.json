@@ -19,7 +19,8 @@
     "seed-pool": "node scripts/seed-pool.mjs",
     "apply-gate": "node scripts/apply-gate.mjs",
     "tag-candidates": "node scripts/tag-candidates.mjs",
-    "push-cloud": "node scripts/push-cloud.mjs"
+    "push-cloud": "node scripts/push-cloud.mjs",
+    "collect-infra-tourism": "node scripts/collect-infra-tourism.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",

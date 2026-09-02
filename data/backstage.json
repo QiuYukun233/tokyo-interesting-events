@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-02T21:38:42+09:00",
+  "updatedAt": "2026-09-02T21:56:29+09:00",
   "summary": {
-    "total": 1821,
-    "pending": 1458,
+    "total": 1825,
+    "pending": 1462,
     "published": 138,
     "rejected": 225,
     "byType": [
@@ -29,7 +29,7 @@
       {
         "objectType": "event",
         "state": "pending",
-        "n": 941
+        "n": 945
       },
       {
         "objectType": "event",
@@ -277,6 +277,11 @@
         "source": "東京大学",
         "state": "pending",
         "n": 5
+      },
+      {
+        "source": "インフラツーリズム（国交省）",
+        "state": "pending",
+        "n": 4
       },
       {
         "source": "モノマチ2026",
@@ -1728,6 +1733,32 @@
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
         },
         {
+          "id": "38d9f6592a03",
+          "startDate": "2026-09-02",
+          "title": "バスタ新宿大解剖！知られざる探求ツアー",
+          "titleZh": "バスタ新宿大解剖！知られざる探求ツアー",
+          "place": "バスタ新宿 · 東京都渋谷区",
+          "time": "令和７年１２月２０日より、月２回（土曜日）開催予定※詳細な日程については予約サイトでご確認ください。",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://tobutoptours.jp/shop/3894/sebt_tour/#tourschedule_section",
+          "source": "インフラツーリズム（国交省）",
+          "category": "インフラ見学",
+          "attribution": "民間主催",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-09-02T12:55:42.910Z"
+        },
+        {
           "id": "3e0c0f2ce73e",
           "startDate": "2026-09-02",
           "endDate": "2026-09-04",
@@ -1889,6 +1920,32 @@
           "firstSeenAt": "2026-09-02T12:27:46.951Z"
         },
         {
+          "id": "880d23624806",
+          "startDate": "2026-09-02",
+          "title": "神田川・環状七号線地下調節池施設見学",
+          "titleZh": "神田川・環状七号線地下調節池施設見学",
+          "place": "神田川・環状七号線地下調節池 · 東京都杉並区",
+          "time": "令和８年３月までの期間は、設備更新工事が予定されているため、見学受付を停止しております。（令和８年４月以降は未定）※小中学生の防災学習（社会科見学）については、別途ご相談ください。",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#d6a72d",
+          "symbol": "●",
+          "sourceUrl": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/sanken/kasen_kanri_00001.html",
+          "source": "インフラツーリズム（国交省）",
+          "category": "インフラ見学・川・砂防",
+          "attribution": "管理者主催",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [
+            "signal:off_street"
+          ],
+          "firstSeenAt": "2026-09-02T12:55:42.910Z"
+        },
+        {
           "id": "8e42455da6e2",
           "startDate": "2026-09-02",
           "title": "❁˚｡⋆ෆ今夜はトークナイト ೀ⋆❁˚ vol.12",
@@ -1962,6 +2019,32 @@
             "signal:theater"
           ],
           "firstSeenAt": "2026-08-28T06:31:33.045Z"
+        },
+        {
+          "id": "990b75b22e0d",
+          "startDate": "2026-09-02",
+          "title": "国営東京臨海広域防災公園の防災体験学習施設（そなエリア東京）",
+          "titleZh": "国営東京臨海広域防災公園の防災体験学習施設（そなエリア東京）",
+          "place": "国営東京臨海広域防災公園 · 東京都江東区",
+          "time": "9：30～17：00（入場は16：30まで）休館日月曜日、第２火曜日（該当日が祝日の場合は開館し、翌日休館）年末年始および臨時休館日があり１０名以上の団体はHPより予約",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#6c59c8",
+          "symbol": "♪",
+          "sourceUrl": "https://www.tokyorinkai-koen.jp/",
+          "source": "インフラツーリズム（国交省）",
+          "category": "インフラ見学",
+          "attribution": "管理者主催",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "signal:hands_on"
+          ],
+          "signals": [
+            "signal:hands_on"
+          ],
+          "firstSeenAt": "2026-09-02T12:55:42.910Z"
         },
         {
           "id": "9e06f173f9a9",
@@ -2254,6 +2337,30 @@
           ],
           "signals": [],
           "firstSeenAt": "2026-09-02T12:27:46.951Z"
+        },
+        {
+          "id": "f6ca2f1676d9",
+          "startDate": "2026-09-02",
+          "title": "羽田空港第３（国際線）ターミナル見学ツアー",
+          "titleZh": "羽田空港第３（国際線）ターミナル見学ツアー",
+          "place": "東京国際空港第３ターミナル · 東京都大田区",
+          "time": "毎月1回実施（事前申込）※詳細はHP参照",
+          "price": "详见活动页",
+          "vibe": "奇妙体验",
+          "color": "#3d66f5",
+          "symbol": "◒",
+          "sourceUrl": "https://www.o-2.jp/event/terminal-guide2026-4-9/",
+          "source": "インフラツーリズム（国交省）",
+          "category": "インフラ見学・空港",
+          "attribution": "民間主催",
+          "objectType": "event",
+          "state": "pending",
+          "decidedBy": null,
+          "reasons": [
+            "review:no_public_experience_signal"
+          ],
+          "signals": [],
+          "firstSeenAt": "2026-09-02T12:55:42.910Z"
         },
         {
           "id": "fc7f3472766a",
