@@ -104,9 +104,10 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    迁回标准 `next build`；vite.config.ts 与 vinext 相关 devDependencies 暂留未清。
    三个 secrets（TURSO_×2、QUEUE_TOKEN）在 Vercel 项目环境变量里。
    旧前台两页（`app/page.tsx` / `app/pool/page.tsx`）未替换，仍是全量铺开旧形态。
-3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点，
-   需 `ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic`）：874 条全部入 tags 表。
+3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点）：874 条全部入 tags 表。
    新抓的候选再跑 `npm run tag-candidates` 即可增量补打。
+   DeepSeek 的端点与 key 放在仓库 `.env.local`（gitignored，`tag-candidates.mjs` 自己加载），
+   不再放用户级全局环境变量——全局 `ANTHROPIC_BASE_URL` 会挡 Claude Code 的 Remote Control。
 6. **候选的粒度还只做到「一个地址一个候选」。** 更模糊的边界——同一片区的
    一批店、同一天开放的一批工厂——现在没有合并，因为"多近算一趟"是产品判断。
    见方案 §4.3；做探索队列时大概需要在"地点"之上再有一个"行程"层。

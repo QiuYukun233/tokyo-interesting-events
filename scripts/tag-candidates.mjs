@@ -1,4 +1,5 @@
 import { fileURLToPath } from 'node:url';
+import { readFileSync, existsSync } from 'node:fs';
 import { openPool, listCandidates, setTags, clearTagsBy } from '../lib/pool-db.mjs';
 import { TAG_VOCABULARY } from '../lib/tag-vocabulary.mjs';
 import { tagPrompt, parseTagResponse } from '../lib/tagging.mjs';
@@ -17,14 +18,33 @@ import Anthropic from '@anthropic-ai/sdk';
  * Cost bound: ~1000 candidates / 20 per call = ~50 model calls.
  *
  * Runs against DeepSeek's Anthropic-compatible endpoint (payment access; a
- * prepaid balance is already sitting there). Requires:
- *   ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
- *   ANTHROPIC_API_KEY=<DeepSeek key>
- * To switch back to haiku: restore MODEL/TAGGED_BY, unset the base URL,
- * then --retag (tags are batch-replaceable by design, 0005).
+ * prepaid balance is already sitting there). The endpoint + key live in the
+ * repo's .env.local (gitignored), NOT the machine's user environment — a
+ * global ANTHROPIC_BASE_URL would block Claude Code's Remote Control, which
+ * only works when Claude itself talks to api.anthropic.com. To switch back to
+ * haiku: restore MODEL/TAGGED_BY, remove the base URL, then --retag (tags are
+ * batch-replaceable by design, 0005).
  */
 const MODEL = 'deepseek-chat';
 const TAGGED_BY = 'ai:deepseek-chat';
+const MODEL_ENV_KEYS = ['ANTHROPIC_BASE_URL', 'ANTHROPIC_API_KEY'];
+
+/** Pull the model endpoint/key from ../.env.local into process.env; .env.local
+ * wins when present, otherwise process.env already has them (e.g. CI). */
+function loadModelEnv() {
+  const envFile = fileURLToPath(new URL('../.env.local', import.meta.url));
+  if (!existsSync(envFile)) return;
+  for (const raw of readFileSync(envFile, 'utf8').split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) continue;
+    const eq = line.indexOf('=');
+    if (eq < 0) continue;
+    const key = line.slice(0, eq).trim();
+    if (MODEL_ENV_KEYS.includes(key)) process.env[key] = line.slice(eq + 1).trim();
+  }
+}
+loadModelEnv();
+
 const BATCH = 20;
 
 const dryRun = process.argv.includes('--dry-run');
@@ -46,6 +66,10 @@ if (dryRun) {
   process.exit(0);
 }
 
+if (!process.env.ANTHROPIC_BASE_URL || !process.env.ANTHROPIC_API_KEY) {
+  console.error('Missing ANTHROPIC_BASE_URL / ANTHROPIC_API_KEY — add both to .env.local (DeepSeek endpoint), see header.');
+  process.exit(2);
+}
 const client = new Anthropic();
 let done = 0;
 let skippedBatches = 0;
