@@ -34,7 +34,7 @@ npm run build                # 构建
 
 | 路径 | 职责 |
 |---|---|
-| `app/` | 前台页面（Next.js / vinext）。直接 import `data/events.json`，无运行时抓取 |
+| `app/` | 前台页面（Next.js）。直接 import `data/events.json`，无运行时抓取 |
 | `data/pool.db` | **候选池，记录之源**（SQLite）。`events.json` 与 `backstage.json` 都是它的导出 |
 | `data/` | 管线产物 + 人工数据。字段定义见 `docs/数据契约.md` |
 | `lib/` | 与抓取无关的纯逻辑：过滤、去重、契约校验、来源健康、编辑标注 |
@@ -100,8 +100,8 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
 1. **事实规则继续从判决里长**（0002）：目前 `rule:trade_only_admission`、
    `rule:not_a_destination`、`rule:not_open_to_public`。判据面板只统计人的判决。
 2. **探索队列已部署 Vercel**（2026-09-01）：https://tokyo-interesting-events.vercel.app
-   ，GitHub push 到 main 即自动部署，函数跑东京 hnd1（vercel.json）。构建已从 vinext
-   迁回标准 `next build`；vite.config.ts 与 vinext 相关 devDependencies 暂留未清。
+   ，GitHub push 到 main 即自动部署，函数跑东京 hnd1（vercel.json）。构建是标准
+   `next build`（vinext/Cloudflare 残留已于 2026-09-02 清掉）。
    三个 secrets（TURSO_×2、QUEUE_TOKEN）在 Vercel 项目环境变量里。
    旧前台两页（`app/page.tsx` / `app/pool/page.tsx`）未替换，仍是全量铺开旧形态。
 3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点）：874 条全部入 tags 表。

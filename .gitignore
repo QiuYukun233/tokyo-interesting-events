@@ -13,7 +13,6 @@
 
 # next.js
 /.next/
-/.vinext/
 /out/
 
 # misc
@@ -32,11 +31,6 @@ yarn-error.log*
 # deployment and generated files
 .vercel
 next-env.d.ts
-/dist/
-/.wrangler/
 /outputs/
 /work/
-
-# openai sites 打包产物
-.openai/site-version.tar.gz
 tsconfig.tsbuildinfo
