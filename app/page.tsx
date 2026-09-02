@@ -10,10 +10,15 @@ type EventItem = (typeof eventData.events)[number];
 const vibes = [...new Set(eventData.events.map((event) => event.vibe))].filter(Boolean).sort();
 const filters = ['全部', '今晚', '本周末', ...vibes];
 // The home page is a shortlist, not the catalogue: the hottest few by
-// source-reported interest, ties broken by soonest start. /pool has everything.
+// source-reported interest. Most events carry no count, so ties are the common
+// case: upcoming ones first (soonest start), then long-running ones already
+// under way — otherwise a room-escape that opened in 2025 tops the page.
+// /pool has everything.
 const HOME_PICKS = 12;
+const today = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date());
+const upcoming = (event: EventItem) => (event.startDate >= today ? 1 : 0);
 const byHeat = (a: EventItem, b: EventItem) =>
-  (b.popularity ?? 0) - (a.popularity ?? 0) || a.startDate.localeCompare(b.startDate);
+  (b.popularity ?? 0) - (a.popularity ?? 0) || upcoming(b) - upcoming(a) || a.startDate.localeCompare(b.startDate);
 
 function dayMeta(date: string) {
   const value = new Date(`${date}T12:00:00+09:00`);
