@@ -12,6 +12,7 @@ type Item = {
 type Round = {
   roundId: string | null; tag: string | null; items: Item[];
   likedTags: string[]; subscribedTags: string[];
+  votedInRound: Record<string, string>;
 };
 
 const PICKED_LABEL: Record<string, string> = {
@@ -58,7 +59,9 @@ export default function QueuePage() {
       setRound(data);
       setSubs(data.subscribedTags ?? []);
       setIndex(0);
-      setVotes({});
+      // Seed from the server so the end-of-round tally covers the whole round,
+      // not just the swipes since the last page reload.
+      setVotes(data.votedInRound ?? {});
       setNeedToken(false);
       setLoading(false);
     } catch {
@@ -118,6 +121,9 @@ export default function QueuePage() {
 
   const item = round.items[index];
   const done = !item;
+  // Nothing to show and nothing voted: the pool (or this tag) is exhausted.
+  // Offering "next round" here would just fetch the same emptiness forever.
+  const empty = round.items.length === 0 && Object.keys(votes).length === 0;
 
   return (
     <main className="mx-auto max-w-lg p-6">
@@ -147,7 +153,17 @@ export default function QueuePage() {
         </section>
       ) : null}
 
-      {done ? (
+      {empty ? (
+        <section className="rounded-lg border p-6">
+          <h2 className="text-xl font-bold">{round.tag ? `「${round.tag}」暂时没有新东西` : '池子暂时空了'}</h2>
+          <p className="mt-2 text-sm text-gray-500">
+            {round.tag ? '没投过票的候选里没有带这个 tag 的。换个 tag，或清空 tag 回到综合轮。' : '所有候选都投过票了，等下次抓取。'}
+          </p>
+          {round.tag ? (
+            <button className="mt-4 rounded border px-4 py-2" onClick={() => { setTag(''); void load(''); }}>回到综合轮</button>
+          ) : null}
+        </section>
+      ) : done ? (
         <section className="rounded-lg border p-6">
           <h2 className="text-xl font-bold">本轮滑完了</h2>
           <p className="mt-2 text-sm">
