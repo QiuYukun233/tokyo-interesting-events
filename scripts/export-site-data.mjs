@@ -32,7 +32,7 @@ const HORIZON_DAYS = 180;
 const SITE_FIELDS = [
   'id', 'startDate', 'endDate', 'title', 'titleZh', 'place', 'time', 'price',
   'vibe', 'color', 'symbol', 'sourceUrl', 'source', 'category', 'audience',
-  'why', 'changeType', 'attribution', 'imageUrl', 'objectType',
+  'why', 'changeType', 'attribution', 'imageUrl', 'objectType', 'popularity',
 ];
 
 const forSite = (row) => Object.fromEntries(

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-01T16:54:03+09:00",
-  "updatedAtLabel": "今日 16:54",
+  "updatedAt": "2026-09-02T18:23:20+09:00",
+  "updatedAtLabel": "今日 18:23",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -567,26 +567,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "三栄町LIVE",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "7e06c2e6b140",
-      "startDate": "2026-09-01",
-      "title": "パルコの映画館「シネクイント」、映像カルチャー発信拠点にリニューアル",
-      "titleZh": "パルコの映画館「シネクイント」、映像カルチャー発信拠点にリニューアル",
-      "place": "渋谷区宇田川町",
-      "time": "报道所述变动日",
-      "price": "不适用",
-      "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.shibukei.com/headline/20106/",
-      "source": "シブヤ経済新聞",
-      "category": "見る・遊ぶ",
-      "why": "老地方正在变成新玩法，具有明确的限时发现感",
-      "changeType": "discovery",
-      "attribution": "シブヤ経済新聞",
-      "objectType": "place"
+      "objectType": "exhibition",
+      "popularity": 0
     },
     {
       "id": "689ba124b362",
@@ -604,7 +586,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "松竹",
-      "objectType": "exhibition"
+      "objectType": "exhibition",
+      "popularity": 0
     },
     {
       "id": "74b1b035f7fa",
@@ -622,7 +605,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "いつかこの玉虫が鳴いた時に",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 1
     },
     {
       "id": "94bf6fca1cee",
@@ -640,7 +624,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "JAPAN BEST TV",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "9e06f173f9a9",
@@ -658,7 +643,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "『オールトの雲 ～天文台の大問題～』製作委員会",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 1
     },
     {
       "id": "b3df687f9e6d",
@@ -676,7 +662,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "10・Quatre",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "0c21fea40ff7",
@@ -694,7 +681,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "演劇団 周",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "682b31a2884f",
@@ -746,7 +734,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "パントマイム舞☆夢☆踏",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "301bcbf9c6b4",
@@ -764,7 +753,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "Tom's collection(808株式会社)",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 1
     },
     {
       "id": "4271abe25284",
@@ -782,7 +772,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "「呪怨 THE LIVE」製作委員会",
-      "objectType": "exhibition"
+      "objectType": "exhibition",
+      "popularity": 0
     },
     {
       "id": "e1e6d20eb51b",
@@ -800,7 +791,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "劇団ファミリア",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 7
     },
     {
       "id": "20e9788c80ea",
@@ -835,7 +827,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "早稲田大学演劇倶楽部",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "6d27b9ef93ab",
@@ -921,7 +914,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "早稲田大学演劇研究会",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "e1ba3f97bf03",
@@ -973,7 +967,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "ファントム座～Phantomeria",
-      "objectType": "exhibition"
+      "objectType": "exhibition",
+      "popularity": 0
     },
     {
       "id": "e684847d26f8",
@@ -991,7 +986,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "WAMproject",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 1
     },
     {
       "id": "74dddf893a69",
@@ -1130,7 +1126,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "ネコたん！パートナーズ",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "01ad108bd4c3",
@@ -1148,7 +1145,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "劇団つなぐ",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "2dcd1f83c44b",
@@ -1166,7 +1164,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "男肉 du Soleil",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "806b88ebca31",
@@ -1184,7 +1183,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "劇団森",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 0
     },
     {
       "id": "a25fa277578e",
@@ -1202,7 +1202,8 @@
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
       "attribution": "劇団円想者",
-      "objectType": "event"
+      "objectType": "event",
+      "popularity": 1
     },
     {
       "id": "2df4eba9a1e6",

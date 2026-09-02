@@ -103,7 +103,7 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    ，GitHub push 到 main 即自动部署，函数跑东京 hnd1（vercel.json）。构建是标准
    `next build`（vinext/Cloudflare 残留已于 2026-09-02 清掉）。
    三个 secrets（TURSO_×2、QUEUE_TOKEN）在 Vercel 项目环境变量里。
-   旧前台两页（`app/page.tsx` / `app/pool/page.tsx`）未替换，仍是全量铺开旧形态。
+   旧前台保留：首页 `app/page.tsx` 只按热度（popularity）挑 12 条，`/pool` 仍全量铺开（2026-09-02）。
 3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点）：874 条全部入 tags 表。
    新抓的候选再跑 `npm run tag-candidates` 即可增量补打。
    DeepSeek 的端点与 key 放在仓库 `.env.local`（gitignored，`tag-candidates.mjs` 自己加载），

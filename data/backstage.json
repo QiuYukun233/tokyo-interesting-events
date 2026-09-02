@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-01T16:54:03+09:00",
+  "updatedAt": "2026-09-02T18:23:20+09:00",
   "summary": {
     "total": 1224,
-    "pending": 871,
+    "pending": 862,
     "published": 138,
-    "rejected": 215,
+    "rejected": 224,
     "byType": [
       {
         "objectType": "activity",
@@ -24,7 +24,7 @@
       {
         "objectType": "event",
         "state": "pending",
-        "n": 370
+        "n": 361
       },
       {
         "objectType": "event",
@@ -34,7 +34,7 @@
       {
         "objectType": "event",
         "state": "rejected",
-        "n": 123
+        "n": 132
       },
       {
         "objectType": "exhibition",
@@ -124,24 +124,24 @@
         "n": 33
       },
       {
-        "source": "東京都立産業貿易センター 浜松町館",
+        "source": "おおたオープンファクトリー2025",
         "state": "pending",
-        "n": 32
+        "n": 27
       },
       {
         "source": "東京都立産業貿易センター 台東館",
         "state": "pending",
-        "n": 29
+        "n": 27
       },
       {
-        "source": "おおたオープンファクトリー2025",
+        "source": "東京都立産業貿易センター 浜松町館",
         "state": "pending",
         "n": 27
       },
       {
         "source": "My TOKYO",
         "state": "pending",
-        "n": 24
+        "n": 22
       },
       {
         "source": "東京都歴史文化財団 · 体験100",
@@ -150,6 +150,11 @@
       },
       {
         "source": "CoRich舞台芸術！",
+        "state": "rejected",
+        "n": 18
+      },
+      {
+        "source": "東京都立産業貿易センター 浜松町館",
         "state": "rejected",
         "n": 18
       },
@@ -164,9 +169,9 @@
         "n": 17
       },
       {
-        "source": "東京都立産業貿易センター 浜松町館",
+        "source": "My TOKYO",
         "state": "rejected",
-        "n": 13
+        "n": 12
       },
       {
         "source": "リアル脱出ゲーム吉祥寺店",
@@ -179,7 +184,7 @@
         "n": 11
       },
       {
-        "source": "My TOKYO",
+        "source": "東京都立産業貿易センター 台東館",
         "state": "rejected",
         "n": 10
       },
@@ -192,11 +197,6 @@
         "source": "東京ミステリーサーカス",
         "state": "pending",
         "n": 9
-      },
-      {
-        "source": "東京都立産業貿易センター 台東館",
-        "state": "rejected",
-        "n": 8
       },
       {
         "source": "早稲田大学",
@@ -1149,33 +1149,6 @@
           "firstSeenAt": "2026-08-28T07:27:01.439Z"
         },
         {
-          "id": "1ef4647611ae",
-          "startDate": "2026-08-26",
-          "endDate": "2026-09-01",
-          "title": "十五番街のマリー",
-          "titleZh": "十五番街のマリー",
-          "place": "雑遊",
-          "time": "详见场次",
-          "price": "3,500円 ～ 5,200円",
-          "vibe": "艺术现场",
-          "color": "#ef5b3f",
-          "symbol": "✦",
-          "sourceUrl": "https://stage.corich.jp/stage/454208",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "PLAYIN-be playful people IN-",
-          "objectType": "event",
-          "state": "rejected",
-          "decidedBy": "human",
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
           "id": "2d51afbd0c65",
           "startDate": "2026-08-28",
           "endDate": "2026-09-02",
@@ -1192,6 +1165,7 @@
           "category": "舞台・演劇",
           "attribution": "TYプロモーション",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -1656,32 +1630,7 @@
           "category": "舞台・演劇",
           "attribution": "吉田翔吾ひとり芝居 EGG 製作委員会",
           "objectType": "event",
-          "state": "rejected",
-          "decidedBy": "human",
-          "reasons": [
-            "signal:theater"
-          ],
-          "signals": [
-            "signal:theater"
-          ],
-          "firstSeenAt": "2026-08-28T06:31:33.045Z"
-        },
-        {
-          "id": "556a05666f4a",
-          "startDate": "2026-09-01",
-          "title": "太宰治ワールド 語り競演",
-          "titleZh": "太宰治ワールド 語り競演",
-          "place": "シアターX",
-          "time": "详见活动页",
-          "price": "3,500円 ～ 3,500円",
-          "vibe": "艺术现场",
-          "color": "#ef5b3f",
-          "symbol": "✦",
-          "sourceUrl": "https://stage.corich.jp/stage/481269",
-          "source": "CoRich舞台芸術！",
-          "category": "舞台・演劇",
-          "attribution": "有馬銅鑼魔",
-          "objectType": "event",
+          "popularity": 0,
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
@@ -1709,6 +1658,7 @@
           "category": "舞台・演劇",
           "attribution": "友池創作プロジェクト",
           "objectType": "event",
+          "popularity": 5,
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
@@ -1736,6 +1686,7 @@
           "category": "舞台・演劇",
           "attribution": "カガミ想馬プロデュース",
           "objectType": "event",
+          "popularity": 0,
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
@@ -1787,6 +1738,7 @@
           "category": "舞台・演劇",
           "attribution": "Ｋトゥエンティワン",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -1816,6 +1768,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団ヨロタミ",
           "objectType": "event",
+          "popularity": 12,
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
@@ -1843,6 +1796,7 @@
           "category": "舞台・演劇",
           "attribution": "いつかこの玉虫が鳴いた時に",
           "objectType": "event",
+          "popularity": 1,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -1870,6 +1824,7 @@
           "category": "舞台・演劇",
           "attribution": "Red Frame Factory赤枠工場",
           "objectType": "event",
+          "popularity": 0,
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
@@ -1921,6 +1876,7 @@
           "category": "舞台・演劇",
           "attribution": "JAPAN BEST TV",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -1948,6 +1904,7 @@
           "category": "舞台・演劇",
           "attribution": "『オールトの雲 ～天文台の大問題～』製作委員会",
           "objectType": "event",
+          "popularity": 1,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -1975,6 +1932,7 @@
           "category": "舞台・演劇",
           "attribution": "ラビット番長",
           "objectType": "event",
+          "popularity": 16,
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
@@ -2028,6 +1986,7 @@
           "category": "舞台・演劇",
           "attribution": "10・Quatre",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -2055,6 +2014,7 @@
           "category": "舞台・演劇",
           "attribution": "Pカンパニー",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2082,6 +2042,7 @@
           "category": "舞台・演劇",
           "attribution": "爆走おとな小学生",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2133,6 +2094,7 @@
           "category": "舞台・演劇",
           "attribution": "ぴぴすとれっろ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2160,6 +2122,7 @@
           "category": "舞台・演劇",
           "attribution": "F.PROUP",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2187,6 +2150,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社ＧＥトラスト",
           "objectType": "event",
+          "popularity": 7,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2238,6 +2202,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団アルオレ！",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2265,6 +2230,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団1980",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2292,6 +2258,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇団 周",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -2320,6 +2287,7 @@
           "category": "舞台・演劇",
           "attribution": "よた",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2346,6 +2314,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社 アイエス",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2373,6 +2342,7 @@
           "category": "舞台・演劇",
           "attribution": "ワカバコーヒー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2400,6 +2370,7 @@
           "category": "舞台・演劇",
           "attribution": "東京二期会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2427,6 +2398,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社プレイヤーズエージェンシー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2454,6 +2426,7 @@
           "category": "舞台・演劇",
           "attribution": "ニッポン放送",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2481,6 +2454,7 @@
           "category": "舞台・演劇",
           "attribution": "明治大学シェイクスピアプロジェクト",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2508,6 +2482,7 @@
           "category": "舞台・演劇",
           "attribution": "人間嫌い",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2535,6 +2510,7 @@
           "category": "舞台・演劇",
           "attribution": "アナログスイッチ",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2589,6 +2565,7 @@
           "category": "舞台・演劇",
           "attribution": "diamond-Z",
           "objectType": "event",
+          "popularity": 10,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2617,6 +2594,7 @@
           "category": "舞台・演劇",
           "attribution": "蒼木陣",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2644,6 +2622,7 @@
           "category": "舞台・演劇",
           "attribution": "中央大学第二演劇研究会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2698,6 +2677,7 @@
           "category": "舞台・演劇",
           "attribution": "日本テレビ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2725,6 +2705,7 @@
           "category": "舞台・演劇",
           "attribution": "みちとさせ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2752,6 +2733,7 @@
           "category": "舞台・演劇",
           "attribution": "パントマイム舞☆夢☆踏",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -2808,6 +2790,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団活劇工房",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2837,6 +2820,7 @@
           "category": "舞台・演劇",
           "attribution": "Tom's collection(808株式会社)",
           "objectType": "event",
+          "popularity": 1,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -2864,6 +2848,7 @@
           "category": "舞台・演劇",
           "attribution": "oKUJoらんたん",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2891,6 +2876,7 @@
           "category": "舞台・演劇",
           "attribution": "Not in service",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2918,6 +2904,7 @@
           "category": "舞台・演劇",
           "attribution": "企画ろりろぜ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2945,6 +2932,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団art box",
           "objectType": "event",
+          "popularity": 7,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -2969,9 +2957,10 @@
           "sourceUrl": "https://www.my.metro.tokyo.lg.jp/w/029-20260626-260126689",
           "source": "My TOKYO",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "rule:not_a_destination",
           "reasons": [
+            "hard:career_event",
             "hard:recruiting"
           ],
           "signals": [],
@@ -3043,6 +3032,7 @@
           "category": "舞台・演劇",
           "attribution": "ミズタニ会議",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3070,6 +3060,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団ファミリア",
           "objectType": "event",
+          "popularity": 7,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -3097,6 +3088,7 @@
           "category": "舞台・演劇",
           "attribution": "神威少女パンク。",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3226,6 +3218,7 @@
           "category": "舞台・演劇",
           "attribution": "早稲田大学演劇倶楽部",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -3257,6 +3250,7 @@
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
+            "hard:career_event",
             "hard:recruiting"
           ],
           "signals": [
@@ -3308,10 +3302,10 @@
           "audience": "公開",
           "attribution": "株式会社ＴＹＬ",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "rule:not_a_destination",
           "reasons": [
-            "review:no_public_experience_signal"
+            "hard:career_event"
           ],
           "signals": [
             "signal:off_street"
@@ -3334,6 +3328,7 @@
           "category": "舞台・演劇",
           "attribution": "オフィス10",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3439,6 +3434,7 @@
           "category": "舞台・演劇",
           "attribution": "空晴",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3487,6 +3483,7 @@
           "category": "舞台・演劇",
           "attribution": "国立劇場",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3583,6 +3580,7 @@
           "category": "舞台・演劇",
           "attribution": "m sel.プロデュース",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3609,6 +3607,7 @@
           "category": "舞台・演劇",
           "attribution": "早稲田大学演劇研究会",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -3659,6 +3658,7 @@
           "category": "舞台・演劇",
           "attribution": "ACTRIUM",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3686,6 +3686,7 @@
           "category": "舞台・演劇",
           "attribution": "国立劇場",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3790,6 +3791,7 @@
           "category": "舞台・演劇",
           "attribution": "有限会社ティルト",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3841,6 +3843,7 @@
           "category": "舞台・演劇",
           "attribution": "カガミ想馬プロデュース",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3867,6 +3870,7 @@
           "category": "舞台・演劇",
           "attribution": "産経新聞社",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3921,6 +3925,7 @@
           "category": "舞台・演劇",
           "attribution": "流山児★事務所",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -3974,6 +3979,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団東京トライアングル",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4001,6 +4007,7 @@
           "category": "舞台・演劇",
           "attribution": "SFIDA ENTERTAINMENT",
           "objectType": "event",
+          "popularity": 6,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4028,6 +4035,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇企画アクタージュ",
           "objectType": "event",
+          "popularity": 7,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4054,6 +4062,7 @@
           "category": "舞台・演劇",
           "attribution": "大の会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4081,6 +4090,7 @@
           "category": "舞台・演劇",
           "attribution": "東京バレエ団",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4134,6 +4144,7 @@
           "category": "舞台・演劇",
           "attribution": "公益財団法人調布市文化・コミュニティ振興財団",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4161,6 +4172,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団いいのか・・・？",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4188,6 +4200,7 @@
           "category": "舞台・演劇",
           "attribution": "劇ユニット「タマかけるモノ」",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4237,6 +4250,7 @@
           "category": "舞台・演劇",
           "attribution": "極光グミ",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4263,6 +4277,7 @@
           "category": "舞台・演劇",
           "attribution": "国立劇場",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4290,6 +4305,7 @@
           "category": "舞台・演劇",
           "attribution": "アクト計画（株式会社バランス企画）",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4317,6 +4333,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団Please Mr.Maverick",
           "objectType": "event",
+          "popularity": 12,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4344,6 +4361,7 @@
           "category": "舞台・演劇",
           "attribution": "シヅマ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4371,6 +4389,7 @@
           "category": "舞台・演劇",
           "attribution": "BQMAP",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4398,6 +4417,7 @@
           "category": "舞台・演劇",
           "attribution": "道楽息子",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4425,6 +4445,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇ユニット とってお木",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4452,6 +4473,7 @@
           "category": "舞台・演劇",
           "attribution": "guizillen",
           "objectType": "event",
+          "popularity": 10,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4479,6 +4501,7 @@
           "category": "舞台・演劇",
           "attribution": "東京幻堂",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4506,6 +4529,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団くるめるシアター",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4534,6 +4558,7 @@
           "category": "舞台・演劇",
           "attribution": "Alexandrite Stage",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4561,6 +4586,7 @@
           "category": "舞台・演劇",
           "attribution": "ミュージカル座",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4588,6 +4614,7 @@
           "category": "舞台・演劇",
           "attribution": "知らない星",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4615,6 +4642,7 @@
           "category": "舞台・演劇",
           "attribution": "WAMproject",
           "objectType": "event",
+          "popularity": 1,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -4642,6 +4670,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団てあとろ50’",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4670,6 +4699,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団ナナメセン",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4697,6 +4727,7 @@
           "category": "舞台・演劇",
           "attribution": "中央大学第二演劇研究会",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4724,6 +4755,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社ＴＡＴＥ （東京本社事務局・第1制作部）",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4751,6 +4783,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団立見席",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4780,6 +4813,7 @@
           "category": "舞台・演劇",
           "attribution": "コラソンのあんよ企画",
           "objectType": "event",
+          "popularity": 5,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4807,6 +4841,7 @@
           "category": "舞台・演劇",
           "attribution": "AOI Pro.",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4834,6 +4869,7 @@
           "category": "舞台・演劇",
           "attribution": "演者集団 剣舞",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4861,6 +4897,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団東俳",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4888,6 +4925,7 @@
           "category": "舞台・演劇",
           "attribution": "トム・カンパニー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4915,6 +4953,7 @@
           "category": "舞台・演劇",
           "attribution": "あいだの部屋",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4942,6 +4981,7 @@
           "category": "舞台・演劇",
           "attribution": "きろの自由研究",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4969,6 +5009,7 @@
           "category": "舞台・演劇",
           "attribution": "カレンブリス",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -4996,6 +5037,7 @@
           "category": "舞台・演劇",
           "attribution": "東京雷電",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5023,6 +5065,7 @@
           "category": "舞台・演劇",
           "attribution": "ハイドロブラスト",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5050,6 +5093,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇ユニット Jolokia Honey",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5077,6 +5121,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社アイランズ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5104,6 +5149,7 @@
           "category": "舞台・演劇",
           "attribution": "早稲田大学劇団木霊",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5130,6 +5176,7 @@
           "category": "舞台・演劇",
           "attribution": "産経新聞社",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5157,6 +5204,7 @@
           "category": "舞台・演劇",
           "attribution": "東京大学芸能研究科（東大芸研）",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5184,6 +5232,7 @@
           "category": "舞台・演劇",
           "attribution": "学習院大学演劇部 少年イサム堂",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5212,6 +5261,7 @@
           "category": "舞台・演劇",
           "attribution": "セツコの豪遊",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5239,6 +5289,7 @@
           "category": "舞台・演劇",
           "attribution": "キョードーファクトリー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5265,6 +5316,7 @@
           "category": "舞台・演劇",
           "attribution": "国立劇場",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5295,7 +5347,7 @@
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
-            "review:no_public_experience_signal"
+            "hard:career_event"
           ],
           "signals": [
             "signal:off_street"
@@ -5345,6 +5397,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団ところば",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5372,6 +5425,7 @@
           "category": "舞台・演劇",
           "attribution": "TOKYO MET SaLaD MUSIC FESTIVAL[サラダ音楽祭]実行委員会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5401,6 +5455,7 @@
           "category": "舞台・演劇",
           "attribution": "セツコの豪遊",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5428,6 +5483,7 @@
           "category": "舞台・演劇",
           "attribution": "碗プロダクション",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5455,6 +5511,7 @@
           "category": "舞台・演劇",
           "attribution": "TOKYO MET SaLaD MUSIC FESTIVAL[サラダ音楽祭]実行委員会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5507,6 +5564,7 @@
           "category": "舞台・演劇",
           "attribution": "あち☆はちカーニバル",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5584,6 +5642,7 @@
           "category": "舞台・演劇",
           "attribution": "一般社団法人義太夫協会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5610,6 +5669,7 @@
           "category": "舞台・演劇",
           "attribution": "HAT",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5636,6 +5696,7 @@
           "category": "舞台・演劇",
           "attribution": "集金娘",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5662,6 +5723,7 @@
           "category": "舞台・演劇",
           "attribution": "全労済ホール/スペース・ゼロ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5691,6 +5753,7 @@
           "category": "舞台・演劇",
           "attribution": "ショーGEKI",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5718,6 +5781,7 @@
           "category": "舞台・演劇",
           "attribution": "渡辺源四郎商店",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5744,6 +5808,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団鳥獣戯画",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5771,6 +5836,7 @@
           "category": "舞台・演劇",
           "attribution": "吉本興業",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5872,6 +5938,7 @@
           "category": "舞台・演劇",
           "attribution": "遊在ライン",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5899,6 +5966,7 @@
           "category": "舞台・演劇",
           "attribution": "ネコたん！パートナーズ",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -5928,6 +5996,7 @@
           "category": "舞台・演劇",
           "attribution": "Mido Labo",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -5955,6 +6024,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団宇宙キャンパス",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6008,6 +6078,7 @@
           "category": "舞台・演劇",
           "attribution": "Mavolatory",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6035,6 +6106,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団 SUPER TAICHIMON",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6062,6 +6134,7 @@
           "category": "舞台・演劇",
           "attribution": "Theatre in Opposition （TiO）",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6089,6 +6162,7 @@
           "category": "舞台・演劇",
           "attribution": "P.S.Goodrag",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6140,6 +6214,7 @@
           "category": "舞台・演劇",
           "attribution": "いいいのいー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6167,6 +6242,7 @@
           "category": "舞台・演劇",
           "attribution": "盆栽サイダー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6194,6 +6270,7 @@
           "category": "舞台・演劇",
           "attribution": "ことほぎ堂",
           "objectType": "event",
+          "popularity": 4,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6221,6 +6298,7 @@
           "category": "舞台・演劇",
           "attribution": "H.I.J stage",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6248,6 +6326,7 @@
           "category": "舞台・演劇",
           "attribution": "３/３姉妹",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6275,6 +6354,7 @@
           "category": "舞台・演劇",
           "attribution": "オペラシアターこんにゃく座",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6302,6 +6382,7 @@
           "category": "舞台・演劇",
           "attribution": "日本大学芸術学部演劇学科 令和８年度 総合実習ⅠD （演劇）",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6329,6 +6410,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団つなぐ",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -6357,10 +6439,10 @@
           "audience": "公開",
           "attribution": "株式会社アクセスネクステージ",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "rule:not_a_destination",
           "reasons": [
-            "review:no_public_experience_signal"
+            "hard:career_event"
           ],
           "signals": [
             "signal:off_street"
@@ -6384,6 +6466,7 @@
           "category": "舞台・演劇",
           "attribution": "男肉 du Soleil",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -6412,6 +6495,7 @@
           "category": "舞台・演劇",
           "attribution": "岡本セキユ☆シングル芝居",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6439,6 +6523,7 @@
           "category": "舞台・演劇",
           "attribution": "立川小春志",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6466,6 +6551,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団森",
           "objectType": "event",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -6494,6 +6580,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団生命座",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6521,6 +6608,7 @@
           "category": "舞台・演劇",
           "attribution": "遊戯空間",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6548,6 +6636,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団ばんぶるびぃ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6575,6 +6664,7 @@
           "category": "舞台・演劇",
           "attribution": "CBGKシブゲキ!!",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6601,6 +6691,7 @@
           "category": "舞台・演劇",
           "attribution": "桃花らくご制作委員会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6628,6 +6719,7 @@
           "category": "舞台・演劇",
           "attribution": "ギ式",
           "objectType": "event",
+          "popularity": 4,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6656,6 +6748,7 @@
           "category": "舞台・演劇",
           "attribution": "エビスSTARバー×studio4093×劇団禄盟漢",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6682,6 +6775,7 @@
           "category": "舞台・演劇",
           "attribution": "オフィス10",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6759,6 +6853,7 @@
           "category": "舞台・演劇",
           "attribution": "カムチル演劇部",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6786,6 +6881,7 @@
           "category": "舞台・演劇",
           "attribution": "お芝居やさん鈴木KE企画カンパニー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6813,6 +6909,7 @@
           "category": "舞台・演劇",
           "attribution": "制作「山口ちはる」プロデュース",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6894,6 +6991,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団円想者",
           "objectType": "event",
+          "popularity": 1,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -6922,6 +7020,7 @@
           "category": "舞台・演劇",
           "attribution": "怪奇月蝕キヲテラエ",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -6949,6 +7048,7 @@
           "category": "舞台・演劇",
           "attribution": "NPO法人調布市民オペラ振興会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7053,6 +7153,7 @@
           "category": "舞台・演劇",
           "attribution": "夢空間",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7136,6 +7237,7 @@
           "category": "舞台・演劇",
           "attribution": "フェアリーテイルシアター",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7163,6 +7265,7 @@
           "category": "舞台・演劇",
           "attribution": "ユニット・ノイマン",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7239,6 +7342,7 @@
           "category": "舞台・演劇",
           "attribution": "クロキキカク",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7265,6 +7369,7 @@
           "category": "舞台・演劇",
           "attribution": "東京都／東京文化会館（公益財団法人東京都歴史文化財団）",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7292,6 +7397,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団まほろば",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7319,6 +7425,7 @@
           "category": "舞台・演劇",
           "attribution": "桜美林大学ミュージカルOPAL2026",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7346,6 +7453,7 @@
           "category": "舞台・演劇",
           "attribution": "渡辺源四郎商店",
           "objectType": "event",
+          "popularity": 3,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7399,6 +7507,7 @@
           "category": "舞台・演劇",
           "attribution": "夢空間",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7426,6 +7535,7 @@
           "category": "舞台・演劇",
           "attribution": "住に",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7476,6 +7586,7 @@
           "category": "舞台・演劇",
           "attribution": "児童劇団「大きな夢」",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7503,6 +7614,7 @@
           "category": "舞台・演劇",
           "attribution": "東京演劇アンサンブル",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7530,6 +7642,7 @@
           "category": "舞台・演劇",
           "attribution": "Team337",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7556,6 +7669,7 @@
           "category": "舞台・演劇",
           "attribution": "トッテヲキガールズ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7583,6 +7697,7 @@
           "category": "舞台・演劇",
           "attribution": "やまじゅう",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7609,6 +7724,7 @@
           "category": "舞台・演劇",
           "attribution": "娯楽百貨",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7636,6 +7752,7 @@
           "category": "舞台・演劇",
           "attribution": "Little Voice LIFE+L",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7686,6 +7803,7 @@
           "category": "舞台・演劇",
           "attribution": "冬夏株式会社",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7712,6 +7830,7 @@
           "category": "舞台・演劇",
           "attribution": "CLAPORA works",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7738,6 +7857,7 @@
           "category": "舞台・演劇",
           "attribution": "娯楽百貨",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7818,6 +7938,7 @@
           "category": "舞台・演劇",
           "attribution": "Pasona Awaji World Ballet",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7845,6 +7966,7 @@
           "category": "舞台・演劇",
           "attribution": "タテヨコ企画",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7898,6 +8020,7 @@
           "category": "舞台・演劇",
           "attribution": "MORINE’",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7925,6 +8048,7 @@
           "category": "舞台・演劇",
           "attribution": "スタジオフィオレ",
           "objectType": "event",
+          "popularity": 8,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -7979,6 +8103,7 @@
           "category": "舞台・演劇",
           "attribution": "FREE(S)",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8005,6 +8130,7 @@
           "category": "舞台・演劇",
           "attribution": "グレーテル座",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8032,6 +8158,7 @@
           "category": "舞台・演劇",
           "attribution": "天華楽喜",
           "objectType": "event",
+          "popularity": 3,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8059,6 +8186,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団フライングステージ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8086,6 +8214,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団えのぐ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8113,6 +8242,7 @@
           "category": "舞台・演劇",
           "attribution": "創作集団ゴゴ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8140,6 +8270,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団銅鑼",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8171,6 +8302,7 @@
           "state": "rejected",
           "decidedBy": "rule:not_open_to_public",
           "reasons": [
+            "hard:career_event",
             "hard:recruiting"
           ],
           "signals": [
@@ -8195,6 +8327,7 @@
           "category": "舞台・演劇",
           "attribution": "weekly everyday",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8222,6 +8355,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇ユニットCorneliusCockBlue(s)",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8249,6 +8383,7 @@
           "category": "舞台・演劇",
           "attribution": "明治大学実験劇場",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8300,6 +8435,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団だばし",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8330,7 +8466,7 @@
           "state": "rejected",
           "decidedBy": "rule:not_open_to_public",
           "reasons": [
-            "review:no_public_experience_signal"
+            "hard:career_event"
           ],
           "signals": [
             "signal:off_street"
@@ -8354,6 +8490,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇集団ふれる～じゅ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8381,6 +8518,7 @@
           "category": "舞台・演劇",
           "attribution": "明治大学ミュージカル研究会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8408,6 +8546,7 @@
           "category": "舞台・演劇",
           "attribution": "みやすいアヒル館",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8434,6 +8573,7 @@
           "category": "舞台・演劇",
           "attribution": "夢空間",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8484,6 +8624,7 @@
           "category": "舞台・演劇",
           "attribution": "夢空間",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8512,6 +8653,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇ユニットアイオライト",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8566,6 +8708,7 @@
           "category": "舞台・演劇",
           "attribution": "sounule",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8593,6 +8736,7 @@
           "category": "舞台・演劇",
           "attribution": "おしばゐかんぱにヰ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8619,6 +8763,7 @@
           "category": "舞台・演劇",
           "attribution": "夢空間",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8646,6 +8791,7 @@
           "category": "舞台・演劇",
           "attribution": "ねこMam-MA",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8673,6 +8819,7 @@
           "category": "舞台・演劇",
           "attribution": "READING HIGH",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8723,6 +8870,7 @@
           "category": "舞台・演劇",
           "attribution": "ロ上派",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8750,6 +8898,7 @@
           "category": "舞台・演劇",
           "attribution": "たまるば",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8777,6 +8926,7 @@
           "category": "舞台・演劇",
           "attribution": "ウチュウ日和",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8856,6 +9006,7 @@
           "category": "舞台・演劇",
           "attribution": "日本女子体育大学ダンスプロデュース研究部",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8883,6 +9034,7 @@
           "category": "舞台・演劇",
           "attribution": "東宝",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8937,6 +9089,7 @@
           "category": "舞台・演劇",
           "attribution": "NPO法人LAND FES",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -8964,6 +9117,7 @@
           "category": "舞台・演劇",
           "attribution": "スロープ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9020,6 +9174,7 @@
           "category": "舞台・演劇",
           "attribution": "システマ・アンジェリカ",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9047,6 +9202,7 @@
           "category": "舞台・演劇",
           "attribution": "公益財団法人三鷹市スポーツと文化財団",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9074,10 +9230,10 @@
           "audience": "公開",
           "attribution": "株式会社アルバイトタイムス",
           "objectType": "event",
-          "state": "pending",
-          "decidedBy": null,
+          "state": "rejected",
+          "decidedBy": "rule:not_a_destination",
           "reasons": [
-            "review:no_public_experience_signal"
+            "hard:career_event"
           ],
           "signals": [
             "signal:off_street"
@@ -9100,6 +9256,7 @@
           "category": "舞台・演劇",
           "attribution": "公益財団法人三鷹市スポーツと文化財団",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9126,6 +9283,7 @@
           "category": "舞台・演劇",
           "attribution": "銕仙会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9152,6 +9310,7 @@
           "category": "舞台・演劇",
           "attribution": "ラテラルサークル",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9178,6 +9337,7 @@
           "category": "舞台・演劇",
           "attribution": "公益財団法人調布市文化・コミュニティ振興財団",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9206,6 +9366,7 @@
           "category": "舞台・演劇",
           "attribution": "パイレーツ・オブ・東京湾",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9232,6 +9393,7 @@
           "category": "舞台・演劇",
           "attribution": "公益財団法人調布市文化・コミュニティ振興財団",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9258,6 +9420,7 @@
           "category": "舞台・演劇",
           "attribution": "銕仙会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9284,6 +9447,7 @@
           "category": "舞台・演劇",
           "attribution": "万作の会",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9311,6 +9475,7 @@
           "category": "舞台・演劇",
           "attribution": "イマにヒとコへ(え)",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9338,6 +9503,7 @@
           "category": "舞台・演劇",
           "attribution": "ハツビロコウ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9364,6 +9530,7 @@
           "category": "舞台・演劇",
           "attribution": "キョードーファクトリー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9391,6 +9558,7 @@
           "category": "舞台・演劇",
           "attribution": "POCCOPUBRE/BOOT",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9418,6 +9586,7 @@
           "category": "舞台・演劇",
           "attribution": "平石耕一事務所",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9445,6 +9614,7 @@
           "category": "舞台・演劇",
           "attribution": "ガラ劇",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9472,6 +9642,7 @@
           "category": "舞台・演劇",
           "attribution": "あこのありが豆腐",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9523,6 +9694,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇集団Ｆｌａ９ｓ",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9574,6 +9746,7 @@
           "category": "舞台・演劇",
           "attribution": "T1project",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9602,6 +9775,7 @@
           "category": "舞台・演劇",
           "attribution": "壱人前企画",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9629,6 +9803,7 @@
           "category": "舞台・演劇",
           "attribution": "CROWNS",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9655,6 +9830,7 @@
           "category": "舞台・演劇",
           "attribution": "のんき計画",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9706,6 +9882,7 @@
           "category": "舞台・演劇",
           "attribution": "ViStar PRODUCE",
           "objectType": "event",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9733,6 +9910,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団虚幻癖",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9762,6 +9940,7 @@
           "category": "舞台・演劇",
           "attribution": "T-gene stage",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9789,6 +9968,7 @@
           "category": "舞台・演劇",
           "attribution": "ド・パールシム",
           "objectType": "event",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9816,6 +9996,7 @@
           "category": "舞台・演劇",
           "attribution": "Newsical",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9843,6 +10024,7 @@
           "category": "舞台・演劇",
           "attribution": "けろけろプロデュース",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9870,6 +10052,7 @@
           "category": "舞台・演劇",
           "attribution": "東京レビュー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9923,6 +10106,7 @@
           "category": "舞台・演劇",
           "attribution": "こわっぱちゃん家",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9950,6 +10134,7 @@
           "category": "舞台・演劇",
           "attribution": "演じゆう",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -9977,6 +10162,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団テアトル・エコー",
           "objectType": "event",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -10005,6 +10191,7 @@
           "category": "舞台・演劇",
           "attribution": "あひるなんちゃら",
           "objectType": "event",
+          "popularity": 4,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -11544,6 +11731,7 @@
           "state": "rejected",
           "decidedBy": "human",
           "reasons": [
+            "hard:career_event",
             "hard:recruiting"
           ],
           "signals": [],
@@ -12017,6 +12205,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団四季",
           "objectType": "exhibition",
+          "popularity": 14,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12044,6 +12233,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団四季",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12071,6 +12261,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団四季",
           "objectType": "exhibition",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12124,6 +12315,7 @@
           "category": "舞台・演劇",
           "attribution": "DAZZLE",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12151,6 +12343,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団四季",
           "objectType": "exhibition",
+          "popularity": 15,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12178,6 +12371,7 @@
           "category": "舞台・演劇",
           "attribution": "集金娘",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12205,6 +12399,7 @@
           "category": "舞台・演劇",
           "attribution": "ネルケプランニング",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12232,6 +12427,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団demodemo",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12571,6 +12767,7 @@
           "category": "舞台・演劇",
           "attribution": "宝塚歌劇団",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12652,6 +12849,7 @@
           "category": "舞台・演劇",
           "attribution": "ウラダイコク",
           "objectType": "exhibition",
+          "popularity": 6,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12680,6 +12878,7 @@
           "category": "舞台・演劇",
           "attribution": "東宝",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12707,6 +12906,7 @@
           "category": "舞台・演劇",
           "attribution": "パルコ・プロデュース",
           "objectType": "exhibition",
+          "popularity": 4,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12734,6 +12934,7 @@
           "category": "舞台・演劇",
           "attribution": "スズキプロジェクトバージョンファイブ",
           "objectType": "exhibition",
+          "popularity": 5,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12761,6 +12962,7 @@
           "category": "舞台・演劇",
           "attribution": "FREE(S)",
           "objectType": "exhibition",
+          "popularity": 8,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12788,6 +12990,7 @@
           "category": "舞台・演劇",
           "attribution": "キョードー東京",
           "objectType": "exhibition",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12815,6 +13018,7 @@
           "category": "舞台・演劇",
           "attribution": "舞台「ダンダダン」製作委員会",
           "objectType": "exhibition",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -12869,6 +13073,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇集団アトリエッジ",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13002,6 +13207,7 @@
           "category": "舞台・演劇",
           "attribution": "カンムリプロデュース",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13056,6 +13262,7 @@
           "category": "舞台・演劇",
           "attribution": "Bunkamura",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13109,6 +13316,7 @@
           "category": "舞台・演劇",
           "attribution": "剣劇「三國志演技～曹魏」製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13136,6 +13344,7 @@
           "category": "舞台・演劇",
           "attribution": "三栄町LIVE",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -13187,6 +13396,7 @@
           "category": "舞台・演劇",
           "attribution": "conSept",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13214,6 +13424,7 @@
           "category": "舞台・演劇",
           "attribution": "松竹",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -13241,6 +13452,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団道学先生",
           "objectType": "exhibition",
+          "popularity": 3,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13268,6 +13480,7 @@
           "category": "舞台・演劇",
           "attribution": "メトロンズ",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13295,6 +13508,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社NLT",
           "objectType": "exhibition",
+          "popularity": 25,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13403,6 +13617,7 @@
           "category": "舞台・演劇",
           "attribution": "オーガミッツ",
           "objectType": "exhibition",
+          "popularity": 15,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13430,6 +13645,7 @@
           "category": "舞台・演劇",
           "attribution": "「呪怨 THE LIVE」製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -13457,6 +13673,7 @@
           "category": "舞台・演劇",
           "attribution": "NHKエンタープライズ",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13484,6 +13701,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団アレン座",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13511,6 +13729,7 @@
           "category": "舞台・演劇",
           "attribution": "テレビ朝日／STARTO ENTERTAINMENT",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13538,6 +13757,7 @@
           "category": "舞台・演劇",
           "attribution": "梅田芸術劇場",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13591,6 +13811,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団青年座",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13618,6 +13839,7 @@
           "category": "舞台・演劇",
           "attribution": "フェアリーテイルシアター",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13673,6 +13895,7 @@
           "category": "舞台・演劇",
           "attribution": "avenir'e",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13700,6 +13923,7 @@
           "category": "舞台・演劇",
           "attribution": "ナイロン100℃",
           "objectType": "exhibition",
+          "popularity": 3,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13751,6 +13975,7 @@
           "category": "舞台・演劇",
           "attribution": "東宝/テレビ朝日",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13778,6 +14003,7 @@
           "category": "舞台・演劇",
           "attribution": "ホリプロ",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13805,6 +14031,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団papercraft",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13832,6 +14059,7 @@
           "category": "舞台・演劇",
           "attribution": "松竹芸能",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13859,6 +14087,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団俳優座",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13886,6 +14115,7 @@
           "category": "舞台・演劇",
           "attribution": "東宝／ワタナベエンターテインメント",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13965,6 +14195,7 @@
           "category": "舞台・演劇",
           "attribution": "クロムモリシタン",
           "objectType": "exhibition",
+          "popularity": 5,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -13992,6 +14223,7 @@
           "category": "舞台・演劇",
           "attribution": "大森カンパニー",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14075,6 +14307,7 @@
           "category": "舞台・演劇",
           "attribution": "ファントム座～Phantomeria",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "published",
           "decidedBy": "human",
           "reasons": [
@@ -14129,6 +14362,7 @@
           "category": "舞台・演劇",
           "attribution": "宝塚歌劇団",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14182,6 +14416,7 @@
           "category": "舞台・演劇",
           "attribution": "国立劇場",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14209,6 +14444,7 @@
           "category": "舞台・演劇",
           "attribution": "秋田雨雀・土方与志記念 青年劇場",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14236,6 +14472,7 @@
           "category": "舞台・演劇",
           "attribution": "生ワ松ト剛腕",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14263,6 +14500,7 @@
           "category": "舞台・演劇",
           "attribution": "「多聞くん今どっち！？」THE STAGE製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14290,6 +14528,7 @@
           "category": "舞台・演劇",
           "attribution": "日本テレビ",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14317,6 +14556,7 @@
           "category": "舞台・演劇",
           "attribution": "ニッポン放送",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14373,6 +14613,7 @@
           "category": "舞台・演劇",
           "attribution": "宝塚歌劇団",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14454,6 +14695,7 @@
           "category": "舞台・演劇",
           "attribution": "THE CONVOY",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14481,6 +14723,7 @@
           "category": "舞台・演劇",
           "attribution": "座・高円寺",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14508,6 +14751,7 @@
           "category": "舞台・演劇",
           "attribution": "座・高円寺レパートリー",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14563,6 +14807,7 @@
           "category": "舞台・演劇",
           "attribution": "明治座",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14590,6 +14835,7 @@
           "category": "舞台・演劇",
           "attribution": "E-Stage Topia",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14695,6 +14941,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社Ask",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14749,6 +14996,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団「忍たま乱太郎」長屋物語 製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14881,6 +15129,7 @@
           "category": "舞台・演劇",
           "attribution": "チームENNCHi",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14909,6 +15158,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団バルスキッチン",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -14936,6 +15186,7 @@
           "category": "舞台・演劇",
           "attribution": "dopeⒶdope",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15171,6 +15422,7 @@
           "category": "舞台・演劇",
           "attribution": "舞台「怪物事変」東京編製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15198,6 +15450,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団ココア",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15254,6 +15507,7 @@
           "category": "舞台・演劇",
           "attribution": "おぶちゃ",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15281,6 +15535,7 @@
           "category": "舞台・演劇",
           "attribution": "「スクラップ アンド コーラス」製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15308,6 +15563,7 @@
           "category": "舞台・演劇",
           "attribution": "ジグジグ・ストロングシープス・グランドロマン",
           "objectType": "exhibition",
+          "popularity": 5,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15335,6 +15591,7 @@
           "category": "舞台・演劇",
           "attribution": "かわいいコンビニ店員 飯田さん",
           "objectType": "exhibition",
+          "popularity": 3,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15362,6 +15619,7 @@
           "category": "舞台・演劇",
           "attribution": "ジグジグ・ストロングシープス・グランドロマン",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15389,6 +15647,7 @@
           "category": "舞台・演劇",
           "attribution": "ペコポン侵略ミュージカル『ケロロ軍曹』製作委員会であります。",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15417,6 +15676,7 @@
           "category": "舞台・演劇",
           "attribution": "「新サクラ大戦 the Stage ～誠伝 TSURUGI～」 製作委員会2026",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15444,6 +15704,7 @@
           "category": "舞台・演劇",
           "attribution": "ジグジグ・ストロングシープス・グランドロマン",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15471,6 +15732,7 @@
           "category": "舞台・演劇",
           "attribution": "プロジェクトラブライブ！スクールアイドルミュージカル / バンダイナムコフィルムワークス / バンダイナムコミュージックライブ / アークスインターナショナル",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15498,6 +15760,7 @@
           "category": "舞台・演劇",
           "attribution": "パルコ・プロデュース",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15525,6 +15788,7 @@
           "category": "舞台・演劇",
           "attribution": "進戯団 夢命クラシックス",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15552,6 +15816,7 @@
           "category": "舞台・演劇",
           "attribution": "「TIGER & BUNNY」THE STAGE製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15579,6 +15844,7 @@
           "category": "舞台・演劇",
           "attribution": "株式会社World Code",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15606,6 +15872,7 @@
           "category": "舞台・演劇",
           "attribution": "演劇集団円",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15633,6 +15900,7 @@
           "category": "舞台・演劇",
           "attribution": "Kバレエカンパニー",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15686,6 +15954,7 @@
           "category": "舞台・演劇",
           "attribution": "世田谷パブリックシアター",
           "objectType": "exhibition",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15713,6 +15982,7 @@
           "category": "舞台・演劇",
           "attribution": "東京芸術劇場（公益財団法人東京都歴史文化財団）",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15740,6 +16010,7 @@
           "category": "舞台・演劇",
           "attribution": "東宝",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15848,6 +16119,7 @@
           "category": "舞台・演劇",
           "attribution": "SP/ACE=project",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15875,6 +16147,7 @@
           "category": "舞台・演劇",
           "attribution": "月波兎",
           "objectType": "exhibition",
+          "popularity": 3,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15902,6 +16175,7 @@
           "category": "舞台・演劇",
           "attribution": "30-DELUX",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15929,6 +16203,7 @@
           "category": "舞台・演劇",
           "attribution": "ONEOR8",
           "objectType": "exhibition",
+          "popularity": 5,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15956,6 +16231,7 @@
           "category": "舞台・演劇",
           "attribution": "劇団民藝",
           "objectType": "exhibition",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -15983,6 +16259,7 @@
           "category": "舞台・演劇",
           "attribution": "東京グローブ座",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -16010,6 +16287,7 @@
           "category": "舞台・演劇",
           "attribution": "パルコ・プロデュース",
           "objectType": "exhibition",
+          "popularity": 2,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -16066,6 +16344,7 @@
           "category": "舞台・演劇",
           "attribution": "テレビ朝日／サンライズプロモーション東京",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -16119,6 +16398,7 @@
           "category": "舞台・演劇",
           "attribution": "TBS",
           "objectType": "exhibition",
+          "popularity": 1,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -16304,6 +16584,7 @@
           "category": "舞台・演劇",
           "attribution": "国立劇場",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -16331,6 +16612,7 @@
           "category": "舞台・演劇",
           "attribution": "舞台『ブルーロック』5th STAGE製作委員会",
           "objectType": "exhibition",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [
@@ -27313,32 +27595,6 @@
           "firstSeenAt": "2026-08-29T16:54:32.054Z"
         },
         {
-          "id": "7e06c2e6b140",
-          "startDate": "2026-09-01",
-          "title": "パルコの映画館「シネクイント」、映像カルチャー発信拠点にリニューアル",
-          "titleZh": "パルコの映画館「シネクイント」、映像カルチャー発信拠点にリニューアル",
-          "place": "渋谷区宇田川町",
-          "time": "报道所述变动日",
-          "price": "不适用",
-          "vibe": "艺术现场",
-          "color": "#3d66f5",
-          "symbol": "◒",
-          "sourceUrl": "https://www.shibukei.com/headline/20106/",
-          "source": "シブヤ経済新聞",
-          "category": "見る・遊ぶ",
-          "why": "老地方正在变成新玩法，具有明确的限时发现感",
-          "changeType": "discovery",
-          "attribution": "シブヤ経済新聞",
-          "objectType": "place",
-          "state": "published",
-          "decidedBy": "legacy",
-          "reasons": [
-            "review:no_public_experience_signal"
-          ],
-          "signals": [],
-          "firstSeenAt": "2026-08-27T18:20:11.801Z"
-        },
-        {
           "id": "7edc507ca8f8",
           "startDate": "2026-09-01",
           "title": "YOSHIMOTO ROPPONGI THEATER",
@@ -28321,6 +28577,7 @@
           "category": "舞台・演劇",
           "attribution": "沢入国際サーカス学校＆コントーションスタジオ・ノガラ",
           "objectType": "open_facility",
+          "popularity": 0,
           "state": "pending",
           "decidedBy": null,
           "reasons": [

@@ -9,6 +9,11 @@ type EventItem = (typeof eventData.events)[number];
 // filter to reach them.
 const vibes = [...new Set(eventData.events.map((event) => event.vibe))].filter(Boolean).sort();
 const filters = ['全部', '今晚', '本周末', ...vibes];
+// The home page is a shortlist, not the catalogue: the hottest few by
+// source-reported interest, ties broken by soonest start. /pool has everything.
+const HOME_PICKS = 12;
+const byHeat = (a: EventItem, b: EventItem) =>
+  (b.popularity ?? 0) - (a.popularity ?? 0) || a.startDate.localeCompare(b.startDate);
 
 function dayMeta(date: string) {
   const value = new Date(`${date}T12:00:00+09:00`);
@@ -31,7 +36,9 @@ export default function Home() {
   const [saved, setSaved] = useState<string[]>([]);
   const [joining, setJoining] = useState<EventItem | null>(null);
   const [joined, setJoined] = useState<string[]>([]);
-  const visible = useMemo(() => eventData.events.filter((event) => matchesDate(event, filter)), [filter]);
+  const visible = useMemo(
+    () => eventData.events.filter((event) => matchesDate(event, filter)).sort(byHeat).slice(0, HOME_PICKS),
+    [filter]);
 
   function submitJoin(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -53,7 +60,7 @@ export default function Home() {
       </section>
       <section className="ticker" aria-label="站点特点"><div>NO MEETUP SMALL TALK <b>✦</b> 只用一件有趣的事开始认识 <b>✦</b> UPDATED EVERY DAY <b>✦</b> NO MEETUP SMALL TALK</div></section>
       <section className="events-section" id="events">
-        <div className="section-heading"><div><p className="section-kicker">CURATED THIS WEEK</p><h2>这周，去点不一样的。</h2></div><p className="update-note"><i /> {eventData.updatedAtLabel} 更新<br /><span>官方来源 + 人工精选</span></p></div>
+        <div className="section-heading"><div><p className="section-kicker">CURATED THIS WEEK</p><h2>这周，去点不一样的。</h2></div><p className="update-note"><i /> {eventData.updatedAtLabel} 更新<br /><span>按热度挑 {HOME_PICKS} 条 · <a href="/pool">看全部 {eventData.events.length} 条 →</a></span></p></div>
         <div className="filters" aria-label="筛选活动">{filters.map((item) => <button key={item} className={filter === item ? 'active' : ''} onClick={() => setFilter(item)}>{item}</button>)}</div>
         {visible.length === 0 ? <div className="empty"><b>这格暂时空着。</b><span>换个口味看看，更新机器人今晚还会再来。</span></div> : null}
         <div className="event-grid">
