@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-02T22:13:13+09:00",
-  "updatedAtLabel": "今日 22:13",
+  "updatedAt": "2026-09-03T09:06:49+09:00",
+  "updatedAtLabel": "今日 09:06",
   "sourceStatus": [
     {
       "name": "My TOKYO",
@@ -14,8 +14,9 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -95,7 +96,7 @@
     {
       "name": "CoRich舞台芸術！",
       "ok": true,
-      "count": 351
+      "count": 359
     },
     {
       "name": "スポーツエントリー",
@@ -110,7 +111,7 @@
     {
       "name": "阿佐ヶ谷ロフトA",
       "ok": true,
-      "count": 50
+      "count": 49
     },
     {
       "name": "LOFT9 Shibuya",
@@ -120,7 +121,7 @@
     {
       "name": "Rock Cafe Loft",
       "ok": true,
-      "count": 39
+      "count": 40
     },
     {
       "name": "えん食べ",
@@ -297,23 +298,6 @@
       "sourceUrl": "https://realdgame.jp/s/space-museum/",
       "source": "リアル脱出ゲーム吉祥寺店",
       "category": "脱出ゲーム・謎解き",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "472936376dc6",
-      "startDate": "2026-08-03",
-      "endDate": "2026-09-02",
-      "title": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-      "titleZh": "2026年度HTAエキスパート養成プログラム アドバンストコース受講生募集",
-      "place": "オンライン",
-      "time": "详见活动页",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0116_00035.html",
-      "source": "東京大学",
-      "audience": "オンライン",
       "objectType": "exhibition"
     },
     {
@@ -639,8 +623,8 @@
       "time": "详见场次",
       "price": "3,500円 ～ 5,000円",
       "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://stage.corich.jp/stage/488759",
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
@@ -658,8 +642,8 @@
       "time": "详见场次",
       "price": "7,000円 ～ 9,000円",
       "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#d6a72d",
+      "symbol": "●",
       "sourceUrl": "https://stage.corich.jp/stage/482556",
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
@@ -684,7 +668,7 @@
       "category": "舞台・演劇",
       "attribution": "『オールトの雲 ～天文台の大問題～』製作委員会",
       "objectType": "event",
-      "popularity": 1
+      "popularity": 2
     },
     {
       "id": "b3df687f9e6d",
