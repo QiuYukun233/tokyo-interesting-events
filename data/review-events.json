@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T00:27:46+09:00",
+  "updatedAt": "2026-09-07T07:12:43+09:00",
   "sourceStatus": [
     {
       "name": "JR-Cross",
@@ -118,7 +118,7 @@
     {
       "name": "CoRich舞台芸術！",
       "ok": true,
-      "count": 342,
+      "count": 343,
       "pages": 36
     },
     {
@@ -6525,7 +6525,7 @@
         "source": "スポーツエントリー",
         "category": "マラソン・ランニング",
         "description": "报名期 2026-03-27 〜 2026-09-07｜5Km · 周回コース · アップダウン低 · 5Km未満 · 公認大会 · 手荷物預かりあり · 子供参加ＯＫ！ · 公認コース · 10Km · ハーフマラソン・20Km",
-        "popularity": 4
+        "popularity": 5
       },
       "eligible": true,
       "decision": "review",
