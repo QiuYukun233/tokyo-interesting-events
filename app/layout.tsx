@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: '东京有点意思｜不无聊的东京活动',
-  description: '每周捞出那些不太好搜、但值得出门的东京活动。顺便，找一个也想去的人。',
+  description: '每天捞出那些不太好搜、但值得出门的东京活动。逐个判断，把想去的留进你的清单。',
   openGraph: {
     title: '东京有点意思',
-    description: '别再说东京没有意思。每天发现值得出门的活动，顺便找一个也想去的人。',
+    description: '别再说东京没有意思。每天发现值得出门的活动，逐个判断，把想去的留进清单。',
     type: 'website',
   },
   twitter: {
     card: 'summary',
     title: '东京有点意思',
-    description: '每天发现值得出门的东京活动，顺便找一个也想去的人。',
+    description: '每天发现值得出门的东京活动，逐个判断，把想去的留进清单。',
   },
 };
 

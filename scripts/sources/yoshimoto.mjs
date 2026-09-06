@@ -29,7 +29,19 @@ export const YOSHIMOTO_VENUES = [
 
 const HORIZON_DAYS = 60;
 
-const ymd = (date) => `${date.getFullYear()}${String(date.getMonth() + 1).padStart(2, '0')}${String(date.getDate()).padStart(2, '0')}`;
+/** Format an instant as the calendar date in Tokyo, regardless of runner TZ. */
+const ymd = (date) => {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date).reduce((values, part) => {
+    if (part.type !== 'literal') values[part.type] = part.value;
+    return values;
+  }, {});
+  return `${parts.year}${parts.month}${parts.day}`;
+};
 
 /** Build the feed URL for one venue; `now` is injected so this stays pure. */
 export function yoshimotoUrl(theater, now = new Date()) {

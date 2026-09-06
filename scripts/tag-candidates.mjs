@@ -2,7 +2,7 @@ import { fileURLToPath } from 'node:url';
 import { readFileSync, existsSync } from 'node:fs';
 import { openPool, listCandidates, setTags, clearTagsBy } from '../lib/pool-db.mjs';
 import { TAG_VOCABULARY } from '../lib/tag-vocabulary.mjs';
-import { tagPrompt, parseTagResponse } from '../lib/tagging.mjs';
+import { tagPrompt, parseTagResponse, tokyoDate } from '../lib/tagging.mjs';
 import Anthropic from '@anthropic-ai/sdk';
 
 /**
@@ -57,7 +57,7 @@ if (retag && !dryRun) clearTagsBy(pool, TAGGED_BY);
 // for some candidates, and a tagged-with-zero-tags row must not be re-sent to
 // the API on every run. Ended one-off candidates are skipped — they can never
 // enter a round, so tagging them buys nothing (~14% of the pool at last count).
-const today = new Date().toISOString().slice(0, 10);
+const today = tokyoDate();
 const todo = listCandidates(pool).filter((c) => c.state !== 'rejected' && c.taggedBy === null
   && (c.ongoing || (c.endDate ?? c.startDate) >= today));
 console.log(`${todo.length} candidates to tag (batch of ${BATCH}, model ${MODEL})`);

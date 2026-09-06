@@ -16,6 +16,7 @@ import { LOFT_ORIGIN, LOFT_VENUES, loftUrls, parseLoft } from './loft.mjs';
 import { ENTABE_URLS, parseEntabe } from './entabe.mjs';
 import { TEDUKURIICHI_ORIGIN, TEDUKURIICHI_URLS, parseTedukuriichi } from './tedukuriichi.mjs';
 import { CINEMATOKYO_ORIGIN, CINEMATOKYO_SHOWTIMES_URL, aggregateRuns, mapRecord as mapCinematokyo } from './cinematokyo.mjs';
+import { JR_CROSS_ORIGIN, jrCrossNewsUrl, parseJrCross } from './jr-cross.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -29,6 +30,16 @@ import { CINEMATOKYO_ORIGIN, CINEMATOKYO_SHOWTIMES_URL, aggregateRuns, mapRecord
  * S2 reliable vertical or local media.
  */
 export const SOURCES = [
+  {
+    // JR-Cross publishes a title-level XML index. Keep only Development
+    // Company's named Tokyo station-facility openings, closings and renewals;
+    // PDFs/images are never fetched. robots.txt returned 404 on 2026-09-07.
+    name: 'JR-Cross', sourceFamily: 'shop_lifecycle', trustTier: 'S0',
+    url: jrCrossNewsUrl(), origin: JR_CROSS_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '株式会社JR東日本クロスステーション',
+    parse: parseJrCross,
+  },
   {
     name: 'My TOKYO', sourceFamily: 'government', trustTier: 'S1',
     url: 'https://www.my.metro.tokyo.lg.jp/event/?sort=near-end', origin: 'https://www.my.metro.tokyo.lg.jp',

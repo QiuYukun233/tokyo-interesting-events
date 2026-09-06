@@ -16,22 +16,48 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
       - run: npm ci
       - run: npm test
-      - run: npm run update-events
+      - run: npm run lint
+      - name: Collect registered event sources
+        run: npm run update-events
+      - name: Collect shop openings and closings
+        run: npm run collect-shop-changes
+      - name: Check source health
+        run: npm run check-sources
       # Crawling only fills the pool. Rules may then rule on what is factually
       # ineligible; everything else waits in the back office for a person.
       - run: npm run apply-gate
+      - name: Tag new candidates
+        if: ${{ secrets.ANTHROPIC_BASE_URL != '' && secrets.ANTHROPIC_API_KEY != '' }}
+        env:
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run tag-candidates
+      - name: Skip candidate tagging (secrets not configured)
+        if: ${{ secrets.ANTHROPIC_BASE_URL == '' || secrets.ANTHROPIC_API_KEY == '' }}
+        run: echo 'Skipping tag-candidates: ANTHROPIC_BASE_URL and/or ANTHROPIC_API_KEY is not configured.'
       # The site changes only here, and only ships what has been decided published.
       - run: npm run export-site
-      - name: Commit fresh events
+      - run: npm run build
+      # Keep the cloud mirror behind the local export/build checks, but ahead
+      # of the git push that triggers Vercel.
+      - name: Push candidates to Turso
+        if: ${{ secrets.TURSO_DATABASE_URL != '' && secrets.TURSO_AUTH_TOKEN != '' }}
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: npm run push-cloud
+      - name: Skip Turso push (secrets not configured)
+        if: ${{ secrets.TURSO_DATABASE_URL == '' || secrets.TURSO_AUTH_TOKEN == '' }}
+        run: echo 'Skipping push-cloud: TURSO_DATABASE_URL and/or TURSO_AUTH_TOKEN is not configured.'
+      # A successful push triggers Vercel only after generated data has passed
+      # tests, lint and build. Turso (when configured) is updated before this.
+      - name: Commit and push fresh data
         run: |
           git config user.name "tokyo-events-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/events.json data/backstage.json data/review-events.json data/source-registry.json data/pool.db
           git diff --cached --quiet || git commit -m "data: refresh Tokyo events"
           git push
-      # Runs last, and only after the data has been committed: a broken parser
-      # should fail the build loudly without discarding the sources that worked.
-      - name: Check source health
-        run: npm run check-sources
