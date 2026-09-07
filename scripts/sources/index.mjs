@@ -19,6 +19,7 @@ import { CINEMATOKYO_ORIGIN, CINEMATOKYO_SHOWTIMES_URL, aggregateRuns, mapRecord
 import { JR_CROSS_ORIGIN, jrCrossNewsUrl, parseJrCross } from './jr-cross.mjs';
 import { AIST_ORIGIN, JST_ORIGIN, aistOpenDayUrl, parseAistOpenDay, parseScienceAgora, scienceAgoraUrl } from './science-open-days.mjs';
 import { TOKYO_PARK_EVENTS_URL, TOKYO_PARK_ORIGIN, parseTokyoParkEvents } from './tokyo-park-events.mjs';
+import { BUNKYO_NARUSE_URL, BUNKYO_ORIGIN, HAMA_RIKYU_NIGHT_URL, IRI_TOKYO_OPEN_DAY_URL, IRI_TOKYO_ORIGIN, TMPC_ORIGIN, TMPC_ROAD_TOUR_URL, parseBunkyoNaruse, parseHamaRikyuNight, parseIriTokyoOpenDay, parseTmpcRoadTour } from './special-access.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -32,6 +33,34 @@ import { TOKYO_PARK_EVENTS_URL, TOKYO_PARK_ORIGIN, parseTokyoParkEvents } from '
  * S2 reliable vertical or local media.
  */
 export const SOURCES = [
+  {
+    name: '東京都立産業技術研究センター · 一般公開', sourceFamily: 'science_open_house', trustTier: 'S0',
+    url: IRI_TOKYO_OPEN_DAY_URL, origin: IRI_TOKYO_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 300,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '地方独立行政法人東京都立産業技術研究センター',
+    parse: parseIriTokyoOpenDay,
+  },
+  {
+    name: '東京都道路整備保全公社 · 道路見学', sourceFamily: 'infrastructure_tour', trustTier: 'S0',
+    url: TMPC_ROAD_TOUR_URL, origin: TMPC_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '公益財団法人東京都道路整備保全公社',
+    parse: parseTmpcRoadTour,
+  },
+  {
+    name: '文京区 · 通常非公開建築', sourceFamily: 'special_access', trustTier: 'S0',
+    url: BUNKYO_NARUSE_URL, origin: BUNKYO_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 365,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '文京区教育委員会',
+    parse: parseBunkyoNaruse,
+  },
+  {
+    name: '東京都公園協会 · 浜離宮夜間開園', sourceFamily: 'special_access', trustTier: 'S0',
+    url: HAMA_RIKYU_NIGHT_URL, origin: TOKYO_PARK_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 365,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '公益財団法人東京都公園協会',
+    parse: parseHamaRikyuNight,
+  },
   {
     // Annual public open days expose laboratories and hands-on technology that
     // ordinary event calendars miss. Pages are official and robots permits them.
