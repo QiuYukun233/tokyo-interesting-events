@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-09-07T07:14:00+09:00",
-  "updatedAtLabel": "今日 07:14",
+  "updatedAt": "2026-09-07T10:32:55+09:00",
+  "updatedAtLabel": "今日 10:32",
   "sourceStatus": [
+    {
+      "name": "産総研・臨海副都心センター",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "サイエンスアゴラ",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京都公園協会 · 特別体験",
+      "ok": true,
+      "count": 2
+    },
     {
       "name": "JR-Cross",
       "ok": true,
@@ -19,8 +34,9 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -35,7 +51,7 @@
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "name": "東京藝術大学大学美術館",
@@ -140,7 +156,7 @@
     {
       "name": "東京ミニシアター上映時間",
       "ok": true,
-      "count": 471
+      "count": 462
     },
     {
       "name": "東京都立産業貿易センター 台東館",
@@ -342,23 +358,6 @@
       "objectType": "exhibition"
     },
     {
-      "id": "c74ce10ccf54",
-      "startDate": "2026-08-26",
-      "endDate": "2026-09-06",
-      "title": "東京藝術大学日本画第一研究室研究発表展",
-      "titleZh": "東京藝術大学日本画第一研究室研究発表展",
-      "place": "东京艺术大学大学美术馆 · 陈列馆",
-      "time": "日程2026年08月26日(水) - 2026年09月06日(日)",
-      "price": "详见展览页",
-      "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://museum.geidai.ac.jp/exhibit/2026/08/ichikenten2026.html",
-      "source": "東京藝術大学大学美術館",
-      "category": "大学美术馆展览",
-      "objectType": "exhibition"
-    },
-    {
       "id": "e8b66d2450b8",
       "startDate": "2026-08-26",
       "endDate": "2026-12-20",
@@ -448,24 +447,6 @@
       "changeType": "discovery",
       "attribution": "モノマチ2026 参加店",
       "objectType": "place"
-    },
-    {
-      "id": "295ad8ca57b1",
-      "startDate": "2026-08-28",
-      "endDate": "2026-09-06",
-      "title": "MASU Instant Castle",
-      "titleZh": "MASU Instant Castle",
-      "place": "涩谷 PARCO · 2F POP UP SPACE「CRACK」",
-      "time": "2026.8.28 - 2026.9.6",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://shibuya.parco.jp/event/detail/?id=8886",
-      "source": "渋谷PARCO",
-      "category": "POPUP",
-      "imageUrl": "https://image.parco.jp/SCCWEB/image/shibuya/store/storage/w1240/popup_cname_20260806165606.jpg",
-      "objectType": "exhibition"
     },
     {
       "id": "b9481cf39fe4",
@@ -618,101 +599,6 @@
       "popularity": 0
     },
     {
-      "id": "74b1b035f7fa",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-06",
-      "title": "4-12-5",
-      "titleZh": "4-12-5",
-      "place": "アルネ543",
-      "time": "详见场次",
-      "price": "3,500円 ～ 5,000円",
-      "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://stage.corich.jp/stage/488759",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "いつかこの玉虫が鳴いた時に",
-      "objectType": "event",
-      "popularity": 1
-    },
-    {
-      "id": "94bf6fca1cee",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-06",
-      "title": "舞台「蛇革の手帖」",
-      "titleZh": "舞台「蛇革の手帖」",
-      "place": "中目黒キンケロ・シアター",
-      "time": "详见场次",
-      "price": "7,000円 ～ 9,000円",
-      "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://stage.corich.jp/stage/482556",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "JAPAN BEST TV",
-      "objectType": "event",
-      "popularity": 0
-    },
-    {
-      "id": "9e06f173f9a9",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-06",
-      "title": "オールトの雲 ～天文台の大問題～",
-      "titleZh": "オールトの雲 ～天文台の大問題～",
-      "place": "サンシャイン劇場",
-      "time": "详见场次",
-      "price": "9,900円 ～ 9,900円",
-      "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://stage.corich.jp/stage/463779",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "『オールトの雲 ～天文台の大問題～』製作委員会",
-      "objectType": "event",
-      "popularity": 3
-    },
-    {
-      "id": "b3df687f9e6d",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-06",
-      "title": "長雨と伽藍",
-      "titleZh": "長雨と伽藍",
-      "place": "シアターグリーン BIG TREE THEATER",
-      "time": "详见场次",
-      "price": "4,000円 ～ 7,500円",
-      "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://stage.corich.jp/stage/460082",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "10・Quatre",
-      "objectType": "event",
-      "popularity": 1
-    },
-    {
-      "id": "0c21fea40ff7",
-      "startDate": "2026-09-03",
-      "endDate": "2026-09-06",
-      "title": "序・黒蜥蜴",
-      "titleZh": "序・黒蜥蜴",
-      "place": "小劇場B1",
-      "time": "详见场次",
-      "price": "3,000円 ～ 5,000円",
-      "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://stage.corich.jp/stage/488011",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "演劇団 周",
-      "objectType": "event",
-      "popularity": 0
-    },
-    {
       "id": "682b31a2884f",
       "startDate": "2026-09-03",
       "endDate": "2026-12-06",
@@ -728,44 +614,6 @@
       "source": "リアル脱出ゲーム吉祥寺店",
       "category": "脱出ゲーム・謎解き",
       "objectType": "exhibition"
-    },
-    {
-      "id": "2273bc773d0c",
-      "startDate": "2026-09-04",
-      "endDate": "2026-09-06",
-      "title": "ホラーマイムパラダイス",
-      "titleZh": "ホラーマイムパラダイス",
-      "place": "早稲田大学学生会館",
-      "time": "详见场次",
-      "price": "0円 ～ 0円",
-      "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://stage.corich.jp/stage/476451",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "パントマイム舞☆夢☆踏",
-      "objectType": "event",
-      "popularity": 0
-    },
-    {
-      "id": "301bcbf9c6b4",
-      "startDate": "2026-09-04",
-      "endDate": "2026-09-06",
-      "title": "懺悔と七面鳥",
-      "titleZh": "懺悔と七面鳥",
-      "place": "東京芸術劇場 シアターイースト",
-      "time": "详见场次",
-      "price": "8,800円 ～ 15,900円",
-      "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://stage.corich.jp/stage/475175",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "Tom's collection(808株式会社)",
-      "objectType": "event",
-      "popularity": 2
     },
     {
       "id": "4271abe25284",
@@ -785,25 +633,6 @@
       "attribution": "「呪怨 THE LIVE」製作委員会",
       "objectType": "exhibition",
       "popularity": 0
-    },
-    {
-      "id": "e1e6d20eb51b",
-      "startDate": "2026-09-04",
-      "endDate": "2026-09-06",
-      "title": "この海をあげるから",
-      "titleZh": "この海をあげるから",
-      "place": "上野ストアハウス",
-      "time": "详见场次",
-      "price": "4,500円 ～ 5,000円",
-      "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://stage.corich.jp/stage/472259",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "劇団ファミリア",
-      "objectType": "event",
-      "popularity": 8
     },
     {
       "id": "20e9788c80ea",
@@ -840,76 +669,6 @@
       "attribution": "早稲田大学演劇倶楽部",
       "objectType": "event",
       "popularity": 1
-    },
-    {
-      "id": "c13ebb355a68",
-      "startDate": "2026-09-05",
-      "endDate": "2026-09-06",
-      "title": "Maker Faire Tokyo 2026",
-      "titleZh": "Maker Faire Tokyo 2026",
-      "place": "东京Big Sight · 有明GYM-EX",
-      "time": "9/5 12:00～18:00， 9/6 10:00～17:00",
-      "price": "ウェブをご参照ください",
-      "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://makezine.jp/event/mft2026/",
-      "source": "Tokyo Big Sight",
-      "audience": "一般",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "9bb77d39207c",
-      "startDate": "2026-09-06",
-      "title": "早大劇研’26新人試演会『チクビズム』",
-      "titleZh": "早大劇研’26新人試演会『チクビズム』",
-      "place": "早稲田大学大隈講堂裏劇研アトリエ",
-      "time": "详见活动页",
-      "price": "0円 ～ 0円",
-      "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://stage.corich.jp/stage/483974",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "早稲田大学演劇研究会",
-      "objectType": "event",
-      "popularity": 0
-    },
-    {
-      "id": "e1ba3f97bf03",
-      "startDate": "2026-09-06",
-      "title": "B級ダンス競技会/C級ダンス競技会",
-      "titleZh": "B級ダンス競技会/C級ダンス競技会",
-      "place": "东京都立产业贸易中心 滨松町馆 · ４階",
-      "time": "详见活动页",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event/41013",
-      "source": "東京都立産業貿易センター 浜松町館",
-      "category": "試験・審査・競技",
-      "audience": "公開",
-      "attribution": "一般社団法人東部日本ボールルームダンス連盟",
-      "objectType": "event"
-    },
-    {
-      "id": "f350e863a1cb",
-      "startDate": "2026-09-06",
-      "title": "ひらめく☆道場 Maker Faire 2026編「ミニミニコンベアをつくろう！」",
-      "titleZh": "ひらめく☆道場 Maker Faire 2026編「ミニミニコンベアをつくろう！」",
-      "place": "その他",
-      "time": "2026/09/06",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://ccbt.rekibun.or.jp/events/inspiration-dojo-mft2026",
-      "source": "東京都歴史文化財団 · 体験100",
-      "category": "こども",
-      "attribution": "その他",
-      "objectType": "activity"
     },
     {
       "id": "83400d097257",
