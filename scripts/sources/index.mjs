@@ -17,6 +17,8 @@ import { ENTABE_URLS, parseEntabe } from './entabe.mjs';
 import { TEDUKURIICHI_ORIGIN, TEDUKURIICHI_URLS, parseTedukuriichi } from './tedukuriichi.mjs';
 import { CINEMATOKYO_ORIGIN, CINEMATOKYO_SHOWTIMES_URL, aggregateRuns, mapRecord as mapCinematokyo } from './cinematokyo.mjs';
 import { JR_CROSS_ORIGIN, jrCrossNewsUrl, parseJrCross } from './jr-cross.mjs';
+import { AIST_ORIGIN, JST_ORIGIN, aistOpenDayUrl, parseAistOpenDay, parseScienceAgora, scienceAgoraUrl } from './science-open-days.mjs';
+import { TOKYO_PARK_EVENTS_URL, TOKYO_PARK_ORIGIN, parseTokyoParkEvents } from './tokyo-park-events.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -30,6 +32,31 @@ import { JR_CROSS_ORIGIN, jrCrossNewsUrl, parseJrCross } from './jr-cross.mjs';
  * S2 reliable vertical or local media.
  */
 export const SOURCES = [
+  {
+    // Annual public open days expose laboratories and hands-on technology that
+    // ordinary event calendars miss. Pages are official and robots permits them.
+    name: '産総研・臨海副都心センター', sourceFamily: 'science_open_house', trustTier: 'S0',
+    url: aistOpenDayUrl(), origin: AIST_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 300,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '国立研究開発法人産業技術総合研究所',
+    parse: parseAistOpenDay,
+  },
+  {
+    name: 'サイエンスアゴラ', sourceFamily: 'science_open_house', trustTier: 'S0',
+    url: scienceAgoraUrl(), origin: JST_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 300,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '国立研究開発法人科学技術振興機構',
+    parse: parseScienceAgora,
+  },
+  {
+    // The official park calendar is broad; the adapter admits only unusual
+    // night openings, special access, limited rituals and themed experiences.
+    name: '東京都公園協会 · 特別体験', sourceFamily: 'special_access', trustTier: 'S0',
+    url: TOKYO_PARK_EVENTS_URL, origin: TOKYO_PARK_ORIGIN,
+    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
+    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '公益財団法人東京都公園協会',
+    parse: parseTokyoParkEvents,
+  },
   {
     // JR-Cross publishes a title-level XML index. Keep only Development
     // Company's named Tokyo station-facility openings, closings and renewals;
