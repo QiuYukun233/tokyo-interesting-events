@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-09-07T10:32:55+09:00",
-  "updatedAtLabel": "今日 10:32",
+  "updatedAt": "2026-09-07T10:53:24+09:00",
+  "updatedAtLabel": "今日 10:53",
   "sourceStatus": [
+    {
+      "name": "東京都立産業技術研究センター · 一般公開",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京都道路整備保全公社 · 道路見学",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "文京区 · 通常非公開建築",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "name": "東京都公園協会 · 浜離宮夜間開園",
+      "ok": true,
+      "count": 2
+    },
     {
       "name": "産総研・臨海副都心センター",
       "ok": true,
@@ -34,9 +54,8 @@
     },
     {
       "name": "東京大学",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6
     },
     {
       "name": "東京都美術館",
@@ -116,7 +135,7 @@
     {
       "name": "CoRich舞台芸術！",
       "ok": true,
-      "count": 343
+      "count": 344
     },
     {
       "name": "スポーツエントリー",

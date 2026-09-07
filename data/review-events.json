@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-09-07T10:31:22+09:00",
+  "updatedAt": "2026-09-07T10:52:48+09:00",
   "sourceStatus": [
+    {
+      "name": "東京都立産業技術研究センター · 一般公開",
+      "ok": true,
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "name": "東京都道路整備保全公社 · 道路見学",
+      "ok": true,
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "name": "文京区 · 通常非公開建築",
+      "ok": true,
+      "count": 1,
+      "pages": 1
+    },
+    {
+      "name": "東京都公園協会 · 浜離宮夜間開園",
+      "ok": true,
+      "count": 2,
+      "pages": 1
+    },
     {
       "name": "産総研・臨海副都心センター",
       "ok": true,
@@ -39,10 +63,9 @@
     },
     {
       "name": "東京大学",
-      "ok": false,
-      "count": 0,
-      "pages": 1,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6,
+      "pages": 1
     },
     {
       "name": "東京都美術館",
@@ -137,7 +160,7 @@
     {
       "name": "CoRich舞台芸術！",
       "ok": true,
-      "count": 343,
+      "count": 344,
       "pages": 36
     },
     {
@@ -3558,6 +3581,124 @@
     },
     {
       "activity": {
+        "sourceFamily": "infrastructure_tour",
+        "id": "497f12e17b66",
+        "startDate": "2026-10-16",
+        "title": "歩いて巡る!隅田川橋梁・復興記念館見学ツアー",
+        "titleZh": "歩いて巡る!隅田川橋梁・復興記念館見学ツアー",
+        "place": "两国站集合 → 隅田川桥梁群与复兴纪念馆",
+        "time": "13:00–16:15（报名截至9月18日16:00）",
+        "price": "免费 · 20人抽选",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.tmpc.or.jp/06_info/dourokengaku/recruit.html",
+        "source": "東京都道路整備保全公社 · 道路見学",
+        "category": "城市基础设施见学",
+        "changeType": "special_access",
+        "description": "沿隅田川步行观察桥梁，并进入复兴纪念馆；这是道路公社面向公众开放的限额见学。"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "special_access",
+        "id": "e78ec5510ee4",
+        "startDate": "2026-10-08",
+        "title": "日本女子大学成瀬記念講堂",
+        "titleZh": "日本女子大学成瀬記念講堂",
+        "place": "日本女子大学 成濑纪念讲堂 · 目白台",
+        "time": "11:00／13:30（各回约1小时；报名截至9月27日）",
+        "price": "免费 · 各回20人抽选",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.city.bunkyo.lg.jp/b047/p007677.html",
+        "source": "文京区 · 通常非公開建築",
+        "category": "通常非公开建筑",
+        "changeType": "special_access",
+        "description": "1906年建成、被指定为文京区有形文化财的洋风讲堂，仅在这次活动中开放内部。"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "special_access",
+        "id": "1af3fddf9c46",
+        "startDate": "2026-10-21",
+        "endDate": "2026-10-23",
+        "title": "浜离宫月夜散步：在将军庭园赏栗名月",
+        "titleZh": "浜离宫月夜散步：在将军庭园赏栗名月",
+        "place": "浜离宫恩赐庭园 · 汐留",
+        "time": "日落后–21:00（最终入园20:30）",
+        "price": "仅需通常入园费",
+        "vibe": "奇妙体验",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyo-park.or.jp/park/hama-rikyu/news/2026/park_info_29.html#moon-viewing",
+        "source": "東京都公園協会 · 浜離宮夜間開園",
+        "category": "庭园夜间特别开放",
+        "changeType": "special_access",
+        "description": "园路与树木只做微光照明，配合笛、筝、尺八等传统演出；21日还会临时开放平常禁止进入的草地举行供月仪式。"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "special_access",
+        "id": "5fdcd2906fa8",
+        "startDate": "2026-10-30",
+        "endDate": "2026-11-03",
+        "title": "浜离宫开园80周年：夜之御庭漫步",
+        "titleZh": "浜离宫开园80周年：夜之御庭漫步",
+        "place": "浜离宫恩赐庭园 · 汐留",
+        "time": "日落后–21:00（最终入园20:30）",
+        "price": "仅需通常入园费",
+        "vibe": "奇妙体验",
+        "color": "#ef5b3f",
+        "symbol": "✦",
+        "mates": 0,
+        "sourceUrl": "https://www.tokyo-park.or.jp/park/hama-rikyu/news/2026/park_info_29.html#80th-night-garden",
+        "source": "東京都公園協会 · 浜離宮夜間開園",
+        "category": "庭园夜间特别开放",
+        "changeType": "special_access",
+        "description": "用光与影重做浜离宫的夜景，并开放夜间茶屋菜单；是都立庭园开园80周年限定的五个夜晚。"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
         "sourceFamily": "special_access",
         "id": "32ab23036b0e",
         "startDate": "2026-07-11",
@@ -4499,6 +4640,62 @@
         "source": "Tokyo Big Sight",
         "audience": "一般",
         "description": "同人誌即売会"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "university",
+        "id": "48c759c6fdca",
+        "startDate": "2026-10-24",
+        "title": "女子中高生向けイベント「未来をのぞこう！」",
+        "titleZh": "女子中高生向けイベント「未来をのぞこう！」",
+        "place": "柏地区 / ハイブリッド",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "奇妙体验",
+        "color": "#d6a72d",
+        "symbol": "●",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0113_00580.html",
+        "source": "東京大学",
+        "audience": "柏地区 / ハイブリッド",
+        "description": "柏地区 ハイブリッド"
+      },
+      "eligible": true,
+      "decision": "review",
+      "publishable": false,
+      "publicExperience": false,
+      "reasons": [
+        "review:no_public_experience_signal"
+      ],
+      "signals": []
+    },
+    {
+      "activity": {
+        "sourceFamily": "university",
+        "id": "6714f39849f2",
+        "startDate": "2026-10-31",
+        "title": "女子中高生向け大学説明会―リアル東大生や未来の東大生と交流しよう！―",
+        "titleZh": "女子中高生向け大学説明会―リアル東大生や未来の東大生と交流しよう！―",
+        "place": "オンライン",
+        "time": "详见活动页",
+        "price": "详见活动页",
+        "vibe": "好好聊天",
+        "color": "#3d66f5",
+        "symbol": "◒",
+        "mates": 0,
+        "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0517_00023.html",
+        "source": "東京大学",
+        "audience": "オンライン",
+        "description": "オンライン"
       },
       "eligible": true,
       "decision": "review",
