@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-07T10:53:24+09:00",
-  "updatedAtLabel": "今日 10:53",
+  "updatedAt": "2026-09-08T09:09:29+09:00",
+  "updatedAtLabel": "今日 09:09",
   "sourceStatus": [
     {
       "name": "東京都立産業技術研究センター · 一般公開",
@@ -54,8 +54,9 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -90,7 +91,7 @@
     {
       "name": "東京都歴史文化財団 · 体験100",
       "ok": true,
-      "count": 108
+      "count": 115
     },
     {
       "name": "渋谷PARCO",
@@ -135,7 +136,7 @@
     {
       "name": "CoRich舞台芸術！",
       "ok": true,
-      "count": 344
+      "count": 347
     },
     {
       "name": "スポーツエントリー",
@@ -160,12 +161,12 @@
     {
       "name": "Rock Cafe Loft",
       "ok": true,
-      "count": 47
+      "count": 49
     },
     {
       "name": "えん食べ",
       "ok": true,
-      "count": 52
+      "count": 51
     },
     {
       "name": "ものづくり応援団",
@@ -671,41 +672,6 @@
       "objectType": "exhibition"
     },
     {
-      "id": "3cfe52af3f9c",
-      "startDate": "2026-09-05",
-      "endDate": "2026-09-07",
-      "title": "幾千年の潜り火",
-      "titleZh": "幾千年の潜り火",
-      "place": "早稲田小劇場どらま館",
-      "time": "详见场次",
-      "price": "0円 ～ 0円",
-      "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://stage.corich.jp/stage/486713",
-      "source": "CoRich舞台芸術！",
-      "category": "舞台・演劇",
-      "attribution": "早稲田大学演劇倶楽部",
-      "objectType": "event",
-      "popularity": 1
-    },
-    {
-      "id": "83400d097257",
-      "startDate": "2026-09-07",
-      "title": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-      "titleZh": "東大CREIシンポジウム『不動産・まちづくりとイノベーション』 後援：国土交通省",
-      "place": "本郷地区",
-      "time": "详见活动页",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0108_00207.html",
-      "source": "東京大学",
-      "audience": "本郷地区",
-      "objectType": "event"
-    },
-    {
       "id": "1893de40df10",
       "startDate": "2026-09-10",
       "endDate": "2026-09-17",
@@ -734,8 +700,8 @@
       "time": "详见场次",
       "price": "0円 ～ 0円",
       "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://stage.corich.jp/stage/490640",
       "source": "CoRich舞台芸術！",
       "category": "舞台・演劇",
@@ -1206,8 +1172,8 @@
       "time": "2026/10/10",
       "price": "详见活动页",
       "vibe": "好好聊天",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#d6a72d",
+      "symbol": "●",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261010-408.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -1224,8 +1190,8 @@
       "time": "2026/10/10 – 2026/10/13",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#d6a72d",
-      "symbol": "●",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://ccbt.rekibun.or.jp/events/future-ideations-camp-vol9",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "ワークショップ",
@@ -1275,8 +1241,8 @@
       "time": "2026/10/17",
       "price": "详见活动页",
       "vibe": "小众音乐",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://www.t-bunka.jp/stage/31397/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "こども",
@@ -1393,8 +1359,8 @@
       "time": "2026/11/22",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261122-413.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -1410,8 +1376,8 @@
       "time": "2026/11/25",
       "price": "详见活动页",
       "vibe": "小众音乐",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://www.t-bunka.jp/stage/33011/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "こども",
@@ -1427,8 +1393,8 @@
       "time": "2026/11/28",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://www.teien-art-museum.ne.jp/event/teien-noh_1127/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "パフォーマンス",
@@ -1461,8 +1427,8 @@
       "time": "2026/11/30",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://www.tobikan.jp/learn/accessprogram.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -1478,12 +1444,29 @@
       "time": "2026/12/14",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261214-411.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
       "attribution": "その他",
+      "objectType": "activity"
+    },
+    {
+      "id": "a52c8fb0678a",
+      "startDate": "2026-12-20",
+      "title": "「Tokyo Custom Drum Set」ワークショップ参加者募集",
+      "titleZh": "「Tokyo Custom Drum Set」ワークショップ参加者募集",
+      "place": "東京芸術劇場",
+      "time": "2026/12/20",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#ef5b3f",
+      "symbol": "✦",
+      "sourceUrl": "https://www.geigeki.jp/performance/theater414/",
+      "source": "東京都歴史文化財団 · 体験100",
+      "category": "ワークショップ",
+      "attribution": "東京芸術劇場",
       "objectType": "activity"
     },
     {
@@ -1495,8 +1478,8 @@
       "time": "2027/01/23",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#d6a72d",
-      "symbol": "●",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "見学・ツアー",
