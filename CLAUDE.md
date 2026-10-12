@@ -4,10 +4,11 @@
 从大量候选中持续生成有限、解释充分、值得逐个判断的队列，再用朋友间的共同兴趣把
 "发现"推进到"成行"。完整产品方案见 `docs/信息雷达与探索队列方案.md`。
 
-**当前进度：阶段 2（探索队列云端半边已落地，待部署）。** 抓取管线能出数据，来源健康监测与
+**当前进度：阶段 2（探索队列已上线，2026-09-01 部署 Vercel）。** 抓取管线能出数据，来源健康监测与
 候选诊断台已就位；tag 词表、tags 表、打 tag 脚本、队列引擎纯函数（`lib/queue.mjs`）已建。
 云端半边（Turso 镜像、votes/rounds、队列 API、`/queue` 与 `/wantlist` 两页）已按
-`docs/探索队列设计.md` 实现，本地 dev 全链路可用；部署未做。
+`docs/探索队列设计.md` 实现并上线。每日 CI（`.github/workflows/update-events.yml`）
+2026-09-06 至 10-12 停摆过一个多月，已修复（见已知问题 2）。
 闸门已按 0006 降级为纯事实闸门：品味不再是判决问题。
 
 ## 常用命令
@@ -63,7 +64,7 @@ npm run build                # 构建
 
 ```
 npm run update-events
-  → scripts/sources/index.mjs        来源注册表（19 条 + 开闭店家族 15 版）
+  → scripts/sources/index.mjs        来源注册表（source-registry 共 37 条，含开闭店家族）
   → scripts/lib/run-ingestion.mjs    robots 校验 → 并发抓取 → 按 accessMethod 解析
       → lib/activity-filter.mjs      算理由码（不再决定发布）
       → lib/pool-db.mjs              upsert 进 candidates 表
@@ -105,6 +106,13 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    `next build`（vinext/Cloudflare 残留已于 2026-09-02 清掉）。
    三个 secrets（TURSO_×2、QUEUE_TOKEN）在 Vercel 项目环境变量里。
    旧前台保留：首页 `app/page.tsx` 只按热度（popularity）挑 12 条，`/pool` 仍全量铺开（2026-09-02）。
+   **每日 CI** 东京时间 07:10 跑全链路（抓取→闸门→打 tag→导出→构建→push-cloud→提交触发部署）。
+   2026-09-06 起因工作流 YAML 语法错误（`run: echo '...: ...'` 里的冒号）静默停摆，
+   2026-10-12 修复。**GitHub 仓库尚未配置 Actions secrets**（`ANTHROPIC_BASE_URL`/
+   `ANTHROPIC_API_KEY`/`TURSO_DATABASE_URL`/`TURSO_AUTH_TOKEN`），配齐之前 CI 会跳过
+   打 tag 与 push-cloud，线上队列吃不到新候选。
+   改工作流后看 `gh run list`：0 秒失败 = 文件无效，`gh run view` 只说 "workflow file issue"，
+   具体行号要到网页上看。
 3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点）：874 条全部入 tags 表。
    新抓的候选再跑 `npm run tag-candidates` 即可增量补打。
    DeepSeek 的端点与 key 放在仓库 `.env.local`（gitignored，`tag-candidates.mjs` 自己加载），
@@ -112,10 +120,12 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
 6. **候选的粒度还只做到「一个地址一个候选」。** 更模糊的边界——同一片区的
    一批店、同一天开放的一批工厂——现在没有合并，因为"多近算一趟"是产品判断。
    见方案 §4.3；做探索队列时大概需要在"地点"之上再有一个"行程"层。
-4. **候选量距漏斗目标仍有差距。** 池子 236 条候选。方案 §10 的目标是
+4. **候选量距漏斗目标仍有差距。** 池子 4,029 条候选（2026-10-12；其中 3,599 条 pending，2,898 条有 tag）。方案 §10 的目标是
    每周 1,000 条原始候选。「新运动」家族已由スポーツエントリー补上
    （2026-09-02 接入，386 条，`sourceFamily: sports_entry`，八成是马拉松，靠队列的
-   家族上限压着）。方案与实测见 `docs/信息获取管道设计.md`；其末尾「第六轮」
+   家族上限压着；2026-10-12 在 GitHub runner 上返回 403，疑似挡数据中心 IP，待查）。
+   2026-09-07 又接了 8 条稀缺体验/车站设施入口（特别开放、科学开放日、公园特别体验、
+   JR-Cross），见 `docs/来源清单.md`「2026-09-07 接入的 8 条」。方案与实测见 `docs/信息获取管道设计.md`；其末尾「第六轮」
    （2026-08-31）剩 6 个已核过 robots/条款、尚未接入的候选源（銭湯、railf、fashion-press、灯台、自卫队、cinemap）。
    Loft 家族（新宿ロフトプラスワン等 4 个 talk 馆，`talk_live`，186 条）也已于
    2026-09-02 接入；同站的 live house 刻意没接，见 `scripts/sources/loft.mjs`。
