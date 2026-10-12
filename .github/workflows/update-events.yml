@@ -41,7 +41,8 @@ jobs:
         run: npm run tag-candidates
       - name: Skip candidate tagging (secrets not configured)
         if: ${{ env.ANTHROPIC_BASE_URL == '' || env.ANTHROPIC_API_KEY == '' }}
-        run: echo 'Skipping tag-candidates: ANTHROPIC_BASE_URL and/or ANTHROPIC_API_KEY is not configured.'
+        run: |
+          echo 'Skipping tag-candidates: ANTHROPIC_BASE_URL and/or ANTHROPIC_API_KEY is not configured.'
       # The site changes only here, and only ships what has been decided published.
       - run: npm run export-site
       - run: npm run build
@@ -52,7 +53,8 @@ jobs:
         run: npm run push-cloud
       - name: Skip Turso push (secrets not configured)
         if: ${{ env.TURSO_DATABASE_URL == '' || env.TURSO_AUTH_TOKEN == '' }}
-        run: echo 'Skipping push-cloud: TURSO_DATABASE_URL and/or TURSO_AUTH_TOKEN is not configured.'
+        run: |
+          echo 'Skipping push-cloud: TURSO_DATABASE_URL and/or TURSO_AUTH_TOKEN is not configured.'
       # A successful push triggers Vercel only after generated data has passed
       # tests, lint and build. Turso (when configured) is updated before this.
       - name: Commit and push fresh data
