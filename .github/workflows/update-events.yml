@@ -11,6 +11,13 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Step-level `if:` cannot read the secrets context, so expose them as env
+    # and branch on env instead.
+    env:
+      ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,13 +37,10 @@ jobs:
       # ineligible; everything else waits in the back office for a person.
       - run: npm run apply-gate
       - name: Tag new candidates
-        if: ${{ secrets.ANTHROPIC_BASE_URL != '' && secrets.ANTHROPIC_API_KEY != '' }}
-        env:
-          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        if: ${{ env.ANTHROPIC_BASE_URL != '' && env.ANTHROPIC_API_KEY != '' }}
         run: npm run tag-candidates
       - name: Skip candidate tagging (secrets not configured)
-        if: ${{ secrets.ANTHROPIC_BASE_URL == '' || secrets.ANTHROPIC_API_KEY == '' }}
+        if: ${{ env.ANTHROPIC_BASE_URL == '' || env.ANTHROPIC_API_KEY == '' }}
         run: echo 'Skipping tag-candidates: ANTHROPIC_BASE_URL and/or ANTHROPIC_API_KEY is not configured.'
       # The site changes only here, and only ships what has been decided published.
       - run: npm run export-site
@@ -44,13 +48,10 @@ jobs:
       # Keep the cloud mirror behind the local export/build checks, but ahead
       # of the git push that triggers Vercel.
       - name: Push candidates to Turso
-        if: ${{ secrets.TURSO_DATABASE_URL != '' && secrets.TURSO_AUTH_TOKEN != '' }}
-        env:
-          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
-          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        if: ${{ env.TURSO_DATABASE_URL != '' && env.TURSO_AUTH_TOKEN != '' }}
         run: npm run push-cloud
       - name: Skip Turso push (secrets not configured)
-        if: ${{ secrets.TURSO_DATABASE_URL == '' || secrets.TURSO_AUTH_TOKEN == '' }}
+        if: ${{ env.TURSO_DATABASE_URL == '' || env.TURSO_AUTH_TOKEN == '' }}
         run: echo 'Skipping push-cloud: TURSO_DATABASE_URL and/or TURSO_AUTH_TOKEN is not configured.'
       # A successful push triggers Vercel only after generated data has passed
       # tests, lint and build. Turso (when configured) is updated before this.
