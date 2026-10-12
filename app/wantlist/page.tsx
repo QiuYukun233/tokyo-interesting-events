@@ -6,7 +6,10 @@ type WantItem = {
   id: string; title: string; titleZh: string | null; place: string | null;
   price: string | null; startDate: string; endDate: string | null;
   sourceUrl: string | null; tags: string[]; votedAt: string;
+  invite: { code: string; replies: { name: string; vote: 'want' | 'ok' | 'no' }[] } | null;
 };
+
+const VOTE_LABEL = { want: '想去', ok: '可以', no: '不想去' } as const;
 
 const SOON_DAYS = 14;
 
@@ -18,6 +21,7 @@ export default function WantlistPage() {
   const [items, setItems] = useState<WantItem[] | null>(null);
   const [denied, setDenied] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [shareMsg, setShareMsg] = useState<Record<string, string>>({});
 
   const load = useCallback(async () => {
     setError(null);
@@ -35,6 +39,32 @@ export default function WantlistPage() {
   // Initial fetch on mount; a data fetch on mount is the intended use.
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { void load(); }, [load]);
+
+  // One link per item (朋友投票设计 §1): asking twice returns the same code.
+  async function askFriends(item: WantItem) {
+    const say = (msg: string) => setShareMsg((prev) => ({ ...prev, [item.id]: msg }));
+    try {
+      const response = await fetch('/api/invites', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ candidateId: item.id }),
+      });
+      if (!response.ok) throw new Error(String(response.status));
+      const { code } = (await response.json()) as { code: string };
+      const url = `${location.origin}/i/${code}`;
+      setItems((prev) => prev?.map((i) => (i.id === item.id && !i.invite ? { ...i, invite: { code, replies: [] } } : i)) ?? prev);
+      const text = `我想去这个，你呢？${item.titleZh ?? item.title}`;
+      if (navigator.share) {
+        await navigator.share({ title: text, text, url }).catch(() => undefined);
+        say('');
+      } else {
+        await navigator.clipboard.writeText(`${text}
+${url}`);
+        say('链接已复制，发给朋友吧');
+      }
+    } catch {
+      say('生成链接失败，稍后再试');
+    }
+  }
 
   if (denied) return <main className="p-8">先去<a className="underline" href="/queue">队列页</a>输入口令。</main>;
   if (error) {
@@ -68,11 +98,20 @@ export default function WantlistPage() {
                 {urgent ? <span className="ml-2 font-bold text-red-600">还剩 {left} 天</span> : null}
               </p>
               <p className="mt-1 text-xs text-gray-500">{item.tags.join(' · ')}</p>
-              {item.sourceUrl ? (
-                <a className="mt-1 inline-block text-sm underline" href={item.sourceUrl} target="_blank" rel="noreferrer">
-                  主办方页面 ↗
-                </a>
-              ) : null}
+              <p className="mt-2 flex items-center gap-3 text-sm">
+                {item.sourceUrl ? (
+                  <a className="underline" href={item.sourceUrl} target="_blank" rel="noreferrer">主办方页面 ↗</a>
+                ) : null}
+                <button className="rounded border px-2 py-0.5" onClick={() => void askFriends(item)}>
+                  {item.invite ? '再发一次链接' : '问朋友'}
+                </button>
+              </p>
+              {shareMsg[item.id] ? <p className="mt-1 text-xs text-gray-500">{shareMsg[item.id]}</p> : null}
+              {item.invite?.replies.length ? (
+                <p className="mt-1 text-sm">
+                  {item.invite.replies.map((r) => `${r.name} ${VOTE_LABEL[r.vote]}`).join(' · ')}
+                </p>
+              ) : item.invite ? <p className="mt-1 text-xs text-gray-500">链接已发出，还没人回</p> : null}
             </li>
           );
         })}

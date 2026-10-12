@@ -17,3 +17,8 @@ export function requireToken(request) {
   }, process.env.QUEUE_TOKEN);
   return ok ? null : Response.json({ error: 'unauthorized' }, { status: 401 });
 }
+
+/** Errors carrying a `status` (404/409 from cloud-api) keep it; anything else is a bad request. */
+export function errorResponse(error) {
+  return Response.json({ error: error.message }, { status: error.status ?? 400 });
+}
