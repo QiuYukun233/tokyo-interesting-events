@@ -3,7 +3,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import eventData from '../data/events.json';
 
-type EventItem = (typeof eventData.events)[number];
+// popularity is optional in the contract, so it vanishes from the inferred JSON
+// type whenever no published event happens to carry it; declare it explicitly.
+type EventItem = (typeof eventData.events)[number] & { popularity?: number };
 // Vibe chips are derived from the data, not listed by hand: when the sources
 // started carrying performances a fourth vibe appeared and its events had no
 // filter to reach them.
