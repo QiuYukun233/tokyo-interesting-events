@@ -1,28 +1,7 @@
 {
-  "updatedAt": "2026-11-15T22:37:42+09:00",
-  "updatedAtLabel": "今日 22:37",
+  "updatedAt": "2026-11-15T23:25:07+09:00",
+  "updatedAtLabel": "今日 23:25",
   "sourceStatus": [
-    {
-      "name": "東京都立産業技術研究センター · 一般公開",
-      "ok": true,
-      "count": 1
-    },
-    {
-      "name": "東京都道路整備保全公社 · 道路見学",
-      "ok": true,
-      "count": 0
-    },
-    {
-      "name": "文京区 · 通常非公開建築",
-      "ok": false,
-      "count": 0,
-      "error": "文京区 · 通常非公開建築 returned 404 for https://www.city.bunkyo.lg.jp/b047/p007677.html"
-    },
-    {
-      "name": "東京都公園協会 · 浜離宮夜間開園",
-      "ok": true,
-      "count": 2
-    },
     {
       "name": "産総研・臨海副都心センター",
       "ok": true,
@@ -40,9 +19,8 @@
     },
     {
       "name": "JR-Cross",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 5
     },
     {
       "name": "My TOKYO",
@@ -136,15 +114,13 @@
     },
     {
       "name": "CoRich舞台芸術！",
-      "ok": false,
-      "count": 0,
-      "error": "CoRich舞台芸術！ returned 403 for https://stage.corich.jp/stage?type=now&page=1"
+      "ok": true,
+      "count": 381
     },
     {
       "name": "スポーツエントリー",
-      "ok": false,
-      "count": 0,
-      "error": "スポーツエントリー returned 403 for https://www.sportsentry.ne.jp/events/tokyo?order=opendate&page=1"
+      "ok": true,
+      "count": 385
     },
     {
       "name": "新宿ロフトプラスワン",
@@ -170,12 +146,6 @@
       "name": "えん食べ",
       "ok": true,
       "count": 49
-    },
-    {
-      "name": "ものづくり応援団",
-      "ok": false,
-      "count": 0,
-      "error": "ものづくり応援団 returned 404 for https://www.tedukuriichi.com/index.php?mono=searcheventarea&q=13"
     },
     {
       "name": "東京ミニシアター上映時間",
