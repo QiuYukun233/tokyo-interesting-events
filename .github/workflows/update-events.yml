@@ -31,8 +31,6 @@ jobs:
         run: npm run update-events
       - name: Collect shop openings and closings
         run: npm run collect-shop-changes
-      - name: Check source health
-        run: npm run check-sources
       # Crawling only fills the pool. Rules may then rule on what is factually
       # ineligible; everything else waits in the back office for a person.
       - run: npm run apply-gate
@@ -64,3 +62,10 @@ jobs:
           git add data/events.json data/backstage.json data/review-events.json data/source-registry.json data/pool.db
           git diff --cached --quiet || git commit -m "data: refresh Tokyo events"
           git push
+      # Last on purpose: a severe alert exits non-zero, and as a mid-pipeline
+      # step it blocked every other source's data from shipping (2026-10-14 to
+      # 11-15, a month of nothing committed — which also froze each failure
+      # streak at its last committed value). Here the run still goes red, but
+      # only after fresh data is out.
+      - name: Check source health
+        run: npm run check-sources
