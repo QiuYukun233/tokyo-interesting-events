@@ -97,7 +97,7 @@ async function readJson(url, fallback) {
   }
 }
 
-export async function runIngestion(sources) {
+export async function runIngestion(sources, { carryOver = [] } = {}) {
   const now = new Date();
   const results = await Promise.allSettled(sources.map(async (source) => ({ source, ...await fetchSourcePages(source) })));
   const successful = results.filter((result) => result.status === 'fulfilled').map((result) => result.value);
@@ -159,7 +159,7 @@ export async function runIngestion(sources) {
     error: perSource[index].error,
   }));
 
-  const registry = updateRegistry(await readJson(REGISTRY, { entries: [] }), sources, perSource, now);
+  const registry = updateRegistry(await readJson(REGISTRY, { entries: [] }), sources, perSource, now, { carryOver });
 
   await Promise.all([
     writeFile(REVIEW_OUTPUT, `${JSON.stringify({ updatedAt: tokyoNow, sourceStatus, events: review }, null, 2)}

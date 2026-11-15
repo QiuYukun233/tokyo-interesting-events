@@ -14,12 +14,10 @@ import { SANBO_HALLS, SANBO_ORIGIN, parseSanbo, sanboUrls } from './sanbo.mjs';
 import { SPORTSENTRY_ORIGIN, SPORTSENTRY_URLS, parseSportsentry } from './sportsentry.mjs';
 import { LOFT_ORIGIN, LOFT_VENUES, loftUrls, parseLoft } from './loft.mjs';
 import { ENTABE_URLS, parseEntabe } from './entabe.mjs';
-import { TEDUKURIICHI_ORIGIN, TEDUKURIICHI_URLS, parseTedukuriichi } from './tedukuriichi.mjs';
 import { CINEMATOKYO_ORIGIN, CINEMATOKYO_SHOWTIMES_URL, aggregateRuns, mapRecord as mapCinematokyo } from './cinematokyo.mjs';
 import { JR_CROSS_ORIGIN, jrCrossNewsUrl, parseJrCross } from './jr-cross.mjs';
 import { AIST_ORIGIN, JST_ORIGIN, aistOpenDayUrl, parseAistOpenDay, parseScienceAgora, scienceAgoraUrl } from './science-open-days.mjs';
 import { TOKYO_PARK_EVENTS_URL, TOKYO_PARK_ORIGIN, parseTokyoParkEvents } from './tokyo-park-events.mjs';
-import { BUNKYO_NARUSE_URL, BUNKYO_ORIGIN, HAMA_RIKYU_NIGHT_URL, IRI_TOKYO_OPEN_DAY_URL, IRI_TOKYO_ORIGIN, TMPC_ORIGIN, TMPC_ROAD_TOUR_URL, parseBunkyoNaruse, parseHamaRikyuNight, parseIriTokyoOpenDay, parseTmpcRoadTour } from './special-access.mjs';
 
 /**
  * Source registry. Plan §3.3.
@@ -33,34 +31,6 @@ import { BUNKYO_NARUSE_URL, BUNKYO_ORIGIN, HAMA_RIKYU_NIGHT_URL, IRI_TOKYO_OPEN_
  * S2 reliable vertical or local media.
  */
 export const SOURCES = [
-  {
-    name: '東京都立産業技術研究センター · 一般公開', sourceFamily: 'science_open_house', trustTier: 'S0',
-    url: IRI_TOKYO_OPEN_DAY_URL, origin: IRI_TOKYO_ORIGIN,
-    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 300,
-    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '地方独立行政法人東京都立産業技術研究センター',
-    parse: parseIriTokyoOpenDay,
-  },
-  {
-    name: '東京都道路整備保全公社 · 道路見学', sourceFamily: 'infrastructure_tour', trustTier: 'S0',
-    url: TMPC_ROAD_TOUR_URL, origin: TMPC_ORIGIN,
-    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
-    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '公益財団法人東京都道路整備保全公社',
-    parse: parseTmpcRoadTour,
-  },
-  {
-    name: '文京区 · 通常非公開建築', sourceFamily: 'special_access', trustTier: 'S0',
-    url: BUNKYO_NARUSE_URL, origin: BUNKYO_ORIGIN,
-    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 365,
-    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '文京区教育委員会',
-    parse: parseBunkyoNaruse,
-  },
-  {
-    name: '東京都公園協会 · 浜離宮夜間開園', sourceFamily: 'special_access', trustTier: 'S0',
-    url: HAMA_RIKYU_NIGHT_URL, origin: TOKYO_PARK_ORIGIN,
-    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 365,
-    robotsAndTermsCheckedAt: '2026-09-07', parserVersion: '2026-09-07', ownerOrContact: '公益財団法人東京都公園協会',
-    parse: parseHamaRikyuNight,
-  },
   {
     // Annual public open days expose laboratories and hands-on technology that
     // ordinary event calendars miss. Pages are official and robots permits them.
@@ -90,6 +60,8 @@ export const SOURCES = [
     // JR-Cross publishes a title-level XML index. Keep only Development
     // Company's named Tokyo station-facility openings, closings and renewals;
     // PDFs/images are never fetched. robots.txt returned 404 on 2026-09-07.
+    // Connection refused from GitHub runners, 200 from Japan (2026-11-15).
+    japanOnly: true,
     name: 'JR-Cross', sourceFamily: 'shop_lifecycle', trustTier: 'S0',
     url: jrCrossNewsUrl(), origin: JR_CROSS_ORIGIN,
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 7,
@@ -258,6 +230,8 @@ export const SOURCES = [
     // Nationwide theatre/musical listing, filtered to Tokyo client-side —
     // no genre gate, deliberately: 落語, 2.5次元舞台, 一人芝居 alongside the
     // mainstream is the point (plan §3.2「小型文化与亚文化」).
+    // Refuses GitHub runner IPs (403) but serves Japan (measured 2026-11-15).
+    japanOnly: true,
     name: 'CoRich舞台芸術！', sourceFamily: 'local_media', trustTier: 'S2',
     url: CORICH_URLS[0], urls: CORICH_URLS, origin: 'https://stage.corich.jp',
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
@@ -269,6 +243,8 @@ export const SOURCES = [
     // 29 categories with the long tail (ロゲイニング, SUP, フェンシング…) that
     // the thin 「新運動」 family lacked. Its own sourceFamily so the queue's
     // per-family cap keeps a wall of marathons from doing what 舞台劇 did.
+    // Refuses GitHub runner IPs (403) but serves Japan (measured 2026-11-15).
+    japanOnly: true,
     name: 'スポーツエントリー', sourceFamily: 'sports_entry', trustTier: 'S1',
     url: SPORTSENTRY_URLS[0], urls: SPORTSENTRY_URLS, origin: SPORTSENTRY_ORIGIN,
     accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 3,
@@ -299,17 +275,6 @@ export const SOURCES = [
     robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02',
     ownerOrContact: 'https://entabe.jp/pages/9（著作権・引用方針；商用转载需事前联系）',
     parse: parseEntabe,
-  },
-  {
-    // Handmade craft markets (手作り市). The only entry point for the craft
-    // category; Tokyo is thin (two recurring markets, expanded month by month
-    // by the site itself). Only the Tokyo schedule page — the nationwide page
-    // cannot be filtered reliably because prefectures are free text.
-    name: 'ものづくり応援団', sourceFamily: 'craft_market', trustTier: 'S2',
-    url: TEDUKURIICHI_URLS[0], urls: TEDUKURIICHI_URLS, origin: TEDUKURIICHI_ORIGIN,
-    accessMethod: 'html', crawlFrequency: 'daily', expectedUpdateWindowDays: 30,
-    robotsAndTermsCheckedAt: '2026-09-02', parserVersion: '2026-09-02',
-    ownerOrContact: 'ものづくり応援団（京都のれん株式会社）', parse: parseTedukuriichi,
   },
   {
     // Mini-theater / 名画座 showtimes aggregated from ~40 Tokyo cinemas' own

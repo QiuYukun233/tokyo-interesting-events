@@ -115,6 +115,11 @@ npm run export-site    → data/events.json（只含 published）+ data/backstag
    打 tag 与 push-cloud，线上队列吃不到新候选。
    改工作流后看 `gh run list`：0 秒失败 = 文件无效，`gh run view` 只说 "workflow file issue"，
    具体行号要到网页上看。
+   10/14–11/15 又停了一个月：`check-sources` 的严重告警让任务在导出前退出。
+   现已挪到最后一步（数据先发出，任务仍标红）。
+   **三个来源挡 GitHub IP**（CoRich、スポーツエントリー、JR-Cross，`japanOnly`）：CI 跳过，
+   由 `scripts/local-daily.ps1`（Windows 计划任务，日本本机）每天跑全量管线并提交；
+   它也顺带打 tag、push-cloud（读 `.env.local`），补上 GitHub 没配 secrets 的那两步。
 3. **打 tag 已真实跑过一轮**（2026-09-01，deepseek-chat 走 Anthropic 兼容端点）：874 条全部入 tags 表。
    新抓的候选再跑 `npm run tag-candidates` 即可增量补打。
    DeepSeek 的端点与 key 放在仓库 `.env.local`（gitignored，`tag-candidates.mjs` 自己加载），
