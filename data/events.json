@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T12:01:54+09:00",
-  "updatedAtLabel": "今日 12:01",
+  "updatedAt": "2026-11-15T22:37:42+09:00",
+  "updatedAtLabel": "今日 22:37",
   "sourceStatus": [
     {
       "name": "東京都立産業技術研究センター · 一般公開",
@@ -10,7 +10,7 @@
     {
       "name": "東京都道路整備保全公社 · 道路見学",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "name": "文京区 · 通常非公開建築",
@@ -36,7 +36,7 @@
     {
       "name": "東京都公園協会 · 特別体験",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "name": "JR-Cross",
@@ -52,18 +52,17 @@
     {
       "name": "Tokyo Big Sight",
       "ok": true,
-      "count": 167
+      "count": 120
     },
     {
       "name": "東京大学",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6
     },
     {
       "name": "東京都美術館",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "name": "東京藝術大学大学美術館",
@@ -78,32 +77,32 @@
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "name": "早稲田大学",
       "ok": true,
-      "count": 17
+      "count": 24
     },
     {
       "name": "東京都歴史文化財団",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "name": "東京都歴史文化財団 · 体験100",
       "ok": true,
-      "count": 94
+      "count": 78
     },
     {
       "name": "渋谷PARCO",
       "ok": true,
-      "count": 2
+      "count": 5
     },
     {
       "name": "リアル脱出ゲーム池袋店",
       "ok": true,
-      "count": 8
+      "count": 9
     },
     {
       "name": "リアル脱出ゲーム吉祥寺店",
@@ -113,7 +112,7 @@
     {
       "name": "東京ミステリーサーカス",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "name": "YOSHIMOTO ROPPONGI THEATER",
@@ -137,8 +136,9 @@
     },
     {
       "name": "CoRich舞台芸術！",
-      "ok": true,
-      "count": 350
+      "ok": false,
+      "count": 0,
+      "error": "CoRich舞台芸術！ returned 403 for https://stage.corich.jp/stage?type=now&page=1"
     },
     {
       "name": "スポーツエントリー",
@@ -149,47 +149,48 @@
     {
       "name": "新宿ロフトプラスワン",
       "ok": true,
-      "count": 66
+      "count": 63
     },
     {
       "name": "阿佐ヶ谷ロフトA",
       "ok": true,
-      "count": 66
+      "count": 65
     },
     {
       "name": "LOFT9 Shibuya",
       "ok": true,
-      "count": 53
+      "count": 61
     },
     {
       "name": "Rock Cafe Loft",
       "ok": true,
-      "count": 48
+      "count": 51
     },
     {
       "name": "えん食べ",
       "ok": true,
-      "count": 45
+      "count": 49
     },
     {
       "name": "ものづくり応援団",
-      "ok": true,
-      "count": 5
+      "ok": false,
+      "count": 0,
+      "error": "ものづくり応援団 returned 404 for https://www.tedukuriichi.com/index.php?mono=searcheventarea&q=13"
     },
     {
       "name": "東京ミニシアター上映時間",
       "ok": true,
-      "count": 543
+      "count": 484
     },
     {
       "name": "東京都立産業貿易センター 台東館",
       "ok": true,
-      "count": 152
+      "count": 153
     },
     {
       "name": "東京都立産業貿易センター 浜松町館",
       "ok": true,
-      "count": 249
+      "count": 253
     }
   ],
   "events": [
@@ -200,10 +201,10 @@
       "titleZh": "【池袋店】リアル脱出ゲーム『誘拐された部屋からの脱出』",
       "place": "リアル脱出ゲーム池袋店",
       "time": "限时60分 · 6人 · 全程约100分",
-      "price": "前売：3,800円〜",
+      "price": "前売：3,900円〜",
       "vibe": "奇妙体验",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://realdgame.jp/shop/ikebukuro/events/yukai/",
       "source": "リアル脱出ゲーム池袋店",
       "category": "脱出ゲーム・謎解き",
@@ -216,10 +217,10 @@
       "titleZh": "【池袋店】リアル脱出ゲーム『漂流した救命ボートからの脱出』",
       "place": "リアル脱出ゲーム池袋店",
       "time": "限时40分 · 4人 · 全程约100分",
-      "price": "前売：3,500円〜",
+      "price": "前売：3,600円〜",
       "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://realdgame.jp/shop/ikebukuro/events/hyoryu/",
       "source": "リアル脱出ゲーム池袋店",
       "category": "脱出ゲーム・謎解き",
@@ -228,11 +229,11 @@
     {
       "id": "6a971d89bd74",
       "startDate": "2026-02-05",
-      "title": "東京ミステリーサーカス８周年記念イベント108体のくまっキーを探せ！",
-      "titleZh": "東京ミステリーサーカス８周年記念イベント108体のくまっキーを探せ！",
+      "title": "108体のくまっキーを探せ！",
+      "titleZh": "108体のくまっキーを探せ！",
       "place": "東京ミステリーサーカス",
       "time": "限时なし · 制限なし · 全程约50分〜90分",
-      "price": "1,600円〜",
+      "price": "1,700円〜",
       "vibe": "奇妙体验",
       "color": "#3d66f5",
       "symbol": "◒",
@@ -240,57 +241,6 @@
       "source": "東京ミステリーサーカス",
       "category": "脱出ゲーム・謎解き",
       "objectType": "event"
-    },
-    {
-      "id": "02b0b4f2fc9c",
-      "startDate": "2026-07-25",
-      "endDate": "2026-10-18",
-      "title": "東京都美術館開館100周年記念 大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
-      "titleZh": "東京都美術館開館100周年記念 大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
-      "place": "东京都美术馆 · 上野",
-      "time": "2026年7月25日(土)～10月18日(日)",
-      "price": "详见活动页",
-      "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
-      "source": "東京都美術館",
-      "category": "特別展",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "90dd01fd51c6",
-      "startDate": "2026-07-25",
-      "endDate": "2026-10-18",
-      "title": "東京都美術館開館100周年記念 大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
-      "titleZh": "東京都美術館開館100周年記念 大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
-      "place": "東京都美術館",
-      "time": "2026/7/25 (土) − 2026/10/18 (日)",
-      "price": "一般 ￥2300",
-      "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://daiei-ten2026.exhibit.jp/",
-      "source": "東京都歴史文化財団",
-      "attribution": "東京都美術館",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "5ce4c38e8578",
-      "startDate": "2026-07-30",
-      "endDate": "2026-10-25",
-      "title": "【吉祥寺店】リアル脱出ゲーム『真夜中の宇宙博物館からの脱出』",
-      "titleZh": "【吉祥寺店】リアル脱出ゲーム『真夜中の宇宙博物館からの脱出』",
-      "place": "リアル脱出ゲーム吉祥寺店",
-      "time": "限时60分 · 1〜4人 · 全程约110分",
-      "price": "一般チケット：前売券 3,900円〜",
-      "vibe": "奇妙体验",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://realdgame.jp/s/space-museum/",
-      "source": "リアル脱出ゲーム吉祥寺店",
-      "category": "脱出ゲーム・謎解き",
-      "objectType": "exhibition"
     },
     {
       "id": "00a8dd9d472d",
@@ -469,10 +419,10 @@
       "titleZh": "【吉祥寺店】リアル脱出ゲーム『監獄アルバトロスからの脱出』（リバイバル）",
       "place": "リアル脱出ゲーム吉祥寺店",
       "time": "限时60分 · 2～4人 · 全程约100分",
-      "price": "一般チケット：前売券 3,700円〜",
+      "price": "一般チケット：前売券 3,800円〜",
       "vibe": "奇妙体验",
-      "color": "#d6a72d",
-      "symbol": "●",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://realdgame.jp/shop/kichijoji/events/rekangoku/",
       "source": "リアル脱出ゲーム吉祥寺店",
       "category": "脱出ゲーム・謎解き",
@@ -496,42 +446,8 @@
       "objectType": "exhibition"
     },
     {
-      "id": "14c9f9dba4d4",
-      "startDate": "2026-09-24",
-      "endDate": "2026-11-12",
-      "title": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
-      "titleZh": "【松尾研AI講座：受講生募集】AXエバンジェリスト講座 2026",
-      "place": "オンライン",
-      "time": "详见活动页",
-      "price": "详见活动页",
-      "vibe": "好好聊天",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z0104_02225.html",
-      "source": "東京大学",
-      "audience": "オンライン",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "782569a16e5b",
-      "startDate": "2026-09-25",
-      "endDate": "2026-11-08",
-      "title": "『ミス・サイゴン』から見る世界—戦争、難民、そして文学",
-      "titleZh": "『ミス・サイゴン』から見る世界—戦争、難民、そして文学",
-      "place": "国際文学館展示室（4号館）、歴史館（1号館）",
-      "time": "5/1〜11/8 · 10:00〜17:00",
-      "price": "详见活动页",
-      "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.waseda.jp/culture/wihl/other/12629",
-      "source": "早稲田大学",
-      "category": "大学公开活动",
-      "objectType": "exhibition"
-    },
-    {
       "id": "e8b66d2450b8",
-      "startDate": "2026-09-25",
+      "startDate": "2026-10-26",
       "endDate": "2026-12-20",
       "title": "小展示 からだを「翻訳」する",
       "titleZh": "小展示 からだを「翻訳」する",
@@ -547,125 +463,6 @@
       "objectType": "exhibition"
     },
     {
-      "id": "ec43004c10ea",
-      "startDate": "2026-09-25",
-      "endDate": "2026-11-08",
-      "title": "翻訳プロジェクト小展示「翻訳は国境を越える翼」",
-      "titleZh": "翻訳プロジェクト小展示「翻訳は国境を越える翼」",
-      "place": "国際文学館 2階ラボ",
-      "time": "3/12〜11/8 · 10:00～17:00",
-      "price": "详见活动页",
-      "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://www.waseda.jp/culture/wihl/other/12460",
-      "source": "早稲田大学",
-      "category": "大学公开活动",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "d562521899c6",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-13",
-      "title": "Future Ideations Camp Vol.9：フィクション←テクノロジー→想像力",
-      "titleZh": "Future Ideations Camp Vol.9：フィクション←テクノロジー→想像力",
-      "place": "東京芸術劇場",
-      "time": "2026/10/10 – 2026/10/13",
-      "price": "详见活动页",
-      "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://ccbt.rekibun.or.jp/events/future-ideations-camp-vol9",
-      "source": "東京都歴史文化財団 · 体験100",
-      "category": "ワークショップ",
-      "attribution": "東京芸術劇場",
-      "objectType": "activity"
-    },
-    {
-      "id": "60ad59d928ef",
-      "startDate": "2026-10-14",
-      "endDate": "2026-10-17",
-      "title": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
-      "titleZh": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
-      "place": "东京Big Sight · 南1-4",
-      "time": "详见活动页",
-      "price": "￥2000 (招待券持参者無料) ウェブをご参照ください",
-      "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
-      "sourceUrl": "https://scajconference.jp/",
-      "source": "Tokyo Big Sight",
-      "audience": "商談・一般",
-      "objectType": "exhibition"
-    },
-    {
-      "id": "cc1c0d70f3ed",
-      "startDate": "2026-10-17",
-      "title": "東京文化会館ミュージック・ワークショップワークショップ・コンサート「バーバラの魔法のくすり」～0歳から大人まで～見つけよう、音楽で広がる新しい世界",
-      "titleZh": "東京文化会館ミュージック・ワークショップワークショップ・コンサート「バーバラの魔法のくすり」～0歳から大人まで～見つけよう、音楽で広がる新しい世界",
-      "place": "その他",
-      "time": "2026/10/17",
-      "price": "详见活动页",
-      "vibe": "小众音乐",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.t-bunka.jp/stage/31397/",
-      "source": "東京都歴史文化財団 · 体験100",
-      "category": "こども",
-      "attribution": "その他",
-      "objectType": "activity"
-    },
-    {
-      "id": "da4053cec19a",
-      "startDate": "2026-10-23",
-      "title": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-      "titleZh": "大和和紀先生トークイベント「響きあう時空<とき>の記憶」",
-      "place": "オンライン",
-      "time": "详见活动页",
-      "price": "详见活动页",
-      "vibe": "好好聊天",
-      "color": "#ef5b3f",
-      "symbol": "✦",
-      "sourceUrl": "https://www.u-tokyo.ac.jp/focus/ja/events/z1901_00071.html",
-      "source": "東京大学",
-      "audience": "オンライン",
-      "objectType": "event"
-    },
-    {
-      "id": "ad86874a6344",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-08",
-      "title": "冬スポ!!WINTER SPORTS FESTA season26",
-      "titleZh": "冬スポ!!WINTER SPORTS FESTA season26",
-      "place": "东京Big Sight · 東3",
-      "time": "详见活动页",
-      "price": "無料",
-      "vibe": "奇妙体验",
-      "color": "#d6a72d",
-      "symbol": "●",
-      "sourceUrl": "https://www.fuyusupo.jp/",
-      "source": "Tokyo Big Sight",
-      "audience": "一般",
-      "objectType": "event"
-    },
-    {
-      "id": "dfccca131080",
-      "startDate": "2026-11-08",
-      "endDate": "2026-11-08",
-      "title": "文学フリマ東京43",
-      "titleZh": "文学フリマ東京43",
-      "place": "东京Big Sight · 南1-4",
-      "time": "详见活动页",
-      "price": "￥1000 (前売あり) ウェブをご参照ください",
-      "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
-      "sourceUrl": "https://bunfree.net/event/tokyo43/",
-      "source": "Tokyo Big Sight",
-      "audience": "一般",
-      "objectType": "event"
-    },
-    {
       "id": "95a799196dd1",
       "startDate": "2026-11-14",
       "endDate": "2027-03-28",
@@ -675,8 +472,8 @@
       "time": "2026年11月14日(土)～2027年3月28日(日)",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_orsay.html",
       "source": "東京都美術館",
       "category": "特別展",
@@ -692,8 +489,8 @@
       "time": "2026年11月19日(木)～2027年1月11日(月・祝)",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_archives.html",
       "source": "東京都美術館",
       "category": "無料",
@@ -709,8 +506,8 @@
       "time": "2026年11月19日(木)～2027年1月11日(月・祝)",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://www.tobikan.jp/exhibition/2026_waysofreading.html",
       "source": "東京都美術館",
       "category": "企画展無料",
@@ -759,8 +556,8 @@
       "time": "2026/11/28",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#d6a72d",
+      "symbol": "●",
       "sourceUrl": "https://www.teien-art-museum.ne.jp/event/teien-noh_1127/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "パフォーマンス",
@@ -774,11 +571,11 @@
       "title": "COMIC CITY 東京153",
       "titleZh": "COMIC CITY 東京153",
       "place": "东京Big Sight · 西1-4",
-      "time": "详见活动页",
+      "time": "10:30-15:00",
       "price": "未定",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://www.akaboo.jp/event/item/20205432.html",
       "source": "Tokyo Big Sight",
       "audience": "一般",
@@ -793,8 +590,8 @@
       "time": "2026/11/30",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://www.tobikan.jp/learn/accessprogram.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -810,8 +607,8 @@
       "time": "2026/12/14",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261214-411.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -851,6 +648,23 @@
       "category": "見学・ツアー",
       "attribution": "東京都美術館",
       "objectType": "activity"
+    },
+    {
+      "id": "4d996b1dd606",
+      "startDate": "2027-04-24",
+      "endDate": "2027-08-22",
+      "title": "デュフィ展",
+      "titleZh": "デュフィ展",
+      "place": "东京都美术馆 · 上野",
+      "time": "2027年4月24日(土)～8月22日(日)",
+      "price": "详见活动页",
+      "vibe": "奇妙体验",
+      "color": "#ef5b3f",
+      "symbol": "✦",
+      "sourceUrl": "https://www.tobikan.jp/exhibition/2027_dufy.html",
+      "source": "東京都美術館",
+      "category": "特別展",
+      "objectType": "exhibition"
     }
   ]
 }
