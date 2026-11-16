@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T14:22:29.501Z",
+  "updatedAt": "2026-11-16T01:58:26.339Z",
   "entries": [
     {
       "id": "産総研・臨海副都心センター::https://www.aist.go.jp/aist_j/information/research_bases/waterfront/news/exhibition2026.html",
@@ -14,17 +14,12 @@
       "parserVersion": "2026-09-07",
       "trustTier": "S0",
       "ownerOrContact": "国立研究開発法人産業技術総合研究所",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 1
-        },
         {
           "at": "2026-09-07T01:50:20.773Z",
           "ok": true,
@@ -87,6 +82,11 @@
         },
         {
           "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
           "ok": true,
           "count": 1
         }
@@ -105,17 +105,12 @@
       "parserVersion": "2026-09-07",
       "trustTier": "S0",
       "ownerOrContact": "国立研究開発法人科学技術振興機構",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 1
-        },
         {
           "at": "2026-09-07T01:50:20.773Z",
           "ok": true,
@@ -180,6 +175,11 @@
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
           "count": 1
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 1
         }
       ]
     },
@@ -196,17 +196,12 @@
       "parserVersion": "2026-09-07",
       "trustTier": "S0",
       "ownerOrContact": "公益財団法人東京都公園協会",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
       "lastItemCount": 2,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 2
-        },
         {
           "at": "2026-09-07T01:50:20.773Z",
           "ok": true,
@@ -271,6 +266,1787 @@
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
           "count": 2
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "My TOKYO::https://www.my.metro.tokyo.lg.jp/event/?sort=near-end",
+      "name": "My TOKYO",
+      "sourceFamily": "government",
+      "baseUrl": "https://www.my.metro.tokyo.lg.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S1",
+      "ownerOrContact": "东京都",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 20,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 20
+        }
+      ]
+    },
+    {
+      "id": "Tokyo Big Sight::https://www.opendata.metro.tokyo.lg.jp/tokyobigsight/tokyobigsighteventinformation.csv",
+      "name": "Tokyo Big Sight",
+      "sourceFamily": "exhibition_hall",
+      "baseUrl": "https://www.opendata.metro.tokyo.lg.jp",
+      "accessMethod": "csv",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "东京国际展示场（東京都开放数据）",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 120,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 154
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 167
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 167
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 120
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 120
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 120
+        }
+      ]
+    },
+    {
+      "id": "東京大学::https://www.u-tokyo.ac.jp/ja/",
+      "name": "東京大学",
+      "sourceFamily": "university",
+      "baseUrl": "https://www.u-tokyo.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京大学",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 6,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": false,
+          "count": 0
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": false,
+          "count": 0
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": false,
+          "count": 0
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": false,
+          "count": 0
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": false,
+          "count": 0
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "東京都美術館::https://www.tobikan.jp/exhibition/",
+      "name": "東京都美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://www.tobikan.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京都美术馆",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 5,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 7
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 5
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 5
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/main/",
+      "name": "東京藝術大学大学美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://museum.geidai.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京艺术大学",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 0,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/chinretsukan/",
+      "name": "東京藝術大学大学美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://museum.geidai.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京艺术大学",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 0,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/masaki/",
+      "name": "東京藝術大学大学美術館",
+      "sourceFamily": "museum",
+      "baseUrl": "https://museum.geidai.ac.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "东京艺术大学",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 0,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "早稲田大学::https://www.waseda.jp/top/event/list",
+      "name": "早稲田大学",
+      "sourceFamily": "university",
+      "baseUrl": "https://www.waseda.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": true,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "早稻田大学",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 24,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 11
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 17
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 17
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 24
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 24
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 24
+        }
+      ]
+    },
+    {
+      "id": "東京都歴史文化財団::https://www.rekibun.or.jp/wp-json/wp/v2/benefits?per_page=100",
+      "name": "東京都歴史文化財団",
+      "sourceFamily": "museum_operator",
+      "baseUrl": "https://www.rekibun.or.jp",
+      "accessMethod": "json",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 30,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "公益财团法人东京都历史文化财团",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 8,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "東京都歴史文化財団 · 体験100::https://www.rekibun.or.jp/hands_on_events/",
+      "name": "東京都歴史文化財団 · 体験100",
+      "sourceFamily": "hands_on",
+      "baseUrl": "https://www.rekibun.or.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "公益财团法人东京都历史文化财团",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 74,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 108
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 108
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 115
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 114
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 115
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 113
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 112
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 116
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 104
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 94
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 94
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 78
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 78
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 74
+        }
+      ]
+    },
+    {
+      "id": "渋谷PARCO::https://shibuya.parco.jp/event/",
+      "name": "渋谷PARCO",
+      "sourceFamily": "commercial_venue",
+      "baseUrl": "https://shibuya.parco.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-27",
+      "trustTier": "S0",
+      "ownerOrContact": "涩谷 PARCO",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 5,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 3
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 2
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 5
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 5
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "リアル脱出ゲーム池袋店::https://www.scrapmagazine.com/ikebukuro/",
+      "name": "リアル脱出ゲーム池袋店",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://www.scrapmagazine.com",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "株式会社SCRAP",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 9,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 8
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "リアル脱出ゲーム吉祥寺店::https://www.scrapmagazine.com/nazobldg_kichijoji/",
+      "name": "リアル脱出ゲーム吉祥寺店",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://www.scrapmagazine.com",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "株式会社SCRAP",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 15,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 15
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 15
+        }
+      ]
+    },
+    {
+      "id": "東京ミステリーサーカス::https://mysterycircus.jp/events/",
+      "name": "東京ミステリーサーカス",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://mysterycircus.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "株式会社SCRAP",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 13,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 10
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 11
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 13
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 14
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 14
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 13
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 13
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 13
+        }
+      ]
+    },
+    {
+      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261116&date_to=20270115",
+      "name": "YOSHIMOTO ROPPONGI THEATER",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://feed-api.yoshimoto.co.jp",
+      "accessMethod": "json",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": true,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S1",
+      "ownerOrContact": "吉本興業株式会社",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 1,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261116&date_to=20270115",
+      "name": "渋谷よしもと漫才劇場",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://feed-api.yoshimoto.co.jp",
+      "accessMethod": "json",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": true,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S1",
+      "ownerOrContact": "吉本興業株式会社",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 1,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261116&date_to=20270115",
+      "name": "神保町よしもと漫才劇場",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://feed-api.yoshimoto.co.jp",
+      "accessMethod": "json",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": true,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S1",
+      "ownerOrContact": "吉本興業株式会社",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 1,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261116&date_to=20270115",
+      "name": "ルミネtheよしもと",
+      "sourceFamily": "entertainment",
+      "baseUrl": "https://feed-api.yoshimoto.co.jp",
+      "accessMethod": "json",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": true,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S1",
+      "ownerOrContact": "吉本興業株式会社",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 1,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "新宿ロフトプラスワン::https://www.loft-prj.co.jp/schedule/plusone/schedule?scheduleyear=2026&schedulemonth=11",
+      "name": "新宿ロフトプラスワン",
+      "sourceFamily": "talk_live",
+      "baseUrl": "https://www.loft-prj.co.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-09-02",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-09-02",
+      "trustTier": "S0",
+      "ownerOrContact": "有限会社ロフトプロジェクト",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 63,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 63
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 63
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 63
+        }
+      ]
+    },
+    {
+      "id": "阿佐ヶ谷ロフトA::https://www.loft-prj.co.jp/schedule/lofta/schedule?scheduleyear=2026&schedulemonth=11",
+      "name": "阿佐ヶ谷ロフトA",
+      "sourceFamily": "talk_live",
+      "baseUrl": "https://www.loft-prj.co.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-09-02",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-09-02",
+      "trustTier": "S0",
+      "ownerOrContact": "有限会社ロフトプロジェクト",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 65,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 65
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 65
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 65
+        }
+      ]
+    },
+    {
+      "id": "LOFT9 Shibuya::https://www.loft-prj.co.jp/schedule/loft9/schedule?scheduleyear=2026&schedulemonth=11",
+      "name": "LOFT9 Shibuya",
+      "sourceFamily": "talk_live",
+      "baseUrl": "https://www.loft-prj.co.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-09-02",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-09-02",
+      "trustTier": "S0",
+      "ownerOrContact": "有限会社ロフトプロジェクト",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 61,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 61
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 61
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 61
+        }
+      ]
+    },
+    {
+      "id": "Rock Cafe Loft::https://www.loft-prj.co.jp/schedule/rockcafe/schedule?scheduleyear=2026&schedulemonth=11",
+      "name": "Rock Cafe Loft",
+      "sourceFamily": "talk_live",
+      "baseUrl": "https://www.loft-prj.co.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 7,
+      "robotsAndTermsCheckedAt": "2026-09-02",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-09-02",
+      "trustTier": "S0",
+      "ownerOrContact": "有限会社ロフトプロジェクト",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 53,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 51
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 51
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 53
+        }
+      ]
+    },
+    {
+      "id": "えん食べ::https://entabe.jp/news/gourmet",
+      "name": "えん食べ",
+      "sourceFamily": "gourmet_news",
+      "baseUrl": "https://entabe.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 2,
+      "robotsAndTermsCheckedAt": "2026-09-02",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-09-02",
+      "trustTier": "S2",
+      "ownerOrContact": "https://entabe.jp/pages/9（著作権・引用方針；商用转载需事前联系）",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 49,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 52
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 52
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 51
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 52
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 56
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 58
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 58
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 50
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 41
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 43
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 45
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 49
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 49
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 49
+        }
+      ]
+    },
+    {
+      "id": "東京ミニシアター上映時間::https://cinematokyo.com/data/showtimes.json",
+      "name": "東京ミニシアター上映時間",
+      "sourceFamily": "mini_theater",
+      "baseUrl": "https://cinematokyo.com",
+      "accessMethod": "json",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 3,
+      "robotsAndTermsCheckedAt": "2026-09-02",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-09-02",
+      "trustTier": "S2",
+      "ownerOrContact": "ネルキ・リオ（個人運営）",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 484,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-09-07T01:50:20.773Z",
+          "ok": true,
+          "count": 462
+        },
+        {
+          "at": "2026-09-07T01:52:48.383Z",
+          "ok": true,
+          "count": 462
+        },
+        {
+          "at": "2026-09-08T00:08:09.193Z",
+          "ok": true,
+          "count": 462
+        },
+        {
+          "at": "2026-09-09T05:48:40.281Z",
+          "ok": true,
+          "count": 461
+        },
+        {
+          "at": "2026-09-10T04:13:50.857Z",
+          "ok": true,
+          "count": 536
+        },
+        {
+          "at": "2026-09-11T05:54:13.820Z",
+          "ok": true,
+          "count": 500
+        },
+        {
+          "at": "2026-09-11T22:11:16.257Z",
+          "ok": true,
+          "count": 500
+        },
+        {
+          "at": "2026-09-15T07:26:04.954Z",
+          "ok": true,
+          "count": 529
+        },
+        {
+          "at": "2026-09-23T09:27:55.888Z",
+          "ok": true,
+          "count": 543
+        },
+        {
+          "at": "2026-10-12T09:13:42.933Z",
+          "ok": true,
+          "count": 543
+        },
+        {
+          "at": "2026-10-13T03:01:17.773Z",
+          "ok": true,
+          "count": 543
+        },
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 484
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 484
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 484
+        }
+      ]
+    },
+    {
+      "id": "東京都立産業貿易センター 台東館::https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
+      "name": "東京都立産業貿易センター 台東館",
+      "sourceFamily": "exhibition_hall",
+      "baseUrl": "https://www.sanbo.metro.tokyo.lg.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "东京都立产业贸易中心",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 153,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 153
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 153
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 153
+        }
+      ]
+    },
+    {
+      "id": "東京都立産業貿易センター 浜松町館::https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
+      "name": "東京都立産業貿易センター 浜松町館",
+      "sourceFamily": "exhibition_hall",
+      "baseUrl": "https://www.sanbo.metro.tokyo.lg.jp",
+      "accessMethod": "html",
+      "crawlFrequency": "daily",
+      "expectedUpdateWindowDays": 14,
+      "robotsAndTermsCheckedAt": "2026-08-28",
+      "robotsUnavailable": false,
+      "parserVersion": "2026-08-28",
+      "trustTier": "S0",
+      "ownerOrContact": "东京都立产业贸易中心",
+      "lastRunAt": "2026-11-16T01:58:26.339Z",
+      "lastSuccessAt": "2026-11-16T01:58:26.339Z",
+      "lastItemCount": 253,
+      "lastError": null,
+      "failureStreak": 0,
+      "history": [
+        {
+          "at": "2026-11-15T13:37:08.543Z",
+          "ok": true,
+          "count": 253
+        },
+        {
+          "at": "2026-11-15T14:22:29.501Z",
+          "ok": true,
+          "count": 253
+        },
+        {
+          "at": "2026-11-16T01:58:26.339Z",
+          "ok": true,
+          "count": 253
         }
       ]
     },
@@ -362,1404 +2138,6 @@
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
           "count": 5
-        }
-      ]
-    },
-    {
-      "id": "My TOKYO::https://www.my.metro.tokyo.lg.jp/event/?sort=near-end",
-      "name": "My TOKYO",
-      "sourceFamily": "government",
-      "baseUrl": "https://www.my.metro.tokyo.lg.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 3,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S1",
-      "ownerOrContact": "东京都",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 20,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 20
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 20
-        }
-      ]
-    },
-    {
-      "id": "Tokyo Big Sight::https://www.opendata.metro.tokyo.lg.jp/tokyobigsight/tokyobigsighteventinformation.csv",
-      "name": "Tokyo Big Sight",
-      "sourceFamily": "exhibition_hall",
-      "baseUrl": "https://www.opendata.metro.tokyo.lg.jp",
-      "accessMethod": "csv",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 30,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "东京国际展示场（東京都开放数据）",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 120,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 154
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 167
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 167
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 120
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 120
-        }
-      ]
-    },
-    {
-      "id": "東京大学::https://www.u-tokyo.ac.jp/ja/",
-      "name": "東京大学",
-      "sourceFamily": "university",
-      "baseUrl": "https://www.u-tokyo.ac.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "东京大学",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 6,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": false,
-          "count": 0
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": false,
-          "count": 0
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": false,
-          "count": 0
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": false,
-          "count": 0
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": false,
-          "count": 0
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": false,
-          "count": 0
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 6
-        }
-      ]
-    },
-    {
-      "id": "東京都美術館::https://www.tobikan.jp/exhibition/",
-      "name": "東京都美術館",
-      "sourceFamily": "museum",
-      "baseUrl": "https://www.tobikan.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "东京都美术馆",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 5,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 7
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 6
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 5
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/main/",
-      "name": "東京藝術大学大学美術館",
-      "sourceFamily": "museum",
-      "baseUrl": "https://museum.geidai.ac.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 30,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 0,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/chinretsukan/",
-      "name": "東京藝術大学大学美術館",
-      "sourceFamily": "museum",
-      "baseUrl": "https://museum.geidai.ac.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 30,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 1,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/masaki/",
-      "name": "東京藝術大学大学美術館",
-      "sourceFamily": "museum",
-      "baseUrl": "https://museum.geidai.ac.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 30,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 0,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 0
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": "早稲田大学::https://www.waseda.jp/top/event/list",
-      "name": "早稲田大学",
-      "sourceFamily": "university",
-      "baseUrl": "https://www.waseda.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": true,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "早稻田大学",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 24,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 11
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 12
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 17
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 17
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 24
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 24
-        }
-      ]
-    },
-    {
-      "id": "東京都歴史文化財団::https://www.rekibun.or.jp/wp-json/wp/v2/benefits?per_page=100",
-      "name": "東京都歴史文化財団",
-      "sourceFamily": "museum_operator",
-      "baseUrl": "https://www.rekibun.or.jp",
-      "accessMethod": "json",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 30,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 8,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 9
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 9
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 9
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 9
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 8
-        }
-      ]
-    },
-    {
-      "id": "東京都歴史文化財団 · 体験100::https://www.rekibun.or.jp/hands_on_events/",
-      "name": "東京都歴史文化財団 · 体験100",
-      "sourceFamily": "hands_on",
-      "baseUrl": "https://www.rekibun.or.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 78,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 108
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 108
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 108
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 115
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 114
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 115
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 113
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 112
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 116
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 104
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 94
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 94
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 78
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 78
-        }
-      ]
-    },
-    {
-      "id": "渋谷PARCO::https://shibuya.parco.jp/event/",
-      "name": "渋谷PARCO",
-      "sourceFamily": "commercial_venue",
-      "baseUrl": "https://shibuya.parco.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-27",
-      "trustTier": "S0",
-      "ownerOrContact": "涩谷 PARCO",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 5,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 3
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 2
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 5
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "リアル脱出ゲーム池袋店::https://www.scrapmagazine.com/ikebukuro/",
-      "name": "リアル脱出ゲーム池袋店",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://www.scrapmagazine.com",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "株式会社SCRAP",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 9,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 8
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 9
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 9
-        }
-      ]
-    },
-    {
-      "id": "リアル脱出ゲーム吉祥寺店::https://www.scrapmagazine.com/nazobldg_kichijoji/",
-      "name": "リアル脱出ゲーム吉祥寺店",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://www.scrapmagazine.com",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "株式会社SCRAP",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 15,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 15
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 15
-        }
-      ]
-    },
-    {
-      "id": "東京ミステリーサーカス::https://mysterycircus.jp/events/",
-      "name": "東京ミステリーサーカス",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://mysterycircus.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "株式会社SCRAP",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 13,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 10
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 11
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 12
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 12
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 12
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 13
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 14
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 14
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 13
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 13
-        }
-      ]
-    },
-    {
-      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261115&date_to=20270114",
-      "name": "YOSHIMOTO ROPPONGI THEATER",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://feed-api.yoshimoto.co.jp",
-      "accessMethod": "json",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 3,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": true,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S1",
-      "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 1,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261115&date_to=20270114",
-      "name": "渋谷よしもと漫才劇場",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://feed-api.yoshimoto.co.jp",
-      "accessMethod": "json",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 3,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": true,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S1",
-      "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 1,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261115&date_to=20270114",
-      "name": "神保町よしもと漫才劇場",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://feed-api.yoshimoto.co.jp",
-      "accessMethod": "json",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 3,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": true,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S1",
-      "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 1,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261115&date_to=20270114",
-      "name": "ルミネtheよしもと",
-      "sourceFamily": "entertainment",
-      "baseUrl": "https://feed-api.yoshimoto.co.jp",
-      "accessMethod": "json",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 3,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": true,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S1",
-      "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 1,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 1
         }
       ]
     },
@@ -1944,379 +2322,18 @@
           "count": 385
         }
       ]
-    },
-    {
-      "id": "新宿ロフトプラスワン::https://www.loft-prj.co.jp/schedule/plusone/schedule?scheduleyear=2026&schedulemonth=11",
-      "name": "新宿ロフトプラスワン",
-      "sourceFamily": "talk_live",
-      "baseUrl": "https://www.loft-prj.co.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-09-02",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-09-02",
-      "trustTier": "S0",
-      "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 63,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 63
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 63
-        }
-      ]
-    },
-    {
-      "id": "阿佐ヶ谷ロフトA::https://www.loft-prj.co.jp/schedule/lofta/schedule?scheduleyear=2026&schedulemonth=11",
-      "name": "阿佐ヶ谷ロフトA",
-      "sourceFamily": "talk_live",
-      "baseUrl": "https://www.loft-prj.co.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-09-02",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-09-02",
-      "trustTier": "S0",
-      "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 65,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 65
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 65
-        }
-      ]
-    },
-    {
-      "id": "LOFT9 Shibuya::https://www.loft-prj.co.jp/schedule/loft9/schedule?scheduleyear=2026&schedulemonth=11",
-      "name": "LOFT9 Shibuya",
-      "sourceFamily": "talk_live",
-      "baseUrl": "https://www.loft-prj.co.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-09-02",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-09-02",
-      "trustTier": "S0",
-      "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 61,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 61
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 61
-        }
-      ]
-    },
-    {
-      "id": "Rock Cafe Loft::https://www.loft-prj.co.jp/schedule/rockcafe/schedule?scheduleyear=2026&schedulemonth=11",
-      "name": "Rock Cafe Loft",
-      "sourceFamily": "talk_live",
-      "baseUrl": "https://www.loft-prj.co.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 7,
-      "robotsAndTermsCheckedAt": "2026-09-02",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-09-02",
-      "trustTier": "S0",
-      "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 51,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 51
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 51
-        }
-      ]
-    },
-    {
-      "id": "えん食べ::https://entabe.jp/news/gourmet",
-      "name": "えん食べ",
-      "sourceFamily": "gourmet_news",
-      "baseUrl": "https://entabe.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 2,
-      "robotsAndTermsCheckedAt": "2026-09-02",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-09-02",
-      "trustTier": "S2",
-      "ownerOrContact": "https://entabe.jp/pages/9（著作権・引用方針；商用转载需事前联系）",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 49,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 52
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 52
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 52
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 51
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 52
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 56
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 58
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 58
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 50
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 41
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 43
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 45
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 49
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 49
-        }
-      ]
-    },
-    {
-      "id": "東京ミニシアター上映時間::https://cinematokyo.com/data/showtimes.json",
-      "name": "東京ミニシアター上映時間",
-      "sourceFamily": "mini_theater",
-      "baseUrl": "https://cinematokyo.com",
-      "accessMethod": "json",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 3,
-      "robotsAndTermsCheckedAt": "2026-09-02",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-09-02",
-      "trustTier": "S2",
-      "ownerOrContact": "ネルキ・リオ（個人運営）",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 484,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-09-07T01:47:40.338Z",
-          "ok": true,
-          "count": 462
-        },
-        {
-          "at": "2026-09-07T01:50:20.773Z",
-          "ok": true,
-          "count": 462
-        },
-        {
-          "at": "2026-09-07T01:52:48.383Z",
-          "ok": true,
-          "count": 462
-        },
-        {
-          "at": "2026-09-08T00:08:09.193Z",
-          "ok": true,
-          "count": 462
-        },
-        {
-          "at": "2026-09-09T05:48:40.281Z",
-          "ok": true,
-          "count": 461
-        },
-        {
-          "at": "2026-09-10T04:13:50.857Z",
-          "ok": true,
-          "count": 536
-        },
-        {
-          "at": "2026-09-11T05:54:13.820Z",
-          "ok": true,
-          "count": 500
-        },
-        {
-          "at": "2026-09-11T22:11:16.257Z",
-          "ok": true,
-          "count": 500
-        },
-        {
-          "at": "2026-09-15T07:26:04.954Z",
-          "ok": true,
-          "count": 529
-        },
-        {
-          "at": "2026-09-23T09:27:55.888Z",
-          "ok": true,
-          "count": 543
-        },
-        {
-          "at": "2026-10-12T09:13:42.933Z",
-          "ok": true,
-          "count": 543
-        },
-        {
-          "at": "2026-10-13T03:01:17.773Z",
-          "ok": true,
-          "count": 543
-        },
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 484
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 484
-        }
-      ]
-    },
-    {
-      "id": "東京都立産業貿易センター 台東館::https://www.sanbo.metro.tokyo.lg.jp/taito/event?year=2026&month=11",
-      "name": "東京都立産業貿易センター 台東館",
-      "sourceFamily": "exhibition_hall",
-      "baseUrl": "https://www.sanbo.metro.tokyo.lg.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "东京都立产业贸易中心",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 153,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 153
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 153
-        }
-      ]
-    },
-    {
-      "id": "東京都立産業貿易センター 浜松町館::https://www.sanbo.metro.tokyo.lg.jp/hamamatsucho/event?year=2026&month=11",
-      "name": "東京都立産業貿易センター 浜松町館",
-      "sourceFamily": "exhibition_hall",
-      "baseUrl": "https://www.sanbo.metro.tokyo.lg.jp",
-      "accessMethod": "html",
-      "crawlFrequency": "daily",
-      "expectedUpdateWindowDays": 14,
-      "robotsAndTermsCheckedAt": "2026-08-28",
-      "robotsUnavailable": false,
-      "parserVersion": "2026-08-28",
-      "trustTier": "S0",
-      "ownerOrContact": "东京都立产业贸易中心",
-      "lastRunAt": "2026-11-15T14:22:29.501Z",
-      "lastSuccessAt": "2026-11-15T14:22:29.501Z",
-      "lastItemCount": 253,
-      "lastError": null,
-      "failureStreak": 0,
-      "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 253
-        },
-        {
-          "at": "2026-11-15T14:22:29.501Z",
-          "ok": true,
-          "count": 253
-        }
-      ]
     }
   ],
   "alerts": [
     {
       "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/main/",
+      "name": "東京藝術大学大学美術館",
+      "code": "empty_parse",
+      "level": "warning",
+      "detail": "抓取成功但解析出 0 条，历史基线 1 条——解析器可能已失配"
+    },
+    {
+      "id": "東京藝術大学大学美術館::https://museum.geidai.ac.jp/exhibit/chinretsukan/",
       "name": "東京藝術大学大学美術館",
       "code": "empty_parse",
       "level": "warning",
@@ -2330,28 +2347,28 @@
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261115&date_to=20270114",
+      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261116&date_to=20270115",
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "code": "robots_unavailable",
       "level": "warning",
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261115&date_to=20270114",
+      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261116&date_to=20270115",
       "name": "渋谷よしもと漫才劇場",
       "code": "robots_unavailable",
       "level": "warning",
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261115&date_to=20270114",
+      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261116&date_to=20270115",
       "name": "神保町よしもと漫才劇場",
       "code": "robots_unavailable",
       "level": "warning",
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261115&date_to=20270114",
+      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261116&date_to=20270115",
       "name": "ルミネtheよしもと",
       "code": "robots_unavailable",
       "level": "warning",
