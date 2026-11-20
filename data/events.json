@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T12:21:06+09:00",
-  "updatedAtLabel": "今日 12:21",
+  "updatedAt": "2026-11-20T12:07:16+09:00",
+  "updatedAtLabel": "今日 12:07",
   "sourceStatus": [
     {
       "name": "産総研・臨海副都心センター",
@@ -29,9 +29,8 @@
     },
     {
       "name": "東京大学",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 6
     },
     {
       "name": "東京都美術館",
@@ -41,7 +40,7 @@
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "name": "東京藝術大学大学美術館",
@@ -66,7 +65,7 @@
     {
       "name": "東京都歴史文化財団 · 体験100",
       "ok": true,
-      "count": 77
+      "count": 75
     },
     {
       "name": "渋谷PARCO",
@@ -131,22 +130,22 @@
     {
       "name": "えん食べ",
       "ok": true,
-      "count": 51
+      "count": 54
     },
     {
       "name": "東京ミニシアター上映時間",
       "ok": true,
-      "count": 550
+      "count": 571
     },
     {
       "name": "東京都立産業貿易センター 台東館",
       "ok": true,
-      "count": 153
+      "count": 0
     },
     {
       "name": "東京都立産業貿易センター 浜松町館",
       "ok": true,
-      "count": 253
+      "count": 0
     },
     {
       "name": "JR-Cross",
@@ -493,8 +492,8 @@
       "time": "2026/11/22",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261122-413.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -510,8 +509,8 @@
       "time": "2026/11/25",
       "price": "详见活动页",
       "vibe": "小众音乐",
-      "color": "#6c59c8",
-      "symbol": "♪",
+      "color": "#d6a72d",
+      "symbol": "●",
       "sourceUrl": "https://www.t-bunka.jp/stage/33011/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "こども",
@@ -527,8 +526,8 @@
       "time": "2026/11/27",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://www.teien-art-museum.ne.jp/event/teien-noh_1127/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "パフォーマンス",
@@ -561,8 +560,8 @@
       "time": "2026/11/30",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#d6a72d",
-      "symbol": "●",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://www.tobikan.jp/learn/accessprogram.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -578,8 +577,8 @@
       "time": "2026/12/14",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261214-411.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -595,8 +594,8 @@
       "time": "2027/03/07",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#ef5b3f",
-      "symbol": "✦",
+      "color": "#3d66f5",
+      "symbol": "◒",
       "sourceUrl": "https://www.geigeki.jp/performance/theater414/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "ワークショップ",
@@ -612,8 +611,8 @@
       "time": "2027/03/13",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://www.tobikan.jp/learn/architecturaltour.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "見学・ツアー",
