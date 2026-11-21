@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T12:07:16+09:00",
-  "updatedAtLabel": "今日 12:07",
+  "updatedAt": "2026-11-21T12:12:00+09:00",
+  "updatedAtLabel": "今日 12:12",
   "sourceStatus": [
     {
       "name": "産総研・臨海副都心センター",
@@ -29,8 +29,9 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -45,7 +46,7 @@
     {
       "name": "東京藝術大学大学美術館",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "name": "東京藝術大学大学美術館",
@@ -65,12 +66,12 @@
     {
       "name": "東京都歴史文化財団 · 体験100",
       "ok": true,
-      "count": 75
+      "count": 70
     },
     {
       "name": "渋谷PARCO",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "name": "リアル脱出ゲーム池袋店",
@@ -110,32 +111,32 @@
     {
       "name": "新宿ロフトプラスワン",
       "ok": true,
-      "count": 67
+      "count": 69
     },
     {
       "name": "阿佐ヶ谷ロフトA",
       "ok": true,
-      "count": 71
+      "count": 73
     },
     {
       "name": "LOFT9 Shibuya",
       "ok": true,
-      "count": 65
+      "count": 66
     },
     {
       "name": "Rock Cafe Loft",
       "ok": true,
-      "count": 56
+      "count": 58
     },
     {
       "name": "えん食べ",
       "ok": true,
-      "count": 54
+      "count": 51
     },
     {
       "name": "東京ミニシアター上映時間",
       "ok": true,
-      "count": 571
+      "count": 530
     },
     {
       "name": "東京都立産業貿易センター 台東館",
@@ -492,8 +493,8 @@
       "time": "2026/11/22",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261122-413.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
@@ -509,8 +510,8 @@
       "time": "2026/11/25",
       "price": "详见活动页",
       "vibe": "小众音乐",
-      "color": "#d6a72d",
-      "symbol": "●",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://www.t-bunka.jp/stage/33011/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "こども",
@@ -519,15 +520,15 @@
     },
     {
       "id": "e14c12bfe106",
-      "startDate": "2026-11-27",
+      "startDate": "2026-11-28",
       "title": "東京都庭園美術館「庭園能」（チケット発売開始9月1日）",
       "titleZh": "東京都庭園美術館「庭園能」（チケット発売開始9月1日）",
       "place": "東京都庭園美術館",
-      "time": "2026/11/27",
+      "time": "2026/11/28",
       "price": "详见活动页",
       "vibe": "艺术现场",
-      "color": "#3d66f5",
-      "symbol": "◒",
+      "color": "#6c59c8",
+      "symbol": "♪",
       "sourceUrl": "https://www.teien-art-museum.ne.jp/event/teien-noh_1127/",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "パフォーマンス",
@@ -577,8 +578,8 @@
       "time": "2026/12/14",
       "price": "详见活动页",
       "vibe": "奇妙体验",
-      "color": "#3d66f5",
-      "symbol": "◒",
+      "color": "#ef5b3f",
+      "symbol": "✦",
       "sourceUrl": "https://inclusion-art.jp/archive/event/2026/20261214-411.html",
       "source": "東京都歴史文化財団 · 体験100",
       "category": "鑑賞サポート",
