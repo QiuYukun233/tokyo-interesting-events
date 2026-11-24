@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-23T11:41:36+09:00",
-  "updatedAtLabel": "今日 11:41",
+  "updatedAt": "2026-11-24T14:58:47+09:00",
+  "updatedAtLabel": "今日 14:58",
   "sourceStatus": [
     {
       "name": "産総研・臨海副都心センター",
@@ -29,8 +29,9 @@
     },
     {
       "name": "東京大学",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "東京都美術館",
@@ -55,7 +56,7 @@
     {
       "name": "早稲田大学",
       "ok": true,
-      "count": 26
+      "count": 27
     },
     {
       "name": "東京都歴史文化財団",
@@ -70,7 +71,7 @@
     {
       "name": "渋谷PARCO",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "name": "リアル脱出ゲーム池袋店",
@@ -110,22 +111,22 @@
     {
       "name": "新宿ロフトプラスワン",
       "ok": true,
-      "count": 72
+      "count": 74
     },
     {
       "name": "阿佐ヶ谷ロフトA",
       "ok": true,
-      "count": 74
+      "count": 75
     },
     {
       "name": "LOFT9 Shibuya",
       "ok": true,
-      "count": 66
+      "count": 68
     },
     {
       "name": "Rock Cafe Loft",
       "ok": true,
-      "count": 60
+      "count": 61
     },
     {
       "name": "えん食べ",
@@ -136,7 +137,7 @@
     {
       "name": "東京ミニシアター上映時間",
       "ok": true,
-      "count": 509
+      "count": 513
     },
     {
       "name": "東京都立産業貿易センター 台東館",
