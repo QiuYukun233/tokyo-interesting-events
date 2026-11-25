@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T14:58:47+09:00",
-  "updatedAtLabel": "今日 14:58",
+  "updatedAt": "2026-11-25T13:54:41+09:00",
+  "updatedAtLabel": "今日 13:54",
   "sourceStatus": [
     {
       "name": "産総研・臨海副都心センター",
@@ -15,7 +15,7 @@
     {
       "name": "東京都公園協会 · 特別体験",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "name": "My TOKYO",
@@ -81,7 +81,7 @@
     {
       "name": "リアル脱出ゲーム吉祥寺店",
       "ok": true,
-      "count": 15
+      "count": 12
     },
     {
       "name": "東京ミステリーサーカス",
@@ -111,33 +111,33 @@
     {
       "name": "新宿ロフトプラスワン",
       "ok": true,
-      "count": 74
+      "count": 75
     },
     {
       "name": "阿佐ヶ谷ロフトA",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "name": "LOFT9 Shibuya",
       "ok": true,
-      "count": 68
+      "count": 69
     },
     {
       "name": "Rock Cafe Loft",
       "ok": true,
-      "count": 61
+      "count": 62
     },
     {
       "name": "えん食べ",
       "ok": false,
       "count": 0,
-      "error": "えん食べ returned 502 for https://entabe.jp/news/gourmet/page:3"
+      "error": "えん食べ returned 502 for https://entabe.jp/news/gourmet/page:2"
     },
     {
       "name": "東京ミニシアター上映時間",
       "ok": true,
-      "count": 513
+      "count": 503
     },
     {
       "name": "東京都立産業貿易センター 台東館",
