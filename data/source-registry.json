@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T04:12:58.404Z",
+  "updatedAt": "2026-11-28T03:53:04.275Z",
   "entries": [
     {
       "id": "産総研・臨海副都心センター::https://www.aist.go.jp/aist_j/information/research_bases/waterfront/news/exhibition2026.html",
@@ -14,17 +14,12 @@
       "parserVersion": "2026-09-07",
       "trustTier": "S0",
       "ownerOrContact": "国立研究開発法人産業技術総合研究所",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -87,6 +82,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
@@ -105,17 +105,12 @@
       "parserVersion": "2026-09-07",
       "trustTier": "S0",
       "ownerOrContact": "国立研究開発法人科学技術振興機構",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -178,6 +173,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
@@ -196,17 +196,12 @@
       "parserVersion": "2026-09-07",
       "trustTier": "S0",
       "ownerOrContact": "公益財団法人東京都公園協会",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 2
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -269,6 +264,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
@@ -287,17 +287,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S1",
       "ownerOrContact": "东京都",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 20,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 20
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -360,6 +355,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 20
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 20
         }
@@ -378,17 +378,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "东京国际展示场（東京都开放数据）",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 120,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 120
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -451,6 +446,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 120
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 120
         }
@@ -469,17 +469,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京大学",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 6,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 6
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -542,6 +537,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 6
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 6
         }
@@ -560,17 +560,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京都美术馆",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 5,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 5
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -633,6 +628,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 5
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 5
         }
@@ -651,17 +651,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 0
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -724,6 +719,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
@@ -742,17 +742,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 1
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -815,6 +810,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 1
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
@@ -833,17 +833,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "东京艺术大学",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 0,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 0
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -906,6 +901,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 0
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 0
         }
@@ -924,17 +924,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "早稻田大学",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 27,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 24
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -999,6 +994,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 27
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 27
         }
       ]
     },
@@ -1015,17 +1015,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 9,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 8
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1090,6 +1085,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 9
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 9
         }
       ]
     },
@@ -1106,17 +1106,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "公益财团法人东京都历史文化财团",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
-      "lastItemCount": 76,
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
+      "lastItemCount": 67,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 78
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1181,6 +1176,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 76
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 67
         }
       ]
     },
@@ -1197,17 +1197,12 @@
       "parserVersion": "2026-08-27",
       "trustTier": "S0",
       "ownerOrContact": "涩谷 PARCO",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 4,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 5
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1270,6 +1265,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 4
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 4
         }
@@ -1288,17 +1288,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "株式会社SCRAP",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 9,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 9
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1361,6 +1356,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 9
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 9
         }
@@ -1379,17 +1379,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "株式会社SCRAP",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 12,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 15
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1452,6 +1447,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 12
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 12
         }
@@ -1470,17 +1470,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "株式会社SCRAP",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 14,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 13
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1545,11 +1540,16 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 14
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 14
         }
       ]
     },
     {
-      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261127&date_to=20270126",
+      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261128&date_to=20270127",
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "sourceFamily": "entertainment",
       "baseUrl": "https://feed-api.yoshimoto.co.jp",
@@ -1561,21 +1561,21 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S1",
       "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
         {
-          "at": "2026-11-27T04:12:58.404Z",
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
       ]
     },
     {
-      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261127&date_to=20270126",
+      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261128&date_to=20270127",
       "name": "渋谷よしもと漫才劇場",
       "sourceFamily": "entertainment",
       "baseUrl": "https://feed-api.yoshimoto.co.jp",
@@ -1587,21 +1587,21 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S1",
       "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
         {
-          "at": "2026-11-27T04:12:58.404Z",
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
       ]
     },
     {
-      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261127&date_to=20270126",
+      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261128&date_to=20270127",
       "name": "神保町よしもと漫才劇場",
       "sourceFamily": "entertainment",
       "baseUrl": "https://feed-api.yoshimoto.co.jp",
@@ -1613,21 +1613,21 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S1",
       "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
         {
-          "at": "2026-11-27T04:12:58.404Z",
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
       ]
     },
     {
-      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261127&date_to=20270126",
+      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261128&date_to=20270127",
       "name": "ルミネtheよしもと",
       "sourceFamily": "entertainment",
       "baseUrl": "https://feed-api.yoshimoto.co.jp",
@@ -1639,14 +1639,14 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S1",
       "ownerOrContact": "吉本興業株式会社",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 1,
       "lastError": null,
       "failureStreak": 0,
       "history": [
         {
-          "at": "2026-11-27T04:12:58.404Z",
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 1
         }
@@ -1665,17 +1665,12 @@
       "parserVersion": "2026-09-02",
       "trustTier": "S0",
       "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 76,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 63
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1740,6 +1735,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 76
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 76
         }
       ]
     },
@@ -1756,17 +1756,12 @@
       "parserVersion": "2026-09-02",
       "trustTier": "S0",
       "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
-      "lastItemCount": 80,
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
+      "lastItemCount": 81,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 65
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1831,6 +1826,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 80
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 81
         }
       ]
     },
@@ -1847,17 +1847,12 @@
       "parserVersion": "2026-09-02",
       "trustTier": "S0",
       "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 72,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 61
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -1922,6 +1917,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 72
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 72
         }
       ]
     },
@@ -1938,17 +1938,12 @@
       "parserVersion": "2026-09-02",
       "trustTier": "S0",
       "ownerOrContact": "有限会社ロフトプロジェクト",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
-      "lastItemCount": 64,
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
+      "lastItemCount": 67,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 51
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -2013,6 +2008,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 64
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 67
         }
       ]
     },
@@ -2029,17 +2029,12 @@
       "parserVersion": "2026-09-02",
       "trustTier": "S2",
       "ownerOrContact": "https://entabe.jp/pages/9（著作権・引用方針；商用转载需事前联系）",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
-      "lastItemCount": 48,
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
+      "lastItemCount": 47,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 49
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -2104,6 +2099,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 48
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 47
         }
       ]
     },
@@ -2120,17 +2120,12 @@
       "parserVersion": "2026-09-02",
       "trustTier": "S2",
       "ownerOrContact": "ネルキ・リオ（個人運営）",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
-      "lastItemCount": 528,
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
+      "lastItemCount": 500,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 484
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -2195,6 +2190,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 528
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 500
         }
       ]
     },
@@ -2211,17 +2211,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "东京都立产业贸易中心",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
-      "lastItemCount": 155,
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
+      "lastItemCount": 156,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 153
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -2286,6 +2281,11 @@
           "at": "2026-11-27T04:12:58.404Z",
           "ok": true,
           "count": 155
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
+          "ok": true,
+          "count": 156
         }
       ]
     },
@@ -2302,17 +2302,12 @@
       "parserVersion": "2026-08-28",
       "trustTier": "S0",
       "ownerOrContact": "东京都立产业贸易中心",
-      "lastRunAt": "2026-11-27T04:12:58.404Z",
-      "lastSuccessAt": "2026-11-27T04:12:58.404Z",
+      "lastRunAt": "2026-11-28T03:53:04.275Z",
+      "lastSuccessAt": "2026-11-28T03:53:04.275Z",
       "lastItemCount": 254,
       "lastError": null,
       "failureStreak": 0,
       "history": [
-        {
-          "at": "2026-11-15T13:37:08.543Z",
-          "ok": true,
-          "count": 253
-        },
         {
           "at": "2026-11-15T14:22:29.501Z",
           "ok": true,
@@ -2375,6 +2370,11 @@
         },
         {
           "at": "2026-11-27T04:12:58.404Z",
+          "ok": true,
+          "count": 254
+        },
+        {
+          "at": "2026-11-28T03:53:04.275Z",
           "ok": true,
           "count": 254
         }
@@ -2663,28 +2663,28 @@
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261127&date_to=20270126",
+      "id": "YOSHIMOTO ROPPONGI THEATER::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=roppongi&venue=01&date_from=20261128&date_to=20270127",
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "code": "robots_unavailable",
       "level": "warning",
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261127&date_to=20270126",
+      "id": "渋谷よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=shibuya_manzaigekijyo&venue=01&date_from=20261128&date_to=20270127",
       "name": "渋谷よしもと漫才劇場",
       "code": "robots_unavailable",
       "level": "warning",
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261127&date_to=20270126",
+      "id": "神保町よしもと漫才劇場::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=jimbocho_manzaigekijyo&venue=01&date_from=20261128&date_to=20270127",
       "name": "神保町よしもと漫才劇場",
       "code": "robots_unavailable",
       "level": "warning",
       "detail": "取不到 robots.txt（4xx），按 RFC 9309 视为未设限制后继续抓取"
     },
     {
-      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261127&date_to=20270126",
+      "id": "ルミネtheよしもと::https://feed-api.yoshimoto.co.jp/fany/theater/v1?theater=lumine&venue=01&date_from=20261128&date_to=20270127",
       "name": "ルミネtheよしもと",
       "code": "robots_unavailable",
       "level": "warning",
@@ -2695,21 +2695,21 @@
       "name": "JR-Cross",
       "code": "stale",
       "level": "warning",
-      "detail": "距上次成功已 11.6 天，超过预期窗口 7 天"
+      "detail": "距上次成功已 12.6 天，超过预期窗口 7 天"
     },
     {
       "id": "CoRich舞台芸術！::https://stage.corich.jp/stage?type=now&page=1",
       "name": "CoRich舞台芸術！",
       "code": "stale",
       "level": "warning",
-      "detail": "距上次成功已 11.6 天，超过预期窗口 3 天"
+      "detail": "距上次成功已 12.6 天，超过预期窗口 3 天"
     },
     {
       "id": "スポーツエントリー::https://www.sportsentry.ne.jp/events/tokyo?order=opendate&page=1",
       "name": "スポーツエントリー",
       "code": "stale",
       "level": "warning",
-      "detail": "距上次成功已 11.6 天，超过预期窗口 3 天"
+      "detail": "距上次成功已 12.6 天，超过预期窗口 3 天"
     }
   ]
 }
